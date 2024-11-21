@@ -4,7 +4,11 @@ import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
-export default function RarityModifierButtonRow(): JSX.Element {
+export interface RarityModifierButtonRowProps {
+    onSelected: (title: string) => void;
+}
+
+export default function RarityModifierButtonRow({onSelected} : RarityModifierButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
 
@@ -13,6 +17,7 @@ export default function RarityModifierButtonRow(): JSX.Element {
 
     const onToggle = (title: string) => {
         setToggledButton((prev) => (prev === title ? null : title)); // Toggle on/off
+        onSelected(title)
     };
 
     return (

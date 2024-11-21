@@ -4,7 +4,11 @@ import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
-export default function NegotiationeButtonRow(): JSX.Element {
+export interface NegotiationButtonRowProps {
+    onSelected: (title: string) => void;
+}
+
+export default function NegotiationButtonRow({onSelected} : NegotiationButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
 
@@ -13,6 +17,7 @@ export default function NegotiationeButtonRow(): JSX.Element {
 
     const onToggle = (title: string) => {
         setToggledButton((prev) => (prev === title ? null : title)); // Toggle on/off
+        onSelected(title);
     };
 
     return (

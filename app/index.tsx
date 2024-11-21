@@ -1,8 +1,5 @@
 import { Image, StyleSheet, Platform, SafeAreaView, ScrollView, StatusBar } from 'react-native';
 
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
-import HomePageButtonRow from './Components/HomePageButtonRow/HomePageButtonRow';
 import Header from './Components/Header/Header';
 import ShopTypeButtonRow from './Components/ShopTypeButtonRow/ShopTypeButtonRow';
 import SpecializationButtonRow from './Components/SpecializationButtonRow/SpecializationButtonRow';
@@ -11,76 +8,97 @@ import NegotiationButtonRow from './Components/NegotiationButtonRow/NegotiationB
 import RarityModifierButtonRow from './Components/RarityModifierButtonRow/RarityModifierButtonRow';
 import GenerateShopButtonRow from './Components/GenerateShopButtonRow/GenerateShopButtonRow';
 import ItemNumberButtonRow from './Components/ItemNumberButtonRow/ItemNumberButtonRow';
+import BoostDiceButtonRow from './Components/BoostDiceButtonRow/BoostDiceButtonRow';
+import DifficultyDiceButtonRow from './Components/DifficultyDiceButtonRow/DifficultyDiceButtonRow';
+import SetbackDiceButtonRow from './Components/SetbackDiceButtonRow/SetbackDiceButtonRow';
+import { useState } from 'react';
 
 export default function HomeScreen() {
-  return (
 
-    <SafeAreaView style={styles.safeArea} >
+    const[shopType, setShopType] = useState<string | null>(null);
+    const onShopTypeSelected = (val: string) => {
+        setShopType(val);
+    };
 
-        <ScrollView
-            contentInsetAdjustmentBehavior="automatic"
-            style={[{ flex: 1}]}>
+    const[specialization, setSpecialization] = useState<string | null>(null);
+    const onSpecializationSelected = (val: string) => {
+        setSpecialization(val);
+    };
 
-            <Header title={'SWRPG Shop Generator'}/>
+    const[presence, setPresence] = useState<string | null>(null);
+    const onPresenceSelected = (val: string) => {
+        setPresence(val);
+    };
 
-            {/* <ThemedView style={styles.titleContainer}>
-                <ThemedText type="title">Explore zzz sdsadsad</ThemedText>
-            </ThemedView> */}
+    const[negotiation, setNegotiation] = useState<string | null>(null);
+    const onNegotiationSelected = (val: string) => {
+        setNegotiation(val);
+    };
 
-            {/* <HomePageButtonRow title='sdasdsa' iconName='' subText='asdsadsadsadsad dsadasdsa' /> */}
-            <ShopTypeButtonRow />
-            <SpecializationButtonRow/>
-            <PresenceButtonRow/>
-            <NegotiationButtonRow/>
-            <RarityModifierButtonRow/>
-            <ItemNumberButtonRow/>
-            <GenerateShopButtonRow/>
+    const[rarityModifier, setRarityModifier] = useState<string | null>(null);
+    const onRarityModifierSelected = (val: string) => {
+        setRarityModifier(val);
+    };
 
-        </ScrollView>
-        
-    </SafeAreaView>
+    const[boostDice, setBoostDice] = useState<string | null>(null);
+    const onBoostDiceSelected = (val: string) => {
+        setBoostDice(val);
+    };
 
-    // <ParallaxScrollView
-    //   headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-    //   headerImage={
-    //     <Image
-    //       source={require('@/assets/images/partial-react-logo.png')}
-    //       style={styles.reactLogo}
-    //     />
-    //   }>
-    //   <ThemedView style={styles.titleContainer}>
-    //     <ThemedText type="title">Welcome!</ThemedText>
-    //     <HelloWave />
-    //   </ThemedView>
-    //   <ThemedView style={styles.stepContainer}>
-    //     <ThemedText type="subtitle">Step 1: Try it sadsadsaxxxxxx</ThemedText>
-    //     <ThemedText>
-    //       Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-    //       Press{' '}
-    //       <ThemedText type="defaultSemiBold">
-    //         {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-    //       </ThemedText>{' '}
-    //       to open developer tools.
-    //     </ThemedText>
-    //   </ThemedView>
-    //   <ThemedView style={styles.stepContainer}>
-    //     <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-    //     <ThemedText>
-    //       Tap the Explore tab to learn more about what's included in this starter app.
-    //     </ThemedText>
-    //   </ThemedView>
-    //   <ThemedView style={styles.stepContainer}>
-    //     <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-    //     <ThemedText>
-    //       When you're ready, run{' '}
-    //       <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-    //       <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-    //       <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-    //       <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-    //     </ThemedText>
-    //   </ThemedView>
-    // </ParallaxScrollView>
-  );
+    const[setbackDice, setSetbackDice] = useState<string | null>(null);
+    const onSetbackDiceSelected = (val: string) => {
+        setSetbackDice(val);
+    };
+
+    const[difficultyDice, setDifficultyDice] = useState<string | null>(null);
+    const onDifficultyDiceSelected = (val: string) => {
+        setDifficultyDice(val);
+    };
+
+    const[numberOfItems, setNumberOfItems] = useState<string | null>(null);
+    const onNumberOfItemsSelected = (val: string) => {
+        setNumberOfItems(val);
+    };
+
+    const onGenerateShop = () => {
+        console.log("Generating Shop...");
+        console.log("Shop Type: " + shopType);
+        console.log("Specialization: " + specialization);
+        console.log("Presence: " + presence);
+        console.log("Negotiation: " + negotiation);
+        console.log("Rarity Modifier: " + rarityModifier);
+        console.log("Boost Dice: " + boostDice);
+        console.log("Setback Dice: " + setbackDice);
+        console.log("Difficulty Dice: " + difficultyDice);
+        console.log("Number of Items: " + numberOfItems);
+    };
+
+    return (
+
+        <SafeAreaView style={styles.safeArea} >
+
+            <ScrollView
+                contentInsetAdjustmentBehavior="automatic"
+                style={[{ flex: 1}]}>
+
+                <Header title={'SWRPG Shop Generator'}/>
+
+                <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)}/>
+                <SpecializationButtonRow onSelected={(val: string) => onSpecializationSelected(val)}/>
+                <PresenceButtonRow onSelected={(val: string) => onPresenceSelected(val)}/>
+                <NegotiationButtonRow onSelected={(val: string) => onNegotiationSelected(val)}/>
+                <RarityModifierButtonRow onSelected={(val: string) => onRarityModifierSelected(val)}/>
+                <BoostDiceButtonRow onSelected={(val: string) => onBoostDiceSelected(val)}/>
+                <SetbackDiceButtonRow onSelected={(val: string) => onSetbackDiceSelected(val)}/>
+                <DifficultyDiceButtonRow onSelected={(val: string) => onDifficultyDiceSelected(val)}/>
+                <ItemNumberButtonRow onSelected={(val: string) => onNumberOfItemsSelected(val)}/>
+                <GenerateShopButtonRow onSelected={() => onGenerateShop()}/>
+
+            </ScrollView>
+            
+        </SafeAreaView>
+
+    );
 }
 
 const styles = StyleSheet.create({

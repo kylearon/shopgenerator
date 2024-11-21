@@ -7,10 +7,10 @@ import StyledButton2 from '../StyledButton/StyledButton2';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
 export interface ShopTypeButtonRowProps {
-
+    onSelected: (title: string) => void;
 }
 
-export default function ShopTypeButtonRow({} : ShopTypeButtonRowProps): JSX.Element {
+export default function ShopTypeButtonRow({onSelected} : ShopTypeButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -22,17 +22,8 @@ export default function ShopTypeButtonRow({} : ShopTypeButtonRowProps): JSX.Elem
 
     const onToggle = (title: string) => {
         setToggledButton((prev) => (prev === title ? null : title)); // Toggle on/off
-
-        console.log(title)
+        onSelected(title);
     };
-
-    // const handleOnTheLevel = async () => {
-    //     console.log("handleOnTheLevel()")
-    // }
-
-    // const handleBlackMarket = async () => {
-    //     console.log("handleBlackMarket()")
-    // }
 
     return (
         
@@ -75,22 +66,7 @@ export default function ShopTypeButtonRow({} : ShopTypeButtonRowProps): JSX.Elem
                     </Text>
                 </View>
             </View>
-{/* 
-            <View style={[
-                styles.leftContainerFill,
-                {
-                    flexDirection: 'row',
-                    justifyContent: 'flex-start',
-                    marginLeft: 12,
-                    marginRight: 8,
-                }
-                ]}>
 
-                    <StyledButton2 title={"On The Level"} onPress={handleOnTheLevel} width={160} style={[{backgroundColor: colors.backgroundColorRow}, styles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 16}} />
-
-                    <StyledButton2 title={"Black Market"} onPress={handleBlackMarket} width={160} style={[{backgroundColor: colors.backgroundColorRow}, styles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 16}} />
-
-            </View> */}
 
             <View
                 style={[

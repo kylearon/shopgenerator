@@ -6,11 +6,11 @@ import { Colors } from '@/constants/Colors';
 import StyledButton2 from '../StyledButton/StyledButton2';
 import { useRouter } from 'expo-router';
 
-export interface ShopTypeButtonRowProps {
-
+export interface GenerateShopButtonRowProps {
+    onSelected: () => void;
 }
 
-export default function ShopTypeButtonRow({} : ShopTypeButtonRowProps): JSX.Element {
+export default function GenerateShopButtonRow({onSelected} : GenerateShopButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -19,7 +19,12 @@ export default function ShopTypeButtonRow({} : ShopTypeButtonRowProps): JSX.Elem
 
     const handleGenerateShop = async () => {
         console.log("handleGenerateShop()")
-        router.push('/generatedshop'); // Navigate to the 'generatedshop' page
+
+        //callback to generate the shop
+        onSelected();
+
+        //navigate to the generatedshop page
+        router.push('/generatedshop'); 
     }
 
 

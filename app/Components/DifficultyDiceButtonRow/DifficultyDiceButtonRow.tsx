@@ -4,11 +4,11 @@ import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
-export interface ItemNumberButtonRowProps {
+export interface DifficultyDiceButtonRowProps {
     onSelected: (title: string) => void;
 }
 
-export default function ItemNumberButtonRow({onSelected} : ItemNumberButtonRowProps): JSX.Element {
+export default function DifficultyDiceButtonRow({onSelected} : DifficultyDiceButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
 
@@ -50,7 +50,7 @@ export default function ItemNumberButtonRow({onSelected} : ItemNumberButtonRowPr
                             },
                         ]}
                     >
-                        Number of Items
+                        Difficulty Dice
                     </Text>
                 </View>
             </View>
@@ -66,7 +66,7 @@ export default function ItemNumberButtonRow({onSelected} : ItemNumberButtonRowPr
                     },
                 ]}
             >
-                {['5', '10', '15', '20', '40', '80'].map((title) => (
+                {['1', '2', '3', '4', '5', '6'].map((title) => (
                     <ToggleButton
                         key={title}
                         title={title}
