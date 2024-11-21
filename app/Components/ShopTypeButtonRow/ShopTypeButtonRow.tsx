@@ -1,5 +1,5 @@
 import { useThemeColor } from '@/hooks/useThemeColor';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {View, Text, useColorScheme, TouchableOpacity, } from 'react-native';
 import { StyleSheet, Image, Platform, SafeAreaView } from 'react-native';
 import { Colors } from '@/constants/Colors';
@@ -8,9 +8,10 @@ import ToggleButton from '../ToggleButton/ToggleButton';
 
 export interface ShopTypeButtonRowProps {
     onSelected: (title: string) => void;
+    initialValue: string;
 }
 
-export default function ShopTypeButtonRow({onSelected} : ShopTypeButtonRowProps): JSX.Element {
+export default function ShopTypeButtonRow({onSelected, initialValue} : ShopTypeButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -18,11 +19,15 @@ export default function ShopTypeButtonRow({onSelected} : ShopTypeButtonRowProps)
     const ICON_SIZE = 40;
 
     // State to track which button is toggled on
-    const [toggledButton, setToggledButton] = useState<string | null>(null);
+    const [toggledButton, setToggledButton] = useState<string>(String(initialValue));
+
+    useEffect(() => {
+        setToggledButton(String(initialValue));
+    }, [initialValue]);
 
     const onToggle = (title: string) => {
-        setToggledButton((prev) => (prev === title ? null : title)); // Toggle on/off
-        onSelected(title);
+        setToggledButton((prev) => (prev === title ? title : title)); //leave toggled on if clicked again
+        onSelected(title)
     };
 
     return (

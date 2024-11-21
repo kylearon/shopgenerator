@@ -1,23 +1,28 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { View, Text, useColorScheme } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
 export interface NegotiationButtonRowProps {
-    onSelected: (title: string) => void;
+    onSelected: (val: number) => void;
+    initialValue: number;
 }
 
-export default function NegotiationButtonRow({onSelected} : NegotiationButtonRowProps): JSX.Element {
+export default function NegotiationButtonRow({onSelected, initialValue} : NegotiationButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
 
     // State to track which button is toggled on
-    const [toggledButton, setToggledButton] = useState<string | null>(null);
+    const [toggledButton, setToggledButton] = useState<string>(String(initialValue));
+
+    useEffect(() => {
+        setToggledButton(String(initialValue));
+    }, [initialValue]);
 
     const onToggle = (title: string) => {
-        setToggledButton((prev) => (prev === title ? null : title)); // Toggle on/off
-        onSelected(title);
+        setToggledButton((prev) => (prev === title ? title : title)); //leave toggled on if clicked again
+        onSelected(Number(title))
     };
 
     return (
