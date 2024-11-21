@@ -20,9 +20,18 @@ export default function HomeScreen() {
         setShopType(val);
     };
 
-    const[specialization, setSpecialization] = useState<string | null>(null);
-    const onSpecializationSelected = (val: string) => {
-        setSpecialization(val);
+    const[specialization, setSpecialization] = useState<string[]>([]);
+    const onSpecializationSelected = (val: string, selected: boolean) => {
+        //this is how you update an array in useState
+        setSpecialization((prev) => {
+            if (!selected) {
+                //remove the item
+                return prev.filter((item) => item !== val);
+            } else {
+                //add the item
+                return [...prev, val];
+            }
+        });
     };
 
     const[presence, setPresence] = useState<string | null>(null);
@@ -84,8 +93,8 @@ export default function HomeScreen() {
                 <Header title={'SWRPG Shop Generator'}/>
 
                 <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)}/>
-                    
-                <SpecializationButtonRow onSelected={(val: string) => onSpecializationSelected(val)}/>
+
+                <SpecializationButtonRow onItemSelected={(val: string, selected: boolean) => onSpecializationSelected(val, selected)}/>
 
                 <PresenceButtonRow onSelected={(val: string) => onPresenceSelected(val)}/>
                 <NegotiationButtonRow onSelected={(val: string) => onNegotiationSelected(val)}/>

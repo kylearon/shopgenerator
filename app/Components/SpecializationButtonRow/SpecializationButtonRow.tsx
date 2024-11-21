@@ -15,10 +15,10 @@ import weapons from '../../../data/weapons.json';
 import gear from '../../../data/gear.json';
 
 export interface SpecializationButtonRowProps {
-    onSelected: (title: string) => void;
+    onItemSelected: (item: string, selected: boolean) => void;
 }
 
-export default function SpecializationButtonRow({onSelected} : SpecializationButtonRowProps): JSX.Element {
+export default function SpecializationButtonRow({onItemSelected} : SpecializationButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -51,14 +51,17 @@ export default function SpecializationButtonRow({onSelected} : SpecializationBut
 
     const handleArmorSelected = (item: string, selected: boolean) => {
         console.log(`Armor Selected: ${item} : ${selected}`);
+        onItemSelected(item, selected);
     };
 
     const handleWeaponSelected = (item: string, selected: boolean) => {
         console.log(`Weapon Selected: ${item} : ${selected}`);
+        onItemSelected(item, selected);
     };
 
     const handleGearSelected = (item: string, selected: boolean) => {
         console.log(`Gear Selected: ${item} : ${selected}`);
+        onItemSelected(item, selected);
     };
 
     return (
