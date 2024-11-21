@@ -8,12 +8,13 @@ export interface DropdownRowOpenableProps {
     title: string;
     distinctTypes: string[];
     onPress: (event: GestureResponderEvent) => void;
+    onItemSelected: (item: string, selected: boolean) => void;
     style: any;
     textStyle?: any;
     disabled?: boolean;
 }
 
-export default function DropdownRowOpenable({title, distinctTypes, onPress, style, textStyle= styles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
+export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, style, textStyle= styles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -36,6 +37,9 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, styl
     const [toggledStates, setToggledStates] = useState<{ [key: string]: boolean }>(initialState);
 
     const handleToggle = (key: string) => {
+        //save the state up
+        onItemSelected(key, !toggledStates[key])
+        
         setToggledStates((prev) => ({
             ...prev,
             [key]: !prev[key], // Toggle the specific button
