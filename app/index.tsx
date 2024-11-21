@@ -15,7 +15,7 @@ import { useState } from 'react';
 
 export default function HomeScreen() {
 
-    const[shopType, setShopType] = useState<string | null>(null);
+    const[shopType, setShopType] = useState<string>("On The Level");
     const onShopTypeSelected = (val: string) => {
         setShopType(val);
     };
@@ -39,32 +39,32 @@ export default function HomeScreen() {
         setPresence(val);
     };
 
-    const[negotiation, setNegotiation] = useState<number | null>(null);
+    const[negotiation, setNegotiation] = useState<number>(1);
     const onNegotiationSelected = (val: number) => {
         setNegotiation(val);
     };
 
-    const[rarityModifier, setRarityModifier] = useState<number | null>(null);
-    const onRarityModifierSelected = (val: number) => {
-        setRarityModifier(val);
-    };
-
-    const[boostDice, setBoostDice] = useState<number | null>(null);
+    const[boostDice, setBoostDice] = useState<number>(1);
     const onBoostDiceSelected = (val: number) => {
         setBoostDice(val);
     };
 
-    const[setbackDice, setSetbackDice] = useState<number | null>(null);
+    const[setbackDice, setSetbackDice] = useState<number>(1);
     const onSetbackDiceSelected = (val: number) => {
         setSetbackDice(val);
     };
 
-    const[difficultyDice, setDifficultyDice] = useState<number | null>(null);
+    const[difficultyDice, setDifficultyDice] = useState<number>(1);
     const onDifficultyDiceSelected = (val: number) => {
         setDifficultyDice(val);
     };
 
-    const[numberOfItems, setNumberOfItems] = useState<number | null>(null);
+    const[rarityModifier, setRarityModifier] = useState<number>(0);
+    const onRarityModifierSelected = (val: number) => {
+        setRarityModifier(val);
+    };
+
+    const[numberOfItems, setNumberOfItems] = useState<number>(5);
     const onNumberOfItemsSelected = (val: number) => {
         setNumberOfItems(val);
     };
@@ -92,18 +92,18 @@ export default function HomeScreen() {
 
                 <Header title={'SWRPG Shop Generator'}/>
 
-                <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)} initialValue={"On The Level"}/>
+                <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)} initialValue={shopType}/>
 
                 <SpecializationButtonRow onItemSelected={(val: string, selected: boolean) => onSpecializationSelected(val, selected)}/>
 
-                <PresenceButtonRow onSelected={(val: number) => onPresenceSelected(val)} initialValue={1}/>
-                <NegotiationButtonRow onSelected={(val: number) => onNegotiationSelected(val)} initialValue={1}/>
-                <BoostDiceButtonRow onSelected={(val: number) => onBoostDiceSelected(val)} initialValue={1}/>
-                <SetbackDiceButtonRow onSelected={(val: number) => onSetbackDiceSelected(val)} initialValue={1}/>
-                <DifficultyDiceButtonRow onSelected={(val: number) => onDifficultyDiceSelected(val)} initialValue={1}/>
+                <PresenceButtonRow onSelected={(val: number) => onPresenceSelected(val)} initialValue={presence}/>
+                <NegotiationButtonRow onSelected={(val: number) => onNegotiationSelected(val)} initialValue={negotiation}/>
+                <BoostDiceButtonRow onSelected={(val: number) => onBoostDiceSelected(val)} initialValue={boostDice}/>
+                <SetbackDiceButtonRow onSelected={(val: number) => onSetbackDiceSelected(val)} initialValue={setbackDice}/>
+                <DifficultyDiceButtonRow onSelected={(val: number) => onDifficultyDiceSelected(val)} initialValue={difficultyDice}/>
 
-                <RarityModifierButtonRow onSelected={(val: number) => onRarityModifierSelected(val)} initialValue={0}/>
-                <ItemNumberButtonRow onSelected={(val: number) => onNumberOfItemsSelected(val)} initialValue={5}/>
+                <RarityModifierButtonRow onSelected={(val: number) => onRarityModifierSelected(val)} initialValue={rarityModifier}/>
+                <ItemNumberButtonRow onSelected={(val: number) => onNumberOfItemsSelected(val)} initialValue={numberOfItems}/>
         
                 <GenerateShopButtonRow onSelected={() => onGenerateShop()}/>
 
