@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Armor",
+    "item_types": ["Armor","Clothing"]
+  },
+  {
+    "name": "Gear",
+    "item_types": ["Ancient Talismans","Communications","Drugs and Consumables","Cybernetics","Detection Devices","Droids","Field Equipment","Medical","Poison","Recreational","Security","Storage","Survival","Tools","Uniforms"]
+  },
+  {
+    "name": "Weapons",
+    "item_types": ["Brawl","Energy Weapon","Explosives/Other","Gunnery","Lightsaber","Lightsaber Attachment","Mechanics","Melee","Slugthrower","Thrown","Tool","Weapon Attachment"]
+  },
+  {
+    "name": "Everything",
+    "item_types": ["Ancient Talismans","Armor","Armor Attachment","Brawl","Clothing","Communications","Cybernetics","Detection Devices","Droids","Drugs and Consumables","Energy Weapon","Explosives/Other","Field Equipment","Gunnery","Lightsaber","Lightsaber Attachment","Mechanics","Medical","Melee","Poison","Recreational","Security","Slugthrower","Storage","Survival","Thrown","Tool","Tools","Uniforms","Weapon Attachment"]
+  }
+]
