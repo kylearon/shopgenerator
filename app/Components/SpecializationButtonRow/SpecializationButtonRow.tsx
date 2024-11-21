@@ -100,7 +100,7 @@ export default function SpecializationButtonRow({onItemSelected} : Specializatio
                             color: colors.textColor,
                         }
                     ]}>
-                        Specialization
+                        Shop Specialization
                     </Text>
                 </View>
             </View>

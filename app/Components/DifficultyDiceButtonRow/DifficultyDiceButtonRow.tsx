@@ -55,7 +55,7 @@ export default function DifficultyDiceButtonRow({onSelected, initialValue} : Dif
                             },
                         ]}
                     >
-                        Difficulty Dice
+                        Additional Difficulty Dice
                     </Text>
                 </View>
             </View>
@@ -71,7 +71,7 @@ export default function DifficultyDiceButtonRow({onSelected, initialValue} : Dif
                     },
                 ]}
             >
-                {['1', '2', '3', '4', '5', '6'].map((title) => (
+                {['0', '1', '2', '3', '4', '5', '6'].map((title) => (
                     <ToggleButton
                         key={title}
                         title={title}

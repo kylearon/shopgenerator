@@ -38,27 +38,27 @@ export default function HomeScreen() {
         });
     };
 
-    const[presence, setPresence] = useState<number>(1);
+    const[presence, setPresence] = useState<number>(0);
     const onPresenceSelected = (val: number) => {
         setPresence(val);
     };
 
-    const[negotiation, setNegotiation] = useState<number>(1);
+    const[negotiation, setNegotiation] = useState<number>(0);
     const onNegotiationSelected = (val: number) => {
         setNegotiation(val);
     };
 
-    const[boostDice, setBoostDice] = useState<number>(1);
+    const[boostDice, setBoostDice] = useState<number>(0);
     const onBoostDiceSelected = (val: number) => {
         setBoostDice(val);
     };
 
-    const[setbackDice, setSetbackDice] = useState<number>(1);
+    const[setbackDice, setSetbackDice] = useState<number>(0);
     const onSetbackDiceSelected = (val: number) => {
         setSetbackDice(val);
     };
 
-    const[difficultyDice, setDifficultyDice] = useState<number>(1);
+    const[difficultyDice, setDifficultyDice] = useState<number>(0);
     const onDifficultyDiceSelected = (val: number) => {
         setDifficultyDice(val);
     };

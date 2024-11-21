@@ -71,7 +71,7 @@ export default function PresenceButtonRow({onSelected, initialValue}:PresenceBut
                     },
                 ]}
             >
-                {['1', '2', '3', '4', '5', '6'].map((title) => (
+                {['0', '1', '2', '3', '4', '5', '6'].map((title) => (
                     <ToggleButton
                         key={title}
                         title={title}
