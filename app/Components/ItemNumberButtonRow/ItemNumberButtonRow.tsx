@@ -72,8 +72,9 @@ export default function ItemNumberButtonRow({onSelected} : ItemNumberButtonRowPr
                         title={title}
                         isToggled={toggledButton === title}
                         onToggle={() => onToggle(title)}
-                        width={40}
+                        width={50}
                         style={styles.buttonStyle}
+                        toggledStyle={styles.buttonToggledStyle}
                     />
                 ))}
             </View>
@@ -106,10 +107,21 @@ const styles = StyleSheet.create({
     buttonStyle: {
         padding: 10,
         borderRadius: 8,
-        borderWidth: 1,
-        borderColor: "#00ff00",
+        borderWidth: 2,
+        borderColor: "#777777",
         alignItems: 'center',
         justifyContent: 'center',
         margin: 6,
     },
+    buttonToggledStyle: {
+        padding: 10,
+        borderRadius: 8,
+        borderWidth: 2,
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 6,
+
+        backgroundColor: '#777777',
+        borderColor: '#777777',
+    }
 });

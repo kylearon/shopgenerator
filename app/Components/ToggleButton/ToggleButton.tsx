@@ -7,6 +7,7 @@ export interface ToggleButtonProps {
     onToggle: () => void;
     width: number;
     style?: any; // Optional custom button styles
+    toggledStyle?: any; // Optional custom button styles
     textStyle?: any; // Optional custom text styles
     disabled?: boolean;
 }
@@ -17,6 +18,7 @@ export default function ToggleButton({
     onToggle,
     width,
     style = {}, // Default to empty object if no styles are passed
+    toggledStyle = {},
     textStyle = {}, // Default to empty object for text styles
     disabled = false,
 }: ToggleButtonProps): JSX.Element {
@@ -28,6 +30,7 @@ export default function ToggleButton({
                 isToggled && styles.toggled, // Apply toggled styles dynamically
                 disabled && styles.disabled, // Apply disabled styles if applicable
                 style, // Allow overriding styles if passed
+                isToggled && toggledStyle, // Allow overriding toggled styles if passed
             ]}
             onPress={onToggle}
             disabled={disabled}

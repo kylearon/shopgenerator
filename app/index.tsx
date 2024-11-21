@@ -84,14 +84,18 @@ export default function HomeScreen() {
                 <Header title={'SWRPG Shop Generator'}/>
 
                 <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)}/>
+                    
                 <SpecializationButtonRow onSelected={(val: string) => onSpecializationSelected(val)}/>
+
                 <PresenceButtonRow onSelected={(val: string) => onPresenceSelected(val)}/>
                 <NegotiationButtonRow onSelected={(val: string) => onNegotiationSelected(val)}/>
-                <RarityModifierButtonRow onSelected={(val: string) => onRarityModifierSelected(val)}/>
                 <BoostDiceButtonRow onSelected={(val: string) => onBoostDiceSelected(val)}/>
                 <SetbackDiceButtonRow onSelected={(val: string) => onSetbackDiceSelected(val)}/>
                 <DifficultyDiceButtonRow onSelected={(val: string) => onDifficultyDiceSelected(val)}/>
+
+                <RarityModifierButtonRow onSelected={(val: string) => onRarityModifierSelected(val)}/>
                 <ItemNumberButtonRow onSelected={(val: string) => onNumberOfItemsSelected(val)}/>
+        
                 <GenerateShopButtonRow onSelected={() => onGenerateShop()}/>
 
             </ScrollView>
