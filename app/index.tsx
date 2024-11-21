@@ -11,6 +11,10 @@ import ItemNumberButtonRow from './Components/ItemNumberButtonRow/ItemNumberButt
 import BoostDiceButtonRow from './Components/BoostDiceButtonRow/BoostDiceButtonRow';
 import DifficultyDiceButtonRow from './Components/DifficultyDiceButtonRow/DifficultyDiceButtonRow';
 import SetbackDiceButtonRow from './Components/SetbackDiceButtonRow/SetbackDiceButtonRow';
+import armor from '../data/armor.json';
+import weapons from '../data/weapons.json';
+import gear from '../data/gear.json';
+import { Item } from '@/utils/diceroller';
 import { useState } from 'react';
 
 export default function HomeScreen() {
@@ -80,6 +84,42 @@ export default function HomeScreen() {
         console.log("Setback Dice: " + setbackDice);
         console.log("Difficulty Dice: " + difficultyDice);
         console.log("Number of Items: " + numberOfItems);
+
+
+        //get item pool based on specialization
+        const itemPool: Item[] = [];
+        specialization.forEach((spec, index) => {
+            //get the items for this spec
+            const armorToUse = armor.filter((item) => item.type === spec)
+            const weaponsToUse = weapons.filter((item) => item.type === spec)
+            const gearToUse = gear.filter((item) => item.type === spec)
+
+            // items.push(...armorToUse)
+            const transformedArmor = armorToUse.map((item) => ({
+                key: item.key,
+                rarity: Number(item.rarity),
+            }));
+        
+            const transformedWeapons = weaponsToUse.map((item) => ({
+                key: item.key,
+                rarity: Number(item.rarity),
+            }));
+        
+            const transformedGear = gearToUse.map((item) => ({
+                key: item.key,
+                rarity: Number(item.rarity),
+            }));
+
+            itemPool.push(...transformedArmor, ...transformedWeapons, ...transformedGear);
+        })
+
+        console.log("num items: " + itemPool.length)
+        console.log(itemPool);
+
+        //TODO: calculate markup based on shopType
+
+
+
     };
 
     return (
