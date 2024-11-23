@@ -28,6 +28,13 @@ export const Colors = {
     successColor: '#07850d',
     neutralColor: '#aaaaaa',
 
+    diceTextColor: '#ffffff',
+    presenceColor: '#4CAF50',
+    negotiationColor: '#ffd000',
+    boostDiceColor: '#0026ff',
+    setbackDiceColor: '#000000',
+    difficultyDiceColor: '#8400ff',
+    
   },
   dark: {
     text: '#ECEDEE',
@@ -49,5 +56,12 @@ export const Colors = {
     dangerColor: '#883a3a',
     successColor: '#07850d',
     neutralColor: '#aaaaaa',
+
+    diceTextColor: '#ffffff',
+    presenceColor: '#4CAF50',
+    negotiationColor: '#ffd000',
+    boostDiceColor: '#0026ff',
+    setbackDiceColor: '#000000',
+    difficultyDiceColor: '#8400ff',
   },
 };

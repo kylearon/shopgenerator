@@ -78,8 +78,13 @@ export default function SetbackDiceButtonRow({onSelected, initialValue} : Setbac
                         isToggled={toggledButton === title}
                         onToggle={() => onToggle(title)}
                         width={40}
-                        style={styles.buttonStyle}
-                        toggledStyle={styles.buttonToggledStyle}
+                        style={[styles.buttonStyle, {
+                            borderColor: colors.setbackDiceColor,
+                        }]}
+                        toggledStyle={[styles.buttonToggledStyle, {
+                            backgroundColor: colors.setbackDiceColor,
+                            borderColor: colors.setbackDiceColor,
+                        }]}
                     />
                 ))}
             </View>
@@ -113,7 +118,6 @@ const styles = StyleSheet.create({
         padding: 10,
         borderRadius: 8,
         borderWidth: 2,
-        borderColor: "#000000",
         alignItems: 'center',
         justifyContent: 'center',
         margin: 6,
@@ -125,8 +129,5 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         margin: 6,
-
-        backgroundColor: '#000000',
-        borderColor: '#000000',
     }
 });

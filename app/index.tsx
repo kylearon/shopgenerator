@@ -246,30 +246,101 @@ export default function HomeScreen() {
                         {/* <GeneratedShopTitleInfo/> */}
 
                         <View style={[styles.leftContainerFill, { marginLeft: 20 }]}>
-                            <Text
-                                style={[
-                                    styles.headerText,
-                                    {
-                                        color: colors.textColor,
-                                    },
-                                ]}
+
+                            <View
+                                style={{
+                                    flexDirection: 'row',
+                                    justifyContent: 'flex-start',
+                                    marginTop: 4,
+                                    paddingLeft: 8,
+                                }}
                             >
-                                Presence: {presence}  -  Negotiation: {negotiation}
-                            </Text>
+
+                            
+                                <Text
+                                    style={[
+                                        styles.headerText,
+                                        {
+                                            color: colors.diceTextColor,
+                                            backgroundColor: colors.presenceColor,
+                                            marginLeft: 8,
+                                            marginRight: 8,
+                                            borderRadius: 12,
+                                            width: 40
+                                        },
+                                    ]}
+                                >
+                                    {presence}
+                                </Text>
+
+                                <Text
+                                    style={[
+                                        styles.headerText,
+                                        {
+                                            color: colors.diceTextColor,
+                                            backgroundColor: colors.negotiationColor,
+                                            marginLeft: 8,
+                                            marginRight: 8,
+                                            borderRadius: 12,
+                                            width: 40
+                                        },
+                                    ]}
+                                >
+                                    {negotiation}
+                                </Text>
+
+                                <Text
+                                    style={[
+                                        styles.headerText,
+                                        {
+                                            color: colors.diceTextColor,
+                                            backgroundColor: colors.boostDiceColor,
+                                            marginLeft: 8,
+                                            marginRight: 8,
+                                            borderRadius: 12,
+                                            width: 40
+                                        },
+                                    ]}
+                                >
+                                    {boostDice}
+                                </Text>
+
+                                <Text
+                                    style={[
+                                        styles.headerText,
+                                        {
+                                            color: colors.diceTextColor,
+                                            backgroundColor: colors.setbackDiceColor,
+                                            marginLeft: 8,
+                                            marginRight: 8,
+                                            borderRadius: 12,
+                                            width: 40
+                                        },
+                                    ]}
+                                >
+                                    {setbackDice}
+                                </Text>
+
+                                <Text
+                                    style={[
+                                        styles.headerText,
+                                        {
+                                            color: colors.diceTextColor,
+                                            backgroundColor: colors.difficultyDiceColor,
+                                            marginLeft: 8,
+                                            marginRight: 8,
+                                            borderRadius: 12,
+                                            width: 40
+                                        },
+                                    ]}
+                                >
+                                    {difficultyDice}
+                                </Text>
+                            </View>
+
                         </View>
 
-                        <View style={[styles.leftContainerFill, { marginLeft: 20 }]}>
-                            <Text
-                                style={[
-                                    styles.headerText,
-                                    {
-                                        color: colors.textColor,
-                                    },
-                                ]}
-                            >
-                                Boost Dice: {boostDice}  -  Setback Dice: {setbackDice} - Difficulty Dice: {difficultyDice}
-                            </Text>
-                        </View>
+                        
 
                         <View style={[styles.leftContainerFill, { marginLeft: 20 }]}>
                             <Text
