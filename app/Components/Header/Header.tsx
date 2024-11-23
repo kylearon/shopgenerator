@@ -36,7 +36,10 @@ const styles = StyleSheet.create({
         // borderColor: 'red', // Add a border to visualize the safe area
     },
     titleContainer: {
-      flexDirection: 'row',
-      gap: 8,
+        flexDirection: 'row',
+        gap: 8,
+        paddingLeft: 8,
+        paddingTop: 2,
+        paddingBottom: 2
     },
   });
