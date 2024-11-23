@@ -19,6 +19,9 @@ import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { Colors } from '@/constants/Colors';
 import { ThemedText } from '@/components/ThemedText';
+import ItemArmorRow from './Components/ItemArmorRow/ItemArmorRow';
+import ItemWeaponRow from './Components/ItemWeaponRow/ItemWeaponRow';
+import ItemGearRow from './Components/ItemGearRow/ItemGearRow';
 
 export default function HomeScreen() {
 
@@ -132,7 +135,7 @@ export default function HomeScreen() {
         })
 
         console.log("num items in pool: " + itemPool.length)
-        console.log(itemPool);
+        // console.log(itemPool);
 
         //TODO: calculate markup based on shopType
 
@@ -206,12 +209,10 @@ export default function HomeScreen() {
                     ?
                     <View 
                         style={[
-                            styles.rowRounded,
                             {
                                 flexDirection: 'column',
                                 justifyContent: 'center',
                                 alignContent: 'center',
-                                backgroundColor: colors.backgroundColorRow,
                                 marginTop: 8,
                             }]
                         }>
@@ -233,25 +234,31 @@ export default function HomeScreen() {
                     :
                     <View 
                         style={[
-                            styles.rowRounded,
                             {
                                 flexDirection: 'column',
                                 justifyContent: 'center',
                                 alignContent: 'center',
-                                backgroundColor: colors.backgroundColorRow,
                                 marginTop: 8,
                             }]
                         }>
-
-                        {/* <GeneratedShopTitleInfo/> */}
-
-                        <View style={[styles.leftContainerFill, { marginLeft: 20 }]}>
+                        <View 
+                            style={[
+                                styles.rowRounded,
+                                {
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    alignContent: 'center',
+                                    backgroundColor: colors.backgroundColorRow,
+                                    marginTop: 8,
+                                }]
+                            }>
 
                             <View
                                 style={{
                                     flexDirection: 'row',
-                                    justifyContent: 'flex-start',
+                                    justifyContent: 'center',
                                     marginTop: 4,
+                                    marginBottom: 4,
                                     paddingLeft: 8,
                                 }}
                             >
@@ -342,7 +349,17 @@ export default function HomeScreen() {
 
                         
 
-                        <View style={[styles.leftContainerFill, { marginLeft: 20 }]}>
+                        <View 
+                            style={[
+                                styles.rowRounded,
+                                {
+                                    flexDirection: 'column',
+                                    justifyContent: 'center',
+                                    alignContent: 'center',
+                                    backgroundColor: colors.backgroundColorRow,
+                                    marginTop: 8,
+                                }]
+                            }>
                             <Text
                                 style={[
                                     styles.headerText,
@@ -356,19 +373,13 @@ export default function HomeScreen() {
                         </View>
 
                         {shopArmorItemsToShow.map((item) => (
-                            <ThemedText key={`armor-${item.key}`} type="title">
-                                {item.name}
-                            </ThemedText>
+                            <ItemArmorRow key={`armor-${item.key}`} itemArmorToShow={item} />
                         ))}
                         {shopWeaponsItemsToShow.map((item) => (
-                            <ThemedText key={`weapon-${item.key}`} type="title">
-                                {item.name}
-                            </ThemedText>
+                            <ItemWeaponRow key={`weapon-${item.key}`} itemWeaponToShow={item} />
                         ))}
                         {shopGearItemsToShow.map((item) => (
-                            <ThemedText key={`gear-${item.key}`} type="title">
-                                {item.name}
-                            </ThemedText>
+                            <ItemGearRow key={`gear-${item.key}`} itemGearToShow={item} />
                         ))}
 
                     </View>
