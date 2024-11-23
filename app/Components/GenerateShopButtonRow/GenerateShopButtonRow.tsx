@@ -8,9 +8,10 @@ import { useRouter } from 'expo-router';
 
 export interface GenerateShopButtonRowProps {
     onSelected: () => void;
+    onResetSelected: () => void;
 }
 
-export default function GenerateShopButtonRow({onSelected} : GenerateShopButtonRowProps): JSX.Element {
+export default function GenerateShopButtonRow({onSelected, onResetSelected} : GenerateShopButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -22,9 +23,13 @@ export default function GenerateShopButtonRow({onSelected} : GenerateShopButtonR
 
         //callback to generate the shop
         onSelected();
+    }
 
-        //navigate to the generatedshop page
-        router.push('/generatedshop'); 
+    const handleResetShop = async () => {
+        console.log("handleResetShop()")
+
+        //callback to reset the shop
+        onResetSelected();
     }
 
 
@@ -33,6 +38,7 @@ export default function GenerateShopButtonRow({onSelected} : GenerateShopButtonR
         <View 
             style={[
                 styles.rowRounded,
+                styles.centeredContainerFill,
                 {
                     flexDirection: 'column',
                     justifyContent: 'center',
@@ -46,14 +52,15 @@ export default function GenerateShopButtonRow({onSelected} : GenerateShopButtonR
             <View style={[
                 styles.centeredContainerFill,
                 {
-                    flexDirection: 'column',
+                    flexDirection: 'row',
                     justifyContent: 'flex-start',
                     marginLeft: 12,
                     marginRight: 8,
                 }
-                ]}>
+                ]}> 
+                    <StyledButton2 title={"Generate Shop"} onPress={handleGenerateShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, styles.buttonStyleGreen]} textStyle={{color: '#ffffff', fontSize: 16}} />
 
-                    <StyledButton2 title={"Generate Shop"} onPress={handleGenerateShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, styles.buttonStyle]} textStyle={{color: '#ffffff', fontSize: 16}} />
+                    <StyledButton2 title={"Reset"} onPress={handleResetShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, styles.buttonStyleRed]} textStyle={{color: '#ffffff', fontSize: 16}} />
             </View>
 
         </View>
@@ -104,12 +111,22 @@ const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: 'normal',
     },
-    buttonStyle: {
+    buttonStyleGreen: {
         padding: 10,
         borderRadius: 8,
         borderWidth: 1,
         borderColor: "#00ff00",
         backgroundColor: '#4CAF50',
+        alignItems: 'center',
+        justifyContent: 'center',
+        margin: 6,
+    },
+    buttonStyleRed: {
+        padding: 10,
+        borderRadius: 8,
+        borderWidth: 1,
+        borderColor: "#ff0000",
+        backgroundColor: '#b53737',
         alignItems: 'center',
         justifyContent: 'center',
         margin: 6,
