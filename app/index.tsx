@@ -186,6 +186,16 @@ export default function HomeScreen() {
     const onResetShop = () => {
         console.log("Resetting Shop...");
 
+        setSpecialization([]);
+
+        setPresence(0);
+        setNegotiation(0);
+        setBoostDice(0);
+        setSetbackDice(0);
+        setDifficultyDice(0);
+        setRarityModifier(0);
+        setNumberOfItems(5);
+
         setShopArmorItemsToShow([]);
         setShopWeaponsItemsToShow([]);
         setShopGearItemsToShow([]);
