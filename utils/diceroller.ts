@@ -185,6 +185,17 @@ export function rollForItems(
         }
     }
 
+    console.log("availableItems")
+    // console.log(availableItems)
+    const itemsToPrint: string[] = [];
+    availableItems.forEach(element => {
+        // console.log(element.key);
+        itemsToPrint.push(element.key)
+    });
+    const sorted = itemsToPrint.sort();
+    console.log(sorted);
+
+
     // Shuffle and select the desired number of items
     const shuffled = availableItems.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, numItems);
