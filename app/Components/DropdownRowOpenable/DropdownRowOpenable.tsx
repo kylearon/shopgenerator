@@ -3,24 +3,24 @@ import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
 
 import ToggleButton from '../ToggleButton/ToggleButton';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export interface DropdownRowOpenableProps {
     title: string;
     distinctTypes: string[];
     onPress: (event: GestureResponderEvent) => void;
     onItemSelected: (item: string, selected: boolean) => void;
+    icon: any;
     style: any;
     textStyle?: any;
     disabled?: boolean;
 }
 
-export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, style, textStyle= styles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
+export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, icon="tortoise", style, textStyle= styles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
 
-    //get distinct types from the weapons.json
-    // const distinctTypes = Array.from(new Set(weapons.map((item) => item.type)));
 
     const [isSubsectionOpen, setIsSubsectionOpen] = useState<boolean>(false);
 
@@ -53,26 +53,39 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
             styles.centeredContainerFill,
             styles.rowStyle,
             {
-                width: '100%',
+                width: '100%'
             }
         ]}>
+
+            
 
             <TouchableOpacity style={{width: '100%',}} onPress={() => {
                 handleSelectOpenable()
             }}>
-                <Text style={[
-                    styles.openableRowText,
+
+                <View style={[
+                    styles.centeredContainerFill,
                     {
-                        width: '100%',
-                        color: colors.textColor,
-                        backgroundColor: colors.backgroundColorRow,
-                        padding: 6,
-                        marginTop: 6,
-                        marginBottom: 0,
+                        flexDirection: 'row',
                     }
-                    ]}>
-                        {title}
-                </Text>
+                ]}>
+                    <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
+                        <MaterialCommunityIcons name={icon} size={24} color={colors.iconColor} />
+                    </View>
+
+                    <Text style={[
+                        styles.openableRowText,
+                        {
+                            color: colors.textColor,
+                            backgroundColor: colors.backgroundColorRow,
+                            padding: 6,
+                            marginTop: 6,
+                            marginBottom: 0,
+                        }
+                        ]}>
+                            {title}
+                    </Text>
+                </View>
             </TouchableOpacity>
 
             {

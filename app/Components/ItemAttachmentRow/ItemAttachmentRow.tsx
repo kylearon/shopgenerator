@@ -3,14 +3,14 @@ import { View, Text, useColorScheme } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
-import { ItemWeapon } from '@/utils/diceroller';
+import { ItemAttachment } from '@/utils/diceroller';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-export interface ItemWeaponRowProps {
-    itemWeaponToShow: ItemWeapon;
+export interface ItemAttachmentRowProps {
+    itemAttachmentToShow: ItemAttachment;
 }
 
-export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): JSX.Element {
+export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmentRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
 
@@ -39,7 +39,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
             >
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
-                    <MaterialCommunityIcons name="sword" size={24} color={colors.iconColor} />
+                    <MaterialCommunityIcons name="toy-brick-plus-outline" size={24} color={colors.iconColor} />
                 </View>
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
@@ -51,7 +51,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                             },
                         ]}
                     >
-                        {itemWeaponToShow.name}
+                        {itemAttachmentToShow.name}
                     </Text>
                 </View>
 
@@ -64,7 +64,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                             },
                         ]}
                     >
-                        {itemWeaponToShow.price}c
+                        {itemAttachmentToShow.price}c
                     </Text>
                 </View>
             </View>
@@ -79,7 +79,6 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                 }}
             >
 
-            
                 <Text
                     style={[
                         styles.statText,
@@ -90,7 +89,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                         },
                     ]}
                 >
-                    {itemWeaponToShow.damage} Dmg
+                    {itemAttachmentToShow.hard_points} HP
                 </Text>
 
                 <Text
@@ -103,74 +102,9 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                         },
                     ]}
                 >
-                    {itemWeaponToShow.damage_add} Add
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.crit} Crt
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.encumbrance} Enc
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.hard_points} HP
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.rarity} RAR
+                    {itemAttachmentToShow.rarity} RAR
                 </Text>
             </View>
-
-            {/* <Text
-                style={[
-                    styles.statTextNoBorder,
-                    {
-                        color: colors.textColor,
-                        backgroundColor: colors.backgroundColorRow,
-
-                    },
-                ]}
-            >
-                {itemWeaponToShow.range_value}
-            </Text> */}
 
             <View
                 style={[
@@ -193,53 +127,13 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                         },
                     ]}
                 >
-                    {itemWeaponToShow.type}
+                    {itemAttachmentToShow.type}
                 </Text>
 
-                <Text
-                    style={[
-                        styles.statTextNoWidth,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.range_value}
-                </Text>
                 
             </View>
 
-            <View
-                style={[
-                    styles.leftContainerFill,
-                    {
-                        flexDirection: 'row',
-                        justifyContent: 'flex-start',
-                        marginLeft: 12,
-                        marginRight: 8,
-                    },
-                ]}
-            >
-                <Text
-                    style={[
-                        styles.statTextNoBorder,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-                        },
-                    ]}
-                >
-
-                    {
-                        Array.isArray(itemWeaponToShow.categories)
-                        ? itemWeaponToShow.categories.join(' - ') 
-                        : itemWeaponToShow.categories
-                    }
-                </Text>
-                
-            </View>
+            
         </View>
     );
 }

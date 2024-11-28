@@ -4,6 +4,7 @@ import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemGear } from '@/utils/diceroller';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 export interface ItemGearRowProps {
     itemGearToShow: ItemGear;
@@ -36,6 +37,10 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                     paddingLeft: 8,
                 }}
             >
+                <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
+                    <MaterialCommunityIcons name="bag-personal" size={24} color={colors.iconColor} />
+                </View>
+
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[

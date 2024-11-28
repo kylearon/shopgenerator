@@ -9,7 +9,11 @@
   },
   {
     "name": "Weapons",
-    "item_types": ["Brawl","Energy Weapon","Explosives/Other","Gunnery","Lightsaber","Lightsaber Attachment","Mechanics","Melee","Slugthrower","Thrown","Tool","Weapon Attachment"]
+    "item_types": ["Brawl","Energy Weapon","Explosives/Other","Gunnery","Lightsaber","Mechanics","Melee","Slugthrower","Thrown","Tool"]
+  },
+  {
+    "name": "Attachments",
+    "item_types": ["Armor Attachment", "Lightsaber Attachment", "Weapon Attachment"]
   },
   {
     "name": "Everything",

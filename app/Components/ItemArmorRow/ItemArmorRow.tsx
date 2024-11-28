@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, useColorScheme } from 'react-native';
 import { StyleSheet } from 'react-native';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Colors } from '@/constants/Colors';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemArmor } from '@/utils/diceroller';
@@ -36,6 +37,11 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                     paddingLeft: 8,
                 }}
             >
+
+                <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
+                    <MaterialCommunityIcons name="shield-outline" size={24} color={colors.iconColor} />
+                </View>
+
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[

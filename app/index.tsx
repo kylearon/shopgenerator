@@ -14,7 +14,8 @@ import SetbackDiceButtonRow from './Components/SetbackDiceButtonRow/SetbackDiceB
 import armor from '../data/armor.json';
 import weapons from '../data/weapons.json';
 import gear from '../data/gear.json';
-import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, rollForItems} from '../utils/diceroller'
+import attachments from '../data/item_attachments.json';
+import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollForItems} from '../utils/diceroller'
 import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { Colors } from '@/constants/Colors';
@@ -22,6 +23,7 @@ import { ThemedText } from '@/components/ThemedText';
 import ItemArmorRow from './Components/ItemArmorRow/ItemArmorRow';
 import ItemWeaponRow from './Components/ItemWeaponRow/ItemWeaponRow';
 import ItemGearRow from './Components/ItemGearRow/ItemGearRow';
+import ItemAttachmentRow from './Components/ItemAttachmentRow/ItemAttachmentRow';
 
 export default function HomeScreen() {
 
@@ -89,6 +91,8 @@ export default function HomeScreen() {
     const[shopWeaponsItemsToShow, setShopWeaponsItemsToShow] = useState<ItemWeapon[]>([]);
 
     const[shopGearItemsToShow, setShopGearItemsToShow] = useState<ItemGear[]>([]);
+
+    const[shopAttachmentsItemsToShow, setShopAttachmentsItemsToShow] = useState<ItemAttachment[]>([]);
     
 
     const onGenerateShop = () => {
@@ -111,6 +115,7 @@ export default function HomeScreen() {
             const armorToUse = armor.filter((item) => item.type === spec)
             const weaponsToUse = weapons.filter((item) => item.type === spec)
             const gearToUse = gear.filter((item) => item.type === spec)
+            const attachmentsToUse = attachments.filter((item) => item.type === spec)
 
             // items.push(...armorToUse)
             const transformedArmor = armorToUse.map((item) => ({
@@ -131,7 +136,13 @@ export default function HomeScreen() {
                 specializationBaseType: "gear"
             }));
 
-            itemPool.push(...transformedArmor, ...transformedWeapons, ...transformedGear);
+            const transformedAttachments = attachmentsToUse.map((item) => ({
+                key: item.key,
+                rarity: Number(item.rarity),
+                specializationBaseType: "attachments"
+            }));
+
+            itemPool.push(...transformedArmor, ...transformedWeapons, ...transformedGear, ...transformedAttachments);
         })
 
         console.log("num items in pool: " + itemPool.length)
@@ -156,13 +167,15 @@ export default function HomeScreen() {
         const shopArmorItems : ItemArmor[] = [];
         const shopWeaponsItems : ItemWeapon[] = [];
         const shopGearItems : ItemGear[] = [];
+        const shopAttachmentsItems : ItemAttachment[] = [];
 
         shopItemsKeyAndRarity.forEach(shopItem => {
             const poolItemToUse = itemPool.find((poolItem) => shopItem.key === poolItem.key);
 
             
-            weapons.find((item) => item.key === shopItem.key);
-            gear.find((item) => item.key === shopItem.key);
+            // armor.find((item) => item.key === shopItem.key);
+            // weapons.find((item) => item.key === shopItem.key);
+            // gear.find((item) => item.key === shopItem.key);
 
             if(poolItemToUse?.specializationBaseType == "armor") {
                 const armorToAdd:ItemArmor = armor.find((item) => item.key === shopItem.key) as ItemArmor;
@@ -176,11 +189,16 @@ export default function HomeScreen() {
                 const gearToAdd:ItemGear = gear.find((item) => item.key === shopItem.key) as ItemGear;
                 shopGearItems.push(gearToAdd);
             }
+            else if(poolItemToUse?.specializationBaseType == "attachments") {
+                const attachmentsToAdd:ItemAttachment = attachments.find((item) => item.key === shopItem.key) as ItemAttachment;
+                shopAttachmentsItems.push(attachmentsToAdd);
+            }
         });
 
         setShopArmorItemsToShow(shopArmorItems);
         setShopWeaponsItemsToShow(shopWeaponsItems);
         setShopGearItemsToShow(shopGearItems);
+        setShopAttachmentsItemsToShow(shopAttachmentsItems);
     };
 
     const onResetShop = () => {
@@ -199,6 +217,7 @@ export default function HomeScreen() {
         setShopArmorItemsToShow([]);
         setShopWeaponsItemsToShow([]);
         setShopGearItemsToShow([]);
+        setShopAttachmentsItemsToShow([]);
     };
 
 
@@ -215,7 +234,8 @@ export default function HomeScreen() {
                 {
                     shopArmorItemsToShow.length == 0 &&
                     shopWeaponsItemsToShow.length == 0 &&
-                    shopGearItemsToShow.length== 0
+                    shopGearItemsToShow.length == 0 &&
+                    shopAttachmentsItemsToShow.length == 0
                     ?
                     <View 
                         style={[
@@ -390,6 +410,9 @@ export default function HomeScreen() {
                         ))}
                         {shopGearItemsToShow.map((item) => (
                             <ItemGearRow key={`gear-${item.key}`} itemGearToShow={item} />
+                        ))}
+                        {shopAttachmentsItemsToShow.map((item) => (
+                            <ItemAttachmentRow key={`attachment-${item.key}`} itemAttachmentToShow={item} />
                         ))}
 
                     </View>

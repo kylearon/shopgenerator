@@ -90,6 +90,32 @@ export type ItemGear = {
     base_mods?: GearBaseMod[]; // Optional array of base modifications
 };
 
+export type Mod = {
+    count: string; // Number as a string
+    misc_desc: string; // Description of the modification
+};
+
+export type ItemAttachment = {
+    key: string; // Unique identifier
+    name: string; // Name of the attachment
+    description: string; // Description text
+    type: string; // Type of item (e.g., "Vehicle")
+    item_limit: string | null; // Nullable item limit
+    skill_limit: string | null; // Nullable skill limit
+    type_limit: string | null; // Nullable type limit
+    category_limit: string | null; // Nullable category limit
+    price: string; // Price as a string
+    rarity: string; // Rarity as a string
+    is_restricted: string; // Boolean as a string ("true"/"false")
+    hard_points: string; // Hard points as a string
+    jury_rigged: string; // Boolean as a string ("true"/"false")
+    base_mods?: Mod[]; // Optional array of base modifications
+    added_mods?: Mod[]; // Optional array of added modifications
+    max_size: string; // Maximum size as a string
+    sources: string[]; // Array of source strings
+    image_filename: string; // Filename of the item's image
+};
+
 
 function rollDice(
     abilityDice: number,
