@@ -19,6 +19,7 @@ import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollF
 import { useState } from 'react';
 import { useRouter } from 'expo-router';
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import { ThemedText } from '@/components/ThemedText';
 import ItemArmorRow from './Components/ItemArmorRow/ItemArmorRow';
 import ItemWeaponRow from './Components/ItemWeaponRow/ItemWeaponRow';
@@ -29,6 +30,7 @@ export default function HomeScreen() {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
     const router = useRouter();
 
@@ -223,11 +225,11 @@ export default function HomeScreen() {
 
     return (
 
-        <SafeAreaView style={styles.safeArea} >
+        <SafeAreaView style={localStyles.safeArea} >
 
             <ScrollView
                 contentInsetAdjustmentBehavior="automatic"
-                style={[{ flex: 1}]}>
+                style={[{ flex: 1, backgroundColor: colors.backgroundColor}]}>
 
                 <Header title={'SWRPG Shop Generator'}/>
 
@@ -244,6 +246,7 @@ export default function HomeScreen() {
                                 justifyContent: 'center',
                                 alignContent: 'center',
                                 marginTop: 8,
+                                backgroundColor: colors.backgroundColor
                             }]
                         }>
 
@@ -428,7 +431,7 @@ export default function HomeScreen() {
     );
 }
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
     titleContainer: {
         flexDirection: 'row',
         alignItems: 'center',
@@ -449,25 +452,5 @@ const styles = StyleSheet.create({
         flex: 1,
         paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
     },
-    rowRounded: {
-        marginLeft: 8,
-        marginRight: 8,
-        borderRadius: 12,
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },    
-    headerText: {
-        textAlign: 'center',
-        fontSize: 22,
-        fontWeight: 'bold',
-        padding: 4,
-    },
+
 });

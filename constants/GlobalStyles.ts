@@ -35,6 +35,14 @@ export const GlobalStyles = {
             alignItems: 'flex-end',   // right content on cross axis
         },
 
+        headerText: {
+            textAlign: 'center',
+            fontSize: 18,
+            fontWeight: 'bold',
+            padding: 4,
+        },
+
+
         rowRounded: {
             marginLeft: 4,
             marginRight: 4,
