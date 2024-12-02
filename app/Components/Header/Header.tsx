@@ -30,9 +30,9 @@ const styles = StyleSheet.create({
     },
     safeArea: {
         flex: 0,
-        backgroundColor: "#444444",
+        backgroundColor: "#fff",
         // paddingTop: Platform.OS === 'android' ? 25 : 0, // Additional padding for Android
-        borderWidth: 1,
+        borderWidth: 0,
         // borderColor: 'red', // Add a border to visualize the safe area
     },
     titleContainer: {
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
         gap: 8,
         paddingLeft: 8,
         paddingTop: 2,
-        paddingBottom: 2
+        paddingBottom: 2,
+        backgroundColor: '#fff'
     },
   });
