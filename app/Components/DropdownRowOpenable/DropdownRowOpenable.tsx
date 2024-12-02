@@ -82,9 +82,6 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
                         {
                             color: colors.textColor,
                             backgroundColor: colors.backgroundColorRow,
-                            padding: 6,
-                            marginTop: 6,
-                            marginBottom: 0,
                         }
                         ]}>
                             {title}
@@ -110,7 +107,7 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
                     title={type}
                     isToggled={toggledStates[type]}
                     onToggle={() => handleToggle(type)}
-                    width={180}
+                    width={320}
                     style={localStyles.buttonStyle}
                     toggledStyle={localStyles.buttonToggledStyle}
                 />
@@ -132,12 +129,13 @@ const localStyles = StyleSheet.create({
     },
     openableRowText: {
         textAlign: 'center',
-        fontSize: 20,
+        fontSize: 18,
         fontWeight: 'bold',
+        padding: 4
     },
 
     buttonStyle: {
-        padding: 10,
+        padding: 6,
         borderRadius: 8,
         borderWidth: 1,
         borderColor: "#4CAF50",
@@ -146,7 +144,7 @@ const localStyles = StyleSheet.create({
         margin: 6,
     },
     buttonToggledStyle: {
-        padding: 10,
+        padding: 6,
         borderRadius: 8,
         borderWidth: 2,
         alignItems: 'center',

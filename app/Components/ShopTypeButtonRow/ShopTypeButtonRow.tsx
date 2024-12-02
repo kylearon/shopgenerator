@@ -92,7 +92,7 @@ export default function ShopTypeButtonRow({onSelected, initialValue} : ShopTypeB
                         title={title}
                         isToggled={toggledButton === title}
                         onToggle={() => onToggle(title)}
-                        width={120}
+                        width={160}
                         style={localStyles.buttonStyle}
                     />
                 ))}
@@ -112,7 +112,7 @@ const localStyles = StyleSheet.create({
         fontWeight: 'normal',
     },
     buttonStyle: {
-        padding: 10,
+        padding: 6,
         borderRadius: 8,
         borderWidth: 2,
         borderColor: "#4CAF50",
@@ -121,7 +121,7 @@ const localStyles = StyleSheet.create({
         margin: 6,
     },
     buttonToggledStyle: {
-        padding: 10,
+        padding: 6,
         borderRadius: 8,
         borderWidth: 2,
         alignItems: 'center',

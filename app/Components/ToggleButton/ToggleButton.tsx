@@ -5,7 +5,7 @@ export interface ToggleButtonProps {
     title: string;
     isToggled: boolean; // Controlled by parent
     onToggle: () => void;
-    width: number;
+    width: any;
     style?: any; // Optional custom button styles
     toggledStyle?: any; // Optional custom button styles
     textStyle?: any; // Optional custom text styles
