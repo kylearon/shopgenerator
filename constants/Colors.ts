@@ -34,6 +34,8 @@ export const Colors = {
     boostDiceColor: '#0026ff',
     setbackDiceColor: '#000000',
     difficultyDiceColor: '#8400ff',
+    rarityDiceColor: '#777777',
+    numItemsDiceColor: '#777777',
 
     itemPriceColor: '#ffc628',
     
@@ -65,6 +67,8 @@ export const Colors = {
     boostDiceColor: '#0026ff',
     setbackDiceColor: '#000000',
     difficultyDiceColor: '#8400ff',
+    rarityDiceColor: '#777777',
+    numItemsDiceColor: '#777777',
 
     itemPriceColor: '#ffc628',
   },

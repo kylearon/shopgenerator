@@ -1,9 +1,12 @@
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
 
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+
+
 
 export interface DropdownRowOpenableProps {
     title: string;
@@ -16,10 +19,11 @@ export interface DropdownRowOpenableProps {
     disabled?: boolean;
 }
 
-export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, icon="tortoise", style, textStyle= styles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
+export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, icon="tortoise", style, textStyle= localStyles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
 
     const [isSubsectionOpen, setIsSubsectionOpen] = useState<boolean>(false);
@@ -51,7 +55,7 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
 
         <View style={[
             styles.centeredContainerFill,
-            styles.rowStyle,
+            localStyles.rowStyle,
             {
                 width: '100%'
             }
@@ -74,7 +78,7 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
                     </View>
 
                     <Text style={[
-                        styles.openableRowText,
+                        localStyles.openableRowText,
                         {
                             color: colors.textColor,
                             backgroundColor: colors.backgroundColorRow,
@@ -107,8 +111,8 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
                     isToggled={toggledStates[type]}
                     onToggle={() => handleToggle(type)}
                     width={180}
-                    style={styles.buttonStyle}
-                    toggledStyle={styles.buttonToggledStyle}
+                    style={localStyles.buttonStyle}
+                    toggledStyle={localStyles.buttonToggledStyle}
                 />
                 ))}
             </View>
@@ -120,7 +124,7 @@ export default function DropdownRowOpenable({title, distinctTypes, onPress, onIt
     );
 }
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
 
     buttonText: {
         color: 'white',
@@ -131,27 +135,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
     },
-    centeredContainerFill: {
-        flex: 1,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'center',     // center content horizontally
-    },
 
-    centeredContainerWrap: {
-        flex: 0,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'center',     // Center content horizontally
-    },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
     buttonStyle: {
         padding: 10,
         borderRadius: 8,

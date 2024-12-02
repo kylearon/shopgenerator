@@ -1,4 +1,5 @@
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
 import shops from '../../../data/shops.json';
@@ -13,10 +14,11 @@ export interface WeaponsDropdownRowOpenableProps {
     disabled?: boolean;
 }
 
-export default function WeaponsDropdownRowOpenable({title, onPress, style, textStyle= styles.buttonText, disabled = false} : WeaponsDropdownRowOpenableProps): JSX.Element {
+export default function WeaponsDropdownRowOpenable({title, onPress, style, textStyle= localStyles.buttonText, disabled = false} : WeaponsDropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
     //get distinct types from the weapons.json
     const distinctTypes = Array.from(new Set(weapons.map((item) => item.type)));
@@ -56,7 +58,7 @@ export default function WeaponsDropdownRowOpenable({title, onPress, style, textS
                 handleSelectOpenable()
             }}>
                 <Text style={[
-                    styles.openableRowText,
+                    localStyles.openableRowText,
                     {
                         width: '100%',
                         color: colors.textColor,
@@ -89,7 +91,7 @@ export default function WeaponsDropdownRowOpenable({title, onPress, style, textS
                     isToggled={toggledStates[type]}
                     onToggle={() => handleToggle(type)}
                     width={180}
-                    style={styles.buttonStyle}
+                    style={localStyles.buttonStyle}
                 />
                 ))}
             </View>
@@ -101,7 +103,7 @@ export default function WeaponsDropdownRowOpenable({title, onPress, style, textS
     );
 }
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
 
     buttonText: {
         color: 'white',
@@ -112,16 +114,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
     },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
+    
     buttonStyle: {
         padding: 10,
         borderRadius: 8,

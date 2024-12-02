@@ -3,6 +3,7 @@ import { View, Text, useColorScheme } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemArmor } from '@/utils/diceroller';
 
@@ -13,6 +14,7 @@ export interface ItemArmorRowProps {
 export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
 
     return (
@@ -45,7 +47,7 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[
-                            styles.headerText,
+                            localStyles.headerText,
                             {
                                 color: colors.textColor,
                             },
@@ -58,7 +60,7 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                 <View style={[styles.rightContainerFill, { marginRight: 8 }]}>
                     <Text
                         style={[
-                            styles.headerText,
+                            localStyles.headerText,
                             {
                                 color: colors.itemPriceColor,
                             },
@@ -181,59 +183,15 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
     );
 }
 
-const styles = StyleSheet.create({
-    rowRounded: {
-        marginLeft: 8,
-        marginRight: 8,
-        borderRadius: 12,
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },
-    rightContainerFill: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'flex-end',
-    },
-    rightContainerWrap: {
-        flex: 0,
-        justifyContent: 'center',
-        alignItems: 'flex-end',
-    },
+const localStyles = StyleSheet.create({
+    
     headerText: {
         textAlign: 'center',
         fontSize: 22,
         fontWeight: 'bold',
         padding: 4,
     },
-    statText: {
-        textAlign: 'center',
-        fontSize: 16,
-        fontWeight: 'bold',
-        padding: 2,
-        marginLeft: 4,
-        marginRight: 4,
-        borderRadius: 4,
-        borderWidth: 1,
-        width: 64,
-        borderColor: '#cccccc'
-    },
-    statTextNoBorder: {
-        textAlign: 'center',
-        fontSize: 14,
-        fontWeight: 'bold',
-        padding: 4,
-        marginLeft: 8,
-        marginRight: 8,
-        borderColor: '#cccccc'
-    },
+    
     buttonStyle: {
         padding: 10,
         borderRadius: 8,

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, useColorScheme } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
 export interface ItemNumberButtonRowProps {
@@ -12,6 +13,7 @@ export interface ItemNumberButtonRowProps {
 export default function ItemNumberButtonRow({onSelected, initialValue} : ItemNumberButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
     // State to track which button is toggled on
     const [toggledButton, setToggledButton] = useState<string>(String(initialValue));
@@ -39,17 +41,16 @@ export default function ItemNumberButtonRow({onSelected, initialValue} : ItemNum
             ]}
         >
             <View
-                style={{
-                    flexDirection: 'row',
-                    justifyContent: 'flex-start',
-                    marginTop: 4,
-                    paddingLeft: 8,
-                }}
+                style={[
+                    styles.rowTitleContainer,
+                    {
+                    }
+                ]}
             >
-                <View style={[styles.leftContainerWrap, { marginLeft: 20 }]}>
+                <View style={[styles.leftContainerWrap]}>
                     <Text
                         style={[
-                            styles.headerText,
+                            styles.rowHeaderText,
                             {
                                 color: colors.textColor,
                             },
@@ -62,13 +63,9 @@ export default function ItemNumberButtonRow({onSelected, initialValue} : ItemNum
 
             <View
                 style={[
-                    styles.leftContainerFill,
+                    styles.rowContentContainer,
                     {
-                        flexDirection: 'row',
-                        justifyContent: 'flex-start',
-                        marginLeft: 12,
-                        marginRight: 8,
-                    },
+                    }
                 ]}
             >
                 {['5', '10', '15', '20', '40', '80'].map((title) => (
@@ -78,8 +75,13 @@ export default function ItemNumberButtonRow({onSelected, initialValue} : ItemNum
                         isToggled={toggledButton === title}
                         onToggle={() => onToggle(title)}
                         width={50}
-                        style={styles.buttonStyle}
-                        toggledStyle={styles.buttonToggledStyle}
+                        style={[styles.buttonStyle, {
+                            borderColor: colors.numItemsDiceColor,
+                        }]}
+                        toggledStyle={[styles.buttonToggledStyle, {
+                            backgroundColor: colors.numItemsDiceColor,
+                            borderColor: colors.numItemsDiceColor,
+                        }]}
                     />
                 ))}
             </View>
@@ -87,46 +89,6 @@ export default function ItemNumberButtonRow({onSelected, initialValue} : ItemNum
     );
 }
 
-const styles = StyleSheet.create({
-    rowRounded: {
-        marginLeft: 8,
-        marginRight: 8,
-        borderRadius: 12,
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-    },
-    headerText: {
-        textAlign: 'center',
-        fontSize: 22,
-        fontWeight: 'bold',
-        padding: 4,
-    },
-    buttonStyle: {
-        padding: 10,
-        borderRadius: 8,
-        borderWidth: 2,
-        borderColor: "#777777",
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 6,
-    },
-    buttonToggledStyle: {
-        padding: 10,
-        borderRadius: 8,
-        borderWidth: 2,
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 6,
-
-        backgroundColor: '#777777',
-        borderColor: '#777777',
-    }
+const localStyles = StyleSheet.create({
+    
 });

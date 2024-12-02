@@ -1,4 +1,5 @@
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
 import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
 import shops from '../../../data/shops.json';
@@ -13,10 +14,11 @@ export interface EverythingDropdownRowOpenableProps {
     disabled?: boolean;
 }
 
-export default function EverythingDropdownRowOpenable({title, onPress, style, textStyle= styles.buttonText, disabled = false} : EverythingDropdownRowOpenableProps): JSX.Element {
+export default function EverythingDropdownRowOpenable({title, onPress, style, textStyle= localStyles.buttonText, disabled = false} : EverythingDropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
     //get distinct types from the gear.json
     const distinctTypes = Array.from(new Set(gear.map((item) => item.type)));
@@ -52,7 +54,7 @@ export default function EverythingDropdownRowOpenable({title, onPress, style, te
                 handleSelectOpenable()
             }}>
                 <Text style={[
-                    styles.openableRowText,
+                    localStyles.openableRowText,
                     {
                         width: '100%',
                         color: colors.textColor,
@@ -85,7 +87,7 @@ export default function EverythingDropdownRowOpenable({title, onPress, style, te
                     isToggled={toggledButton === type}
                     onToggle={() => onToggle(type)}
                     width={180}
-                    style={styles.buttonStyle}
+                    style={localStyles.buttonStyle}
                 />
                 ))}
             </View>
@@ -97,7 +99,7 @@ export default function EverythingDropdownRowOpenable({title, onPress, style, te
     );
 }
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
 
     buttonText: {
         color: 'white',
@@ -108,16 +110,7 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: 'bold',
     },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
+    
     buttonStyle: {
         padding: 10,
         borderRadius: 8,

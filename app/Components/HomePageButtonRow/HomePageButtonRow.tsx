@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import {View, Text, useColorScheme, TouchableOpacity, } from 'react-native';
 import { StyleSheet, Image, Platform, SafeAreaView } from 'react-native';
 import { Colors } from '@/constants/Colors';
+import { GlobalStyles } from '@/constants/GlobalStyles';
+
 
 export interface HomePageButtonRowProps {
     title: String,
@@ -14,6 +16,7 @@ export default function HomePageButtonRow({title, iconName, subText} : HomePageB
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
+    const styles = GlobalStyles['phone']
 
     const ICON_SIZE = 40;
 
@@ -58,7 +61,7 @@ export default function HomePageButtonRow({title, iconName, subText} : HomePageB
                     }
                     ]}>
                     <Text style={[
-                        styles.headerText,
+                        localStyles.headerText,
                         {
                             color: colors.textColor,
                         }
@@ -76,7 +79,7 @@ export default function HomePageButtonRow({title, iconName, subText} : HomePageB
                 }
                 ]}>
                 <Text style={[
-                    styles.homePageSubText,
+                    localStyles.homePageSubText,
                     {
                         color: colors.subTextColor,
                     }
@@ -91,7 +94,7 @@ export default function HomePageButtonRow({title, iconName, subText} : HomePageB
 
 
 
-const styles = StyleSheet.create({
+const localStyles = StyleSheet.create({
 
     centeredContainerWrap: {
         flex: 0,
@@ -103,17 +106,6 @@ const styles = StyleSheet.create({
         marginLeft: 8,
         marginRight: 8,
         borderRadius: 12,
-    },
-
-    leftContainerFill: {
-        flex: 1,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
-    },
-    leftContainerWrap: {
-        flex: 0,
-        justifyContent: 'center', // Center content vertically
-        alignItems: 'flex-start',     // left content horizontally
     },
 
     headerText: {
