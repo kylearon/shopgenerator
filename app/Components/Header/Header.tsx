@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     titleContainer: {
         flexDirection: 'row',
         gap: 8,
-        paddingLeft: 8,
+        paddingLeft: 12,
         paddingTop: 2,
         paddingBottom: 2,
         backgroundColor: '#fff'
