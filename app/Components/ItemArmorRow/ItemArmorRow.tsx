@@ -6,6 +6,7 @@ import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemArmor } from '@/utils/diceroller';
+import ItemStatBox from '../ItemStatBox/ItemStatBox';
 
 export interface ItemArmorRowProps {
     itemArmorToShow: ItemArmor;
@@ -27,10 +28,13 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                     alignContent: 'center',
                     backgroundColor: colors.backgroundColorRow,
                     marginTop: 8,
+                    marginLeft: 6,
+                    marginRight: 6,
                     paddingBottom: 8
                 },
             ]}
         >
+            
             <View
                 style={{
                     flexDirection: 'row',
@@ -41,26 +45,26 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
             >
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
-                    <MaterialCommunityIcons name="shield-outline" size={24} color={colors.iconColor} />
+                    <MaterialCommunityIcons name="shield-outline" size={24} color={colors.itemTypeColor} />
                 </View>
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.itemRowTypeText,
                             {
-                                color: colors.textColor,
+                                color: colors.itemTypeColor,
                             },
                         ]}
                     >
-                        {itemArmorToShow.name}
+                        {itemArmorToShow.type}
                     </Text>
                 </View>
 
                 <View style={[styles.rightContainerFill, { marginRight: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.headerText,
                             {
                                 color: colors.itemPriceColor,
                             },
@@ -75,77 +79,46 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                 style={{
                     flexDirection: 'row',
                     justifyContent: 'flex-start',
+                    marginTop: 0,
+                    paddingLeft: 8,
+                }}
+            >
+
+                <View style={[styles.centeredContainerFill, { }]}>
+                    <Text
+                        style={[
+                            styles.itemRowNameText,
+                            {
+                                color: colors.textColor,
+                            },
+                        ]}
+                    >
+                        {itemArmorToShow.name}
+                    </Text>
+                </View>
+
+            </View>
+
+            <View
+                style={{
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
                     marginTop: 4,
                     marginBottom: 4,
                     paddingLeft: 8,
                 }}
             >
+                
+                <ItemStatBox value={itemArmorToShow.defense} stat='Def'/>
 
-            
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemArmorToShow.soak} stat='Sok'/>
 
-                        },
-                    ]}
-                >
-                    {itemArmorToShow.defense} Def
-                </Text>
+                <ItemStatBox value={itemArmorToShow.encumbrance} stat='Enc'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemArmorToShow.hard_points} stat='HP'/>
 
-                        },
-                    ]}
-                >
-                    {itemArmorToShow.soak} Sok
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemArmorToShow.encumbrance} Enc
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemArmorToShow.hard_points} HP
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemArmorToShow.rarity} RAR
-                </Text>
+                <ItemStatBox value={itemArmorToShow.rarity} stat='Rar'/>
+               
             </View>
 
 

@@ -6,6 +6,7 @@ import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemGear } from '@/utils/diceroller';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import ItemStatBox from '../ItemStatBox/ItemStatBox';
 
 export interface ItemGearRowProps {
     itemGearToShow: ItemGear;
@@ -27,10 +28,13 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                     alignContent: 'center',
                     backgroundColor: colors.backgroundColorRow,
                     marginTop: 8,
+                    marginLeft: 6,
+                    marginRight: 6,
                     paddingBottom: 8
                 },
             ]}
         >
+
             <View
                 style={{
                     flexDirection: 'row',
@@ -39,27 +43,28 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                     paddingLeft: 8,
                 }}
             >
+
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
-                    <MaterialCommunityIcons name="bag-personal" size={24} color={colors.iconColor} />
+                    <MaterialCommunityIcons name="bag-personal" size={24} color={colors.itemTypeColor} />
                 </View>
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.itemRowTypeText,
                             {
-                                color: colors.textColor,
+                                color: colors.itemTypeColor,
                             },
                         ]}
                     >
-                        {itemGearToShow.name}
+                        {itemGearToShow.type}
                     </Text>
                 </View>
 
                 <View style={[styles.rightContainerFill, { marginRight: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.headerText,
                             {
                                 color: colors.itemPriceColor,
                             },
@@ -74,50 +79,42 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                 style={{
                     flexDirection: 'row',
                     justifyContent: 'flex-start',
+                    marginTop: 0,
+                    paddingLeft: 8,
+                }}
+            >
+
+                <View style={[styles.centeredContainerFill, { }]}>
+                    <Text
+                        style={[
+                            styles.itemRowNameText,
+                            {
+                                color: colors.textColor,
+                            },
+                        ]}
+                    >
+                        {itemGearToShow.name}
+                    </Text>
+                </View>
+
+            </View>
+
+            <View
+                style={{
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
                     marginTop: 4,
                     marginBottom: 4,
                     paddingLeft: 8,
                 }}
             >
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemGearToShow.encumbrance} stat='Enc'/>
 
-                        },
-                    ]}
-                >
-                    {itemGearToShow.encumbrance} Enc
-                </Text>
+                <ItemStatBox value={itemGearToShow.hard_points} stat='HP'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemGearToShow.rarity} stat='Rar'/>
 
-                        },
-                    ]}
-                >
-                    {itemGearToShow.hard_points} HP
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemGearToShow.rarity} RAR
-                </Text>
             </View>
 
             <View

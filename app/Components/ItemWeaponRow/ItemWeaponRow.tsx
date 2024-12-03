@@ -6,6 +6,7 @@ import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemWeapon } from '@/utils/diceroller';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import ItemStatBox from '../ItemStatBox/ItemStatBox';
 
 export interface ItemWeaponRowProps {
     itemWeaponToShow: ItemWeapon;
@@ -27,6 +28,8 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                     alignContent: 'center',
                     backgroundColor: colors.backgroundColorRow,
                     marginTop: 8,
+                    marginLeft: 6,
+                    marginRight: 6,
                     paddingBottom: 8
                 },
             ]}
@@ -41,26 +44,26 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
             >
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
-                    <MaterialCommunityIcons name="sword" size={24} color={colors.iconColor} />
+                    <MaterialCommunityIcons name="sword" size={24} color={colors.itemTypeColor} />
                 </View>
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.itemRowTypeText,
                             {
-                                color: colors.textColor,
+                                color: colors.itemTypeColor,
                             },
                         ]}
                     >
-                        {itemWeaponToShow.name}
+                        {itemWeaponToShow.type}
                     </Text>
                 </View>
 
                 <View style={[styles.rightContainerFill, { marginRight: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.headerText,
                             {
                                 color: colors.itemPriceColor,
                             },
@@ -75,90 +78,48 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                 style={{
                     flexDirection: 'row',
                     justifyContent: 'flex-start',
+                    marginTop: 0,
+                    paddingLeft: 8,
+                }}
+            >
+
+                <View style={[styles.centeredContainerFill, { }]}>
+                    <Text
+                        style={[
+                            styles.itemRowNameText,
+                            {
+                                color: colors.textColor,
+                            },
+                        ]}
+                    >
+                        {itemWeaponToShow.name}
+                    </Text>
+                </View>
+
+            </View>
+
+            <View
+                style={{
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
                     marginTop: 4,
                     marginBottom: 4,
                     paddingLeft: 8,
                 }}
             >
 
-            
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemWeaponToShow.damage} stat='Dmg'/>
 
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.damage} Dmg
-                </Text>
+                <ItemStatBox value={itemWeaponToShow.damage_add} stat='Add'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemWeaponToShow.crit} stat='Crt'/>
 
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.damage_add} Add
-                </Text>
+                <ItemStatBox value={itemWeaponToShow.encumbrance} stat='Enc'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemWeaponToShow.hard_points} stat='HP'/>
 
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.crit} Crt
-                </Text>
+                <ItemStatBox value={itemWeaponToShow.rarity} stat='RAR'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.encumbrance} Enc
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.hard_points} HP
-                </Text>
-
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.rarity} RAR
-                </Text>
             </View>
 
             {/* <Text
@@ -248,27 +209,4 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
 
 const localStyles = StyleSheet.create({
     
-    headerText: {
-        textAlign: 'center',
-        fontSize: 22,
-        fontWeight: 'bold',
-        padding: 4,
-    },
-    
-    buttonStyle: {
-        padding: 10,
-        borderRadius: 8,
-        borderWidth: 2,
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 6,
-    },
-    buttonToggledStyle: {
-        padding: 10,
-        borderRadius: 8,
-        borderWidth: 2,
-        alignItems: 'center',
-        justifyContent: 'center',
-        margin: 6,
-    }
 });

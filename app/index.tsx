@@ -401,7 +401,7 @@ export default function HomeScreen() {
                                     },
                                 ]}
                             >
-                                Raritry Modifier: {rarityModifier}  -  Num Items: {numberOfItems}
+                                Rarity Modifier: {rarityModifier}  -  Num Items: {numberOfItems}
                             </Text>
                         </View>
 

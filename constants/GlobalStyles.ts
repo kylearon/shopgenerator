@@ -72,15 +72,13 @@ export const GlobalStyles = {
         
         statText: {
             textAlign: 'center',
-            fontSize: 16,
+            fontSize: 12,
             fontWeight: 'bold',
-            padding: 2,
-            marginLeft: 4,
-            marginRight: 4,
+            padding: 0,
+            marginLeft: 2,
+            marginRight: 2,
             borderRadius: 4,
-            borderWidth: 1,
-            width: 64,
-            borderColor: '#cccccc'
+            width: 40,
         },
         statTextNoWidth: {
             textAlign: 'center',
@@ -103,6 +101,29 @@ export const GlobalStyles = {
             marginLeft: 8,
             marginRight: 8,
             borderColor: '#cccccc'
+        },
+
+        statTextContainer: {
+            flexDirection: 'column',
+            borderWidth: 1,
+            borderColor: '#cccccc',
+            margin: 2
+
+        },
+
+        itemRowTypeText: {
+            textAlign: 'center',
+            fontSize: 14,
+            fontWeight: 'bold',
+            padding: 4,
+            color: '#ccc'
+        },
+
+        itemRowNameText: {
+            textAlign: 'center',
+            fontSize: 18,
+            fontWeight: 'bold',
+            padding: 4,
         },
 
         buttonStyle: {

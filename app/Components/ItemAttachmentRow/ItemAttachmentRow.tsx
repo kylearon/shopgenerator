@@ -6,6 +6,7 @@ import { GlobalStyles } from '@/constants/GlobalStyles';
 import ToggleButton from '../ToggleButton/ToggleButton';
 import { ItemAttachment } from '@/utils/diceroller';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import ItemStatBox from '../ItemStatBox/ItemStatBox';
 
 export interface ItemAttachmentRowProps {
     itemAttachmentToShow: ItemAttachment;
@@ -27,10 +28,13 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
                     alignContent: 'center',
                     backgroundColor: colors.backgroundColorRow,
                     marginTop: 8,
+                    marginLeft: 6,
+                    marginRight: 6,
                     paddingBottom: 8
                 },
             ]}
         >
+
             <View
                 style={{
                     flexDirection: 'row',
@@ -41,26 +45,26 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
             >
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
-                    <MaterialCommunityIcons name="toy-brick-plus-outline" size={24} color={colors.iconColor} />
+                    <MaterialCommunityIcons name="toy-brick-plus-outline" size={24} color={colors.itemTypeColor} />
                 </View>
 
                 <View style={[styles.leftContainerWrap, { marginLeft: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.itemRowTypeText,
                             {
-                                color: colors.textColor,
+                                color: colors.itemTypeColor,
                             },
                         ]}
                     >
-                        {itemAttachmentToShow.name}
+                        {itemAttachmentToShow.type}
                     </Text>
                 </View>
 
                 <View style={[styles.rightContainerFill, { marginRight: 8 }]}>
                     <Text
                         style={[
-                            localStyles.headerText,
+                            styles.headerText,
                             {
                                 color: colors.itemPriceColor,
                             },
@@ -75,37 +79,40 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
                 style={{
                     flexDirection: 'row',
                     justifyContent: 'flex-start',
+                    marginTop: 0,
+                    paddingLeft: 8,
+                }}
+            >
+
+                <View style={[styles.centeredContainerFill, { }]}>
+                    <Text
+                        style={[
+                            styles.itemRowNameText,
+                            {
+                                color: colors.textColor,
+                            },
+                        ]}
+                    >
+                        {itemAttachmentToShow.name}
+                    </Text>
+                </View>
+
+            </View>
+
+            <View
+                style={{
+                    flexDirection: 'row',
+                    justifyContent: 'flex-start',
                     marginTop: 4,
                     marginBottom: 4,
                     paddingLeft: 8,
                 }}
             >
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
+                <ItemStatBox value={itemAttachmentToShow.hard_points} stat='HP'/>
 
-                        },
-                    ]}
-                >
-                    {itemAttachmentToShow.hard_points} HP
-                </Text>
+                <ItemStatBox value={itemAttachmentToShow.rarity} stat='rar'/>
 
-                <Text
-                    style={[
-                        styles.statText,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemAttachmentToShow.rarity} RAR
-                </Text>
             </View>
 
             <View
