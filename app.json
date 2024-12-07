@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-triumph.png",
+        "foregroundImage": "./assets/images/adaptive-triumph-v2.png",
         "backgroundColor": "#f0c807"
       },
       "package": "com.funtangles.ShopGenerator"
