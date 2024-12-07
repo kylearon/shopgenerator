@@ -121,7 +121,24 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                
             </View>
 
-
+            {
+                itemArmorToShow.details
+                ?
+                    <View style={[styles.leftContainerFill, { }]}>
+                        <Text
+                            style={[
+                                styles.itemRowDetailsText,
+                                {
+                                    color: colors.textColor,
+                                },
+                            ]}
+                        >
+                            {itemArmorToShow.details}
+                        </Text>
+                    </View>
+                :
+                <></>
+            }
 
             <View
                 style={[

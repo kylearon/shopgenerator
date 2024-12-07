@@ -115,6 +115,25 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
 
             </View>
 
+            {
+                itemAttachmentToShow.details
+                ?
+                    <View style={[styles.leftContainerFill, { }]}>
+                        <Text
+                            style={[
+                                styles.itemRowDetailsText,
+                                {
+                                    color: colors.textColor,
+                                },
+                            ]}
+                        >
+                            {itemAttachmentToShow.details}
+                        </Text>
+                    </View>
+                :
+                <></>
+            }
+
             <View
                 style={[
                     styles.leftContainerFill,

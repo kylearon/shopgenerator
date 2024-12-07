@@ -117,6 +117,25 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
 
             </View>
 
+            {
+                itemGearToShow.details
+                ?
+                    <View style={[styles.leftContainerFill, { }]}>
+                        <Text
+                            style={[
+                                styles.itemRowDetailsText,
+                                {
+                                    color: colors.textColor,
+                                },
+                            ]}
+                        >
+                            {itemGearToShow.details}
+                        </Text>
+                    </View>
+                :
+                <></>
+            }
+
             <View
                 style={[
                     styles.leftContainerFill,

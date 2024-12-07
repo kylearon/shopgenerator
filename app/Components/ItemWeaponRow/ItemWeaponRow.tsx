@@ -122,6 +122,27 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
 
             </View>
 
+            {
+                itemWeaponToShow.details
+                ?
+                    <View style={[styles.leftContainerFill, { }]}>
+                        <Text
+                            style={[
+                                styles.itemRowDetailsText,
+                                {
+                                    color: colors.textColor,
+                                    paddingLeft: 0,
+                                    marginBottom: 6
+                                },
+                            ]}
+                        >
+                            {itemWeaponToShow.details}
+                        </Text>
+                    </View>
+                :
+                <></>
+            }
+
             {/* <Text
                 style={[
                     styles.statTextNoBorder,

@@ -126,6 +126,24 @@ export const GlobalStyles = {
             padding: 4,
         },
 
+        itemRowDetailsText: {
+            textAlign: 'left',
+            fontSize: 12,
+            fontWeight: 'normal',
+            fontStyle: 'italic',
+            padding: 4,
+            marginLeft: 4,
+            marginRight: 4
+        },
+
+        itemRowDescriptionText: {
+            textAlign: 'center',
+            fontSize: 12,
+            fontWeight: 'bold',
+            padding: 4,
+        },
+
+
         buttonStyle: {
             padding: 6,
             borderRadius: 8,
