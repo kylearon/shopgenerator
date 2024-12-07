@@ -8,9 +8,10 @@ import ToggleButton from '../ToggleButton/ToggleButton';
 export interface NegotiationButtonRowProps {
     onSelected: (val: number) => void;
     initialValue: number;
+    currentShopType: string;
 }
 
-export default function NegotiationButtonRow({onSelected, initialValue} : NegotiationButtonRowProps): JSX.Element {
+export default function NegotiationButtonRow({onSelected, initialValue, currentShopType} : NegotiationButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
@@ -57,7 +58,7 @@ export default function NegotiationButtonRow({onSelected, initialValue} : Negoti
                             },
                         ]}
                     >
-                        Negotiation
+                        {currentShopType === 'On The Level' ? 'Negotiation' : 'Streetwise' }
                     </Text>
                 </View>
             </View>

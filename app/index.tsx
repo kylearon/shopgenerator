@@ -313,8 +313,8 @@ export default function HomeScreen() {
 
                         <SpecializationButtonRow onItemSelected={(val: string, selected: boolean) => onSpecializationSelected(val, selected)} isReset={isShopReset}/>
 
-                        <PresenceButtonRow onSelected={(val: number) => onPresenceSelected(val)} initialValue={presence}/>
-                        <NegotiationButtonRow onSelected={(val: number) => onNegotiationSelected(val)} initialValue={negotiation}/>
+                        <PresenceButtonRow onSelected={(val: number) => onPresenceSelected(val)} initialValue={presence} currentShopType={shopType}/>
+                        <NegotiationButtonRow onSelected={(val: number) => onNegotiationSelected(val)} initialValue={negotiation} currentShopType={shopType}/>
                         <BoostDiceButtonRow onSelected={(val: number) => onBoostDiceSelected(val)} initialValue={boostDice}/>
                         <SetbackDiceButtonRow onSelected={(val: number) => onSetbackDiceSelected(val)} initialValue={setbackDice}/>
                         <DifficultyDiceButtonRow onSelected={(val: number) => onDifficultyDiceSelected(val)} initialValue={difficultyDice}/>

@@ -8,15 +8,18 @@ import ToggleButton from '../ToggleButton/ToggleButton';
 export interface PresenceButtonRowProps {
     onSelected: (val: number) => void;
     initialValue: number;
+    currentShopType: string;
 }
 
-export default function PresenceButtonRow({onSelected, initialValue}:PresenceButtonRowProps): JSX.Element {
+export default function PresenceButtonRow({onSelected, initialValue, currentShopType}:PresenceButtonRowProps): JSX.Element {
     const isDarkMode = useColorScheme() === 'dark';
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
 
     // State to track which button is toggled on
     const [toggledButton, setToggledButton] = useState<string>(String(initialValue));
+
+    // const [shopType, setShopType] = useState<string>(currentShopType);
 
     useEffect(() => {
         setToggledButton(String(initialValue));
@@ -56,7 +59,7 @@ export default function PresenceButtonRow({onSelected, initialValue}:PresenceBut
                             },
                         ]}
                     >
-                        Presence
+                        {currentShopType === 'On The Level' ? 'Presence' : 'Cunning' }
                     </Text>
                 </View>
             </View>
