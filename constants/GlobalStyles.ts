@@ -137,12 +137,20 @@ export const GlobalStyles = {
         },
 
         itemRowDescriptionText: {
-            textAlign: 'center',
-            fontSize: 12,
+            textAlign: 'left',
+            fontSize: 11,
             fontWeight: 'bold',
             padding: 4,
+            marginLeft:4,
+            marginRight:4,
         },
 
+        itemRowMoreBarText: {
+            textAlign: 'center',
+            fontSize: 8,
+            fontWeight: 'bold',
+            padding: 0,
+        },
 
         buttonStyle: {
             padding: 6,

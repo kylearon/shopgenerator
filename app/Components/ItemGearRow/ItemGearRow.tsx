@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, useColorScheme } from 'react-native';
+import { View, Text, useColorScheme, TouchableOpacity } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
@@ -17,8 +17,21 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
     const colors = isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
 
+    const [isOpen, setIsOpen] = useState<boolean>(false);
+
+    const onPress = () => {
+        setIsOpen(!isOpen);
+    };
 
     return (
+
+        <TouchableOpacity 
+            style={[
+                {
+                }
+            ]} 
+            onPress={onPress}
+        >
         <View
             style={[
                 styles.rowRounded,
@@ -159,12 +172,71 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                 >
                     {itemGearToShow.type}
                 </Text>
-
-                
             </View>
 
+            {
+                !isOpen && itemGearToShow.description
+                ?
+                <View 
+                    style={[
+                        styles.rowRounded,
+                        {
+                            flexDirection: 'column',
+                            justifyContent: 'center',
+                            alignContent: 'center',
+                            backgroundColor: colors.backgroundColorRow,
+                            marginTop: 2,
+                            marginLeft: 8,
+                            marginRight: 8,
+                            borderWidth: 1,
+                            borderColor: colors.backgroundColor
+                        }]
+                    }>
+                    
+                    <Text
+                        style={[
+                            styles.itemRowMoreBarText,
+                            {
+                                color: colors.moreInfoColor,
+                            },
+                        ]}
+                    >
+                        more info
+                    </Text>
+                </View>
+                :
+                <></>
+            }
+
+            {
+                isOpen && itemGearToShow.description
+                ?
+                <View 
+                    style={[
+                        styles.leftContainerFill,
+                        styles.rowRounded,
+                        { 
+                            borderWidth: 1,
+                            borderColor: colors.backgroundColor
+                        }]
+                    }>
+                    <Text
+                        style={[
+                            styles.itemRowDescriptionText,
+                            {
+                                color: colors.textColor,
+                            },
+                        ]}
+                    >
+                        {itemGearToShow.description}
+                    </Text>
+                </View>
+                :
+                <></>
+            }
             
         </View>
+        </TouchableOpacity>
     );
 }
 

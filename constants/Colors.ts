@@ -39,7 +39,9 @@ export const Colors = {
     numItemsDiceColor: '#777777',
 
     itemPriceColor: '#ffc628',
-    itemTypeColor: '#777',
+    itemTypeColor: '#777777',
+
+    moreInfoColor: '#bbbbbb',
     
   },
   dark: {
@@ -74,6 +76,8 @@ export const Colors = {
     numItemsDiceColor: '#777777',
 
     itemPriceColor: '#ffc628',
-    itemTypeColor: '#777',
+    itemTypeColor: '#777777',
+
+    moreInfoColor: '#bbbbbb',
   },
 };
