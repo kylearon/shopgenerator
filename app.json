@@ -2,7 +2,7 @@
   "expo": {
     "name": "ShopGenerator",
     "slug": "ShopGenerator",
-    "version": "1.0.2",
+    "version": "0.0.3",
     "orientation": "portrait",
     "icon": "./assets/images/triumph.png",
     "scheme": "myapp",
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/adaptive-triumph.png",
         "backgroundColor": "#f0c807"
       },
-      "package": "com.aron.kyle.ShopGenerator"
+      "package": "com.funtangles.ShopGenerator"
     },
     "web": {
       "bundler": "metro",
@@ -32,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "662b0753-c415-464d-b9cf-b06e31ac632c"
+      }
     }
   }
 }
