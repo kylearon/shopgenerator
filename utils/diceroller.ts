@@ -81,8 +81,8 @@ export type GearBaseMod = {
 export type ItemGear = {
     key: string; // Unique identifier
     name: string; // Name of the gear
-    description: string; // Description text
-    details: string;
+    description?: string; // Description text
+    details?: string;
     reference: string;
     type: string; // Type of gear
     categories: string[]; // Array of categories, may be empty
