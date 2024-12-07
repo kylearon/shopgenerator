@@ -2,7 +2,9 @@
     {
         "key": "BLASTHOLD",
         "name": "Holdout Blaster",
-        "description": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
+	"description": "These blasters are exceptionally small pistols which are easily portable and hidden away. For this reason they have a decreased range.",
+	"details": "When an individual is attempting to find the concealed weapon, add one setback die to the roll.",
+        "reference": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -34,7 +36,9 @@
     {
         "key": "BLASTHOLDTT24",
         "name": "TT24 Holdout Blaster",
-        "description": "Please see page 26 of the Beyond the Rim Adventure Module for details.",
+	"description": "These blasters are exceptionally small pistols which are easily portable and hidden away. For this reason they have a decreased range.",
+	"details": "When an individual is attempting to find the concealed weapon, add one setback die to the roll.",
+        "reference": "Please see page 26 of the Beyond the Rim Adventure Module for details.",
         "skill_key": "RANGLT",
         "damage": "6",
         "crit": "3",
@@ -64,7 +68,9 @@
     {
         "key": "MILHOLDBLAST",
         "name": "Military Holdout Blaster",
-        "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
+	"description": "This small personal blaster is designed to be easily drawn, but also to blend in with one's clothing. Favoured among diplomats that may come across aggressive agents.",
+	"details": "Add 1 setback die to Perception checks to find the blaster. The weapon may run out of ammunition upon 3 Threat results.",
+        "reference": "Please see page 44 of the Desperate Allies Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -104,7 +110,9 @@
     {
         "key": "VARHOLDBLAST",
         "name": "Variable Holdout Blaster",
-        "description": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
+	"description": "A unique, locally produced holdout blaster manufactured on Ord Gimmel, the variable holdout blaster can switch between seven different power levels, potentially putting it on par with military holdout blasters.",
+	"details": "When firing the weapon, the pistol's wielder must choose a power setting between 1 and 7. This is the amount of damage a successful shot inflicts on a target, but it's also the amount of ammo that is consumed for the shot. If set to a power setting higher than the available ammo left, the weapon deals damage equal to the amount of ammo remaining. Add one setback dice to a character's Perception checks when attempting to find a variable holdout blaster on a person's body.",
+        "reference": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -145,7 +153,9 @@
     {
         "key": "QUICKFIRE",
         "name": "Model Q4 Quickfire",
-        "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
+	"description": "This unique holdout blaster uses a specialised power-pack that allows for a greater output than other houldouts. However, the pack cannot be replaced and must be recharged from a power-source.",
+	"details": "Add 1 setback dice to Perception checks when attempting to find the concealed weapon. If the weapon runs out of ammo due to a despair result, cannot be reloaded. Must take 10 minutes with a power-source to recharge it instead.",
+        "reference": "Please see page 40 of the Far Horizons Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -181,7 +191,9 @@
     {
         "key": "12DEFEND",
         "name": "12 Defender",
-        "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
+	"description": "This holdout blaster is described as a \"micro blaster\", one of the smallest blasters in the galaxy. It is designed for self-defense and concealment. They also typically lack distinguishing markings, making them hard to track.",
+	"details": "Add 2 setback dice to Computers and Perception checks to find the concealed weapon. May not be reloaded.",
+        "reference": "Please see page 40 of the Far Horizons Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -221,7 +233,9 @@
     {
         "key": "DEFSPBLAST",
         "name": "Defender Sporting Blaster Pistol",
-        "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
+	"description": "This pistol is commonly used by the Corporate Sector Authority, but is popular enough that it is often seen among the nobility and aristocracy.",
+	"details": "",
+        "reference": "Please see page 44 of the Desperate Allies Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -256,7 +270,9 @@
     {
         "key": "ELG3ABLAST",
         "name": "ELG-3A Blaster Pistol",
-        "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
+	"description": "A crossover weapon that occupied a unique niche between holdout blaster and light blaster pistol, the elegant ELG-3A is a SoroSuub Corporation design marketed to politicians and the wealthy, who demand both form and function.",
+	"details": "",
+        "reference": "Please see page 44 of the Desperate Allies Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -292,7 +308,9 @@
     {
         "key": "BLASTLT",
         "name": "Light Blaster Pistol",
-        "description": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
+	"description": "These are the lightest of blaster pistols, commonly found all over the galaxy as they are not highly regulated as larger and more powerful weapons.",
+	"details": "",
+        "reference": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -323,7 +341,9 @@
     {
         "key": "BLASTLTHL27",
         "name": "HL-27 Light Blaster Pistol",
-        "description": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
+	"description": "This is an example of the superior craftsmanship of Coronet Arms, balancing discretion and firepower in a tight package.",
+	"details": "",
+        "reference": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "3",
@@ -356,7 +376,9 @@
     {
         "key": "POCKPIS",
         "name": "Pocket Blaster Pistol",
-        "description": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
+	"description": "Manufactured on Talus and Tralus by Fed-Dub Protective Services, the Spukami is sold throughout the Corellian system as a home-defense weapon.",
+	"details": "When firing the Spukami at short range (or longer) the weapon gains the Inaccurate 1 quality. It does not gain this quality when fired at an engaged target. Add one setback die to a character's Perception checks when attempting to find a Spukami on a person's body.",
+        "reference": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "3",
@@ -385,7 +407,9 @@
     {
         "key": "BLASTPIS",
         "name": "Blaster Pistol",
-        "description": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
+	"description": "This is a common weapon found in the galaxy, light yet all that is necessary for self-defense in most cases.",
+	"details": "",
+        "reference": "Please see page 161 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -416,7 +440,9 @@
     {
         "key": "BLASTPISCDEF",
         "name": "CDEF Blaster Pistol",
-        "description": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
+	"description": "These pistols are a standard issue to CorSec officers by the CEC. They are relatively cheap and a basic design.",
+	"details": "",
+        "reference": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "4",
@@ -448,7 +474,9 @@
     {
         "key": "BLASTPISK23",
         "name": "Relby-K23 Blaster Pistol",
-        "description": "Please see page 12 of The Jewel of Yavin Adventure Module for details.",
+	"description": "Known for its low refraction index, which resulted in minimal beam dispersion when the blaster was fired. The beam produced by this blaster pistol inflicted excruciating pain upon beings who had the misfortune of being hit by it.",
+	"details": "",
+        "reference": "Please see page 12 of The Jewel of Yavin Adventure Module for details.",
         "skill_key": "RANGLT",
         "damage": "6",
         "crit": "3",
@@ -481,7 +509,9 @@
     {
         "key": "DUELPIS",
         "name": "Dueling Pistol",
-        "description": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
+	"description": "An ornate, long-bodied blaster pistol of impeccable craftsmanship, the Coronet Arms model is typical of dueling blasters, often custom ordered in pairs.",
+	"details": "",
+        "reference": "Please see page 94 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "9",
         "crit": "2",
@@ -519,7 +549,7 @@
     {
         "key": "BLASTPISXL2",
         "name": "XL-2 \"Flashfire\" Blaster Pistol",
-        "description": "Please see page 95 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 95 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "3",
@@ -552,7 +582,7 @@
     {
         "key": "BLASTPISH7",
         "name": "H-7 \"Equalizer\" Blaster Pistol",
-        "description": "Please see page 95 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 95 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "7",
         "crit": "2",
@@ -584,7 +614,8 @@
     {
         "key": "BLASTPISDR45",
         "name": "DR-45 \"Dragoon\" Cavalry Blaster",
-        "description": "Please see page 40 of the Stay on Target Sourcebook for details.",
+	"details": "Converting the DR-45 from a pistol to a carbine takes one maneuver and changes the weapon's combat skill from Ranged (Light) to Ranged (Heavy). Similarly, it takes one maneuver to convert the weapon back, restoring its combat skill to Ranged (Light).",
+        "reference": "Please see page 40 of the Stay on Target Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "8",
         "crit": "3",
@@ -619,7 +650,8 @@
     {
         "key": "BLASTCARBDR45",
         "name": "DR-45 \"Dragoon\" Cavalry Blaster (Carbine Mode)",
-        "description": "Please see page 40 of the Stay on Target Sourcebook for details.",
+	"details": "Converting the DR-45 from a pistol to a carbine takes one maneuver and changes the weapon's combat skill from Ranged (Light) to Ranged (Heavy). Similarly, it takes one maneuver to convert the weapon back, restoring its combat skill to Ranged (Light).",
+        "reference": "Please see page 40 of the Stay on Target Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "8",
         "crit": "3",
@@ -652,7 +684,8 @@
     {
         "key": "BLASTBOONTA",
         "name": "Boonta Blaster",
-        "description": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Characters add one setback die to Perception checks to realize a scepter is a Boonta Blaster. Remove one setback die from the wearer's Deception checks to explain away the weapon as purely ornamental or otherwise nonthreatening.",
+        "reference": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "6",
         "crit": "3",
@@ -691,7 +724,7 @@
     {
         "key": "BLASTATAPULSE",
         "name": "Greff-Timms ATA Pulse-Wave Blaster",
-        "description": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
+        "reference": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "3",
@@ -723,7 +756,7 @@
     {
         "key": "BLASTPISHVY",
         "name": "Heavy Blaster Pistol",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, page 174 of the Age of Rebellion Core Rulebook, or page 167 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -754,7 +787,7 @@
     {
         "key": "BLASTPISHVYGEO",
         "name": "Geonosian Heavy Blaster Pistol",
-        "description": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
+        "reference": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
         "skill_key": "RANGLT",
         "damage": "7",
         "crit": "2",
@@ -784,7 +817,8 @@
     {
         "key": "SECURITYS5",
         "name": "Security S-5 Heavy Blaster Pistol",
-        "description": "Please see page 43 of the Keeping the Peace sourcebook for details.",
+	"details": "As an action, a character may make an Average difficulty Ranged (Light) check to secure the grappling hook to an object within medium range. If the check is successful, on a subsequent turn as an action, they may reel in the cord, pulling themselves to the object (or, if the object is unsecured and lighter than they are, pulling it to them).",
+        "reference": "Please see page 43 of the Keeping the Peace sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -822,7 +856,7 @@
     {
         "key": "KO-2HSP",
         "name": "KO-2 Heavy Stun Pistol",
-        "description": "Please see page 42 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 42 of the Keeping the Peace sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -854,7 +888,7 @@
     {
         "key": "MODEL44BLASTPIST",
         "name": "Model 44 Blaster Pistol",
-        "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -889,7 +923,8 @@
     {
         "key": "MODEL80BLASTPIST",
         "name": "Model 80 Blaster Pistol",
-        "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
+	"details": "The time taken to draw, holster, stow, or otherwise access this weapon cannot be reduced by talents, gear, or any other means.",
+        "reference": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -932,7 +967,7 @@
     {
         "key": "IR5BLASTPIST",
         "name": "IR-5 \"Intimidator\" Blaster Pistol",
-        "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -970,7 +1005,7 @@
     {
         "key": "BLASTPISHVYCR2",
         "name": "CR-2 Heavy Blaster Pistol",
-        "description": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "7",
         "crit": "4",
@@ -999,7 +1034,8 @@
     {
         "key": "SITE145PISTOL",
         "name": "Site-145 Replica Blaster Pistol",
-        "description": "Please see page 43 of the Keeping the Peace sourcebook for details.      [P][I]The HP for this weapon should be used to attach a Force-attuned resonator attachment only.[i]",
+	"details": "Comes automatically with the 'Force-attuned resonator' attachment.",
+        "reference": "Please see page 43 of the Keeping the Peace sourcebook for details.      [P][I]The HP for this weapon should be used to attach a Force-attuned resonator attachment only.[i]",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -1031,7 +1067,7 @@
     {
         "key": "X30LANCER",
         "name": "x-30 Lancer",
-        "description": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
+        "reference": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -1068,7 +1104,8 @@
     {
         "key": "BLASTPISTDL19C",
         "name": "DL-19C Blaster Pistol",
-        "description": "Please see page 44 of the Special Modifications Sourcebook for details.",
+	"details": "When a character applies the Jury Rigged talent to this weapon, they may select one additional option from the talent's list and apply it to the weapon. The character cannot select the same option twice.",
+        "reference": "Please see page 44 of the Special Modifications Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -1104,7 +1141,8 @@
     {
         "key": "DL7HBLASTPISTHVY",
         "name": "DL-7h Heavy Blaster Pistol",
-        "description": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
+	"details": "May run out of ammo with 2 disadvantage results.",
+        "reference": "Please see page 41 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
@@ -1139,7 +1177,8 @@
     {
         "key": "BLASTPISHH50",
         "name": "HH-50 Heavy Blaster Pistol",
-        "description": "Please see page 41 of the Stay on Target Sourcebook for details.",
+	"details": "Rolling 2 disadvantages may cause the weapon to run out of ammunition. Rolling 3 disadvantages may cause the weapon to overheat.",
+        "reference": "Please see page 41 of the Stay on Target Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "7",
         "crit": "3",
@@ -1176,7 +1215,7 @@
     {
         "key": "SE14C",
         "name": "SE-14C Blaster Pistol",
-        "description": "Please see page 42 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 42 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol"
@@ -1206,7 +1245,7 @@
     {
         "key": "MONCALBAT",
         "name": "Mon Calamari Battle Baton",
-        "description": "Please see page 105 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 105 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "5",
         "crit": "4",
@@ -1233,7 +1272,8 @@
     {
         "key": "ENSLING",
         "name": "Energy Slingshot",
-        "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
+	"details": "Triggering the Disorient quality on this weapon requires one advantage result instead of two advantage results.",
+        "reference": "Please see page 102 of the Nexus of Power Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "3",
         "crit": "0",
@@ -1268,7 +1308,7 @@
     {
         "key": "BLASTCARB",
         "name": "Blaster Carbine",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, page 175 of the Age of Rebellion Core Rulebook, or page 168 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, page 175 of the Age of Rebellion Core Rulebook, or page 168 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -1299,7 +1339,7 @@
     {
         "key": "BLASTCARBGEO",
         "name": "Geonosian Blaster Carbine",
-        "description": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
+        "reference": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
         "skill_key": "RANGHVY",
         "damage": "9",
         "crit": "2",
@@ -1329,7 +1369,8 @@
     {
         "key": "OK98BLASTCARB",
         "name": "OK-98 Blaster Carbine",
-        "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
+	"details": "A character using an OK-98 can ignore the first \"out of ammo\" despair result during a combat, just as if they had an extra reload, without expending a maneuver. Modifying an OK-98 (requiring an Easy difficulty Mechanics check) increases its damage by two, replacing the option to ignore the first \"out of ammo\" result.",
+        "reference": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Carbine",
@@ -1367,7 +1408,8 @@
     {
         "key": "BLASTCARBE5",
         "name": "E5 Blaster Carbine",
-        "description": "Please see page 41 of the Stay on Target Sourcebook for details.",
+	"details": "GMs may spend three threat results or a despair result to force the E5 to overheat and damage itself one step.",
+        "reference": "Please see page 41 of the Stay on Target Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "9",
         "crit": "3",
@@ -1400,7 +1442,7 @@
     {
         "key": "BOLACARB",
         "name": "Bola Carbine",
-        "description": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "8",
         "crit": "3",
@@ -1434,7 +1476,7 @@
     {
         "key": "DLS12HBR",
         "name": "DLS-12 Heavy Blaster Carbine",
-        "description": "Please see page 42 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 42 of the Keeping the Peace sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -1471,7 +1513,7 @@
     {
         "key": "DH17",
         "name": "DH-17 Blaster Carbine",
-        "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 43 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [],
         "encumbrance": "2",
@@ -1503,7 +1545,7 @@
     {
         "key": "GALAAR15",
         "name": "GALAAR-15 Blaster Carbine",
-        "description": "Please see page 36 of the Friends Like These Adventure Module for details.",
+        "reference": "Please see page 36 of the Friends Like These Adventure Module for details.",
         "type": "Energy Weapon",
         "categories": [],
         "encumbrance": "3",
@@ -1532,7 +1574,7 @@
     {
         "key": "BLASTRIF",
         "name": "Blaster Rifle",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, page 175 of the Age of Rebellion Core Rulebook, or page 168 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, page 175 of the Age of Rebellion Core Rulebook, or page 168 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -1563,7 +1605,7 @@
     {
         "key": "BLASTRIFGEO",
         "name": "Geonosian Blaster Rifle",
-        "description": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
+        "reference": "Please see page 33 of the Long Arm of the Hutt Bonus Adventure for details.",
         "skill_key": "RANGHVY",
         "damage": "9",
         "crit": "2",
@@ -1593,7 +1635,7 @@
     {
         "key": "BLASTRIFSKZ",
         "name": "SKZ Sporting Blaster Rifle",
-        "description": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "8",
         "crit": "4",
@@ -1622,7 +1664,7 @@
     {
         "key": "BLASTLANCE",
         "name": "Weequay Blaster Lance",
-        "description": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
+        "reference": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "8",
         "crit": "3",
@@ -1658,7 +1700,8 @@
     {
         "key": "PULSECAN",
         "name": "Pulse Cannon",
-        "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
+	"details": "As a maneuver, a character wielding a pulse cannon may prime the weapon to expend all of its ammunition in a single, devastating shot. The next time the weapon is fired that encounter, it counts as having the Breach 1 and Vicious 3 qualities. After being discharged this way, the weapon runs out of ammunition.",
+        "reference": "Please see page 43 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Rifle"
@@ -1701,7 +1744,8 @@
     {
         "key": "BLASTRIFDDCMR6",
         "name": "DDC-MR6 Modular Rifle",
-        "description": "Please see page 44 of the Special Modifications Sourcebook for details.",
+	    "details": "A character may make an Average difficulty Mechanics check to add or remove an attachment to a DDC-MR6 as an action rather than spending the usual time required to remove an attachment.",
+        "reference": "Please see page 44 of the Special Modifications Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "3",
@@ -1737,7 +1781,7 @@
     {
         "key": "ACPREPEATER",
         "name": "ACP Repeater Gun",
-        "description": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
+        "reference": "Please see page 100 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "3",
@@ -1771,7 +1815,7 @@
     {
         "key": "ACPARRAYGUN",
         "name": "ACP Array Gun",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -1810,7 +1854,7 @@
     {
         "key": "SWE2SONIC",
         "name": "SWE/2 Sonic Rifle",
-        "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 40 of the Far Horizons Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Ranged",
@@ -1848,7 +1892,7 @@
     {
         "key": "BLASTRIFHVY",
         "name": "Heavy Blaster Rifle",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -1882,7 +1926,7 @@
     {
         "key": "DHXBLASTRIFHVY",
         "name": "DH-X Heavy Blaster Rifle",
-        "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Rifle",
@@ -1921,7 +1965,8 @@
     {
         "key": "A280",
         "name": "A280 Heavy Blaster Rifle",
-        "description": "Please see page 43 of the Forged in Battle Sourcebook for details.",
+	"details": "Characters may reduce the difficulty of Mechanics checks to repair a BlasTech A280C heavy blaster rifle by 1 (to a minimum of Simple difficulty).",
+        "reference": "Please see page 43 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Rifle"
@@ -1962,7 +2007,7 @@
     {
         "key": "E11SNIPER",
         "name": "E-11S Sniper Rifle",
-        "description": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
+        "reference": "Please see page 38 of the Enter the Unknown Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2008,7 +2053,7 @@
     {
         "key": "LBR9STUNRIFLE",
         "name": "LBR-9 Stun Rifle",
-        "description": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
+        "reference": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2045,7 +2090,8 @@
     {
         "key": "M300",
         "name": "M-300 Hunting Blaster",
-        "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
+	"details": "Reduce the difficulty of combat checks made with this weapon by one against targets at long or extreme range.",
+        "reference": "Please see page 40 of the Savage Spirits Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2092,7 +2138,8 @@
     {
         "key": "CR8",
         "name": "CR-8 Takedown Rifle",
-        "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
+	"details": "When a CR-8 is properly broken-down and concealed, add two setback dice to a character's Perception checks made to find it on a person's body.",
+        "reference": "Please see page 40 of the Savage Spirits Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2141,7 +2188,8 @@
     {
         "key": "NIGHTBOW",
         "name": "Nightsister Energy Bow",
-        "description": "Please see page 40 of the Savage Spirits Sourcebook for details.",
+	"details": "It can be folded and hidden away for easy concealment.",
+        "reference": "Please see page 40 of the Savage Spirits Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2181,7 +2229,7 @@
     {
         "key": "BLASTLTREP",
         "name": "Light Repeating Blaster",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -2218,7 +2266,7 @@
     {
         "key": "SE14RBLASTLTREP",
         "name": "SE-14r Light Repeating Blaster",
-        "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -2265,7 +2313,7 @@
     {
         "key": "SHUKUR05BLASTLTREP",
         "name": "SHUKUR-05 Light Repeater",
-        "description": "Please see page 49 of the Friends Like These Adventure Module for details.",
+        "reference": "Please see page 49 of the Friends Like These Adventure Module for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -2309,7 +2357,7 @@
     {
         "key": "BLASTHVYREP",
         "name": "Heavy Repeating Blaster",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -2350,7 +2398,7 @@
     {
         "key": "VXBLASTREP",
         "name": "VX \"Sidewinder\" Repeating Blaster",
-        "description": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 43 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -2395,7 +2443,8 @@
     {
         "key": "HOBBLASTREPHVY",
         "name": "HOB Heavy Repeating Blaster",
-        "description": "Please see page 44 of the Dangerous Covenants Sourcebook for details.",
+	"details": "The price of this weapon includes the price of a tripod and power pack. Setting up this tripod weapon requires the crew to spend two preparation maneuvers, plus two more for the tripod. Mechanics checks to repair a HOB gain one advantage result.",
+        "reference": "Please see page 44 of the Dangerous Covenants Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -2448,7 +2497,8 @@
     {
         "key": "Z6ROTBLASTCAN",
         "name": "Z-6 Rotary Blaster Cannon",
-        "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
+	"details": "This weapon can only be used with its Auto-fire item quality active. The GM may spend a despair result or two threat results from any combat check made with this weapon to have it overheat. When the weapon overheats, the wielder suffers 2 strain, and the weapon becomes damaged one step, from undamaged to minor, minor to moderate, or moderate to major.",
+        "reference": "Please see page 44 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -2495,7 +2545,8 @@
     {
         "key": "J10DUALBLASTCAN",
         "name": "J-10 Dual Blaster Cannon",
-        "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
+	    "details": "",
+        "reference": "Please see page 45 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery",
@@ -2539,7 +2590,8 @@
     {
         "key": "RECIPQUADBLASTCAN",
         "name": "Reciprocating Quad Blaster Cannon",
-        "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
+	"details": "This weapon can only be used in Auto-fire mode. The GM may spend a despair result or four threat results from a combat check with this weapon to have the wielder suffer a Critical Injury with -50 to the roll, to a minimum of one.",
+        "reference": "Please see page 45 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery",
@@ -2599,7 +2651,7 @@
     {
         "key": "D29REPULSOR",
         "name": "D-29 Repulsor Rifle",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "GUNN",
         "damage": "8",
         "crit": "4",
@@ -2636,7 +2688,7 @@
     {
         "key": "MONCALSPBLAST",
         "name": "Mon Calamari Spear Blaster (Blaster)",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.[P]      [I]For spear profile, add the \"Mon Calamari Spear Blaster (Spear) weapon.[i]",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.[P]      [I]For spear profile, add the \"Mon Calamari Spear Blaster (Spear) weapon.[i]",
         "skill_key": "RANGHVY",
         "damage": "8",
         "crit": "3",
@@ -2665,7 +2717,7 @@
     {
         "key": "MONCALSPBLASTSP",
         "name": "Mon Calamari Spear Blaster (Spear)",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.[P]      [I]For blaster profile, add the \"Mon Calamari Spear Blaster (Blaster) weapon.[i]",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.[P]      [I]For blaster profile, add the \"Mon Calamari Spear Blaster (Blaster) weapon.[i]",
         "skill_key": "MELEE",
         "damage_add": "2",
         "crit": "3",
@@ -2692,7 +2744,8 @@
     {
         "key": "ELECTPULSEDIS",
         "name": "Electromag-Pulse Disruptor",
-        "description": "Please see page 44 of the Special Modifications Sourcebook for details.",
+	"details": "Add two boost dice to any check the character makes to sabotage electronics or computers. Add a setback die to a character's Perception checks made to find this weapon on a person's body.",
+        "reference": "Please see page 44 of the Special Modifications Sourcebook for details.",
         "skill_key": "MELEE",
         "damage": "5",
         "crit": "4",
@@ -2731,7 +2784,8 @@
     {
         "key": "BOWCAST",
         "name": "Bowcaster",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook for details.",
+	"details": "Requires the user to spend a maneuver cocking the weapon before each shot.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook for details.",
         "skill_key": "RANGHVY",
         "damage": "10",
         "crit": "3",
@@ -2762,7 +2816,7 @@
     {
         "key": "KYUZOBOW",
         "name": "Kyuzo Energy Bow",
-        "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 44 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Ranged"
@@ -2797,7 +2851,7 @@
     {
         "key": "BLASTION",
         "name": "Ion Blaster",
-        "description": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 162 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -2829,7 +2883,8 @@
     {
         "key": "DROIDDIS",
         "name": "Droid Disruptor",
-        "description": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "Organics hit by the weapon suffer no damage from the weapon, but suffer 2 strain.",
+        "reference": "Please see page 104 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "6",
         "crit": "3",
@@ -2865,7 +2920,7 @@
     {
         "key": "DISRPIS",
         "name": "Disruptor Pistol",
-        "description": "Please see page 163 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 163 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -2895,7 +2950,7 @@
     {
         "key": "DISRRIF",
         "name": "Disruptor Rifle",
-        "description": "Please see page 163 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 163 of the Edge of the Empire Core Rulebook, or page 176 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -2929,7 +2984,8 @@
     {
         "key": "T7DISR ",
         "name": "T-7 Ion Disruptor",
-        "description": "Please see page 44 of the Forged in Battle Sourcebook for details.",
+	"details": "Like other disruptor weapons, T-7 ion disruptors may never benefit from upgrades or attachments that improve their range or grant multiple shots. Whenever a living target is hit with a T-7 ion disruptor, any Critical Injury results in a \"Crippled\" effect, unless the [Critical Injury roll] would result in a more grievous injury. Whenever a vehicle or starship is hit with a T-7 ion disruptor, any Critical Hit results in a \"Component Hit\" effect unless the Critical Hit roll results in a more serious effect.",
+        "reference": "Please see page 44 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -2986,7 +3042,7 @@
     {
         "key": "SLUGPIS",
         "name": "Slugthrower Pistol",
-        "description": "Please see page 164 of the Edge of the Empire Core Rulebook, page 177 of the Age of Rebellion Core Rulebook, or page 169 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 164 of the Edge of the Empire Core Rulebook, page 177 of the Age of Rebellion Core Rulebook, or page 169 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -3010,7 +3066,7 @@
     {
         "key": "SLUGPISASP9",
         "name": "ASP-9 \"Vrelt\" Autopistol",
-        "description": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 96 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "4",
         "crit": "5",
@@ -3037,7 +3093,7 @@
     {
         "key": "FIVERSLUGPIST",
         "name": "Model C \"Fiver\" Pistol",
-        "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Pistol",
@@ -3074,7 +3130,8 @@
     {
         "key": "SLUGKD30",
         "name": "KD-30 \"Dissuader\" Pistol",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Target struck by a round from this weapon suffers 1 wound ignoring soak at the beginning of their turn for 2 rounds.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "4",
         "crit": "5",
@@ -3112,7 +3169,8 @@
     {
         "key": "STEALTH2VX",
         "name": "Stealth-2VX Palm Shooter",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Each dart can be loaded with one dose of neurotoxin, anesthetic, neuroparalytic, or any other poison the GM deems appropriate. Whenever the wielder successfully attack a target with the weapon (whether or not they deal damage), the target also suffers the effects of being exposed to the poison.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGLT",
         "damage": "1",
         "crit": "5",
@@ -3146,7 +3204,8 @@
     {
         "key": "SH9",
         "name": "SH-9 Slugthrower Pistol",
-        "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
+	"details": "Add one setback die to Perception checks to find an SH-9 slughthrower pistol on a person's body. Add a setback die to Perception and Vigilance checks made to locate a concealed shooter firing an SH-9 slugthrower pistol.",
+        "reference": "Please see page 46 of the Forged in Battle Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Pistol",
@@ -3187,7 +3246,7 @@
     {
         "key": "VODRANRIFLE",
         "name": "Vodran Hunting Rifle",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "4",
@@ -3216,7 +3275,7 @@
     {
         "key": "SLUGRIF",
         "name": "Slugthrower Rifle",
-        "description": "Please see page 164 of the Edge of the Empire Core Rulebook, page 177 of the Age of Rebellion Core Rulebook, or page 169 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 164 of the Edge of the Empire Core Rulebook, page 177 of the Age of Rebellion Core Rulebook, or page 169 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -3246,7 +3305,7 @@
     {
         "key": "SLUGRIFMKV",
         "name": "Mark V \"Sand Panther\" Hunting Rifle",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "5",
@@ -3278,7 +3337,8 @@
     {
         "key": "ASSAULTSLUGCARB",
         "name": "FYR Assault Carbine",
-        "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
+	"details": "The GM may spend two threat results or a despair result to cause a PC's Fyr assault carbine to run out of ammo.",
+        "reference": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3323,7 +3383,7 @@
     {
         "key": "SLUGRIFSELSHARD",
         "name": "Selonian Shard Shooter",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "5",
         "crit": "3",
@@ -3354,7 +3414,8 @@
     {
         "key": "MODEL77",
         "name": "Model 77 Air Rifle",
-        "description": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
+	"details": "Upon a successful hit with a SmartTranq dart, the target must immediately make an Average difficulty Resilience check. On failure, the target suffers 5 strain, plus 2 additional strain per threat result generated on the check. The Game Master may spend a despair result from the check to cause the target to repeat the check against the tranquilizer with the difficulty increased once at the beginning of the following round. Equipping a Model 77 with SmartTranq darts costs 500 credits; this modification has a rarity of 1. This does not change the weapon's profile—it simply adds the effects detailed above to the existing weapon. If it ever runs out of ammo, the user must purchase an additional reload at 500 credits (rarity 1) to use the SmartTranq.",
+        "reference": "Please see page 39 of the Enter the Unknown Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3389,7 +3450,8 @@
     {
         "key": "MODEL38",
         "name": "Model 38 Sharpshooter's Rifle",
-        "description": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
+	"details": "If purchased used, a Czerka Model 38 loses the Accurate 2 quality until the rifle can be modified to fit the new shooter (requiring a Hard difficulty Mechanics check).",
+        "reference": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3424,7 +3486,7 @@
     {
         "key": "MODEL38DET",
         "name": "Model 38 Sharpshooter's Rifle (Detonator Round)",
-        "description": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
+        "reference": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3463,7 +3525,7 @@
     {
         "key": "HAMMER",
         "name": "KS-23 Hammer",
-        "description": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
+        "reference": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Carbine",
@@ -3498,7 +3560,7 @@
     {
         "key": "DFD1",
         "name": "DF-D1 Duo-Flechette Rifle",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3540,7 +3602,8 @@
     {
         "key": "VERPSHATPIS",
         "name": "Verpine Shatter Pistol",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "While a character wields a shatter gun, any combat checks they make that generates two threat results or a despair result damages the weapon by one step.",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Pistol",
@@ -3573,7 +3636,8 @@
     {
         "key": "VERPSHATRIF",
         "name": "Verpine Shatter Rifle",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "While a character wields a shatter gun, any combat checks they make that generates two threat results or a despair result damages the weapon by one step.",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3606,7 +3670,8 @@
     {
         "key": "VERPSHATHVYRIF",
         "name": "Verpine Heavy Shatter Rifle",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "While a character wields a shatter gun, any combat checks they make that generates two threat results or a despair result damages the weapon by one step.",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -3644,7 +3709,8 @@
     {
         "key": "MODEL57",
         "name": "Model 57 \"Homesteader\" Hunting Rifle",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+	"details": "Czerka produces a number of specialty ammunitions for use with its precision rifle lines, one of the most popular of which are the Detonator rounds. [...] When loaded in its Model 57 \"Homesteader\" rifle, these rounds have the following effect on the weapon's profile: Add the Blast (4) and Knockdown item qualities. Detonator rounds cost 450 credits per box and have a rarity of 7. If the weapon ever runs out of ammo, a new box of rounds must be purchased to load it.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "5",
@@ -3677,7 +3743,8 @@
     {
         "key": "MODEL57DET",
         "name": "Model 57 \"Homesteader\" Hunting Rifle (Detonator)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+	"details": "Czerka produces a number of specialty ammunitions for use with its precision rifle lines, one of the most popular of which are the Detonator rounds. [...] When loaded in its Model 57 \"Homesteader\" rifle, these rounds have the following effect on the weapon's profile: Add the Blast (4) and Knockdown item qualities. Detonator rounds cost 450 credits per box and have a rarity of 7. If the weapon ever runs out of ammo, a new box of rounds must be purchased to load it.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "7",
         "crit": "5",
@@ -3717,7 +3784,7 @@
     {
         "key": "BERSERKERRIF",
         "name": "Berserker Rifle",
-        "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 46 of the Forged in Battle Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Ranged",
@@ -3753,7 +3820,8 @@
     {
         "key": "HEAVYREPEATER",
         "name": "Imperial Heavy Repeater",
-        "description": "Please see page 46 of the Forged in Battle Sourcebook for details.",
+	"details": "As a maneuver, a character wielding an Imperial heavy repeater may prime the weapon to expend all of its ammunition in a single, devastating burst. The next time the weapon is fired this encounter, it counts as having the Blast 7 and Concussive 1 qualities, but does not count as having the Auto-fire quality. After being discharged this way, the weapon runs out of ammunition.",
+        "reference": "Please see page 46 of the Forged in Battle Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Ranged",
@@ -3791,7 +3859,8 @@
     {
         "key": "BOLA",
         "name": "Bola/Net",
-        "description": "Please see page 164 of the Edge of the Empire Core Rulebook for details.",
+	"details": "A triumph result ensures target is entangled and may not make any maneuvers. Target must use an action and pass a Formidable (5 difficulty) Athletics check to escape.",
+        "reference": "Please see page 164 of the Edge of the Empire Core Rulebook for details.",
         "skill_key": "RANGLT",
         "damage": "2",
         "crit": "0",
@@ -3822,7 +3891,7 @@
     {
         "key": "ELECTRONET",
         "name": "Electronet",
-        "description": "Please see page 44 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 44 of the Keeping the Peace sourcebook for details.",
         "type": "Thrown",
         "categories": [],
         "encumbrance": "2",
@@ -3861,7 +3930,8 @@
     {
         "key": "FLAME",
         "name": "Flame Projector",
-        "description": "Please see page 165 of the Edge of the Empire Core Rulebook, or page 178 of the Age of Rebellion Core Rulebook, for details.",
+	"details": "Thanks to their broad reach, flame projectors can easily catch multiple targets in a single blast. When triggering a flame projector's Burn quality, the user may choose to apply it to any single target hit by the attack; this quality may be triggered multiple times, affecting a different target each time. The downside to this weapon's volatility and indiscriminate area of effect is that allies can easily be caught in its flames. Game Masters may spend two threat results or a despair result to apply a flame projector's Burn quality to an ally hit by the original attack.",
+        "reference": "Please see page 165 of the Edge of the Empire Core Rulebook, or page 178 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -3893,7 +3963,8 @@
     {
         "key": "MISS",
         "name": "Missile Tube",
-        "description": "Please see page 165 of the Edge of the Empire Core Rulebook, page 178 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
+	"details": "Additional ammo for a missile tube costs 500 credits per rack of six. Other missiles may be substituted for the standard type, replacing the damage, critical rating, range, and special qualities with that of the alternate missile. Alternate missiles may be purchased for their listed price.",
+        "reference": "Please see page 165 of the Edge of the Empire Core Rulebook, page 178 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -3944,7 +4015,8 @@
     {
         "key": "L70ACID",
         "name": "L70 Acid Projector",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Acid projectors operate similarly to flame projectors, spraying targets in a narrow cone. When triggering the weapon's Burn quality, the user may choose to apply it to any one target hit by the attack; this quality may be triggered multiple times, affecting a different target each time. The GM can spend two threat results or a despair result to apply the weapon's Burn quality to an ally hit by the original attack. Since the burn is chemical in nature, the Burn damage cannot be stopped by rolling around on the ground or jumping into water.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "skill_key": "RANGHVY",
         "damage": "6",
         "crit": "2",
@@ -3990,7 +4062,7 @@
     {
         "key": "NETGUN",
         "name": "AO14 \"Aranea\" Net Gun",
-        "description": "Please see page 42 of the Enter the Unknown Sourcebook, or page 41 of the Savage Spirits Sourcebook, for details.",
+        "reference": "Please see page 42 of the Enter the Unknown Sourcebook, or page 41 of the Savage Spirits Sourcebook, for details.",
         "sources": [
             "Enter the Unknown",
             "Savage Spirits"
@@ -4022,7 +4094,7 @@
     {
         "key": "ELECTRONETLAUNCHER",
         "name": "Electronet Launcher",
-        "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
+        "reference": "Please see page 60 of the Friends Like These Adventure Module for details.",
         "sources": ["Friends Like These"],
         "type": "Explosives/Other",
         "categories": [
@@ -4050,7 +4122,7 @@
     {
         "key": "STOKHLI",
         "name": "Stokhli Spray Stick",
-        "description": "Please see page 41 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 41 of the Far Horizons Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -4094,7 +4166,8 @@
     {
         "key": "RIOTRIFLE",
         "name": "R-88 Supressor Riot Rifle",
-        "description": "Please see page 40 of the Far Horizons Sourcebook for details.",
+	"details": "While the stun fluid is effective against sudden riots, other disturbances, and even rodent infestations, it is easily countered by breath masks and heavy clothing. This makes it less effective against determined, well-organized targets expecting such weapons. At the GM's discretion, characters wearing breathing gear or sealed armor may ignore the R-88's damage and effects.",
+        "reference": "Please see page 40 of the Far Horizons Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4132,7 +4205,7 @@
     {
         "key": "TANGLEGUN",
         "name": "Tangle Gun",
-        "description": "Please see page 41 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 41 of the Far Horizons Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4163,7 +4236,8 @@
     {
         "key": "FRAGGR",
         "name": "Frag Grenade",
-        "description": "Please see page 165 of the Edge of the Empire Core Rulebook, page 178 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
+	"details": "Frag grenades can be set to detonate on impact or set with a timer to detonate up to three rounds after being activated at the beginning of the attacker's action. Some also have a dead man's pressure switch that, once pressed, detonates immediately upon release.",
+        "reference": "Please see page 165 of the Edge of the Empire Core Rulebook, page 178 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -4197,7 +4271,8 @@
     {
         "key": "STUNGR",
         "name": "Stun Grenade",
-        "description": "Please see page 165 of the Edge of the Empire Core Rulebook, page 179 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
+	"details": "They can be set to detonate on impact or in 3 rounds.",
+        "reference": "Please see page 165 of the Edge of the Empire Core Rulebook, page 179 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -4238,7 +4313,8 @@
     {
         "key": "THERMDET",
         "name": "Thermal Detonator",
-        "description": "Please see page 165 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
+	"details": "Any despair result on a check involving a thermal detonator means that the device explodes prematurely. If this should occur, the wielder takes full damage from the weapon unless they have a maneuver with which they can attempt to avoid the blast. If this is the case, the wielder takes only the Blast damage from the explosion. Thermal detonators can be set to detonate on impact or after a delay of up to three rounds using the built-in timer. When used in delay mode, the thermal detonator explodes at the beginning of the attacker's turn when it reaches its set time. In addition, most thermal detonators are equipped with a dead man's switch similar to that on frag grenades. Finally, thermal detonators are so potent that their Blast quality affects everyone and everything within short range of its intended target.",
+        "reference": "Please see page 165 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 170 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -4281,7 +4357,8 @@
     {
         "key": "THERMDETMINI",
         "name": "Mini Thermal Detonator",
-        "description": "Please see page 36 of the Under a Black Sun adventure for details.",
+	"details": "Any despair result on a check involving a thermal detonator means that the device explodes prematurely. If this should occur, the wielder takes full damage from the weapon unless they have a maneuver with which they can attempt to avoid the blast. If this is the case, the wielder takes only the Blast damage from the explosion. Thermal detonators can be set to detonate on impact or after a delay of up to three rounds using the built-in timer. When used in delay mode, the thermal detonator explodes at the beginning of the attacker's turn when it reaches its set time. In addition, most thermal detonators are equipped with a dead man's switch similar to that on frag grenades. Finally, thermal detonators are so potent that their Blast quality affects everyone and everything within short range of its intended target.",
+        "reference": "Please see page 36 of the Under a Black Sun adventure for details.",
         "skill_key": "RANGLT",
         "damage": "12",
         "crit": "2",
@@ -4310,7 +4387,8 @@
     {
         "key": "APGREN",
         "name": "Armor Piercing Grenade",
-        "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
+	"details": "Armor-piercing grenades can be set to detonate on impact, can be set with a timer to detonate up to three rounds after being activated, or can use a pressure detonator.",
+        "reference": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4349,7 +4427,7 @@
     {
         "key": "N4NOISEGREN",
         "name": "N-4 Noise Grenade",
-        "description": "Please see page 44 of the Desperate Allies Sourcebook for details.",
+        "reference": "Please see page 44 of the Desperate Allies Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4389,7 +4467,8 @@
     {
         "key": "WIPE3GREN",
         "name": "Wipe-3 Data-Purge Grenade",
-        "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
+	"details": "Any computer or similar device hit by a data-purge grenade loses all programming, memory, and any other kind of electronically stored data but remains otherwise undamaged. A droid hit by a data-purge grenade must succeed on a Hard difficulty Resilience check or suffer 1 strain, plus 1 additional strain per failure result. At the GM's discretion, three threat results or a despair result on the check can cause the droid to lose portions of its memory.",
+        "reference": "Please see page 45 of the Desperate Allies Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4429,7 +4508,8 @@
     {
         "key": "HICMERCYGREN",
         "name": "HIC \"Mercy\" Grenade",
-        "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
+	"details": "A character hit by a Mercy grenade must make a Hard difficulty Resilience check to avoid having an incomplete or inaccurate memory of events that transpire during that encounter. Additionally, they become disoriented for one round per threat result on the check.",
+        "reference": "Please see page 45 of the Desperate Allies Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4471,7 +4551,8 @@
     {
         "key": "SPOREBSTUNGREN",
         "name": "Spore/B Stun Grenade",
-        "description": "Please see page 107 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "When hit by the weapon (regardless of damage) for the first time, target must roll a single challenge die. Upon a despair result, suffer 6 strain and begin to suffocate. Hard (3 difficulty) Medicine check is required to stop the subject from suffocating. Weapon is ineffective against targets with a breathing mask or sealed suit.",
+        "reference": "Please see page 107 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4517,7 +4598,7 @@
     {
         "key": "AVMINE",
         "name": "Anti-Vehicle Mine",
-        "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
+        "reference": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Mine"
@@ -4556,7 +4637,7 @@
     {
         "key": "APMINE",
         "name": "Anti-Personnel Mine",
-        "description": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
+        "reference": "Please see page 179 of the Age of Rebellion Core Rulebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Mine"
@@ -4595,7 +4676,8 @@
     {
         "key": "KNOCKMINE",
         "name": "Knockout Mine",
-        "description": "Please see page 45 of the Desperate Allies Sourcebook for details.",
+	"details": "Characters hit by the mine must pass a Hard (3 difficulty) Resilience check. Upon failure they become immobilized until the end of the encounter.",
+        "reference": "Please see page 45 of the Desperate Allies Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Mine"
@@ -4626,7 +4708,8 @@
     {
         "key": "GLOPGRND",
         "name": "Glop Grenade",
-        "description": "Please see page 42 of the Enter the Unknown Sourcebook for details.",
+	"details": "A glop grenade's Ensnare quality triggers automatically on any targets the weapon hits, with no need to spend advantage results. While glop grenades are ostensibly nonlethal, accidents do happen, and they have been known to cause death due to suffocation or, in extremely rare cases, allergic reaction. Targets hit with a glop grenade must make an Easy difficulty Coordination check to keep the foam from filling their breathing passages. Failure indicates that the foam has cut off the target's air, and they immediately suffer the effects of suffocation.",
+        "reference": "Please see page 42 of the Enter the Unknown Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4661,7 +4744,7 @@
     {
         "key": "INFERGREND",
         "name": "D-24 Inferno Grenade",
-        "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4701,7 +4784,8 @@
     {
         "key": "CONCGREND",
         "name": "G2 Concussion Grenade",
-        "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
+	"details": "If a concussion grenade's Disorient quality is activated it affects all characters within short range of the target.",
+        "reference": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4754,7 +4838,7 @@
     {
         "key": "IONGREND",
         "name": "Lightning 22 Ion Grenade",
-        "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4798,7 +4882,7 @@
     {
         "key": "PLASGREND",
         "name": "NOVA40 Plasma Grenade",
-        "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4834,7 +4918,7 @@
     {
         "key": "HVYFRGGREND",
         "name": "Mk.4 Heavy Frag Grenade",
-        "description": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 46 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -4874,7 +4958,8 @@
     {
         "key": "POISONGR",
         "name": "Poison Gas Grenade",
-        "description": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Upon impact, the grenade uses several emitters to spray aerosolized neurotoxin, anesthetic, neuroparalytic, or any other poison at the GM's discretion. Unless a poison gas grenade is used outdoors in a windy environment, the poison gas lingers for two rounds, affecting anyone caught in the cloud. If the grenade is detonated in a closed, poorly ventilated space, such as a small room or narrow starship corridor, the gas lingers for five rounds instead. Poison gas grenades do not harm droids and other creatures that do not breathe air. Characters equipped with vacuum-sealed suits, breath masks, respirators, or rebreathers are also unaffected by poison gas, at the GM's discretion.",
+        "reference": "Please see page 102 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [
             "Ranged",
             "Grenade"
@@ -4920,7 +5005,7 @@
     {
         "key": "SHAPEDTHERMALGREN",
         "name": "Shaped Thermal Grenade",
-        "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 47 of the Forged in Battle Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Grenade",
@@ -4956,7 +5041,8 @@
     {
         "key": "CSPL12GREN",
         "name": "CSPL-12 Projectile Launcher (Frag Grenade)",
-        "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
+	"details": "The GM may spend a despair result from a combat check with this weapon to cause it to jam, detonating and inflicting a hit from the loaded grenade on the wielder and every other character at engaged range. Further, the weapon becomes damaged two steps; from undamaged to Moderate, from Minor to Major, or Moderate to Major. The GM may spend additional despair results to trigger one of the loaded grenade's qualities.",
+        "reference": "Please see page 47 of the Forged in Battle Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -4994,7 +5080,7 @@
     {
         "key": "LJ50CONCRIF",
         "name": "LJ-50 Concussion Rifle",
-        "description": "Please see page 47 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 47 of the Forged in Battle Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Rifle",
@@ -5038,7 +5124,8 @@
     {
         "key": "CONCMISSILEMK10",
         "name": "Mk.10 Concussion Missile",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+	"details": "When a concussion missile's Disorient quality is activated, it affects all characters within short range of the target. If the Concussive quality is activated, it affects all characters engaged with the target.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
@@ -5091,7 +5178,7 @@
     {
         "key": "FRAGMISSILEC88",
         "name": "C-88 Fragmentation Missile",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
@@ -5127,7 +5214,7 @@
     {
         "key": "PLASMISSILESK44",
         "name": "SK-44 Plasma Missile",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
@@ -5167,7 +5254,7 @@
     {
         "key": "INCENMISSILEC908",
         "name": "C-908 Incendiary Missile",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
@@ -5207,7 +5294,8 @@
     {
         "key": "BARADIUMCHRG",
         "name": "Baradium Charge",
-        "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Baradium weapons deal damage on a planetary scale, but their blast radius is measured in personal scale. If the demolitionist generates a despair result when setting up the device, it detonates immediately, dealing the device's damage (base plus additional damage) to everything in the current blast radius. Anyone and anything engaged with the device when it detonates should add +50 to their subsequent Critical Injury or Critical Hit roll, if any.",
         "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
@@ -5240,7 +5328,8 @@
     {
         "key": "DETONITECHRG",
         "name": "Detonite Charge",
-        "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Additional Damage Per Charge +10.",
+        "reference": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
@@ -5264,7 +5353,8 @@
     {
         "key": "PLASMACHRG",
         "name": "Plasma Charge",
-        "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Plasma charges have the Burn 1 quality, and the quality increases by one for every additional charge. Additional Damage Per Charge +6.",
+        "reference": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
@@ -5288,7 +5378,8 @@
     {
         "key": "PROTONGRNAD",
         "name": "Proton Grenade",
-        "description": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
+	"details": "In an explosive device using proton grenades, the second grenade adds +20 damage, the third adds +30, the fourth adds +40, and the fifth adds +50, for a total of 150 damage for five grenades. After the fifth grenade, additional grenades do not add additional damage, but they do increase the blast radius by one range band per additional grenade.",
+        "reference": "Please see page 55 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -5324,7 +5415,7 @@
     {
         "key": "COMPBOW",
         "name": "Corellian Compound Bow",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5362,7 +5453,7 @@
     {
         "key": "COMPBOWEXP",
         "name": "Corellian Compound Bow (Explosive Tipped)",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5393,7 +5484,7 @@
     {
         "key": "COMPBOWSTUN",
         "name": "Corellian Compound Bow (Stun)",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5423,7 +5514,7 @@
     {
         "key": "FS19COMPBOWBROAD",
         "name": "FS19 Compound Bow (Broadhead Arrow)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5462,7 +5553,7 @@
     {
         "key": "FS19COMPBOWEXPL",
         "name": "FS19 Compound Bow (Explosive Tipped Arrow)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5497,7 +5588,7 @@
     {
         "key": "FS19COMPBOWINCEN",
         "name": "FS19 Compound Bow (Incendiary Arrow)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5532,7 +5623,7 @@
     {
         "key": "FS19COMPBOWNET",
         "name": "FS19 Compound Bow (Net Arrow)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5567,7 +5658,7 @@
     {
         "key": "FS19COMPBOWSTUN",
         "name": "FS19 Compound Bow (Stun Arrow)",
-        "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5601,7 +5692,7 @@
     {
         "key": "STYANAX",
         "name": "Styanax Lance",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Ranged"
         ],
@@ -5640,7 +5731,7 @@
     {
         "key": "CZ28FLAME",
         "name": "CZ-28 Flamestrike",
-        "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -5684,7 +5775,7 @@
     {
         "key": "FC1FLECHETTE",
         "name": "FC1 Flechette Launcher (Anti-Infantry)",
-        "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -5737,7 +5828,8 @@
     {
         "key": "FC1FLECHETTEVEH",
         "name": "FC1 Flechette Launcher (Anti-Vehicle)",
-        "description": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
+	"details": "When using anti-vehicle canisters against targets of silhouette 1 or smaller, the weapons gains the Inaccurate 3 quality.",
+        "reference": "Please see page 45 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -5786,7 +5878,8 @@
     {
         "key": "GRENADLAUNCHZ50",
         "name": "Z50 Grenade Launcher",
-        "description": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
+	"details": "The listed price does not include ammunition. Grenades for a grenade launcher cost the same as the equivalent hand grenades, though many merchants offer a 50% discount on cases of six. The weapon can fire any grenade, although the grenade launcher projectiles are different than hand grenades (grenade launcher projectiles also cannot be thrown; they must be fired from the grenade launcher). The character should specify what type of grenades [they] want when purchasing them. The listed profile represents the Z50 loaded with standard frag grenades. When this launcher uses other grenades, they replace its damage, critical rating, and item qualities with their own.",
+        "reference": "Please see page 42 of the Dangerous Covenants Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Portable Gunnery",
@@ -5826,7 +5919,8 @@
     {
         "key": "MINTORPLAUNCH",
         "name": "Mini-Torpedo Launcher",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.",
+	"details": "Upgrade difficulty of combat checks outside water twice. Weapon profile is using Anti-Personnel mini torpedo ammunition. Other mini-torpedoes are available, replacing the profile with that of the torpedo being used.",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -5869,7 +5963,7 @@
     {
         "key": "MINTORPAP",
         "name": "Mini-Torpedo, Anti-Personnel",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -5902,7 +5996,7 @@
     {
         "key": "MINTORPARMP",
         "name": "Mini-Torpedo, Armor Piercing",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -5939,7 +6033,8 @@
     {
         "key": "MINTORPINK",
         "name": "Mini-Torpedo, Ink",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+	"details": "Ink cloud forms within short range and lasts 4 rounds (or longer in still water).",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -5982,7 +6077,7 @@
     {
         "key": "MINTORPION",
         "name": "Mini-Torpedo, Ion",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6018,7 +6113,7 @@
     {
         "key": "MINTORPNET",
         "name": "Mini-Torpedo, Net",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6055,7 +6150,7 @@
     {
         "key": "MINTORPSTUN",
         "name": "Mini-Torpedo, Stun",
-        "description": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
+        "reference": "Please see page 107 of Strongholds of Resistance Sourcebook for details.      [P][I]For use with the Mon Cal Defenses Mini-Torpedo Launcher[i]",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6095,7 +6190,8 @@
     {
         "key": "AURBOOM",
         "name": "Aurateran Boomerang",
-        "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
+	"details": "If retrieved, a thrown boomerang can be used again. A character may spend an advantage result on a missed attack (including an attack made with the Guided quality) to have the boomerang return to the user's hand.",
+        "reference": "Please see page 102 of the Nexus of Power Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6136,7 +6232,8 @@
     {
         "key": "GUNGATL",
         "name": "Gungan Atlatl",
-        "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
+	"details": "Atlatls throw Gungan plasma balls, giving them greater range. An atlatl must have a supply of plasma balls for ammunition.",
+        "reference": "Please see page 102 of the Nexus of Power Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6181,7 +6278,7 @@
     {
         "key": "GUNGPLAS",
         "name": "Gungan Plasma Ball",
-        "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
+        "reference": "Please see page 102 of the Nexus of Power Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6217,7 +6314,8 @@
     {
         "key": "LONGBOW",
         "name": "Long Bow",
-        "description": "Please see page 102 of the Nexus of Power Sourcebook for details.",
+	"details": "A longbow requires a supply of arrows to fire; if the GM needs to set a price, they can charge 1 credit per arrow.",
+        "reference": "Please see page 102 of the Nexus of Power Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -6254,7 +6352,8 @@
     {
         "key": "BRASS",
         "name": "Brass Knuckles",
-        "description": "Please see page 166 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 171 of the Force and Destiny Core Rulebook, for details.",
+	"details": "Add a setback die to a character's Perception check when attempting to find a set of brass knuckles on a person's body.",
+        "reference": "Please see page 166 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 171 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -6284,7 +6383,7 @@
     {
         "key": "SHOCKGL",
         "name": "Shock Gloves",
-        "description": "Please see page 166 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 171 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 166 of the Edge of the Empire Core Rulebook, page 180 of the Age of Rebellion Core Rulebook, or page 171 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -6315,7 +6414,8 @@
     {
         "key": "REFCORTCAUNT",
         "name": "Refined Cortosis Gauntlets",
-        "description": "Please see page 171 of the Force and Destiny Core Rulebook for details.",
+	"details": "While in combat with a lightsaber wielder, may spend 3 disadvantage results from an opponent's combat roll targeting them to short out the lightsaber. Alternatively, may spend 3 advantage results from own combat check to short out the opponent's lightsaber.",
+        "reference": "Please see page 171 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "BRAWL",
         "damage": "0",
         "damage_add": "1",
@@ -6352,7 +6452,8 @@
     {
         "key": "BLSTKNUK",
         "name": "Blast Knuckles",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "When a character uses blast knuckles, every successful hit inflicts 1 strain on the wielder (in addition to any strain suffered due to check results). Blast knuckles cannot deal damage to a target's strain threshold.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Blaster",
@@ -6400,7 +6501,8 @@
     {
         "key": "VAMBLADES1",
         "name": "S-1 Vamblade (Single)",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Vamblades are designed to be worn as a pair and open up a whole range of combat options when wielded by a properly trained fighter. When used as a pair, these wristblades gain the Sunder and Accurate 1 item qualities. Vamblades cannot deal damage to a target's strain threshold.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Cutting Edge Melee"
@@ -6437,7 +6539,8 @@
     {
         "key": "VAMBLADE2S1",
         "name": "S-1 Vamblade (Paired)",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Vamblades are designed to be worn as a pair and open up a whole range of combat options when wielded by a properly trained fighter. When used as a pair, these wristblades gain the Sunder and Accurate 1 item qualities. Vamblades cannot deal damage to a target's strain threshold.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Cutting Edge Melee"
@@ -6481,7 +6584,8 @@
     {
         "key": "VIBROKNUK",
         "name": "Vibroknucklers",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Add a setback die to any attempts to locate vibroknucklers concealed on an individual's body. Vibroknucklers cannot deal damage to a target's strain threshold.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Cutting Edge Melee",
@@ -6531,7 +6635,8 @@
     {
         "key": "BACKHANDSHKGLV",
         "name": "Backhand Shock Gloves",
-        "description": "Please see page 42 of the Far Horizons Sourcebook for details.",
+	"details": "Its Slow-Firing 1 rule means this weapon can be used only once every other round. While a character may still make Brawl checks when this weapon is recharging, they do so without any benefit from the weapon—they simply make an unarmed melee attack.",
+        "reference": "Please see page 42 of the Far Horizons Sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Bludgeoning Brawl",
@@ -6569,7 +6674,8 @@
     {
         "key": "NEEDLEGLOVES",
         "name": "Needle Gloves",
-        "description": "Please see page 46 of the Desperate Allies Sourcebook for details.",
+	"details": "Needle gloves may be loaded with one dose of neurotoxin, anesthetic, neuroparalytic, or any other poison the GM deems appropriate. Whenever the wielder successfully attacks a target with the weapon (even if they deal no damage), the target also suffers the effects of being exposed to the poison. Add three setback dice to a character's Perception checks to determine that a set of needle gloves contains a lethal weapon.",
+        "reference": "Please see page 46 of the Desperate Allies Sourcebook for details.",
         "type": "Brawling",
         "categories": [],
         "encumbrance": "1",
@@ -6597,7 +6703,8 @@
     {
         "key": "SHIELDGAUNT",
         "name": "Shield Gauntlet",
-        "description": "Please see page 44 of the Keeping the Peace sourcebook for details.",
+	"details": "A shield gauntlet counts as a Lightsaber weapon for the purposes of the Reflect talent.",
+        "reference": "Please see page 44 of the Keeping the Peace sourcebook for details.",
         "type": "Brawling",
         "categories": [
             "Shield",
@@ -6632,7 +6739,7 @@
     {
         "key": "KNIFE",
         "name": "Combat Knife",
-        "description": "Please see page 166 of the Edge of the Empire Core Rulebook, page 181 of the Age of Rebellion Core Rulebook, or page 172 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 166 of the Edge of the Empire Core Rulebook, page 181 of the Age of Rebellion Core Rulebook, or page 172 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -6656,7 +6763,8 @@
     {
         "key": "EXPKNIFE",
         "name": "Explorer's Knife",
-        "description": "Please see page 43 of the Savage Spirits Sourcebook for details.",
+	"details": "An explorer's knife grants a boost die to all Survival checks.",
+        "reference": "Please see page 43 of the Savage Spirits Sourcebook for details.",
         "sources": ["Savage Spirits"],
         "skill_key": "MELEE",
         "damage": "0",
@@ -6694,7 +6802,8 @@
     {
         "key": "MSW12",
         "name": "MSW-12 NanoDagger",
-        "description": "Please see page 44 of the Savage Spirits Sourcebook for details.",
+	"details": "The GM may spend three threat results or a despair result from any combat check made with this weapon to have it become damaged one step (from undamaged to minor, minor to moderate, moderate to major, etc).",
+        "reference": "Please see page 44 of the Savage Spirits Sourcebook for details.",
         "sources": ["Savage Spirits"],
         "skill_key": "MELEE",
         "damage": "0",
@@ -6729,7 +6838,7 @@
     {
         "key": "CUTLASSCOR",
         "name": "Corellian Cutlass",
-        "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6761,7 +6870,8 @@
     {
         "key": "LONGWHIP",
         "name": "Longeing Whip",
-        "description": "Please see page 41 of the Stay on Target Sourcebook for details.",
+	"details": "This weapon can be used to make melee attack against targets at up to short range (the difficulty remains Average difficulty).",
+        "reference": "Please see page 41 of the Stay on Target Sourcebook for details.",
         "categories": [],
         "skill_key": "MELEE",
         "damage": "0",
@@ -6790,7 +6900,7 @@
     {
         "key": "SHOCKWHIP",
         "name": "Shock Whip",
-        "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
+        "reference": "Please see page 60 of the Friends Like These Adventure Module for details.",
         "categories": [],
         "skill_key": "MELEE",
         "damage": "4",
@@ -6820,7 +6930,7 @@
     {
         "key": "PERSUADER",
         "name": "Sorosuub \"Persuader\" Shock Prod",
-        "description": "Please see page 41 of the Stay on Target Sourcebook for details.",
+        "reference": "Please see page 41 of the Stay on Target Sourcebook for details.",
         "categories": [
             "Powered Melee"
         ],
@@ -6854,7 +6964,8 @@
     {
         "key": "CERBLADE",
         "name": "Ceremonial Blade",
-        "description": "Please see page 46 of the Desperate Allies Sourcebook for details.",
+	"details": "A character adds a boost die to checks to convince others to allow them to retain their ceremonial blade.",
+        "reference": "Please see page 46 of the Desperate Allies Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6888,7 +6999,8 @@
     {
         "key": "STAFFOFF",
         "name": "Staff of Office",
-        "description": "Please see page 46 of the Desperate Allies Sourcebook for details.",
+	"details": "Requires 2 hands to wield. Add 2 boost dice when attempting to convince a characters to allow him to retain his staff of office.",
+        "reference": "Please see page 46 of the Desperate Allies Sourcebook for details.",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -6926,7 +7038,7 @@
     {
         "key": "ANCIENTSWORD",
         "name": "Ancient Sword",
-        "description": "Please see page 172 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 172 of the Force and Destiny Core Rulebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -6954,7 +7066,7 @@
     {
         "key": "CORTSHIELD",
         "name": "Cortosis Shield",
-        "description": "Please see page 172 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 172 of the Force and Destiny Core Rulebook for details.",
         "categories": [
             "Shield",
             "Bludgeoning Melee"
@@ -6994,7 +7106,7 @@
     {
         "key": "CORTSWORD",
         "name": "Cortosis Sword",
-        "description": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -7025,7 +7137,7 @@
     {
         "key": "ELECSTAFF",
         "name": "Electrostaff",
-        "description": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
         "categories": [
             "Bludgeoning Melee",
             "Powered Melee"
@@ -7068,7 +7180,8 @@
     {
         "key": "REFCORTSTAFF",
         "name": "Refined Cortosis Staff",
-        "description": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
+	"details": "When a character armed with a lightsaber makes a combat check targeting an opponent armed with a refined cortosis staff, three threat results or a despair result can be spent to cause the lightsaber to short out and deactivate after the combat check has been resolved. The lightsaber may be reactivated as an incidental, but it may not be reactivated until after the last Initiative slot during the next round. Cortosis staves require two hands to use.",
+        "reference": "Please see page 173 of the Force and Destiny Core Rulebook for details.",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -7095,7 +7208,8 @@
     {
         "key": "GAFF",
         "name": "Gaffi Stick",
-        "description": "Please see page 166 of the Edge of the Empire Core Rulebook for details.",
+	"details": "Gaffi sticks require two hands to use.",
+        "reference": "Please see page 166 of the Edge of the Empire Core Rulebook for details.",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "2",
@@ -7127,7 +7241,7 @@
     {
         "key": "FLASHSTICK",
         "name": "Drall Flashstick",
-        "description": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "2",
@@ -7158,7 +7272,8 @@
     {
         "key": "FORCEP",
         "name": "Force Pike",
-        "description": "Please see page 166 of the Edge of the Empire Core Rulebook, page 181 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
+	"details": "When set to its Stun setting, a force pike loses the benefit of the Pierce 2 quality. Force pikes require two hands to wield.",
+        "reference": "Please see page 166 of the Edge of the Empire Core Rulebook, page 181 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -7191,7 +7306,8 @@
     {
         "key": "DIIRO",
         "name": "Diiro",
-        "description": "Please see page 26 of the Chronicles of the Gatekeeper Adventure Module for details.[P]      [I]Note: The diiro may only be found on Arbooine.[i]",
+	"details": "This weapon may be loaded with up to 3 doses of poison. Whenever an successful attack is made, the target suffers the effect of the poison. When the weapon is damaged, increase the damage by 1 step.",
+        "reference": "Please see page 26 of the Chronicles of the Gatekeeper Adventure Module for details.[P]      [I]Note: The diiro may only be found on Arbooine.[i]",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "1",
@@ -7216,7 +7332,7 @@
     {
         "key": "CORALPIKE",
         "name": "Coral Pike",
-        "description": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "3",
@@ -7248,7 +7364,8 @@
     {
         "key": "ENERGYLANCE",
         "name": "Energy Lance",
-        "description": "Please see page 108 of the Strongholds of Resistance Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
+	"details": "A mounted wielder of an energy lance may use their steed's Brawn rating instead of their own Brawn rating to determine the damage of this weapon. If the wielder is not mounted, the weapon has the Cumbersome 3 quality.",
+        "reference": "Please see page 108 of the Strongholds of Resistance Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
         "sources": [
             "Strongholds of Resistance",
             "Savage Spirits"
@@ -7281,7 +7398,8 @@
     {
         "key": "CS12STUNMAST",
         "name": "CS-12 Stun Master",
-        "description": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "Add a setback die to a character's Perception checks to find a Stun Master on a person's body.",
+        "reference": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "MELEE",
         "damage": "6",
         "damage_add": "0",
@@ -7312,7 +7430,8 @@
     {
         "key": "ENERGYBUCK",
         "name": "Energy Buckler",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+	"details": "A despair during combat while using this may cause it to run out of power.",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Shield",
@@ -7358,7 +7477,7 @@
     {
         "key": "PARRVIBRO",
         "name": "Parrying Vibroblade",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -7398,7 +7517,7 @@
     {
         "key": "PARRDAGG",
         "name": "Parrying Dagger",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -7429,7 +7548,8 @@
     {
         "key": "CRYOWHIP",
         "name": "Rodian Cryogen Whip",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+	"details": "It can be used at short range using the same difficulty as engaged (2 purple dice).",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [],
         "encumbrance": "1",
@@ -7466,7 +7586,8 @@
     {
         "key": "SITHSHIELD",
         "name": "Sith Shield",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+	"details": "May commit 1 force die when hit in combat (to a maximum of the wielder's force rating). As an action may uncommit all force dice, roll them and spend each force point on dealing 1 damage and strain (ignoring soak) to every character within short range. Gains conflict equal to the amount of force dice committed.",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Shield",
@@ -7513,7 +7634,7 @@
     {
         "key": "SNAPBATON",
         "name": "Snap Baton",
-        "description": "Please see page 45 of the Keeping the Peace sourcebook for details.",
+        "reference": "Please see page 45 of the Keeping the Peace sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
@@ -7544,7 +7665,8 @@
     {
         "key": "BARDLANCE",
         "name": "Bardottan Electrolance",
-        "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
+	"details": "The Bardottan electrolance is a one-handed weapon, however it cannot be wielded with other weapons. It may, at the GM's discretion, be wielded while using a shield.",
+        "reference": "Please see page 103 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -7578,7 +7700,8 @@
     {
         "key": "GUNGPOLE",
         "name": "Gungan Electropole",
-        "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
+	"details": "An electropole may be thrown as a ranged weapon. If used in this manner, change the skill to Ranged (Light) and the range of the weapon to short. The weapon also gains the Limited Ammo 1 quality (but can be retrieved and used again).",
+        "reference": "Please see page 103 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -7610,47 +7733,10 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "GUNGPOLET",
-        "name": "Gungan Electropole (thrown)",
-        "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
-        "type": "Thrown",
-        "categories": [
-            "Ranged"
-        ],
-        "is_restricted": "false",
-        "weapon_modifiers": [],
-        "skill_key": "RANGLT",
-        "damage": "0",
-        "damage_add": "2",
-        "crit": "4",
-        "range_value": "wrShort",
-        "encumbrance": "3",
-        "hard_points": "2",
-        "price": "450",
-        "rarity": "5",
-        "qualities": [
-            {
-                "key": "LIMITEDAMMO",
-                "count": "1"
-            },
-            {
-                "key": "STUN",
-                "count": "3"
-            },
-            {
-                "key": "STUNSETTING"
-            }
-        ],
-        "base_mods": [],
-        "sources": [
-            "Nexus of Power"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "GUNGPES",
         "name": "Gungan Personal Energy Shield",
-        "description": "Please see page 103 of the Nexus of Power Sourcebook for details.",
+	"details": "The value of the Gungan personal energy shield's Defensive quality is reduced to 0 while the wielder is suffering from the staggered or disoriented condition.",
+        "reference": "Please see page 103 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Shield"
@@ -7685,7 +7771,8 @@
     {
         "key": "TRAINSTICK",
         "name": "Training Stick",
-        "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
+	"details": "This weapon appears to be a harmless cane. Add three setback dice to a character's Perception or Vigilance checks to discern this weapon's true nature.",
+        "reference": "Please see page 104 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
@@ -7723,7 +7810,8 @@
     {
         "key": "VOSSWARSP",
         "name": "Voss Warspear",
-        "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
+	"details": "The Voss warspear is a one-handed weapon, however it cannot be wielded with other weapons. It may, at the GM's discretion, be wielded while using a shield. A spear may be thrown as a ranged weapon. If used in this manner, change the skill to Ranged (Light) and the range of the weapon to short. The weapon also gains the Limited Ammo 1 quality (but if retrieved, it can be used again).",
+        "reference": "Please see page 104 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -7752,44 +7840,10 @@
         "image_filename": "missing.png"
     },
     {
-        "key": "VOSSWARSPT",
-        "name": "Voss Warspear (thrown)",
-        "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
-        "type": "Thrown",
-        "categories": [
-            "Ranged"
-        ],
-        "is_restricted": "false",
-        "weapon_modifiers": [],
-        "skill_key": "RANGLT",
-        "damage": "0",
-        "damage_add": "2",
-        "crit": "4",
-        "range_value": "wrShort",
-        "encumbrance": "4",
-        "hard_points": "2",
-        "price": "215",
-        "rarity": "8",
-        "qualities": [
-            {
-                "key": "DEFENSIVE",
-                "count": "2"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "1"
-            }
-        ],
-        "base_mods": [],
-        "sources": [
-            "Nexus of Power"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
         "key": "WEIKGS",
         "name": "Weik Greatsword",
-        "description": "Please see page 104 of the Nexus of Power Sourcebook for details.",
+	"details": "The greatsword requires two hands to wield.",
+        "reference": "Please see page 104 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -7824,7 +7878,8 @@
     {
         "key": "THERMCUTW",
         "name": "Thermal Cutter",
-        "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+	"details": "A thermal cutter's charge lasts for roughly five minutes of continuous use, and can remove one cubic meter of snow per minute, or dig through 10 centimeters of ice per minute. If plugged into a fusion lantern, it can run indefinitely, otherwise it requires a new battery. Nefarious individuals can also use a thermal cutter as a weapon with the following profile (Melee; Damage 4; Critical 4; Range [Engaged]; Burn 1, Inaccurate 2).",
+        "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -7860,7 +7915,8 @@
     {
         "key": "SVT300",
         "name": "SVT-300 Stun Cloak",
-        "description": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
+	"details": "When wearer is hit by a melee or brawl attack, attacker suffers 7 strain damage, consuming one of the cloak's payload. Reloading the power source takes 3 minutes.",
+        "reference": "Please see page 108 of the Strongholds of Resistance Sourcebook for details.",
         "skill_key": "BRAWL",
         "damage": "7",
         "damage_add": "0",
@@ -7888,7 +7944,7 @@
     {
         "key": "LTSABER",
         "name": "Lightsaber",
-        "description": "Please see page 167 of the Edge of the Empire Core Rulebook, or page 182 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 167 of the Edge of the Empire Core Rulebook, or page 182 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -7925,7 +7981,7 @@
     {
         "key": "LTSABERBASIC",
         "name": "Basic Lightsaber",
-        "description": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "6",
         "damage_add": "0",
@@ -7957,7 +8013,8 @@
     {
         "key": "LTSABERDBL",
         "name": "Double-Bladed Lightsaber",
-        "description": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
+	"details": "Although this weapon contains two lightsaber crystals (one for each blade), for the purposes of gameplay it is treated as having a single crystal. This lightsaber is a double-bladed lightsaber hilt containing an unmodded Ilum lightsaber crystal. This crystal occupies two of the weapon's hard points. When purchasing attachments for this weapon (including crystals), each attachment costs double the listed price. This represents the fact that the double-bladed lightsaber generally requires two of each attachment (one for each end). However, when installing and modding these attachments, follow all normal rules.",
+        "reference": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "6",
         "damage_add": "0",
@@ -7998,7 +8055,8 @@
     {
         "key": "LTSABERPIKE",
         "name": "Lightsaber Pike",
-        "description": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
+	"details": "This lightsaber is a basic lightsaber pike hilt containing an unmodded Ilum lightsaber crystal. This crystal occupies two of the weapon's hard points.",
+        "reference": "Please see page 176 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "6",
         "damage_add": "0",
@@ -8038,7 +8096,8 @@
     {
         "key": "LTSABERSHOTO",
         "name": "Shoto",
-        "description": "Please see page 177 of the Force and Destiny Core Rulebook for details.",
+	"details": "This lightsaber is a basic shoto hilt containing an unmodded Ilum lightsaber crystal. This crystal occupies two of the weapon's hard points. When installing a lightsaber crystal into a shoto, reduce the damage of that lightsaber crystal by one.",
+        "reference": "Please see page 177 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "5",
         "damage_add": "0",
@@ -8080,7 +8139,8 @@
     {
         "key": "LTSABERTRAIN",
         "name": "Training Lightsaber",
-        "description": "Please see page 178 of the Force and Destiny Core Rulebook for details.",
+	"details": "This lightsaber is a basic training lightsaber hilt containing an unmodded training lightsaber crystal. The crystal occupies two of the weapon's hard points.",
+        "reference": "Please see page 178 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "6",
         "damage_add": "0",
@@ -8109,7 +8169,8 @@
     {
         "key": "LTSABERGUASH",
         "name": "Guard Shoto",
-        "description": "Please see page 46 of the Keeping the Peace sourcebook for details.",
+	"details": "This lightsaber is a guard shoto hilt containing an unmodded Ilum lightsaber crystal. This crystal occupies two of the weapon's hard points. When installing a lightsaber crystal into a guard shoto reduce the damage of that lightsaber crystal by one.",
+        "reference": "Please see page 46 of the Keeping the Peace sourcebook for details.",
         "type": "Lightsaber",
         "categories": [
             "Lightsaber"
@@ -8155,7 +8216,8 @@
     {
         "key": "LTSABERTEMGUAPIKE",
         "name": "Temple Guard Lightsaber Pike",
-        "description": "Please see page 46 of the Keeping the Peace sourcebook for details.",
+	"details": "Requires two hands to wield. When purchasing mods and attachments for this weapon (including crystals), they cost double the base price due to the fact you need one for each end; however, follow the normal rules for modding and installing a single attachment.",
+        "reference": "Please see page 46 of the Keeping the Peace sourcebook for details.",
         "type": "Lightsaber",
         "categories": [
             "Lightsaber"
@@ -8205,7 +8267,7 @@
     {
         "key": "LTSABERBASICHILT",
         "name": "Basic Lightsaber Hilt",
-        "description": "Please see page 177 of the Force and Destiny Core Rulebook for details.",
+        "reference": "Please see page 177 of the Force and Destiny Core Rulebook for details.",
         "skill_key": "LTSABER",
         "damage": "0",
         "damage_add": "0",
@@ -8228,261 +8290,10 @@
         ],
         "image_filename": "missing.png"
     },
-    {
-        "key": "LTSABERDBLHILT",
-        "name": "Double-Bladed Lightsaber Hilt",
-        "description": "Please see page 125 of the Force and Destiny Core Rulebook for details.",
-        "skill_key": "LTSABER",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "0",
-        "range_value": "wrEngaged",
-        "encumbrance": "2",
-        "hard_points": "4",
-        "price": "600",
-        "rarity": "6",
-        "is_restricted": "false",
-        "type": "Lightsaber",
-        "no_melee": "true",
-        "attach_cost_mult": "2",
-        "categories": [
-            "Lightsaber",
-            "Lightsaber Hilt"
-        ],
-        "qualities": [
-            {
-                "key": "LINKED",
-                "count": "1"
-            },
-            {
-                "key": "UNWIELDY",
-                "count": "3"
-            }
-        ],
-        "sources": [
-            "Force and Destiny Core Rulebook"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LTSABERPIKEHILT",
-        "name": "Lightsaber Pike Hilt",
-        "description": "Please see page 125 of the Force and Destiny Core Rulebook for details.",
-        "skill_key": "LTSABER",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "0",
-        "range_value": "wrEngaged",
-        "encumbrance": "3",
-        "hard_points": "3",
-        "price": "600",
-        "rarity": "7",
-        "is_restricted": "false",
-        "type": "Lightsaber",
-        "no_melee": "true",
-        "categories": [
-            "Lightsaber",
-            "Lightsaber Hilt"
-        ],
-        "qualities": [
-            {
-                "key": "CUMBERSOME",
-                "count": "3"
-            },
-            {
-                "key": "DEFENSIVE",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Force and Destiny Core Rulebook"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LTSABERSHOTOHILT",
-        "name": "Shoto Hilt",
-        "description": "Please see page 125 of the Force and Destiny Core Rulebook for details.",
-        "skill_key": "LTSABER",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "0",
-        "range_value": "wrEngaged",
-        "encumbrance": "1",
-        "hard_points": "3",
-        "price": "300",
-        "rarity": "6",
-        "is_restricted": "false",
-        "type": "Lightsaber",
-        "no_melee": "true",
-        "categories": [
-            "Lightsaber",
-            "Lightsaber Hilt"
-        ],
-        "qualities": [
-            {
-                "key": "ACCURATE",
-                "count": "1"
-            }
-        ],
-        "base_mods": [
-            {
-                "key": "DAMSUB",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Force and Destiny Core Rulebook"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LTSABERTEMGUAPIKEHILT",
-        "name": "Temple Guard Lightsaber Pike Hilt",
-        "description": "Please see page 46 of the Keeping the Peace Sourcebook for details.",
-        "type": "Lightsaber",
-        "categories": [
-            "Lightsaber Hilt",
-            "Lightsaber"
-        ],
-        "encumbrance": "2",
-        "hard_points": "4",
-        "price": "2000",
-        "rarity": "9",
-        "is_restricted": "false",
-        "base_mods": [],
-        "weapon_modifiers": [],
-        "skill_key": "LTSABER",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "0",
-        "range_value": "wrEngaged",
-        "no_melee": "true",
-        "qualities": [
-            {
-                "key": "DEFENSIVE",
-                "count": "1"
-            },
-            {
-                "key": "LINKED",
-                "count": "1"
-            },
-            {
-                "key": "STUN",
-                "count": "4"
-            },
-            {
-                "key": "SUNDER"
-            },
-            {
-                "key": "UNWIELDY",
-                "count": "3"
-            }
-        ],
-        "sources": [
-            "Keeping the Peace"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LTSABERGUASHHILT",
-        "name": "Guard Shoto Hilt",
-        "description": "Please see page 46 of the Keeping the Peace Sourcebook for details.",
-        "type": "Lightsaber",
-        "categories": [
-            "Lightsaber Hilt",
-            "Lightsaber"
-        ],
-        "encumbrance": "1",
-        "hard_points": "3",
-        "price": "700",
-        "rarity": "7",
-        "is_restricted": "false",
-        "base_mods": [
-            {
-                "key": "DAMSUB",
-                "count": "1"
-            }
-        ],
-        "weapon_modifiers": [],
-        "skill_key": "LTSABER",
-        "damage": "0",
-        "damage_add": "0",
-        "crit": "0",
-        "size_low": "0",
-        "size_high": "10",
-        "range_value": "wrEngaged",
-        "no_melee": "true",
-        "qualities": [
-            {
-                "key": "DEFENSIVE",
-                "count": "1"
-            },
-            {
-                "key": "DEFLECTION",
-                "count": "2"
-            },
-            {
-                "key": "UNWIELDY",
-                "count": "4"
-            }
-        ],
-        "sources": [
-            "Keeping the Peace"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
-        "key": "LTSABERLODAKA",
-        "name": "Master Lodaka's Lightsaber",
-        "description": "Please see page 112 of the Nexus of Power Sourcebook for details.",
-        "type": "Lightsaber",
-        "categories": [
-            "Lightsaber Hilt",
-            "Lightsaber",
-            "Ancient Relics"
-        ],
-        "encumbrance": "1",
-        "hard_points": "0",
-        "price": "20000",
-        "rarity": "10",
-        "is_restricted": "true",
-        "base_mods": [
-            {
-                "misc_desc": "Attacks made by this lightsaber ignore the Cortosis quality."
-            },
-            {
-                "misc_desc": "This lightsaber cannot be shut down due to contact with refined Cortosis."
-            }
-        ],
-        "weapon_modifiers": [],
-        "skill_key": "LTSABER",
-        "damage": "10",
-        "damage_add": "0",
-        "crit": "1",
-        "range_value": "wrEngaged",
-        "qualities": [
-            {
-                "key": "BREACH",
-                "count": "1"
-            },
-            {
-                "key": "SUNDER"
-            },
-            {
-                "key": "VICIOUS",
-                "count": "2"
-            }
-        ],
-        "sources": [
-            "Nexus of Power"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
+       {
         "key": "TRUNCH",
         "name": "Truncheon",
-        "description": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -8512,7 +8323,7 @@
     {
         "key": "STUNCLUB",
         "name": "Stun Club",
-        "description": "Please see page 13 of The Jewel of Yavin Adventure Module for details.",
+        "reference": "Please see page 13 of The Jewel of Yavin Adventure Module for details.",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "3",
@@ -8540,8 +8351,8 @@
     },
     {
         "key": "PULSEDRILL",
-        "name": "G9-GP Pulse Drill",
-        "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
+        "name": "G9-G Pulse Drill",
+        "reference": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -8580,7 +8391,7 @@
     {
         "key": "PULSEDRILLGX",
         "name": "G9-GX Pulse Drill",
-        "description": "Please see page 139 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 139 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -8619,7 +8430,7 @@
     {
         "key": "BEAMDRILLJ7B",
         "name": "J-7b Beamdrill",
-        "description": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -8659,7 +8470,8 @@
     {
         "key": "ENTRENCHTOOL",
         "name": "Entrenching Tool (Improvised)",
-        "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
+	"details": "Besides allowing the user to dig holes and trenches, an entrenching tool counts as a small improvised weapon that deals +2 damage, has a critical rating of 4, and does not break due to threat or despair results.",
+        "reference": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
         "type": "Melee",
         "categories": [],
         "encumbrance": "1",
@@ -8697,7 +8509,7 @@
     {
         "key": "GLAIVESEL",
         "name": "Selonian Glaive",
-        "description": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 98 of the Suns of Fortune Sourcebook for details.",
         "skill_key": "MELEE",
         "damage": "0",
         "damage_add": "3",
@@ -8729,7 +8541,8 @@
     {
         "key": "POLEAXE",
         "name": "Trailbreaker Poleaxe",
-        "description": "Please see page 43 of the Savage Spirits Sourcebook for details.",
+	"details": "The Trailbreaker poleaxe requires two hands to use.",
+        "reference": "Please see page 43 of the Savage Spirits Sourcebook for details.",
         "sources": ["Savage Spirits"],
         "skill_key": "MELEE",
         "damage": "0",
@@ -8763,7 +8576,8 @@
     {
         "key": "VIBAX",
         "name": "Vibro-ax",
-        "description": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 175 of the Force and Destiny Core Rulebook, for details.",
+	"details": "A vibro-ax requires two hands to wield.",
+        "reference": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 175 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -8801,7 +8615,7 @@
     {
         "key": "VIBKN",
         "name": "Vibroknife",
-        "description": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 174 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -8836,7 +8650,8 @@
     {
         "key": "STVIBKN",
         "name": "Stealth Vibroknife",
-        "description": "Please see page 46 of the Desperate Allies Sourcebook for details.",
+	"details": "Add two setback dice to a character's Perception checks to find a stealth vibroknife on a person's body.",
+        "reference": "Please see page 46 of the Desperate Allies Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -8875,7 +8690,7 @@
     {
         "key": "VIBSW",
         "name": "Vibrosword",
-        "description": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 175 of the Force and Destiny Core Rulebook, for details.",
+        "reference": "Please see page 167 of the Edge of the Empire Core Rulebook, page 182 of the Age of Rebellion Core Rulebook, or page 175 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -8914,7 +8729,8 @@
     {
         "key": "SWORDCANE",
         "name": "Sword Cane",
-        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
+	"details": "Add 1 setback die to Perception checks to determine a sword cane is a lethal weapon.",
+        "reference": "Please see page 47 of the Desperate Allies Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -8948,7 +8764,8 @@
     {
         "key": "VIBROSPR",
         "name": "Huntsman Vibrospear",
-        "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
+	"details": "The Huntsman vibrospear requires two hands to use.",
+        "reference": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -8983,7 +8800,8 @@
     {
         "key": "VIBROSAW",
         "name": "Mk. VIII Vibrosaw",
-        "description": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
+	"details": "The weapon requires two hands to wield. A despair result gets the user hit with the attack instead of the target (even if it would have missed).",
+        "reference": "Please see page 43 of the Enter the Unknown Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9026,7 +8844,8 @@
     {
         "key": "MODEL14VIBROSP",
         "name": "Model 14 \"Stalker\" Vibrospear",
-        "description": "Please see page 43 of the Savage Spirits Sourcebook for details.",
+	"details": "The GM may spend two threat results from any combat check with this weapon to have it produce a loud noise, spooking nearby animals, alerting foes, and adding two setback dice to the user's next Survival check in that area to hunt or track prey. The Stalker vibrospear requires two hands to wield.",
+        "reference": "Please see page 43 of the Savage Spirits Sourcebook for details.",
         "sources": ["Savage Spirits"],
         "skill_key": "MELEE",
         "damage": "0",
@@ -9067,7 +8886,7 @@
     {
         "key": "VIBROMACH",
         "name": "Vibro-Machete",
-        "description": "Please see page 43 of the Savage Spirits Sourcebook for details.",
+        "reference": "Please see page 43 of the Savage Spirits Sourcebook for details.",
         "sources": ["Savage Spirits"],
         "skill_key": "MELEE",
         "damage": "0",
@@ -9101,7 +8920,7 @@
     {
         "key": "FUSCUT",
         "name": "Fusion Cutter",
-        "description": "Please see page 197 of the Age of Rebellion Core Rulebook.",
+        "reference": "Please see page 197 of the Age of Rebellion Core Rulebook.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9144,7 +8963,8 @@
     {
         "key": "RYYKBLADE",
         "name": "Ryyk Blade",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "The damage from the Superior quality is included in the profile.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -9183,7 +9003,8 @@
     {
         "key": "VIBROGRTSWRDVX",
         "name": "VX \"Czerhander\" Vibro-Greatsword",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "A vibro-greatsword requires two hands to wield.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9224,7 +9045,8 @@
     {
         "key": "THERMAXMOD7",
         "name": "Model 7 Therm-Ax",
-        "description": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
+	"details": "A therm-ax requires two hands to wield.",
+        "reference": "Please see page 48 of the Dangerous Covenants Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9264,7 +9086,7 @@
     {
         "key": "RIOTSHIELD",
         "name": "Riot Shield",
-        "description": "Please see page 42 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 42 of the Far Horizons Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Shield",
@@ -9306,8 +9128,9 @@
     },
     {
         "key": "KYUZOSHIELD",
-        "name": "Kyuzo War Shield (Melee)",
-        "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
+        "name": "Kyuzo War Shield",
+	"details": "A Kyuzo war shield may be thrown as a ranged weapon. If used in this manner, change the skill to Ranged (Light) and the range of the weapon to short. The weapon also gains the Limited Ammo 1 quality (but if retrieved, it can be used again). Additionally, the wielder of a Kyuzo war shield may spend three advantage results from any combat check to throw the weapon to cause the shield to ricochet back to [their] grasp.",
+        "reference": "Please see page 48 of the Forged in Battle Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Shield",
@@ -9349,60 +9172,10 @@
         ],
         "image_filename": "missing.png"
     },
-    {
-        "key": "KYUZOSHIELDTHROW",
-        "name": "Kyuzo War Shield (Thrown)",
-        "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
-        "type": "Thrown",
-        "categories": [
-            "Shield",
-            "Bludgeoning Melee",
-            "Ranged"
-        ],
-        "encumbrance": "3",
-        "price": "750",
-        "rarity": "8",
-        "base_mods": [
-            {
-                "count": "1",
-                "misc_desc": "User may spend [AD][AD][AD] from any combat check to throw the weapon to cause the shield to ricochet back to their grasp."
-            }
-        ],
-        "skill_key": "RANGLT",
-        "damage_add": "1",
-        "crit": "4",
-        "range_value": "wrShort",
-        "qualities": [
-            {
-                "key": "CUMBERSOME",
-                "count": "3"
-            },
-            {
-                "key": "DEFENSIVE",
-                "count": "1"
-            },
-            {
-                "key": "DEFLECTION",
-                "count": "2"
-            },
-            {
-                "key": "DISORIENT",
-                "count": "1"
-            },
-            {
-                "key": "LIMITEDAMMO",
-                "count": "1"
-            }
-        ],
-        "sources": [
-            "Forged in Battle"
-        ],
-        "image_filename": "missing.png"
-    },
-    {
+       {
         "key": "THNDRBOLT",
         "name": "Thunderbolt Shock Prod",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 43 of the Far Horizons Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Powered Melee"
@@ -9434,7 +9207,8 @@
     {
         "key": "ARGGAROK",
         "name": "Arg'garok",
-        "description": "Please see page 103 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "The Arg'garok requires two hands to wield.",
+        "reference": "Please see page 103 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -9473,7 +9247,8 @@
     {
         "key": "VIBROGLAIVE",
         "name": "Vibro-Glaive",
-        "description": "Please see page 103 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "The beastmaster's vibro-glaive requires two hands to wield.",
+        "reference": "Please see page 103 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [
             "Cutting Edge Melee",
             "Powered Melee"
@@ -9506,7 +9281,8 @@
     {
         "key": "SHISBLADE",
         "name": "Shistavanen Combat Utility Vibroblade",
-        "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
+	"details": "The Combat Utility Vibroblade serves as a tool kit to allow Mechanics checks to repair devices and to \"heal\" droids, but adds a setback die to such checks. Additionally, it adds a boost die to the character's Survival checks.",
+        "reference": "Please see page 48 of the Forged in Battle Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9554,7 +9330,7 @@
     {
         "key": "AKRABDAG",
         "name": "aKraB Clip-Point Vibrodagger",
-        "description": "Please see page 48 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 48 of the Forged in Battle Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -9586,7 +9362,8 @@
     {
         "key": "MORCORTSTAFF",
         "name": "Morgukai Cortosis Staff",
-        "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Requires 2 hands to wield.",
+        "reference": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [
             "Bludgeoning Melee"
         ],
@@ -9622,7 +9399,8 @@
     {
         "key": "NEURWHIP",
         "name": "Neuronic Whip",
-        "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "This weapon can be used to make melee attacks against targets at up to short range (the difficulty remains Average difficulty).",
+        "reference": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [],
         "skill_key": "MELEE",
         "damage": "0",
@@ -9656,7 +9434,8 @@
     {
         "key": "TUSKPIKE",
         "name": "Tuskbeast Pike",
-        "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
+	"details": "Requires 2 hands to wield.",
+        "reference": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [],
         "skill_key": "MELEE",
         "damage": "0",
@@ -9686,7 +9465,7 @@
     {
         "key": "AUTOBLAST",
         "name": "Auto-Blaster",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -9717,7 +9496,7 @@
     {
         "key": "BLASTCANLT",
         "name": "Light Blaster Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -9743,7 +9522,7 @@
     {
         "key": "BLASTCANHVY",
         "name": "Heavy Blaster Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -9769,7 +9548,7 @@
     {
         "key": "CML",
         "name": "Concussion Missile Launcher",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -9816,7 +9595,7 @@
     {
         "key": "AFCML",
         "name": "Alternating-Fire Concussion Missile Launcher",
-        "description": "Please see page 56 of the Stay on Target Sourcebook for details.",
+        "reference": "Please see page 56 of the Stay on Target Sourcebook for details.",
         "categories": [
             "Missile"
         ],
@@ -9858,7 +9637,7 @@
     {
         "key": "ACML",
         "name": "Assault Concussion Missile Launcher",
-        "description": "Please see page 188 of the Age of Rebellion Beta Rulebook for details.",
+        "reference": "Please see page 188 of the Age of Rebellion Beta Rulebook for details.",
         "categories": [
             "Missile"
         ],
@@ -9908,7 +9687,7 @@
     {
         "key": "CMLHK",
         "name": "Hunter Killer Concussion Missile Launcher",
-        "description": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Missile"
         ],
@@ -9954,7 +9733,7 @@
     {
         "key": "IONLT",
         "name": "Light Ion Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -9984,7 +9763,7 @@
     {
         "key": "IONMED",
         "name": "Medium Ion Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10014,7 +9793,7 @@
     {
         "key": "IONHVY",
         "name": "Heavy Ion Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10048,7 +9827,7 @@
     {
         "key": "IONLONG",
         "name": "Long-Barrelled Ion Cannon",
-        "description": "Please see page 53 of the Lead by Example Sourcebook for details.",
+        "reference": "Please see page 53 of the Lead by Example Sourcebook for details.",
         "categories": [
             "Ion"
         ],
@@ -10085,7 +9864,7 @@
     {
         "key": "IONBATT",
         "name": "Battleship Ion Cannon",
-        "description": "Please see page 240 of the Age of Rebellion Core Rulebook for details.",
+        "reference": "Please see page 240 of the Age of Rebellion Core Rulebook for details.",
         "categories": [
             "Ion"
         ],
@@ -10122,7 +9901,7 @@
     {
         "key": "LASERLT",
         "name": "Light Laser Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10148,7 +9927,7 @@
     {
         "key": "LASERMED",
         "name": "Medium Laser Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10174,7 +9953,7 @@
     {
         "key": "LASERHVY",
         "name": "Heavy Laser Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10200,7 +9979,7 @@
     {
         "key": "LASERPTDEF",
         "name": "Point Defense Laser Cannon",
-        "description": "Please see page 186 of the Age of Rebellion Beta Rulebook for details.",
+        "reference": "Please see page 186 of the Age of Rebellion Beta Rulebook for details.",
         "categories": [
             "Laser"
         ],
@@ -10230,7 +10009,7 @@
     {
         "key": "LASERLONG",
         "name": "Long-Nosed Laser Cannon",
-        "description": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Laser"
         ],
@@ -10260,7 +10039,7 @@
     {
         "key": "PTL",
         "name": "Proton Torpedo Launcher",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10308,7 +10087,7 @@
     {
         "key": "LASERQUAD",
         "name": "Quad Laser Cannon",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10343,7 +10122,7 @@
     {
         "key": "TRACTLT",
         "name": "Light Tractor Beam",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10374,7 +10153,7 @@
     {
         "key": "TRACTMED",
         "name": "Medium Tractor Beam",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10405,7 +10184,7 @@
     {
         "key": "TRACTHVY",
         "name": "Heavy Tractor Beam",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10436,7 +10215,7 @@
     {
         "key": "TURBOLT",
         "name": "Light Turbolaser",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10472,7 +10251,7 @@
     {
         "key": "TURBOMED",
         "name": "Medium Turbolaser",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10508,7 +10287,7 @@
     {
         "key": "TURBOHVY",
         "name": "Heavy Turbolaser",
-        "description": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 230 of the Edge of the Empire Core Rulebook, or page 240 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10544,7 +10323,8 @@
     {
         "key": "MOLSTILETTO",
         "name": "Molecular Stiletto",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
+	"details": "Due to the blade's inherent fragility, any combat check made that generates either two threat results or a despair result while wielding one damages the weapon by one step. Add a setback die to a character's Perception check when attempting to find a molecular stiletto on a person's body.",
+        "reference": "Please see page 43 of the Far Horizons Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -10582,7 +10362,7 @@
     {
         "key": "STUNBATON",
         "name": "Stun Baton",
-        "description": "Please see page 43 of the Far Horizons Sourcebook for details.",
+        "reference": "Please see page 43 of the Far Horizons Sourcebook for details.",
         "type": "Melee",
         "categories": [],
         "encumbrance": "2",
@@ -10613,7 +10393,7 @@
     {
         "key": "ELECHARPOON",
         "name": "Electromagnetic Harpoon",
-        "description": "Please see page 249 of the Edge of the Empire Core Rulebook, or page 263 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 249 of the Edge of the Empire Core Rulebook, or page 263 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10648,7 +10428,7 @@
     {
         "key": "CONGRENLAUNCH",
         "name": "Concussion Grenade Launcher",
-        "description": "Please see page 253 of the Edge of the Empire Core Rulebook, or page 265 of the Age of Rebellion Core Rulebook, for details.",
+        "reference": "Please see page 253 of the Edge of the Empire Core Rulebook, or page 265 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -10684,7 +10464,7 @@
     {
         "key": "PROTONBOMB",
         "name": "Proton Bomb Release Chute",
-        "description": "Please see page 272 of the Age of Rebellion Core rulebook for details",
+        "reference": "Please see page 272 of the Age of Rebellion Core rulebook for details",
         "categories": [
             "Proton Bomb"
         ],
@@ -10722,7 +10502,7 @@
     {
         "key": "PROTONBAY",
         "name": "Proton Bomb Bay",
-        "description": "Please see page 52 of the Stay on Target Sourcebook for details",
+        "reference": "Please see page 52 of the Stay on Target Sourcebook for details",
         "categories": [
             "Proton Bomb"
         ],
@@ -10760,7 +10540,7 @@
     {
         "key": "BEAMDRILHVY",
         "name": "Heavy Beamdrill",
-        "description": "Please see page 106 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 106 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Beamdrill"
         ],
@@ -10794,7 +10574,7 @@
     {
         "key": "BEAMDRIL",
         "name": "Beamdrill",
-        "description": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
+        "reference": "Please see page 107 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Beamdrill"
         ],
@@ -10824,7 +10604,7 @@
     {
         "key": "MISSILEPACK",
         "name": "Missile Pack",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -10868,7 +10648,7 @@
     {
         "key": "MISSILEPACKMINI",
         "name": "Mini-Missile Pack",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -10912,7 +10692,7 @@
     {
         "key": "MINIMISSILETUBE",
         "name": "MM-XT Mini-Missile Tube",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -10943,7 +10723,7 @@
     {
         "key": "TRACTOR213",
         "name": "Grappler 213 Tactical Tractor Beam",
-        "description": "Please see page 62 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 62 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Tractor"
@@ -10977,7 +10757,7 @@
     {
         "key": "MISSCONCMINI",
         "name": "Concussion Missile (Mini)",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -11022,7 +10802,7 @@
     {
         "key": "MISSJAM",
         "name": "Jammer Missile",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -11059,7 +10839,7 @@
     {
         "key": "MISSDECOY",
         "name": "Decoy Missile",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -11092,7 +10872,7 @@
     {
         "key": "MISSJAMMINI",
         "name": "Jammer Missile (Mini)",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Missile"
@@ -11129,7 +10909,7 @@
     {
         "key": "MISSUNGROCK",
         "name": "Unguided Rocket",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Rocket"
@@ -11170,7 +10950,7 @@
     {
         "key": "MISSUNGROCKMINI",
         "name": "Unguided Rocket (Mini)",
-        "description": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
+        "reference": "Please see page 60 of the Dangerous Covenants Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Rocket"
@@ -11211,7 +10991,7 @@
     {
         "key": "FLAKLT",
         "name": "Light Flak Cannon",
-        "description": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
+        "reference": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
         "sources": [
             "Stay on Target",
             "Lead by Example"
@@ -11251,7 +11031,7 @@
     {
         "key": "FLAKMED",
         "name": "Medium Flak Cannon",
-        "description": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
+        "reference": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
         "sources": [
             "Stay on Target",
             "Lead by Example"
@@ -11291,7 +11071,7 @@
     {
         "key": "FLAKHVY",
         "name": "Heavy Flak Cannon",
-        "description": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
+        "reference": "Please see page 49 of the Stay on Target Sourcebook, or page 53 of the Lead by Example Sourcebook, for details.",
         "sources": [
             "Stay on Target",
             "Lead by Example"
@@ -11331,7 +11111,7 @@
     {
         "key": "VL6",
         "name": "VL-6 Warhead Launcher System",
-        "description": "Please see page 61 of the Stay on Target Sourcebook for details.",
+        "reference": "Please see page 61 of the Stay on Target Sourcebook for details.",
         "type": "Vehicle",
         "categories": [],
         "encumbrance": "0",
@@ -11372,7 +11152,7 @@
     {
         "key": "A95STING",
         "name": "A95 Stingbeam",
-        "description": "Please see page 42 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 42 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11413,7 +11193,7 @@
     {
         "key": "L7LIGHTPISTOL",
         "name": "L7 Light Blaster Pistol",
-        "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 43 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11451,7 +11231,7 @@
     {
         "key": "411HOLDOUT",
         "name": "411 Holdout Blaster",
-        "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 43 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11484,7 +11264,7 @@
     {
         "key": "M53QUICKTRIGGER",
         "name": "Model 53 \"Quicktrigger\" Blaster Pistol",
-        "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 43 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11521,7 +11301,7 @@
     {
         "key": "M1NOVAVIPER",
         "name": "Model-1 \"Nova Viper\" Blaster Pistol",
-        "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 43 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11565,7 +11345,7 @@
     {
         "key": "C10DRAGONEYE",
         "name": "C-10 \"Dragoneye Reaper\" Heavy Blaster Pistol",
-        "description": "Please see page 43 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 43 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
@@ -11596,7 +11376,7 @@
     {
         "key": "RENHEAVYBLAST",
         "name": "\"Renegade\" Heavy Blaster Pistol",
-        "description": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 106 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
@@ -11631,7 +11411,7 @@
     {
         "key": "GHOVOR22",
         "name": "GHOVOR-22 Blaster Pistol",
-        "description": "Please see page 47 of the Friends Like These Adventure Module for details.",
+        "reference": "Please see page 47 of the Friends Like These Adventure Module for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster Pistol",
@@ -11662,7 +11442,7 @@
     {
         "key": "HBT4HUNTING",
         "name": "HBt-4 Hunting Blaster",
-        "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 44 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -11698,7 +11478,7 @@
     {
         "key": "VES700PULSE",
         "name": "VES-700 Pulse Rifle",
-        "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 44 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -11734,7 +11514,7 @@
     {
         "key": "FDROIDDISABLER",
         "name": "Droid Disabler",
-        "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 44 of the Fly Casual Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Ranged"
@@ -11771,7 +11551,7 @@
     {
         "key": "FWG5FLECHETTE",
         "name": "FWG-5 Flechette Pistol",
-        "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 44 of the Fly Casual Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Pistol",
@@ -11806,7 +11586,7 @@
     {
         "key": "8GAUGESCATTER",
         "name": "8-Gauge Scatter Gun",
-        "description": "Please see page 44 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 44 of the Fly Casual Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Rifle",
@@ -11840,7 +11620,7 @@
     {
         "key": "ASCIANTHROWDAG",
         "name": "Ascian Throwing Dagger",
-        "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 45 of the Fly Casual Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -11879,7 +11659,7 @@
     {
         "key": "KNOCKOUTGRENADE",
         "name": "Knockout Grenade",
-        "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 45 of the Fly Casual Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged",
@@ -11923,7 +11703,7 @@
     {
         "key": "TAGCRYOPROJ",
         "name": "Cryoban Projector",
-        "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 45 of the Fly Casual Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Rifle",
@@ -11967,7 +11747,7 @@
     {
         "key": "SSB1STATIC",
         "name": "SSB-1 Static Pistol",
-        "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 45 of the Fly Casual Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Pistol",
@@ -12002,7 +11782,7 @@
     {
         "key": "SHOCKBOOTS",
         "name": "Shock Boots",
-        "description": "Please see page 45 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 45 of the Fly Casual Sourcebook for details.",
         "type": "Brawling",
         "categories": [],
         "encumbrance": "2",
@@ -12041,7 +11821,7 @@
     {
         "key": "PUNCHDAGGER",
         "name": "Punch Dagger",
-        "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 46 of the Fly Casual Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -12076,7 +11856,7 @@
     {
         "key": "BLADEBREAKER",
         "name": "Blade-Breaker",
-        "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 46 of the Fly Casual Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -12113,7 +11893,7 @@
     {
         "key": "VIBRORAPIER",
         "name": "Vibrorapier",
-        "description": "Please see page 46 of the Fly Casual Sourcebook for details.",
+        "reference": "Please see page 46 of the Fly Casual Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee",
@@ -12148,7 +11928,7 @@
     {
         "key": "PROTTORPHVY",
         "name": "Heavy Proton Torpedo Launcher",
-        "description": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
+        "reference": "Please see page 119 of the Strongholds of Resistance Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Proton Torpedo"
@@ -12189,7 +11969,7 @@
     {
         "key": "IONTHRUST",
         "name": "Ion Thruster Gun",
-        "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 45 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Ranged"
@@ -12230,7 +12010,7 @@
     {
         "key": "MULTIGOO",
         "name": "Multi-Goo Gun",
-        "description": "Please see page 45 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 45 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Ranged"
@@ -12271,7 +12051,7 @@
     {
         "key": "REPULSORGUN",
         "name": "Repulsor Gun",
-        "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 46 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Ranged"
@@ -12307,7 +12087,7 @@
     {
         "key": "RIVETGUN",
         "name": "Rivet Gun",
-        "description": "Please see page 46 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 46 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Ranged"
@@ -12349,7 +12129,7 @@
     {
         "key": "HANDGRID",
         "name": "Hand Grinder",
-        "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 47 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Cutting Edge Melee"
@@ -12391,7 +12171,7 @@
     {
         "key": "WELDINGROD",
         "name": "Welding Rod",
-        "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
+        "reference": "Please see page 47 of the Special Modifications Sourcebook for details.",
         "type": "Tool",
         "categories": [
             "Powered Melee"
@@ -12432,7 +12212,7 @@
     {
         "key": "MASSDRIVERCANNON",
         "name": "Mass-Driver Cannon",
-        "description": "Please see page 57 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 57 of the Forged in Battle Sourcebook for details.",
         "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
@@ -12457,7 +12237,7 @@
     {
         "key": "ATGAR18FD",
         "name": "1.8 FD Anti-Infantry Autoturret",
-        "description": "Please see page 45 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 45 of the Forged in Battle Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Portable Gunnery"
@@ -12498,7 +12278,7 @@
     {
         "key": "ANTIAIR",
         "name": "Anti-Air Rockets",
-        "description": "Please see page 62 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 62 of the Forged in Battle Sourcebook for details.",
         "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
@@ -12531,7 +12311,7 @@
     {
         "key": "ANTIPERSLASER",
         "name": "Anti-Personnel Laser",
-        "description": "Please see page 62 of the Forged in Battle Sourcebook for details.",
+        "reference": "Please see page 62 of the Forged in Battle Sourcebook for details.",
         "type": "Vehicle",
         "categories": [],
         "skill_key": "GUNN",
@@ -12556,7 +12336,7 @@
     {
         "key": "BR219",
         "name": "BR-219 Heavy Blaster Pistol",
-        "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 40 of the Endless Vigil Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Heavy Blaster Pistol",
@@ -12598,7 +12378,7 @@
     {
         "key": "GLXFIRE",
         "name": "GLX Firelance",
-        "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 40 of the Endless Vigil Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -12637,7 +12417,7 @@
     {
         "key": "LD1TARG",
         "name": "LD-1 Target Rifle",
-        "description": "Please see page 40 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 40 of the Endless Vigil Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -12682,7 +12462,7 @@
     {
         "key": "SSGMKII",
         "name": "SSG Mk II Paladin",
-        "description": "Please see page 41 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 41 of the Endless Vigil Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Rifle",
@@ -12740,7 +12520,7 @@
     {
         "key": "KWSMKI",
         "name": "KWS Mk I Saberdart",
-        "description": "Please see page 41 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 41 of the Endless Vigil Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Ranged"
@@ -12774,7 +12554,7 @@
     {
         "key": "NX14",
         "name": "NX-14 Needler",
-        "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 42 of the Endless Vigil Sourcebook for details.",
         "type": "Slugthrower",
         "categories": [
             "Pistol",
@@ -12814,7 +12594,7 @@
     {
         "key": "LTSABERCROSSG",
         "name": "Crossguard Lightsaber",
-        "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 42 of the Endless Vigil Sourcebook for details.",
         "type": "Lightsaber",
         "categories": [
             "Lightsaber"
@@ -12857,7 +12637,7 @@
     {
         "key": "LTSABERWHIP",
         "name": "Lightwhip",
-        "description": "Please see page 42 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 42 of the Endless Vigil Sourcebook for details.",
         "type": "Lightwhip",
         "categories": [
             "Lightsaber",
@@ -12902,7 +12682,7 @@
     {
         "key": "PHIPHKNIFE",
         "name": "Philaxian Phase-Knife",
-        "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 43 of the Endless Vigil Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Cutting Edge Melee"
@@ -12940,7 +12720,7 @@
     {
         "key": "LTSABERCROSSHILT",
         "name": "Crossguard Lightsaber Hilt",
-        "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
+        "reference": "Please see page 43 of the Endless Vigil Sourcebook for details.",
         "type": "Lightsaber",
         "categories": [
             "Lightsaber",
@@ -12976,7 +12756,7 @@
     {
         "key": "MINECONC",
         "name": "Concussion Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13011,7 +12791,7 @@
     {
         "key": "MINENET",
         "name": "Connor Net Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13041,7 +12821,7 @@
     {
         "key": "MINEFIREC",
         "name": "Firecracker Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13077,7 +12857,7 @@
     {
         "key": "MINEGRAV",
         "name": "Gravity Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13109,7 +12889,7 @@
     {
         "key": "MINEION",
         "name": "Ion Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13143,7 +12923,7 @@
     {
         "key": "MINESEEK",
         "name": "Seeker Mine",
-        "description": "Please see page 64 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 64 of the No Disintegrations Sourcebook for details.",
         "type": "Vehicle",
         "categories": [
             "Space Mine"
@@ -13187,7 +12967,7 @@
     {
         "key": "PRECXMARK",
         "name": "\"Precision-X\" Marksman Rifle",
-        "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 44 of the No Disintegrations Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -13227,7 +13007,7 @@
     {
         "key": "SUBDRIOTBLAST",
         "name": "\"Subduer-9\" Riot Blaster",
-        "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 44 of the No Disintegrations Sourcebook for details.",
         "type": "Energy Weapon",
         "categories": [
             "Blaster",
@@ -13264,7 +13044,7 @@
     {
         "key": "FIRECALLFLAMEPROJ",
         "name": "\"Firecaller\" Light Flame Projector",
-        "description": "Please see page 44 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 44 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -13306,7 +13086,7 @@
     {
         "key": "GRAPHARPLAU",
         "name": "Grapnel-Harpoon Launcher",
-        "description": "Please see page 45 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 45 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -13348,7 +13128,7 @@
     {
         "key": "IMPREPCAN",
         "name": "\"Impact\" Repulsor Cannon",
-        "description": "Please see page 45 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 45 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Ranged"
@@ -13392,7 +13172,7 @@
     {
         "key": "MICROROCKAA",
         "name": "Anti-Armor Micro-Rocket",
-        "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 46 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
@@ -13424,7 +13204,7 @@
     {
         "key": "MICROROCKEXP",
         "name": "Explosive Micro-Rocket",
-        "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 46 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
@@ -13456,7 +13236,7 @@
     {
         "key": "MICROROCKFLE",
         "name": "Flechette Micro-Rocket",
-        "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 46 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
@@ -13492,7 +13272,7 @@
     {
         "key": "MICROROCKINC",
         "name": "Incendiary Micro-Rocket",
-        "description": "Please see page 46 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 46 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
@@ -13528,7 +13308,7 @@
     {
         "key": "MICROROCKION",
         "name": "Ion Micro-Rocket",
-        "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 47 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Micro-Rocket"
@@ -13562,7 +13342,7 @@
     {
         "key": "PEACESTUNBAT",
         "name": "\"Peacekeeper\" Stun Baton",
-        "description": "Please see page 48 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 48 of the No Disintegrations Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Bludgeoning Melee"
@@ -13599,7 +13379,7 @@
     {
         "key": "IONPIKE",
         "name": "Ion Pike",
-        "description": "Please see page 48 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 48 of the No Disintegrations Sourcebook for details.",
         "type": "Melee",
         "categories": [
             "Powered Melee"
@@ -13635,7 +13415,7 @@
     {
         "key": "MICROROCKPISTOL",
         "name": "Micro-Rocket Launcher Pistol",
-        "description": "Please see page 47 of the No Disintegrations Sourcebook for details.",
+        "reference": "Please see page 47 of the No Disintegrations Sourcebook for details.",
         "type": "Explosives/Other",
         "categories": [
             "Pistol",

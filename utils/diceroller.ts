@@ -22,6 +22,8 @@ export type ItemArmor = {
     key: string;
     name: string;
     description: string;
+    details: string;
+    reference: string;
     categories: string; // Single category as a string
     encumbrance: string; // Encumbrance as a string
     hard_points: string; // Hard points as a string
@@ -49,6 +51,8 @@ export type ItemWeapon = {
     key: string; // Unique identifier
     name: string; // Name of the weapon
     description: string; // Description text
+    details: string;
+    reference: string;
     type: string; // Type of weapon (e.g., "Energy Weapon")
     categories: string[]; // Array of categories
     encumbrance: string; // Encumbrance as a string
@@ -78,6 +82,8 @@ export type ItemGear = {
     key: string; // Unique identifier
     name: string; // Name of the gear
     description: string; // Description text
+    details: string;
+    reference: string;
     type: string; // Type of gear
     categories: string[]; // Array of categories, may be empty
     encumbrance: string; // Encumbrance as a string
@@ -99,6 +105,8 @@ export type ItemAttachment = {
     key: string; // Unique identifier
     name: string; // Name of the attachment
     description: string; // Description text
+    details: string;
+    reference: string;
     type: string; // Type of item (e.g., "Vehicle")
     item_limit: string | null; // Nullable item limit
     skill_limit: string | null; // Nullable skill limit

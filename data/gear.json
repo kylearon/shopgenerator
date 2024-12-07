@@ -2,7 +2,7 @@
   {
     "key": "COMLINKH",
     "name": "Comlink (handheld)",
-    "description": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -19,7 +19,7 @@
   {
     "key": "COMLINKL",
     "name": "Comlink (long range)",
-    "description": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -35,7 +35,7 @@
   {
     "key": "HOLO",
     "name": "Holo-messenger",
-    "description": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 171 of the Edge of the Empire Core Rulebook, page 186 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -51,7 +51,7 @@
   {
     "key": "HYPERTRANSPIO",
     "name": "Pioneer Long-Range Hypertransceiver",
-    "description": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
     "encumbrance": "5",
     "price": "1000",
     "rarity": "3",
@@ -65,7 +65,7 @@
   {
     "key": "ENCRYPWHIS",
     "name": "Whistler Encryption Module",
-    "description": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
     "price": "1250",
     "encumbrance": "3",
     "rarity": "6",
@@ -79,7 +79,7 @@
   {
     "key": "ACTIVATORDVISHORT",
     "name": "Remote DVI Activator (Short Range)",
-    "description": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
     "price": "300",
     "encumbrance": "0",
     "rarity": "4",
@@ -93,7 +93,7 @@
   {
     "key": "ACTIVATORDVILONG",
     "name": "Remote DVI Activator (Long Range)",
-    "description": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 100 of the Suns of Fortune Sourcebook for details.",
     "price": "1500",
     "encumbrance": "0",
     "rarity": "7",
@@ -107,7 +107,7 @@
   {
     "key": "COMLINKHARD",
     "name": "Shockhold Hardened Comlink",
-    "description": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "encumbrance": "3",
@@ -129,7 +129,7 @@
   {
     "key": "COLLARAMP",
     "name": "Collar-Amp",
-    "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 45 of the Far Horizons Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "encumbrance": "0",
@@ -146,7 +146,7 @@
   {
     "key": "COLLARAMPUP",
     "name": "Collar-Amp (Upgraded)",
-    "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 45 of the Far Horizons Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "encumbrance": "0",
@@ -163,7 +163,7 @@
   {
     "key": "HOLORELAY",
     "name": "HoloNet Relay",
-    "description": "Please see page 45 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 45 of the Far Horizons Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "encumbrance": "15",
@@ -180,7 +180,7 @@
   {
     "key": "COMMMEDMANIP",
     "name": "Communications Media Manipulator",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "6",
     "rarity": "6",
@@ -195,7 +195,7 @@
   {
     "key": "INTEGPA",
     "name": "Integrated Public Address System",
-    "description": "Please see page 52 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 52 of the Desperate Allies Sourcebook for details.",
     "price": "200",
     "encumbrance": "4",
     "rarity": "4",
@@ -210,7 +210,7 @@
   {
     "key": "FVT",
     "name": "False Voice Transmitter",
-    "description": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
     "price": "1400",
     "encumbrance": "4",
     "rarity": "6",
@@ -230,7 +230,7 @@
   {
     "key": "PMVOICE",
     "name": "Polis Masson Voicebox",
-    "description": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
     "price": "50",
     "encumbrance": "1",
     "rarity": "6",
@@ -245,7 +245,7 @@
   {
     "key": "PTPLINK",
     "name": "PTP Link",
-    "description": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 111 of the Strongholds of Resistance Sourcebook for details.",
     "price": "100",
     "encumbrance": "2",
     "rarity": "7",
@@ -260,7 +260,7 @@
   {
     "key": "VERPCOM",
     "name": "Verpine Comlink",
-    "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
     "price": "250",
     "encumbrance": "1",
     "rarity": "6",
@@ -275,7 +275,7 @@
   {
     "key": "SSNT",
     "name": "Synthetic Standard Neurotoxin",
-    "description": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -297,7 +297,7 @@
   {
     "key": "SSA",
     "name": "Synthetic Standard Anesthetic",
-    "description": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
     "encumbrance": "0",
     "sources": [
       "Edge of the Empire Core Rulebook",
@@ -318,7 +318,7 @@
   {
     "key": "SSNP",
     "name": "Synthetic Standard Neuroparalytic",
-    "description": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 172 of the Edge of the Empire Core Rulebook, page 188 of the Age of Rebellion Core Rulebook, or page 181 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -340,7 +340,7 @@
   {
     "key": "DENTOX",
     "name": "Dendriton Toxin",
-    "description": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
     "encumbrance": "0",
     "price": "125",
     "rarity": "7",
@@ -360,7 +360,7 @@
   {
     "key": "DIOXIS",
     "name": "Dioxis Gas",
-    "description": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
     "encumbrance": "0",
     "price": "100",
     "rarity": "6",
@@ -380,7 +380,7 @@
   {
     "key": "RAQUOR",
     "name": "Raquor Venom",
-    "description": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
     "encumbrance": "0",
     "price": "150",
     "rarity": "7",
@@ -400,7 +400,7 @@
   {
     "key": "BEARSLOTHVENOM",
     "name": "Bearsloth Venom (dose)",
-    "description": "Please see page 22 of the Chronicles of the Gatekeeper Adventure for details.",
+    "reference": "Please see page 22 of the Chronicles of the Gatekeeper Adventure for details.",
     "encumbrance": "0",
     "price": "150",
     "rarity": "3",
@@ -420,7 +420,7 @@
   {
     "key": "BEARSLOTHANTIVENOM",
     "name": "Bearsloth Antivenom (dose)",
-    "description": "Please see page 23 of the Chronicles of the Gatekeeper Adventure for details.",
+    "reference": "Please see page 23 of the Chronicles of the Gatekeeper Adventure for details.",
     "encumbrance": "0",
     "price": "100",
     "rarity": "3",
@@ -440,7 +440,7 @@
   {
     "key": "ANTIDOTESET",
     "name": "Antidote Set",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "encumbrance": "1",
     "price": "250",
     "rarity": "5",
@@ -460,7 +460,7 @@
   {
     "key": "CYARMV",
     "name": "Cybernetic Arms (Mod V)",
-    "description": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 182 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 182 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -481,7 +481,7 @@
   {
     "key": "CYARMVI",
     "name": "Cybernetic Arms (Mod VI)",
-    "description": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 182 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 182 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -502,7 +502,7 @@
   {
     "key": "CYBRAIN",
     "name": "Cybernetic Brain Implant",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -523,7 +523,7 @@
   {
     "key": "CYEYE",
     "name": "Cybernetic Eyes",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -548,7 +548,7 @@
   {
     "key": "CYLEGII",
     "name": "Cybernetic Leg (Mod II)",
-    "description": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -569,7 +569,7 @@
   {
     "key": "CYLEGIII",
     "name": "Cybernetic Leg (Mod III)",
-    "description": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 173 of the Edge of the Empire Core Rulebook, page 189 of the Age of Rebellion Core Rulebook, or page 183 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -590,7 +590,7 @@
   {
     "key": "CYSCANLIMB",
     "name": "Cyberscanner Limb",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -606,7 +606,7 @@
   {
     "key": "CYIMIM",
     "name": "Immune Implant",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -626,7 +626,7 @@
   {
     "key": "CYIMARM",
     "name": "Implant Armor",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -646,7 +646,7 @@
   {
     "key": "CYREPLIMB",
     "name": "Repli-Limb Prosthetic (limb)",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -662,7 +662,7 @@
   {
     "key": "CYREPORG",
     "name": "Repli-Limb Prosthetic (organ)",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -678,7 +678,7 @@
   {
     "key": "CYWEPIMP",
     "name": "Cybernetic Weapon Implant",
-    "description": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 174 of the Edge of the Empire Core Rulebook, or page 190 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -717,7 +717,7 @@
   {
     "key": "CYAVIONCAAF2",
     "name": "CAAF-2 Avionics Interface",
-    "description": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
     "price": "8000",
     "encumbrance": "0",
     "rarity": "6",
@@ -741,7 +741,7 @@
   {
     "key": "CYREPULSORFIST",
     "name": "Repulsor Fist",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -788,7 +788,7 @@
   {
     "key": "CYADRENAL",
     "name": "Adrenal Implant",
-    "description": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -811,7 +811,7 @@
   {
     "key": "CYREFLEX",
     "name": "Cybernetic Reflexes",
-    "description": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 106 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -834,7 +834,7 @@
   {
     "key": "CYRESPIR",
     "name": "Cybernetic Respirator",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -861,7 +861,7 @@
   {
     "key": "CYGANKCOMM",
     "name": "Gank Comm Implant",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -879,7 +879,7 @@
   {
     "key": "CYCYBERJACK",
     "name": "Implanted Cyberjack",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -902,7 +902,7 @@
   {
     "key": "CYNEUROMACH",
     "name": "Neuromachine Interface",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -925,7 +925,7 @@
   {
     "key": "CYRETINALTRACK",
     "name": "Q-22 Retinal Tracker",
-    "description": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 107 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -958,7 +958,7 @@
   {
     "key": "CYDROIDINTF",
     "name": "Cyborg/Droid Interface",
-    "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -985,7 +985,7 @@
   {
     "key": "78BCOUR",
     "name": "Swift 78B Vessel Courier System",
-    "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -1003,7 +1003,7 @@
   {
     "key": "BIOFEEDREG",
     "name": "Biofeedback Regulator",
-    "description": "Please see page 49 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 49 of the Special Modifications Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "price": "5000",
@@ -1035,7 +1035,7 @@
   {
     "key": "ESCCIR",
     "name": "Escape Circuit",
-    "description": "Please see page 49 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 49 of the Special Modifications Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "price": "1000",
@@ -1060,7 +1060,7 @@
   {
     "key": "NETUPLINK",
     "name": "Networked Slicing Uplink",
-    "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 50 of the Special Modifications Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "price": "1250",
@@ -1088,7 +1088,7 @@
   {
     "key": "NEURALREC",
     "name": "Neural Recorder",
-    "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 50 of the Special Modifications Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "price": "250",
@@ -1113,7 +1113,7 @@
   {
     "key": "SURGESWITCH",
     "name": "Surge Override Switch",
-    "description": "Please see page 50 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 50 of the Special Modifications Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "price": "1000",
@@ -1138,7 +1138,7 @@
   {
     "key": "EBIN",
     "name": "Electrobinoculars",
-    "description": "Please see page 175 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 175 of the Edge of the Empire Core Rulebook, page 190 of the Age of Rebellion Core Rulebook, or page 184 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -1164,7 +1164,7 @@
   {
     "key": "GPS",
     "name": "General Purpose Scanner",
-    "description": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -1180,7 +1180,7 @@
   {
     "key": "HSCAN",
     "name": "Hand Scanner",
-    "description": "Please see page 176 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 176 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -1196,7 +1196,7 @@
   {
     "key": "MBIN",
     "name": "Macrobinoculars",
-    "description": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -1212,7 +1212,7 @@
   {
     "key": "SCANG",
     "name": "Scanner Goggles",
-    "description": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 175 of the Edge of the Empire Core Rulebook, page 191 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -1228,7 +1228,7 @@
   {
     "key": "PROTGOG",
     "name": "Protective Goggles",
-    "description": "These goggles protect the wearer from the effects of       bright light.  They can negate negative consequences of      light and can prevent blindness in very bright conditions.      Defels wear them due to their high sensitivity to      visible light.  When worn by a Defel, it eliminates their      light sensitivity trait.",
+    "reference": "These goggles protect the wearer from the effects of       bright light.  They can negate negative consequences of      light and can prevent blindness in very bright conditions.      Defels wear them due to their high sensitivity to      visible light.  When worn by a Defel, it eliminates their      light sensitivity trait.",
     "price": "100",
     "encumbrance": "0",
     "rarity": "2",
@@ -1242,7 +1242,7 @@
   {
     "key": "STAG",
     "name": "Surveillance Tagger",
-    "description": "Please see page 176 of the Edge of the Empire Core Rulebook, or page 191 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 176 of the Edge of the Empire Core Rulebook, or page 191 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -1258,7 +1258,7 @@
   {
     "key": "LNGRNGSCNR",
     "name": "Long Range Terrain Scanner",
-    "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "6",
@@ -1274,7 +1274,7 @@
   {
     "key": "GRNDPENPCK",
     "name": "Ground-Penetrating Sensor Pack",
-    "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "5",
@@ -1290,7 +1290,7 @@
   {
     "key": "LIFESCANNER",
     "name": "ILF-6500 Life Form Scanner",
-    "description": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 47 of the Enter the Unknown Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "4",
@@ -1306,7 +1306,7 @@
   {
     "key": "HNTGOGGLE",
     "name": "Hunting Goggles",
-    "description": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "0",
@@ -1331,7 +1331,7 @@
   {
     "key": "HYPSIGINTHSI280",
     "name": "HSI-280 Hyperwave Signal Interceptor",
-    "description": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
     "price": "10500",
     "encumbrance": "5",
     "rarity": "8",
@@ -1345,7 +1345,7 @@
   {
     "key": "WEAPDETGOGGLE",
     "name": "Weapon Detection Goggles",
-    "description": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 101 of the Suns of Fortune Sourcebook for details.",
     "price": "750",
     "encumbrance": "1",
     "rarity": "5",
@@ -1364,7 +1364,7 @@
   {
     "key": "SCANCOMBAT",
     "name": "Mark 6  Combat Scanner",
-    "description": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 56 of the Dangerous Covenants Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
@@ -1389,7 +1389,7 @@
   {
     "key": "SCANDEMO",
     "name": "Mark 10 Demolitions Scanner",
-    "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
@@ -1414,7 +1414,7 @@
   {
     "key": "RECONREM",
     "name": "Recon Remote",
-    "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
     "type": "Remotes",
     "categories": [],
     "encumbrance": "1",
@@ -1431,7 +1431,7 @@
   {
     "key": "PX7HEATSENSOR",
     "name": "PX-7 Heat Sensor",
-    "description": "Please see page 50 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 50 of the Keeping the Peace sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "3",
@@ -1458,7 +1458,7 @@
   {
     "key": "VERIDICATOR",
     "name": "Veridicator 200",
-    "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 51 of the Keeping the Peace sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
@@ -1485,7 +1485,7 @@
   {
     "key": "DROIDCAM",
     "name": "Cam Droid",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "800",
     "encumbrance": "0",
     "rarity": "3",
@@ -1500,7 +1500,7 @@
   {
     "key": "DROIDFIRE",
     "name": "FD-Series Extinguisher Droid",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "8000",
     "encumbrance": "10",
     "rarity": "4",
@@ -1515,7 +1515,7 @@
   {
     "key": "DROIDR7",
     "name": "R7-Series Astromech Droid",
-    "description": "Please see page 46 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 46 of the Stay on Target Sourcebook for details.",
     "price": "11000",
     "encumbrance": "10",
     "rarity": "6",
@@ -1530,7 +1530,7 @@
   {
     "key": "DROIDQ7",
     "name": "Q7-Series Astromech Droid",
-    "description": "Please see page 47 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 47 of the Stay on Target Sourcebook for details.",
     "price": "6500",
     "encumbrance": "10",
     "rarity": "8",
@@ -1545,7 +1545,7 @@
   {
     "key": "DROIDACLAW",
     "name": "AC Law Enforcement Droid",
-    "description": "Please see page 49 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 49 of the Far Horizons Sourcebook for details.",
     "price": "9600",
     "rarity": "5",
     "is_restricted": "true",
@@ -1560,7 +1560,7 @@
   {
     "key": "DROIDDZ70",
     "name": "DZ-70 Fugitive Tracker Droid",
-    "description": "Please see page 49 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 49 of the Far Horizons Sourcebook for details.",
     "price": "9800",
     "rarity": "4",
     "is_restricted": "true",
@@ -1575,7 +1575,7 @@
   {
     "key": "DROIDMINIMED",
     "name": "Mini-Med Droid",
-    "description": "Please see page 49 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 49 of the Far Horizons Sourcebook for details.",
     "price": "900",
     "rarity": "3",
     "is_restricted": "false",
@@ -1590,7 +1590,7 @@
   {
     "key": "DROIDGYRO",
     "name": "Gyrowheel 1.42.08 Recycling Droid",
-    "description": "Please see page 50 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 50 of the Far Horizons Sourcebook for details.",
     "price": "6500",
     "rarity": "4",
     "is_restricted": "false",
@@ -1605,7 +1605,7 @@
   {
     "key": "DROIDSDMN",
     "name": "SDMN-Series Session Droid",
-    "description": "Please see page 50 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 50 of the Far Horizons Sourcebook for details.",
     "price": "4000",
     "rarity": "5",
     "is_restricted": "false",
@@ -1620,7 +1620,7 @@
   {
     "key": "DROIDANTBAT",
     "name": "Antiquated Battle Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
     "price": "6500",
     "rarity": "5",
     "is_restricted": "false",
@@ -1635,7 +1635,7 @@
   {
     "key": "DROIDASSASIN",
     "name": "Assassin Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
     "price": "65000",
     "rarity": "8",
     "is_restricted": "true",
@@ -1650,7 +1650,7 @@
   {
     "key": "DROIDASTRO",
     "name": "Astromech Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
     "price": "8250",
     "rarity": "3",
     "is_restricted": "false",
@@ -1665,7 +1665,7 @@
   {
     "key": "DROIDPROT",
     "name": "Protocol Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Force and Destiny Core Rulebook"
@@ -1681,7 +1681,7 @@
   {
     "key": "DROIDMAINT",
     "name": "Maintenance Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
     "price": "7500",
     "rarity": "3",
     "is_restricted": "false",
@@ -1696,7 +1696,7 @@
   {
     "key": "DROIDSECUR",
     "name": "Security Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook for details.",
     "price": "9600",
     "rarity": "5",
     "is_restricted": "false",
@@ -1711,7 +1711,7 @@
   {
     "key": "DROIDMEDIC",
     "name": "Medical Droid",
-    "description": "Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 409 of the Edge of the Empire Core Rulebook, or page 410 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Force and Destiny Core Rulebook"
@@ -1727,7 +1727,7 @@
   {
     "key": "DROIDANALYSIS",
     "name": "Analysis Droid",
-    "description": "Please see page 409 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 409 of the Force and Destiny Core Rulebook for details.",
     "price": "7500",
     "rarity": "5",
     "is_restricted": "false",
@@ -1742,7 +1742,7 @@
   {
     "key": "DROIDIG100",
     "name": "IG-100 Magnaguard Droid",
-    "description": "Please see page 409 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 409 of the Force and Destiny Core Rulebook for details.",
     "price": "90000",
     "rarity": "10",
     "is_restricted": "true",
@@ -1757,7 +1757,7 @@
   {
     "key": "DROIDINTEROG",
     "name": "Interrogation Droid",
-    "description": "Please see page 410 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 410 of the Force and Destiny Core Rulebook for details.",
     "price": "9600",
     "rarity": "8",
     "is_restricted": "true",
@@ -1772,7 +1772,7 @@
   {
     "key": "DROIDPROBEV",
     "name": "Viper Probe Droid",
-    "description": "Please see page 410 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 410 of the Force and Destiny Core Rulebook for details.",
     "price": "13700",
     "rarity": "7",
     "is_restricted": "true",
@@ -1787,7 +1787,7 @@
   {
     "key": "DROIDPROT3PX",
     "name": "3PX-Series Protocol Droid",
-    "description": "Please see page 54 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 54 of the Desperate Allies Sourcebook for details.",
     "price": "7750",
     "rarity": "4",
     "is_restricted": "false",
@@ -1802,7 +1802,7 @@
   {
     "key": "DROIDPROT5YQ",
     "name": "5YQ-Series Protocol Droid",
-    "description": "Please see page 55 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 55 of the Desperate Allies Sourcebook for details.",
     "price": "5500",
     "rarity": "3",
     "is_restricted": "false",
@@ -1817,7 +1817,7 @@
   {
     "key": "DROIDPROTCZ",
     "name": "CZ-Series Communications/Business Droid",
-    "description": "Please see page 55 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 55 of the Desperate Allies Sourcebook for details.",
     "price": "9000",
     "rarity": "4",
     "is_restricted": "false",
@@ -1832,7 +1832,7 @@
   {
     "key": "DROIDPROTTC",
     "name": "TC-Series Protocol Droid",
-    "description": "Please see page 55 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 55 of the Desperate Allies Sourcebook for details.",
     "price": "10000",
     "rarity": "4",
     "is_restricted": "false",
@@ -1847,7 +1847,7 @@
   {
     "key": "DROIDPROTM3PO",
     "name": "M-3PO-Series Military Protocol Droid",
-    "description": "Please see page 56 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 56 of the Desperate Allies Sourcebook for details.",
     "price": "12000",
     "rarity": "5",
     "is_restricted": "true",
@@ -1862,7 +1862,7 @@
   {
     "key": "DROIDPROTLRD",
     "name": "LRD-Series Envoy Droid",
-    "description": "Please see page 57 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 57 of the Desperate Allies Sourcebook for details.",
     "price": "15000",
     "rarity": "5",
     "is_restricted": "false",
@@ -1877,7 +1877,7 @@
   {
     "key": "DROIDPROTLOM",
     "name": "LOM-Series Protocol Droid",
-    "description": "Please see page 58 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 58 of the Desperate Allies Sourcebook for details.",
     "price": "8500",
     "rarity": "5",
     "is_restricted": "false",
@@ -1892,7 +1892,7 @@
   {
     "key": "DROIDK9",
     "name": "K-9 Series Hunting Droid",
-    "description": "Please see page 54 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 54 of the Enter the Unknown Sourcebook for details.",
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
@@ -1907,7 +1907,7 @@
   {
     "key": "DROIDATED",
     "name": "All-Terrain Exploration Droid",
-    "description": "Please see page 55 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 55 of the Enter the Unknown Sourcebook for details.",
     "price": "8900",
     "rarity": "5",
     "is_restricted": "false",
@@ -1922,7 +1922,7 @@
   {
     "key": "DROIDJCPILOT",
     "name": "JC Series Pilot Droid",
-    "description": "Please see page 56 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 56 of the Enter the Unknown Sourcebook for details.",
     "price": "15000",
     "rarity": "7",
     "is_restricted": "false",
@@ -1937,7 +1937,7 @@
   {
     "key": "DROIDKLC",
     "name": "KLC Series Exchequer Droid",
-    "description": "Please see page 56 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 56 of the Enter the Unknown Sourcebook for details.",
     "price": "10000",
     "rarity": "5",
     "is_restricted": "false",
@@ -1952,7 +1952,7 @@
   {
     "key": "DROID87RMCOLL",
     "name": "87-RM Scout Collector Droid",
-    "description": "Please see page 57 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 57 of the Enter the Unknown Sourcebook for details.",
     "price": "6000",
     "rarity": "6",
     "is_restricted": "false",
@@ -1967,7 +1967,7 @@
   {
     "key": "DROID87RMSURV",
     "name": "Wanderer Scout Surveyor Droid",
-    "description": "Please see page 57 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 57 of the Enter the Unknown Sourcebook for details.",
     "price": "2500",
     "rarity": "6",
     "is_restricted": "false",
@@ -1982,7 +1982,7 @@
   {
     "key": "DROIDCT4MED",
     "name": "CT-4 Medical Droid",
-    "description": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 112 of the Strongholds of Resistance Sourcebook for details.",
     "price": "20000",
     "rarity": "8",
     "is_restricted": "false",
@@ -1997,7 +1997,7 @@
   {
     "key": "DROIDQ4BOR",
     "name": "Q4 Borer Droid",
-    "description": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
     "price": "2000",
     "rarity": "5",
     "is_restricted": "false",
@@ -2012,7 +2012,7 @@
   {
     "key": "DROIDJ9WORK",
     "name": "J9 Worker Drone",
-    "description": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
     "price": "7000",
     "rarity": "3",
     "is_restricted": "false",
@@ -2027,7 +2027,7 @@
   {
     "key": "DROIDSIAK",
     "name": "Siak-Series Protocol Droid",
-    "description": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
     "price": "10000",
     "rarity": "4",
     "is_restricted": "false",
@@ -2042,7 +2042,7 @@
   {
     "key": "DROIDG2REP",
     "name": "G2 Repair Droid",
-    "description": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
     "price": "6000",
     "rarity": "5",
     "is_restricted": "false",
@@ -2057,7 +2057,7 @@
   {
     "key": "DROIDWANDSC",
     "name": "Wanderer Scout Survey Droid",
-    "description": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 113 of the Strongholds of Resistance Sourcebook for details.",
     "price": "2500",
     "rarity": "6",
     "is_restricted": "false",
@@ -2072,7 +2072,7 @@
   {
     "key": "GV3SERIES",
     "name": "GV/3-series Guardian Droid",
-    "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+    "reference": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "encumbrance": "10",
@@ -2091,7 +2091,7 @@
   {
     "key": "MARKSMANHREMOTE",
     "name": "Marksman-H Combat Training Remote",
-    "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+    "reference": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
     "type": "Remotes",
     "categories": [],
     "encumbrance": "1",
@@ -2110,7 +2110,7 @@
   {
     "key": "RMD20DROID",
     "name": "RMD-20 \"Eye in the Sky\"",
-    "description": "Please see page 50 of the Keeping the Peace Sourcebook for details.",
+    "reference": "Please see page 50 of the Keeping the Peace Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "encumbrance": "1",
@@ -2129,7 +2129,7 @@
   {
     "key": "DROIDTSERIES",
     "name": "T-Series Tactical Droid",
-    "description": "Please see page 45 of the Lead by Example Sourcebook for details.",
+    "reference": "Please see page 45 of the Lead by Example Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "encumbrance": "0",
@@ -2148,7 +2148,7 @@
   {
     "key": "BEASTAIWHA",
     "name": "Aiwha Riding Beast",
-    "description": "Please see page 83 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 83 of the Stay on Target Sourcebook for details.",
     "price": "25000",
     "encumbrance": "0",
     "rarity": "8",
@@ -2163,7 +2163,7 @@
   {
     "key": "BEASTBANTHA",
     "name": "Bantha Riding Beast",
-    "description": "Please see page 83 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 83 of the Stay on Target Sourcebook for details.",
     "price": "2500",
     "encumbrance": "0",
     "rarity": "1",
@@ -2178,7 +2178,7 @@
   {
     "key": "BEASTCRACIAN",
     "name": "Cracian Thumper Riding Beast",
-    "description": "Please see page 84 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 84 of the Stay on Target Sourcebook for details.",
     "price": "7500",
     "encumbrance": "0",
     "rarity": "2",
@@ -2193,7 +2193,7 @@
   {
     "key": "BEASTDALGO",
     "name": "Dalgo Riding Beast",
-    "description": "Please see page 84 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 84 of the Stay on Target Sourcebook for details.",
     "price": "15000",
     "encumbrance": "0",
     "rarity": "5",
@@ -2208,7 +2208,7 @@
   {
     "key": "BEASTDEWBACK",
     "name": "Dewback Riding Beast",
-    "description": "Please see page 85 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 85 of the Stay on Target Sourcebook for details.",
     "price": "6500",
     "encumbrance": "0",
     "rarity": "3",
@@ -2223,7 +2223,7 @@
   {
     "key": "BEASTEOPIE",
     "name": "Eopie (Cameloid) Riding Beast",
-    "description": "Please see page 85 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 85 of the Stay on Target Sourcebook for details.",
     "price": "6500",
     "encumbrance": "0",
     "rarity": "3",
@@ -2238,7 +2238,7 @@
   {
     "key": "BEASTHORSE",
     "name": "Horse (Equinoid) Riding Beast",
-    "description": "Please see page 85 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 85 of the Stay on Target Sourcebook for details.",
     "price": "5000",
     "encumbrance": "0",
     "rarity": "1",
@@ -2253,7 +2253,7 @@
   {
     "key": "BEASTFAMBAA",
     "name": "Fambaa Riding Beast",
-    "description": "Please see page 86 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 86 of the Stay on Target Sourcebook for details.",
     "price": "60000",
     "encumbrance": "0",
     "rarity": "4",
@@ -2268,7 +2268,7 @@
   {
     "key": "BEASTKAADU",
     "name": "Kaadu Riding Beast",
-    "description": "Please see page 86 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 86 of the Stay on Target Sourcebook for details.",
     "price": "8000",
     "encumbrance": "0",
     "rarity": "7",
@@ -2284,7 +2284,7 @@
   {
     "key": "BEASTKYBUCK",
     "name": "Kybuck Riding Beast",
-    "description": "Please see page 86 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 86 of the Stay on Target Sourcebook for details.",
     "price": "10000",
     "encumbrance": "0",
     "rarity": "6",
@@ -2300,7 +2300,7 @@
   {
     "key": "BEASTLAVAFLEA",
     "name": "Mustafarian Lava Flea Riding Beast",
-    "description": "Please see page 87 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 87 of the Stay on Target Sourcebook for details.",
     "price": "15000",
     "encumbrance": "0",
     "rarity": "8",
@@ -2316,7 +2316,7 @@
   {
     "key": "BEASTNARGLATCH",
     "name": "Narglatch",
-    "description": "Please see page 87 of the Stay on Target Sourcebook, and page 77 of the Savage Spirits Sourcebook, for details.",
+    "reference": "Please see page 87 of the Stay on Target Sourcebook, and page 77 of the Savage Spirits Sourcebook, for details.",
     "sources": [
       "Stay on Target",
       "Savage Spirits"
@@ -2332,7 +2332,7 @@
   {
     "key": "BEASTRONTO",
     "name": "Ronto",
-    "description": "Please see page 87 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 87 of the Stay on Target Sourcebook for details.",
     "price": "4500",
     "rarity": "3",
     "is_restricted": "false",
@@ -2347,7 +2347,7 @@
   {
     "key": "BEASTRUPING",
     "name": "Ruping",
-    "description": "Please see page 88 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 88 of the Stay on Target Sourcebook for details.",
     "price": "16000",
     "rarity": "5",
     "is_restricted": "false",
@@ -2362,7 +2362,7 @@
   {
     "key": "BEASTTAUNTAUN",
     "name": "Tauntaun",
-    "description": "Please see page 88 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 88 of the Stay on Target Sourcebook for details.",
     "price": "10000",
     "rarity": "10",
     "is_restricted": "false",
@@ -2377,7 +2377,7 @@
   {
     "key": "BEASTTHRANTA",
     "name": "Thranta",
-    "description": "Please see page 88 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 88 of the Stay on Target Sourcebook for details.",
     "price": "120000",
     "rarity": "9",
     "is_restricted": "true",
@@ -2392,7 +2392,7 @@
   {
     "key": "BEASTVARACTYL",
     "name": "Varactyl",
-    "description": "Please see page 89 of the Stay on Target Sourcebook, and page 79 of the Savage Spirits Sourcebook, for details.",
+    "reference": "Please see page 89 of the Stay on Target Sourcebook, and page 79 of the Savage Spirits Sourcebook, for details.",
     "sources": [
       "Stay on Target",
       "Savage Spirits"
@@ -2408,7 +2408,7 @@
   {
     "key": "BEASTALBEK",
     "name": "Albek",
-    "description": "Please see page 74 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 74 of the Savage Spirits Sourcebook for details.",
     "price": "700",
     "rarity": "6",
     "is_restricted": "false",
@@ -2423,7 +2423,7 @@
   {
     "key": "BEASTCREEREEN",
     "name": "Creereen",
-    "description": "Please see page 74 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 74 of the Savage Spirits Sourcebook for details.",
     "price": "400",
     "rarity": "5",
     "is_restricted": "false",
@@ -2438,7 +2438,7 @@
   {
     "key": "BEASTFISSRIT",
     "name": "Fissrit",
-    "description": "Please see page 75 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 75 of the Savage Spirits Sourcebook for details.",
     "price": "1500",
     "rarity": "7",
     "is_restricted": "false",
@@ -2453,7 +2453,7 @@
   {
     "key": "BEASTHURGHOL",
     "name": "Hurghol",
-    "description": "Please see page 75 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 75 of the Savage Spirits Sourcebook for details.",
     "price": "2000",
     "rarity": "3",
     "is_restricted": "false",
@@ -2468,7 +2468,7 @@
   {
     "key": "BEASTCLAMBER",
     "name": "Jerethian Clamberwolf",
-    "description": "Please see page 75 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 75 of the Savage Spirits Sourcebook for details.",
     "price": "30000",
     "rarity": "7",
     "is_restricted": "false",
@@ -2483,7 +2483,7 @@
   {
     "key": "BEASTKATH",
     "name": "Kath Hound",
-    "description": "Please see page 76 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 76 of the Savage Spirits Sourcebook for details.",
     "price": "7500",
     "rarity": "6",
     "is_restricted": "false",
@@ -2498,7 +2498,7 @@
   {
     "key": "BEASTMANKA",
     "name": "Manka Cat",
-    "description": "Please see page 76 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 76 of the Savage Spirits Sourcebook for details.",
     "price": "40000",
     "rarity": "8",
     "is_restricted": "false",
@@ -2513,7 +2513,7 @@
   {
     "key": "BEASTFLUTTER",
     "name": "Mantellian Flutterplume",
-    "description": "Please see page 76 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 76 of the Savage Spirits Sourcebook for details.",
     "price": "2500",
     "rarity": "4",
     "is_restricted": "false",
@@ -2528,7 +2528,7 @@
   {
     "key": "BEASTNEXU",
     "name": "Nexu",
-    "description": "Please see page 77 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 77 of the Savage Spirits Sourcebook for details.",
     "price": "8000",
     "rarity": "4",
     "is_restricted": "false",
@@ -2543,7 +2543,7 @@
   {
     "key": "BEASTPORVIR",
     "name": "Porvir",
-    "description": "Please see page 77 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 77 of the Savage Spirits Sourcebook for details.",
     "price": "100",
     "rarity": "5",
     "is_restricted": "false",
@@ -2558,7 +2558,7 @@
   {
     "key": "BEASTREEK",
     "name": "Reek",
-    "description": "Please see page 78 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 78 of the Savage Spirits Sourcebook for details.",
     "price": "10000",
     "rarity": "5",
     "is_restricted": "false",
@@ -2573,7 +2573,7 @@
   {
     "key": "BEASTRUNDEREN",
     "name": "Runderen",
-    "description": "Please see page 78 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 78 of the Savage Spirits Sourcebook for details.",
     "price": "25",
     "rarity": "1",
     "is_restricted": "false",
@@ -2588,7 +2588,7 @@
   {
     "key": "BEASTGLOWBAT",
     "name": "Spintiri Glowbat",
-    "description": "Please see page 78 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 78 of the Savage Spirits Sourcebook for details.",
     "price": "800",
     "rarity": "7",
     "is_restricted": "false",
@@ -2603,7 +2603,7 @@
   {
     "key": "BEASTUXIBEAST",
     "name": "Uxibeast",
-    "description": "Please see page 79 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 79 of the Savage Spirits Sourcebook for details.",
     "price": "2500",
     "rarity": "2",
     "is_restricted": "false",
@@ -2618,7 +2618,7 @@
   {
     "key": "BEASTVRBLTHER",
     "name": "Vrblther",
-    "description": "Please see page 79 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 79 of the Savage Spirits Sourcebook for details.",
     "price": "3000",
     "rarity": "3",
     "is_restricted": "false",
@@ -2633,7 +2633,7 @@
   {
     "key": "CORWHISKEY",
     "name": "Corellian Whiskey (Bottle)",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "25",
     "encumbrance": "1",
     "rarity": "2",
@@ -2647,7 +2647,7 @@
   {
     "key": "CORWHISKEYCASE",
     "name": "Corellian Whiskey (25 Bottle Case)",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "500",
     "encumbrance": "20",
     "rarity": "2",
@@ -2661,7 +2661,7 @@
   {
     "key": "CORWHISKEYWHY",
     "name": "Whyren's Reserve Corellian Whiskey (Bottle)",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "4",
@@ -2675,7 +2675,7 @@
   {
     "key": "CORWHISKEYWHYCASE",
     "name": "Whyren's Reserve Corellian Whiskey (20 Bottle Case)",
-    "description": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 102 of the Suns of Fortune Sourcebook for details.",
     "price": "1500",
     "encumbrance": "10",
     "rarity": "5",
@@ -2689,7 +2689,7 @@
   {
     "key": "JIRIKKNIT",
     "name": "Ji Rikknit (Dose)",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "50",
     "encumbrance": "0",
     "rarity": "6",
@@ -2703,7 +2703,7 @@
   {
     "key": "JIRIKKNITCONT",
     "name": "Ji Rikknit (100 Dose Cargo Container)",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "3000",
     "encumbrance": "5",
     "rarity": "7",
@@ -2717,7 +2717,7 @@
   {
     "key": "NANNARIUM",
     "name": "Nannarium Root (Dose)",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "300",
     "encumbrance": "0",
     "rarity": "2",
@@ -2731,7 +2731,7 @@
   {
     "key": "RYSHCATE",
     "name": "Ryshcate (Cake)",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "10",
     "encumbrance": "0",
     "rarity": "2",
@@ -2745,7 +2745,7 @@
   {
     "key": "NALAFROG",
     "name": "Nala Tree Frog",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "15",
     "encumbrance": "1",
     "rarity": "5",
@@ -2759,7 +2759,7 @@
   {
     "key": "MARCAN",
     "name": "Marcan Herb (1 dose)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "20",
     "encumbrance": "1",
     "rarity": "4",
@@ -2773,7 +2773,7 @@
   {
     "key": "MARCANCONT",
     "name": "Marcan Herb (100 doses)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "1750",
     "encumbrance": "25",
     "rarity": "5",
@@ -2787,7 +2787,7 @@
   {
     "key": "RYLL",
     "name": "Ryll (1 dose)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "50",
     "encumbrance": "1",
     "rarity": "4",
@@ -2807,7 +2807,7 @@
   {
     "key": "RYLLCONT",
     "name": "Ryll (100 doses)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "4500",
     "encumbrance": "25",
     "rarity": "5",
@@ -2827,7 +2827,7 @@
   {
     "key": "GUNJACK",
     "name": "Gunjack Spice (1 dose)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "75",
     "encumbrance": "1",
     "rarity": "5",
@@ -2847,7 +2847,7 @@
   {
     "key": "GUNJACKCONT",
     "name": "Gunjack Spice (100 doses)",
-    "description": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 110 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "7000",
     "encumbrance": "25",
     "rarity": "6",
@@ -2867,7 +2867,7 @@
   {
     "key": "NEUTPIX",
     "name": "Neutron Pixie (1 dose)",
-    "description": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "6",
@@ -2887,7 +2887,7 @@
   {
     "key": "NEUTPIX100",
     "name": "Neutron Pixie (100 doses)",
-    "description": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "8500",
     "encumbrance": "25",
     "rarity": "7",
@@ -2907,7 +2907,7 @@
   {
     "key": "FRANGFP1",
     "name": "Frangawl Force Powder (1 dose)",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "price": "2000",
     "encumbrance": "0",
     "rarity": "10",
@@ -2927,7 +2927,7 @@
   {
     "key": "LONGSIGHT1",
     "name": "Longsight (1 dose)",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "price": "650",
     "encumbrance": "0",
     "rarity": "8",
@@ -2947,7 +2947,7 @@
   {
     "key": "SULFINH10",
     "name": "Sulfur Inhaler (10 doses)",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook, or page 55 of the No Disintegrations Sourcebook, for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook, or page 55 of the No Disintegrations Sourcebook, for details.",
     "sources": [
       "Nexus of Power",
       "No Disintegrations"
@@ -2968,7 +2968,7 @@
   {
     "key": "BACTAL",
     "name": "Bacta (liter)",
-    "description": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -2984,7 +2984,7 @@
   {
     "key": "BACTAT",
     "name": "Bacta (full tank)",
-    "description": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3000,7 +3000,7 @@
   {
     "key": "PHK",
     "name": "Portable Healing Kit",
-    "description": "Please see page 129 of the Force and Destiny Beta Rulebook for details.",
+    "reference": "Please see page 129 of the Force and Destiny Beta Rulebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "1",
@@ -3014,7 +3014,7 @@
   {
     "key": "EMP",
     "name": "Emergency Medpac",
-    "description": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 176 of the Edge of the Empire Core Rulebook, page 192 of the Age of Rebellion Core Rulebook, or page 185 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3030,7 +3030,7 @@
   {
     "key": "MEDPAC",
     "name": "Medpac",
-    "description": "Please see page 177 of the Edge of the Empire Core Rulebook, or page 192 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 177 of the Edge of the Empire Core Rulebook, or page 192 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -3056,7 +3056,7 @@
   {
     "key": "PHYSKIT",
     "name": "Physician's Kit",
-    "description": "Please see page 186 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 186 of the Force and Destiny Core Rulebook for details.",
     "price": "400",
     "encumbrance": "2",
     "rarity": "2",
@@ -3082,7 +3082,7 @@
   {
     "key": "STIMPACK",
     "name": "Stimpack",
-    "description": "Please see page 177 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 186 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 177 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 186 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3103,7 +3103,7 @@
   {
     "key": "SYNSK",
     "name": "Synthskin",
-    "description": "Please see page 177 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 186 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 177 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 186 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3119,7 +3119,7 @@
   {
     "key": "MEDBCKPCK",
     "name": "ECM-598 Medical Backpack",
-    "description": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 48 of the Enter the Unknown Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "encumbrance": "2",
@@ -3150,7 +3150,7 @@
   {
     "key": "SYNTHEROPE",
     "name": "Syntherope",
-    "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -3166,7 +3166,7 @@
   {
     "key": "FLASHCAMPST",
     "name": "FlashFire Camp Stove",
-    "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 47 of the Savage Spirits Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "2",
@@ -3182,7 +3182,7 @@
   {
     "key": "SURVMESSKIT",
     "name": "\"Survivalist\" Mess Kit",
-    "description": "Please see page 47 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 47 of the Savage Spirits Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -3198,7 +3198,7 @@
   {
     "key": "WATPUR",
     "name": "Water Purifier",
-    "description": "Please see page 48 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 48 of the Savage Spirits Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -3214,7 +3214,7 @@
   {
     "key": "CERESTAB",
     "name": "IRAPS Cerebral Stabilizer",
-    "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "encumbrance": "3",
@@ -3231,7 +3231,7 @@
   {
     "key": "MEDPACMIL",
     "name": "Military Medpac",
-    "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "encumbrance": "2",
@@ -3256,7 +3256,7 @@
   {
     "key": "XV38",
     "name": "XV-38 Veterinary Kit",
-    "description": "Please see page 44 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 44 of the Stay on Target Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "price": "600",
@@ -3281,7 +3281,7 @@
   {
     "key": "XV09",
     "name": "XV-09 Chemical Restraint Harness",
-    "description": "Please see page 44 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 44 of the Stay on Target Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "price": "1200",
@@ -3303,7 +3303,7 @@
   {
     "key": "BLOODSCAN",
     "name": "Blood Scanner",
-    "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 51 of the Keeping the Peace sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "encumbrance": "1",
@@ -3325,7 +3325,7 @@
   {
     "key": "MEDAIDPATCH",
     "name": "Med-Aid Patch",
-    "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 51 of the Keeping the Peace sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "encumbrance": "1",
@@ -3347,7 +3347,7 @@
   {
     "key": "DEJARIK",
     "name": "Dejarik Table",
-    "description": "Please see page 182 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 182 of the Edge of the Empire Core Rulebook for details.",
     "price": "350",
     "encumbrance": "10",
     "rarity": "1",
@@ -3361,7 +3361,7 @@
   {
     "key": "SABACC",
     "name": "Sabacc Deck",
-    "description": "Please see page 182 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 182 of the Edge of the Empire Core Rulebook for details.",
     "price": "40",
     "encumbrance": "0",
     "rarity": "0",
@@ -3375,7 +3375,7 @@
   {
     "key": "SABACCMARKED",
     "name": "Marked Sabacc Deck",
-    "description": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "500",
     "encumbrance": "1",
     "rarity": "6",
@@ -3395,7 +3395,7 @@
   {
     "key": "CHCUBELOADED",
     "name": "Loaded Chance Cube",
-    "description": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "5",
@@ -3415,7 +3415,7 @@
   {
     "key": "BIND",
     "name": "Binders",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, page 193 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3431,7 +3431,7 @@
   {
     "key": "COMMJAM",
     "name": "Comm Jammer",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, or page 194 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, or page 194 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -3446,7 +3446,7 @@
   {
     "key": "COMMSCRAM",
     "name": "Comm Scrambler",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, or page 194 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, or page 194 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -3461,7 +3461,7 @@
   {
     "key": "DISGU",
     "name": "Disguise Kit",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3477,7 +3477,7 @@
   {
     "key": "ELB",
     "name": "Electronic Lock Breaker",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3494,7 +3494,7 @@
   {
     "key": "RESBOLT",
     "name": "Restraining Bolt",
-    "description": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 178 of the Edge of the Empire Core Rulebook, page 194 of the Age of Rebellion Core Rulebook, or page 187 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3510,7 +3510,7 @@
   {
     "key": "SLIGEAR",
     "name": "Slicer Gear",
-    "description": "Please see page 179 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 179 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -3525,7 +3525,7 @@
   {
     "key": "MAGNACUFF",
     "name": "MC-100 Magnacuffs",
-    "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 46 of the Far Horizons Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -3542,7 +3542,7 @@
   {
     "key": "FORENKIT",
     "name": "Forensics Investigation Kit",
-    "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 46 of the Far Horizons Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "4",
@@ -3565,7 +3565,7 @@
   {
     "key": "SECCOLLAR",
     "name": "Thalassian Security Collar",
-    "description": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 108 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -3588,7 +3588,7 @@
   {
     "key": "EXPLSHAC",
     "name": "Explosive Shackles",
-    "description": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 109 of the Lords of Nal Hutta Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "2",
@@ -3611,7 +3611,7 @@
   {
     "key": "AUTHTOOLS",
     "name": "Authentication Tools",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "encumbrance": "1",
     "price": "100",
     "rarity": "5",
@@ -3631,7 +3631,7 @@
   {
     "key": "CONCREC",
     "name": "Concealed Recorder",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "encumbrance": "0",
     "price": "175",
     "rarity": "5",
@@ -3651,7 +3651,7 @@
   {
     "key": "DATADEADDROP",
     "name": "Data Dead Drop",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "price": "150",
     "encumbrance": "0",
     "rarity": "7",
@@ -3671,7 +3671,7 @@
   {
     "key": "DIPLAUTH",
     "name": "Diplomatic Authorization",
-    "description": "Please see page 51 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 51 of the Desperate Allies Sourcebook for details.",
     "price": "10000",
     "encumbrance": "0",
     "rarity": "8",
@@ -3691,7 +3691,7 @@
   {
     "key": "FALSECRED",
     "name": "Falsified Credentials",
-    "description": "Please see page 51 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 51 of the Desperate Allies Sourcebook for details.",
     "price": "800",
     "encumbrance": "0",
     "rarity": "7",
@@ -3712,7 +3712,7 @@
   {
     "key": "FORGETOOLS",
     "name": "Forgery Tools",
-    "description": "Please see page 51 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 51 of the Desperate Allies Sourcebook for details.",
     "price": "650",
     "encumbrance": "2",
     "rarity": "8",
@@ -3727,7 +3727,7 @@
   {
     "key": "KNACKBOLT",
     "name": "\"Knack\" Restraining Bolt",
-    "description": "Please see page 52 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 52 of the Desperate Allies Sourcebook for details.",
     "price": "750",
     "encumbrance": "0",
     "rarity": "8",
@@ -3742,7 +3742,7 @@
   {
     "key": "POISONRING",
     "name": "Poisoner's Ring",
-    "description": "Please see page 52 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 52 of the Desperate Allies Sourcebook for details.",
     "price": "500",
     "encumbrance": "0",
     "rarity": "7",
@@ -3766,7 +3766,7 @@
   {
     "key": "SECSWEEP",
     "name": "Security Sweeper",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "1",
     "rarity": "6",
@@ -3790,7 +3790,7 @@
   {
     "key": "SOUNDDAMP",
     "name": "Sound Dampener",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "600",
     "encumbrance": "2",
     "rarity": "7",
@@ -3810,7 +3810,7 @@
   {
     "key": "ALDR8GRAVBIND",
     "name": "AL-DR8 Grav-Binders",
-    "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 51 of the Keeping the Peace sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -3832,7 +3832,7 @@
   {
     "key": "PERSTRANSPOND",
     "name": "Personal Transponder",
-    "description": "Please see page 51 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 51 of the Keeping the Peace sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
@@ -3854,7 +3854,7 @@
   {
     "key": "STUNCUFFS",
     "name": "Stun Cuffs",
-    "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 52 of the Keeping the Peace sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
@@ -3876,7 +3876,7 @@
   {
     "key": "CRASH",
     "name": "Crash Survival Kit",
-    "description": "Please see page 180 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 180 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -3891,7 +3891,7 @@
   {
     "key": "RATION",
     "name": "Ration Pack",
-    "description": "Please see page 179 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 179 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3907,7 +3907,7 @@
   {
     "key": "BREATHM",
     "name": "Breath Mask",
-    "description": "Please see page 179 of the Edge of the Empire Core Rulebook, page 195 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 179 of the Edge of the Empire Core Rulebook, page 195 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3923,7 +3923,7 @@
   {
     "key": "SPACESU",
     "name": "Space Suit",
-    "description": "Please see page 179 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 179 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3939,7 +3939,7 @@
   {
     "key": "WILDKIT",
     "name": "Wilderness Survival Kit",
-    "description": "Please see page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Age of Rebellion Core Rulebook",
       "Force and Destiny Core Rulebook"
@@ -3954,7 +3954,7 @@
   {
     "key": "TENT",
     "name": "Tent",
-    "description": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3970,7 +3970,7 @@
   {
     "key": "THERMCL",
     "name": "Thermal Cloak",
-    "description": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -3991,7 +3991,7 @@
   {
     "key": "ELECSNARE",
     "name": "Electro-Snare",
-    "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -4007,7 +4007,7 @@
   {
     "key": "PORTSHELTER",
     "name": "Portable Survival Shelter",
-    "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "2",
@@ -4023,7 +4023,7 @@
   {
     "key": "ELECFENCE",
     "name": "Electric Perimeter Fence",
-    "description": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 49 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "6",
@@ -4039,7 +4039,7 @@
   {
     "key": "DISTRESSBCN",
     "name": "PED-21 Personal Distress Beacon",
-    "description": "Please see page 50 of Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 50 of Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4060,7 +4060,7 @@
   {
     "key": "FLDKITCHEN",
     "name": "Field Kitchen",
-    "description": "Please see page 50 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 50 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "5",
@@ -4081,7 +4081,7 @@
   {
     "key": "FLDDRSKIT",
     "name": "Viscera Field Dressing Kit",
-    "description": "Please see page 51 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 51 of the Enter the Unknown Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "3",
@@ -4102,7 +4102,7 @@
   {
     "key": "FIELDGOGG",
     "name": "Scout 5 Field Goggles",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4119,7 +4119,7 @@
   {
     "key": "FIELDRAT",
     "name": "Field Rations",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4136,7 +4136,7 @@
   {
     "key": "FIREPASTE",
     "name": "Fire Paste",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4153,7 +4153,7 @@
   {
     "key": "FOODPREPSYS",
     "name": "Food Preparation System",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "3",
@@ -4170,7 +4170,7 @@
   {
     "key": "TENTTAUN",
     "name": "Tauntaun Pup Tent",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "3",
@@ -4187,7 +4187,7 @@
   {
     "key": "CAMONETROLL",
     "name": "CN-15 Camouflage Netting (Roll)",
-    "description": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 57 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "4",
@@ -4212,7 +4212,7 @@
   {
     "key": "CAMOPAINT",
     "name": "CN-21 Camouflage Paint",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4237,7 +4237,7 @@
   {
     "key": "CANTEEN",
     "name": "Canteen",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -4254,7 +4254,7 @@
   {
     "key": "HOLOGHILLIE",
     "name": "CX-2000 Holographic Ghillie Suit",
-    "description": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 58 of the Dangerous Covenants Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -4276,7 +4276,7 @@
   {
     "key": "BIOMEGEN",
     "name": "Biome Generator",
-    "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 46 of the Far Horizons Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "45",
@@ -4293,7 +4293,7 @@
   {
     "key": "WATERVAP",
     "name": "GX-8 Water Vaporator",
-    "description": "Please see page 47 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 47 of the Far Horizons Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "12",
@@ -4310,7 +4310,7 @@
   {
     "key": "ATMOSPROC",
     "name": "Elysium Atmospheric Processor",
-    "description": "Please see page 46 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 46 of the Far Horizons Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "10000",
@@ -4327,7 +4327,7 @@
   {
     "key": "ATMOREDAMP",
     "name": "FasClean Atmospheric Reactive Damper",
-    "description": "Please see page 47 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 47 of the Far Horizons Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "500",
@@ -4344,7 +4344,7 @@
   {
     "key": "A99AQUABREATH",
     "name": "A99 Aquata Breather",
-    "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 52 of the Keeping the Peace sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4362,7 +4362,7 @@
   {
     "key": "INSTAMIST",
     "name": "InstaMist Generator",
-    "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 52 of the Keeping the Peace sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "5",
@@ -4384,7 +4384,7 @@
   {
     "key": "JEDIUTILBELT",
     "name": "Jedi Utility Belt",
-    "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 52 of the Keeping the Peace sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "0",
@@ -4406,7 +4406,7 @@
   {
     "key": "LUMAFLARE",
     "name": "Luma Flare",
-    "description": "Please see page 52 of the Keeping the Peace sourcebook for details.",
+    "reference": "Please see page 52 of the Keeping the Peace sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "encumbrance": "1",
@@ -4428,7 +4428,7 @@
   {
     "key": "BACKPACK",
     "name": "Backpack",
-    "description": "Please see page 180 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 180 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4449,7 +4449,7 @@
   {
     "key": "CLIMB",
     "name": "Climbing Gear",
-    "description": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 180 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 188 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4465,7 +4465,7 @@
   {
     "key": "DATAPAD",
     "name": "Datapad",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook, page 196 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4481,7 +4481,7 @@
   {
     "key": "ERP",
     "name": "Emergency Repair Patch",
-    "description": "Please see page 182 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 50 of the Endless Vigil Sourcebook, for details.",
+    "reference": "Please see page 182 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 50 of the Endless Vigil Sourcebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4502,7 +4502,7 @@
   {
     "key": "RELOAD",
     "name": "Extra Reload",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4518,7 +4518,7 @@
   {
     "key": "RELOADDET",
     "name": "Extra Reload (Model 38 Detonator Rounds)",
-    "description": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 41 of the Enter the Unknown Sourcebook for details.",
     "price": "450",
     "encumbrance": "1",
     "rarity": "7",
@@ -4532,7 +4532,7 @@
   {
     "key": "RELOADTRANQ",
     "name": "Extra Reloads (Model 77 SmartTranq Rounds)",
-    "description": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 40 of the Enter the Unknown Sourcebook for details.",
     "price": "500",
     "encumbrance": "1",
     "rarity": "6",
@@ -4546,7 +4546,7 @@
   {
     "key": "RELOADCOMPEXP",
     "name": "Explosive Tipped Arrow (Corellian Compound Bow)",
-    "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
     "price": "50",
     "encumbrance": "0",
     "rarity": "6",
@@ -4560,7 +4560,7 @@
   {
     "key": "RELOADCOMPSTUN",
     "name": "Stun Arrow (Corellian Compound Bow)",
-    "description": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 97 of the Suns of Fortune Sourcebook for details.",
     "price": "60",
     "encumbrance": "0",
     "rarity": "6",
@@ -4574,7 +4574,7 @@
   {
     "key": "RELOADDET57",
     "name": "Extra Reloads (Model 57 Detonator Rounds)",
-    "description": "Please see page 42 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 42 of the Savage Spirits Sourcebook for details.",
     "price": "450",
     "encumbrance": "0",
     "rarity": "7",
@@ -4588,7 +4588,7 @@
   {
     "key": "FS19RELOADCOMPBROAD",
     "name": "Broadhead Arrow (FS19 Compound Bow)",
-    "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
     "price": "1",
     "encumbrance": "0",
     "rarity": "3",
@@ -4602,7 +4602,7 @@
   {
     "key": "FS19RELOADCOMPEXPL",
     "name": "Explosive Tipped Arrow (FS19 Compound Bow)",
-    "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
     "price": "50",
     "encumbrance": "0",
     "rarity": "5",
@@ -4616,7 +4616,7 @@
   {
     "key": "FS19RELOADCOMPINCEN",
     "name": "Incendiary Arrow (FS19 Compound Bow)",
-    "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
     "price": "60",
     "encumbrance": "0",
     "rarity": "5",
@@ -4630,7 +4630,7 @@
   {
     "key": "FS19RELOADCOMPNET",
     "name": "Net Arrow (FS19 Compound Bow)",
-    "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
     "price": "30",
     "encumbrance": "0",
     "rarity": "5",
@@ -4644,7 +4644,7 @@
   {
     "key": "FS19RELOADCOMPSTUN",
     "name": "Stun Arrow (FS19 Compound Bow)",
-    "description": "Please see page 41 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 41 of the Savage Spirits Sourcebook for details.",
     "price": "60",
     "encumbrance": "0",
     "rarity": "6",
@@ -4658,7 +4658,7 @@
   {
     "key": "FUSLANT",
     "name": "Fusion Lantern",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4674,7 +4674,7 @@
   {
     "key": "GLOWROD",
     "name": "Glow Rod",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook, page 197 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4690,7 +4690,7 @@
   {
     "key": "JETPACK",
     "name": "Jet Pack",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook for details.",
     "price": "4500",
     "encumbrance": "2",
     "rarity": "7",
@@ -4704,7 +4704,7 @@
   {
     "key": "TOOLKIT",
     "name": "Tool Kit",
-    "description": "Please see page 181 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 181 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4720,7 +4720,7 @@
   {
     "key": "UTILBELT",
     "name": "Utility Belt",
-    "description": "Please see page 183 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
+    "reference": "Please see page 183 of the Edge of the Empire Core Rulebook, page 198 of the Age of Rebellion Core Rulebook, or page 189 of the Force and Destiny Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook",
@@ -4741,7 +4741,7 @@
   {
     "key": "MILFIELDMAN",
     "name": "Military Field Manual",
-    "description": "Please see page 197 of the Age of Rebellion Core Rulebook for details.",
+    "reference": "Please see page 197 of the Age of Rebellion Core Rulebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -4763,7 +4763,7 @@
   {
     "key": "DATAPADMERCH",
     "name": "Mercantiler Datapad",
-    "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 48 of the Far Horizons Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -4780,7 +4780,7 @@
   {
     "key": "THUNDERPES",
     "name": "Thunderhead PES",
-    "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 48 of the Far Horizons Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "10",
@@ -4797,7 +4797,7 @@
   {
     "key": "MUSICCOMMON",
     "name": "Musical Instrument (Common)",
-    "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 48 of the Far Horizons Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -4814,7 +4814,7 @@
   {
     "key": "MUSICHIGHQ",
     "name": "Musical Instrument (High Quality)",
-    "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 48 of the Far Horizons Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -4831,7 +4831,7 @@
   {
     "key": "MUSICLEGEND",
     "name": "Musical Instrument (Legendary)",
-    "description": "Please see page 48 of the Far Horizons Sourcebook for details.",
+    "reference": "Please see page 48 of the Far Horizons Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -4848,7 +4848,7 @@
   {
     "key": "CULETIQUMAN",
     "name": "Cultural Etiquette Manual",
-    "description": "Please see page 50 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 50 of the Desperate Allies Sourcebook for details.",
     "price": "35",
     "encumbrance": "0",
     "rarity": "3",
@@ -4868,7 +4868,7 @@
   {
     "key": "INSIDEGUIDE",
     "name": "Insider's Guide",
-    "description": "Please see page 52 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 52 of the Desperate Allies Sourcebook for details.",
     "price": "25",
     "encumbrance": "0",
     "rarity": "3",
@@ -4888,7 +4888,7 @@
   {
     "key": "RIDERASCEN",
     "name": "\"Rider\" Ascension Pistol",
-    "description": "Please see page 52 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 52 of the Desperate Allies Sourcebook for details.",
     "price": "275",
     "encumbrance": "1",
     "rarity": "4",
@@ -4912,7 +4912,7 @@
   {
     "key": "SPECIESDB",
     "name": "Species Database",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "150",
     "encumbrance": "2",
     "rarity": "2",
@@ -4932,7 +4932,7 @@
   {
     "key": "R82JUMP",
     "name": "R82 Jump Boots",
-    "description": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.      [P][I]Uses the Aratech R82 Jump Boots vehicle profile[i]",
+    "reference": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.      [P][I]Uses the Aratech R82 Jump Boots vehicle profile[i]",
     "price": "2000",
     "encumbrance": "2",
     "rarity": "6",
@@ -4947,7 +4947,7 @@
   {
     "key": "MONCALORGGILL",
     "name": "Mon Calamari Organic Gill",
-    "description": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
     "price": "200",
     "encumbrance": "1",
     "rarity": "5",
@@ -4967,7 +4967,7 @@
   {
     "key": "VERPBONDGAUNT",
     "name": "Verpine Bond Gauntlets",
-    "description": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
     "price": "250",
     "encumbrance": "1",
     "rarity": "6",
@@ -4987,7 +4987,7 @@
   {
     "key": "VERPHEADBAND",
     "name": "Verpine Headband",
-    "description": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
+    "reference": "Please see page 115 of the Strongholds of Resistance Sourcebook for details.",
     "price": "500",
     "encumbrance": "1",
     "rarity": "6",
@@ -5007,7 +5007,7 @@
   {
     "key": "JEDIMULTITOOL",
     "name": "Jedi Multi-Tool",
-    "description": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
+    "reference": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
@@ -5029,7 +5029,7 @@
   {
     "key": "WJ880BLIND",
     "name": "WJ-880 Blinding Helmet",
-    "description": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
+    "reference": "Please see page 53 of the Keeping the Peace Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "3",
@@ -5051,7 +5051,7 @@
   {
     "key": "BARDCHRON",
     "name": "Bardottan Chronoscanner",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
@@ -5068,7 +5068,7 @@
   {
     "key": "THERMCUT",
     "name": "Thermal Cutter",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
@@ -5085,7 +5085,7 @@
   {
     "key": "SPMACBIN",
     "name": "Sporting Macrobinoculars",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5106,7 +5106,7 @@
   {
     "key": "VERGCHART",
     "name": "Vergence Starchart",
-    "description": "Please see page 106 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 106 of the Nexus of Power Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
@@ -5127,7 +5127,7 @@
   {
     "key": "MICROAXSTARMAP",
     "name": "Starmapper Handheld NaviComputer",
-    "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 49 of the Savage Spirits Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5154,7 +5154,7 @@
   {
     "key": "SURVEYTOOLS",
     "name": "Surveyer's Tools",
-    "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 49 of the Savage Spirits Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "6",
@@ -5175,7 +5175,7 @@
   {
     "key": "WEAPMAINT",
     "name": "Weapon Maintenance Kit",
-    "description": "Please see page 49 of the Savage Spirits Sourcebook for details.",
+    "reference": "Please see page 49 of the Savage Spirits Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
@@ -5196,7 +5196,7 @@
   {
     "key": "WIZPOUCH",
     "name": "Wizard Pouch",
-    "description": "Please see page 106 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 106 of the Nexus of Power Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5217,7 +5217,7 @@
   {
     "key": "LOADBEAR",
     "name": "Load-Bearing Gear",
-    "description": "Please see page 198 of the Age of Rebellion Core Rulebook for details.",
+    "reference": "Please see page 198 of the Age of Rebellion Core Rulebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5238,7 +5238,7 @@
   {
     "key": "SURVEYBAG",
     "name": "Surveyor's Bag",
-    "description": "Please see page 53 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 53 of the Enter the Unknown Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5259,7 +5259,7 @@
   {
     "key": "SPDUFFEL",
     "name": "Spacer's Duffel",
-    "description": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5284,7 +5284,7 @@
   {
     "key": "AVTRNSLTR",
     "name": "Holo V Audio/Visual Translator",
-    "description": "Please see page 54 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 54 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5305,7 +5305,7 @@
   {
     "key": "MODPACK",
     "name": "Mk. IV Modular Backpack",
-    "description": "Please see page 51 of the Enter the Unknown Sourcebook for details.      [BR][I]Note: To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.[i]",
+    "reference": "Please see page 51 of the Enter the Unknown Sourcebook for details.      [BR][I]Note: To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.[i]",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5326,7 +5326,7 @@
   {
     "key": "MODPACK3",
     "name": "Mk. III Modular Backpack",
-    "description": "Please see page 46 of the Savage Spirits Sourcebook for details.      [P][B]Note:[b] To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.",
+    "reference": "Please see page 46 of the Savage Spirits Sourcebook for details.      [P][B]Note:[b] To purchase accessory pouches for the modular backpack, select the backpack in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding the pouches to the backpack.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5347,7 +5347,7 @@
   {
     "key": "BEASTCALL",
     "name": "Beast Call",
-    "description": "Please see page 51 of the Enter the Unknown Sourcebook, or page 46 of the Savage Spirits Sourcebook, for details.",
+    "reference": "Please see page 51 of the Enter the Unknown Sourcebook, or page 46 of the Savage Spirits Sourcebook, for details.",
     "sources": [
       "Enter the Unknown",
       "Savage Spirits"
@@ -5364,7 +5364,7 @@
   {
     "key": "RIDINGTACK",
     "name": "Riding Tack",
-    "description": "Please see page 47 of the Savage Spirits Sourcebook for details.[BR]      [I]Note: This tack can also be found as an attachment for a mount vehicle.",
+    "reference": "Please see page 47 of the Savage Spirits Sourcebook for details.[BR]      [I]Note: This tack can also be found as an attachment for a mount vehicle.",
     "sources": ["Savage Spirits"],
     "type": "Survival",
     "categories": [],
@@ -5383,7 +5383,7 @@
   {
     "key": "BURNGEL",
     "name": "\"Quickflash\" Burning Gel",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5399,7 +5399,7 @@
   {
     "key": "CHEMLURE",
     "name": "Chem Lure",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5415,7 +5415,7 @@
   {
     "key": "EXCAVKIT",
     "name": "Excavator's Precision Tool Kit",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "5",
@@ -5431,7 +5431,7 @@
   {
     "key": "SPECTINY",
     "name": "Specimen Container, Tiny",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
@@ -5447,7 +5447,7 @@
   {
     "key": "SPECSMALL",
     "name": "Specimen Container, Small",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -5463,7 +5463,7 @@
   {
     "key": "SPECMED",
     "name": "Specimen Container, Medium",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "3",
@@ -5479,7 +5479,7 @@
   {
     "key": "SPECLRG",
     "name": "Speciman Container, Large",
-    "description": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
+    "reference": "Please see page 52 of the Enter the Unknown Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "5",
@@ -5495,7 +5495,7 @@
   {
     "key": "ANTIGRAVCHUTESAV",
     "name": "Savior Anti-Grav Chute",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "450",
     "encumbrance": "1",
     "rarity": "5",
@@ -5514,7 +5514,7 @@
   {
     "key": "EVAPOWERSUIT",
     "name": "EVA Power Suit",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "1500",
     "encumbrance": "12",
     "rarity": "5",
@@ -5533,7 +5533,7 @@
   {
     "key": "GRAVBELT",
     "name": "Gravity Belt",
-    "description": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
+    "reference": "Please see page 103 of the Suns of Fortune Sourcebook for details.",
     "price": "500",
     "encumbrance": "0",
     "rarity": "6",
@@ -5547,7 +5547,7 @@
   {
     "key": "ENTTOOL",
     "name": "Entrenching Tool",
-    "description": "Please see page 59 of the Dangerous Covenants Sourcebook, or page 54 of the Forged in Battle Sourcebook, for details.",
+    "reference": "Please see page 59 of the Dangerous Covenants Sourcebook, or page 54 of the Forged in Battle Sourcebook, for details.",
     "sources": [
       "Dangerous Covenants",
       "Forged in Battle"
@@ -5565,7 +5565,7 @@
   {
     "key": "BELTPOUCHMIL",
     "name": "Military Belt Pouch",
-    "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5587,7 +5587,7 @@
   {
     "key": "HOLSTERCONC",
     "name": "Model 58 Concealment Holster",
-    "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5612,7 +5612,7 @@
   {
     "key": "PACKMIL",
     "name": "Military Pack",
-    "description": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
+    "reference": "Please see page 59 of the Dangerous Covenants Sourcebook for details.",
     "type": "Carrying/Storage",
     "categories": [],
     "encumbrance": "0",
@@ -5641,7 +5641,7 @@
   {
     "key": "SLEIGHTBOXVL",
     "name": "Sleight Box (Very Large)",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "20",
     "rarity": "6",
@@ -5665,7 +5665,7 @@
   {
     "key": "SLEIGHTBOXL",
     "name": "Sleight Box (Large)",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "16",
     "rarity": "6",
@@ -5689,7 +5689,7 @@
   {
     "key": "SLEIGHTBOXM",
     "name": "Sleight Box (Medium)",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "10",
     "rarity": "6",
@@ -5713,7 +5713,7 @@
   {
     "key": "SLEIGHTBOXS",
     "name": "Sleight Box (Small)",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "6",
     "rarity": "6",
@@ -5737,7 +5737,7 @@
   {
     "key": "SLEIGHTBOXT",
     "name": "Sleight Box (Tiny)",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "400",
     "encumbrance": "2",
     "rarity": "6",
@@ -5761,7 +5761,7 @@
   {
     "key": "CUSTTOOL",
     "name": "Custom Tool Kit",
-    "description": "Please see page 45 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 45 of the Stay on Target Sourcebook for details.",
     "price": "700",
     "encumbrance": "5",
     "rarity": "5",
@@ -5780,7 +5780,7 @@
   {
     "key": "AGLMKIII",
     "name": "AG/L Mk. III Targeting Goggles",
-    "description": "Please see page 45 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 45 of the Stay on Target Sourcebook for details.",
     "price": "1000",
     "encumbrance": "1",
     "rarity": "5",
@@ -5799,7 +5799,7 @@
   {
     "key": "WORKMAN",
     "name": "Workshop Manual",
-    "description": "Please see page 46 of the Stay on Target Sourcebook for details.",
+    "reference": "Please see page 46 of the Stay on Target Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "1",
@@ -5818,7 +5818,7 @@
   {
     "key": "ARDOS",
     "name": "Ardos Disk",
-    "description": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "10000",
     "encumbrance": "1",
     "rarity": "5",
@@ -5838,7 +5838,7 @@
   {
     "key": "CREDITCLEAN",
     "name": "Credit Cleaner",
-    "description": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "2500",
     "encumbrance": "12",
     "rarity": "7",
@@ -5858,7 +5858,7 @@
   {
     "key": "P2POCKETATT",
     "name": "P-2 Pocket Attaché",
-    "description": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
+    "reference": "Please see page 111 of the Lords of Nal Hutta Sourcebook for details.",
     "price": "800",
     "encumbrance": "1",
     "rarity": "6",
@@ -5878,7 +5878,7 @@
   {
     "key": "AVASPDOSE",
     "name": "Avabush Spice (dose)",
-    "description": "Please see page 183 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 183 of the Edge of the Empire Core Rulebook for details.",
     "price": "25",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -5893,7 +5893,7 @@
   {
     "key": "AVASPCARGO",
     "name": "Avabush Spice (100 dose cargo container)",
-    "description": "Please see page 183 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 183 of the Edge of the Empire Core Rulebook for details.",
     "price": "2000",
     "is_restricted": "true",
     "encumbrance": "3",
@@ -5908,7 +5908,7 @@
   {
     "key": "BOOSTBLDOSE",
     "name": "Booster Blue (dose)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "10",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -5923,7 +5923,7 @@
   {
     "key": "BOOSTBLCARGO",
     "name": "Booster Blue (100 dose cargo container)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "750",
     "is_restricted": "true",
     "encumbrance": "3",
@@ -5938,7 +5938,7 @@
   {
     "key": "GLITTERDOSE",
     "name": "Glitterstim (dose)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "100",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -5953,7 +5953,7 @@
   {
     "key": "GLITTERCARGO",
     "name": "Glitterstim (100 dose cargo container)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "5000",
     "is_restricted": "true",
     "encumbrance": "5",
@@ -5968,7 +5968,7 @@
   {
     "key": "LESAIDOSE",
     "name": "Lesai (dose)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "500",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -5983,7 +5983,7 @@
   {
     "key": "LESAICARGO",
     "name": "Lesai (20 dose enviro-sealed cargo pod)",
-    "description": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 184 of the Edge of the Empire Core Rulebook for details.",
     "price": "7500",
     "is_restricted": "true",
     "encumbrance": "2",
@@ -5998,7 +5998,7 @@
   {
     "key": "YARROCKDOSE",
     "name": "Yarrock (dose)",
-    "description": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
     "price": "350",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -6013,7 +6013,7 @@
   {
     "key": "YARROCKCARGO",
     "name": "Yarrock (100 dose cargo container)",
-    "description": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
     "price": "20000",
     "is_restricted": "true",
     "encumbrance": "3",
@@ -6028,7 +6028,7 @@
   {
     "key": "DEATHSTDOSE",
     "name": "Death Sticks (dose)",
-    "description": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
     "price": "5",
     "is_restricted": "true",
     "encumbrance": "0",
@@ -6043,7 +6043,7 @@
   {
     "key": "DEATHSTCARGO",
     "name": "Death Sticks (100 dose cargo container)",
-    "description": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 185 of the Edge of the Empire Core Rulebook for details.",
     "price": "250",
     "is_restricted": "true",
     "encumbrance": "3",
@@ -6058,7 +6058,7 @@
   {
     "key": "DATABR",
     "name": "Data Breaker",
-    "description": "Please see page 186 of the Edge of the Empire Core Rulebook for details.",
+    "reference": "Please see page 186 of the Edge of the Empire Core Rulebook for details.",
     "price": "1000",
     "is_restricted": "true",
     "encumbrance": "1",
@@ -6078,7 +6078,7 @@
   {
     "key": "DATABRBO",
     "name": "Blackops Data Breaker",
-    "description": "Please see page 193 of the Age of Rebellion Core Rulebook for details.",
+    "reference": "Please see page 193 of the Age of Rebellion Core Rulebook for details.",
     "price": "1000",
     "is_restricted": [
       "true",
@@ -6105,7 +6105,7 @@
   {
     "key": "FLESHCAM",
     "name": "Flesh Camouflage Set",
-    "description": "Please see page 186 of the Edge of the Empire Core Rulebook, or page 193 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 186 of the Edge of the Empire Core Rulebook, or page 193 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -6121,7 +6121,7 @@
   {
     "key": "PSF",
     "name": "Personal Stealth Field",
-    "description": "Please see page 186 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
+    "reference": "Please see page 186 of the Edge of the Empire Core Rulebook, or page 195 of the Age of Rebellion Core Rulebook, for details.",
     "sources": [
       "Edge of the Empire Core Rulebook",
       "Age of Rebellion Core Rulebook"
@@ -6142,7 +6142,7 @@
   {
     "key": "DATASPIKE",
     "name": "Dataspike",
-    "description": "Please see page 51 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 51 of the Special Modifications Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "3",
@@ -6166,7 +6166,7 @@
   {
     "key": "A212TRACECONS",
     "name": "Tracing Console",
-    "description": "Please see page 51 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 51 of the Special Modifications Sourcebook for details.",
     "price": "3000",
     "encumbrance": "12",
     "rarity": "6",
@@ -6190,7 +6190,7 @@
   {
     "key": "SIGMODPAD",
     "name": "Signature Modulation Pad",
-    "description": "Please see page 51 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 51 of the Special Modifications Sourcebook for details.",
     "price": "250",
     "encumbrance": "2",
     "rarity": "7",
@@ -6210,7 +6210,7 @@
   {
     "key": "DEMONMASK",
     "name": "Demon Mask",
-    "description": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6233,7 +6233,7 @@
   {
     "key": "MEDFOCUS",
     "name": "Meditation Focus",
-    "description": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6252,7 +6252,7 @@
   {
     "key": "IRONFIST",
     "name": "Talisman of Iron Fists",
-    "description": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 190 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6271,7 +6271,7 @@
   {
     "key": "TALISBARDOTSPH",
     "name": "Bardottan Sphere",
-    "description": "Please see page 109 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 109 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "50000",
     "is_restricted": "false",
@@ -6289,7 +6289,7 @@
   {
     "key": "TALISCROWNVER",
     "name": "Crown of Verity",
-    "description": "Please see page 110 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 110 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "6000",
     "is_restricted": "false",
@@ -6306,7 +6306,7 @@
   {
     "key": "TALISDRAMORPH",
     "name": "Dram of Orphne",
-    "description": "Please see page 111 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 111 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "9000",
     "is_restricted": "false",
@@ -6329,7 +6329,7 @@
   {
     "key": "TALISDOLRINGSEED",
     "name": "Dolina Ring Seeds",
-    "description": "Please see page 113 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 113 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "18000",
     "is_restricted": "false",
@@ -6346,7 +6346,7 @@
   {
     "key": "TALISEYESLAQ",
     "name": "Eyes of Laqasa",
-    "description": "Please see page 108 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 108 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "2000",
     "is_restricted": "false",
@@ -6366,7 +6366,7 @@
   {
     "key": "TALISGRIMSYC",
     "name": "Grimoire of Syclos the Lame",
-    "description": "Please see page 107 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 107 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "4000",
     "is_restricted": "false",
@@ -6386,7 +6386,7 @@
   {
     "key": "TALISHERDGAUNT",
     "name": "Herder's Gauntlet",
-    "description": "Please see page 110 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 110 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "8000",
     "is_restricted": "false",
@@ -6404,7 +6404,7 @@
   {
     "key": "TALISTARAHELM",
     "name": "Taradon's Helm",
-    "description": "Please see page 112 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 112 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "11000",
     "is_restricted": "false",
@@ -6421,7 +6421,7 @@
   {
     "key": "TALISTEAR",
     "name": "Tear of the Elders",
-    "description": "Please see page 107 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 107 of the Nexus of Power Sourcebook for details.",
     "sources": ["Nexus of Power"],
     "price": "7500",
     "is_restricted": "false",
@@ -6438,7 +6438,7 @@
   {
     "key": "HOLOCRONSAMP1",
     "name": "Sample Holocron",
-    "description": "This is a sample holocron.  This holocron does the following:      <ul>      <li>Makes Ranged - Light a career skill</li>      <li>Adds [BOOST][BOOST] to Vigilance checks</li>      <li>Grants 2 ranks in the Sleight of Mind talent</li>      </ul>      Please see page 190 of the Force and Destiny Core Rulebook for more details.",
+    "reference": "This is a sample holocron.  This holocron does the following:      <ul>      <li>Makes Ranged - Light a career skill</li>      <li>Adds [BOOST][BOOST] to Vigilance checks</li>      <li>Grants 2 ranks in the Sleight of Mind talent</li>      </ul>      Please see page 190 of the Force and Destiny Core Rulebook for more details.",
     "sources": ["Force and Destiny Core Rulebook"],
     "price": "100000",
     "is_restricted": "true",
@@ -6470,7 +6470,7 @@
   {
     "key": "HOLOCRONORPS",
     "name": "Holocron of Outer Rim and  Piloting Space",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6496,7 +6496,7 @@
   {
     "key": "HOLOCRONBRSW",
     "name": "Holocron of Brawl and Streetwise",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "type": "Holocrons",
     "categories": [],
     "encumbrance": "1",
@@ -6522,7 +6522,7 @@
   {
     "key": "HOLOCRONCOPER",
     "name": "Holocron of Computers and Perception",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6548,7 +6548,7 @@
   {
     "key": "HOLOCRONMERL",
     "name": "Holocron of Mechanics and Ranged Light",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6574,7 +6574,7 @@
   {
     "key": "HOLOCRONASGU",
     "name": "Holocron of Astrogation and Gunnery",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6600,7 +6600,7 @@
   {
     "key": "HOLOCRONDIME",
     "name": "Holocron of Discipline and Medicine",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6626,7 +6626,7 @@
   {
     "key": "HOLOCRONLOLS",
     "name": "Holocron of Lore and Lightsaber",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6652,7 +6652,7 @@
   {
     "key": "HOLOCRONCOCO",
     "name": "Holocron of Cool and Coordination",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6678,7 +6678,7 @@
   {
     "key": "HOLOCRONSKVI",
     "name": "Holocron of Skulduggery and Vigilance",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6704,7 +6704,7 @@
   {
     "key": "HOLOCRONXESU",
     "name": "Holocron of Xenology and Survival",
-    "description": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
+    "reference": "See [B]Table 2-7: Holocron Skills[b] on page 109 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6730,7 +6730,7 @@
   {
     "key": "HOLOCRONSANC",
     "name": "Sanctuary Holocron",
-    "description": "Please see page 439 of the Force and Destiny Core Rulebook for details.",
+    "reference": "Please see page 439 of the Force and Destiny Core Rulebook for details.",
     "sources": [
       "Force and Destiny Core Rulebook"
     ],
@@ -6759,7 +6759,7 @@
   {
     "key": "HOLOCRONWARDE",
     "name": "Suljo Warde's Holocron",
-    "description": "See page 19 of the Chronicles of the Gatekeeper adventure module for details.",
+    "reference": "See page 19 of the Chronicles of the Gatekeeper adventure module for details.",
     "sources": [
       "Chronicles of the Gatekeeper"
     ],
@@ -6785,7 +6785,7 @@
   {
     "key": "APPRAISERSEYE",
     "name": "Appraiser's Eye",
-    "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 48 of the Fly Casual Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -6807,7 +6807,7 @@
   {
     "key": "CYBERCAVITY",
     "name": "Cybernetic Cavity",
-    "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 48 of the Fly Casual Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -6829,7 +6829,7 @@
   {
     "key": "DIGITALLOCKPICK",
     "name": "Digital Lockpick",
-    "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 48 of the Fly Casual Sourcebook for details.",
     "type": "Cybernetics",
     "categories": [],
     "encumbrance": "0",
@@ -6851,7 +6851,7 @@
   {
     "key": "HOLOSCANNER10",
     "name": "Holoscanner (10 Encumbrance)",
-    "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 48 of the Fly Casual Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "10",
@@ -6873,7 +6873,7 @@
   {
     "key": "HOLOSCANNER100",
     "name": "Holoscanner (100 Encumbrance)",
-    "description": "Please see page 48 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 48 of the Fly Casual Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "100",
@@ -6897,7 +6897,7 @@
   {
     "key": "LOCKPICKS",
     "name": "Lockpicking Tools",
-    "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 49 of the Fly Casual Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -6914,7 +6914,7 @@
   {
     "key": "SHIFTCOFFER",
     "name": "Shift Coffer",
-    "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 49 of the Fly Casual Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "5",
@@ -6942,7 +6942,7 @@
   {
     "key": "MAGNALOCK",
     "name": "Magna-Lock Safe",
-    "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 49 of the Fly Casual Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "12",
@@ -6966,7 +6966,7 @@
   {
     "key": "SHADOWCLOAK",
     "name": "Shadowcloak",
-    "description": "Please see page 49 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 49 of the Fly Casual Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "2",
@@ -6990,7 +6990,7 @@
   {
     "key": "FNGRPRNTMSQ",
     "name": "Fingerprint Masque",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 50 of the Fly Casual Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "0",
@@ -7014,7 +7014,7 @@
   {
     "key": "SKIFTER",
     "name": "Skifter",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 50 of the Fly Casual Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "0",
@@ -7038,7 +7038,7 @@
   {
     "key": "CARGOSCAN",
     "name": "Cargo Scanner",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 50 of the Fly Casual Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -7062,7 +7062,7 @@
   {
     "key": "IMPACTD",
     "name": "Impact (Dose)",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 50 of the Fly Casual Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "0",
@@ -7084,7 +7084,7 @@
   {
     "key": "IMPACT100D",
     "name": "Impact (100 dose cargo container)",
-    "description": "Please see page 50 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 50 of the Fly Casual Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
@@ -7106,7 +7106,7 @@
   {
     "key": "MUOND",
     "name": "Muon Gold (Dose)",
-    "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 51 of the Fly Casual Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "0",
@@ -7128,7 +7128,7 @@
   {
     "key": "MUON100D",
     "name": "Muon Gold (100 dose cargo container)",
-    "description": "Please see page 51 of the Fly Casual Sourcebook for details.",
+    "reference": "Please see page 51 of the Fly Casual Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "3",
@@ -7150,7 +7150,7 @@
   {
     "key": "EXPJEWELRY",
     "name": "Expensive Jewelry",
-    "description": "Please see page 51 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 51 of the Desperate Allies Sourcebook for details.",
     "price": "2000",
     "encumbrance": "0",
     "rarity": "7",
@@ -7174,7 +7174,7 @@
   {
     "key": "SIGNETRING",
     "name": "Signet Ring",
-    "description": "Please see page 53 of the Desperate Allies Sourcebook for details.",
+    "reference": "Please see page 53 of the Desperate Allies Sourcebook for details.",
     "price": "750",
     "encumbrance": "0",
     "rarity": "7",
@@ -7194,7 +7194,7 @@
   {
     "key": "ADSIGNETRING",
     "name": "Adamite Signet Ring",
-    "description": "Please see page 105 of the Nexus of Power Sourcebook for details.",
+    "reference": "Please see page 105 of the Nexus of Power Sourcebook for details.",
     "price": "500",
     "encumbrance": "0",
     "rarity": "8",
@@ -7209,7 +7209,7 @@
   {
     "key": "CASCADER",
     "name": "BPEA-1A Cascader",
-    "description": "Please see page 44 of the Lead by Example Sourcebook for details.",
+    "reference": "Please see page 44 of the Lead by Example Sourcebook for details.",
     "price": "1800",
     "encumbrance": "0",
     "rarity": "8",
@@ -7243,7 +7243,7 @@
   {
     "key": "DRESSUNI",
     "name": "Dress Uniform",
-    "description": "Please see page 44 of the Lead by Example Sourcebook for details.",
+    "reference": "Please see page 44 of the Lead by Example Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "5",
@@ -7258,7 +7258,7 @@
   {
     "key": "RIBRACK",
     "name": "Ribbon Rack",
-    "description": "Please see page 44 of the Lead by Example Sourcebook for details.",
+    "reference": "Please see page 44 of the Lead by Example Sourcebook for details.",
     "price": "15",
     "encumbrance": "0",
     "rarity": "4",
@@ -7273,7 +7273,7 @@
   {
     "key": "SYMCOMM",
     "name": "Symbol of Command",
-    "description": "Please see page 44 of the Lead by Example Sourcebook for details.",
+    "reference": "Please see page 44 of the Lead by Example Sourcebook for details.",
     "price": "100",
     "encumbrance": "1",
     "rarity": "3",
@@ -7293,7 +7293,7 @@
   {
     "key": "CZ88ARM",
     "name": "CZ-88 Heavy Loader Arm",
-    "description": "Please see page 51 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 51 of the Special Modifications Sourcebook for details.",
     "price": "1500",
     "encumbrance": "30",
     "rarity": "3",
@@ -7313,7 +7313,7 @@
   {
     "key": "MECHDIAG",
     "name": "Mechanical Dianoga",
-    "description": "Please see page 52 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 52 of the Special Modifications Sourcebook for details.",
     "price": "225",
     "encumbrance": "4",
     "rarity": "4",
@@ -7333,7 +7333,7 @@
   {
     "key": "INTTOOL",
     "name": "VX-A Intelligent Toolbox",
-    "description": "Please see page 52 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 52 of the Special Modifications Sourcebook for details.",
     "price": "2500",
     "encumbrance": "3",
     "rarity": "8",
@@ -7357,7 +7357,7 @@
   {
     "key": "ORRECSTA",
     "name": "OR-Series Tech Recycling Station",
-    "description": "Please see page 52 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 52 of the Special Modifications Sourcebook for details.",
     "price": "1500",
     "encumbrance": "10",
     "rarity": "5",
@@ -7381,7 +7381,7 @@
   {
     "key": "REPCLAMP",
     "name": "Repulsor Clamp",
-    "description": "Please see page 52 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 52 of the Special Modifications Sourcebook for details.",
     "price": "250",
     "encumbrance": "3",
     "rarity": "1",
@@ -7405,7 +7405,7 @@
   {
     "key": "GENREMOTE",
     "name": "Generic Remote",
-    "description": "Please see page 53 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 53 of the Special Modifications Sourcebook for details.",
     "price": "400",
     "encumbrance": "0",
     "rarity": "2",
@@ -7420,7 +7420,7 @@
   {
     "key": "BUTBUGREMOTE",
     "name": "Butterbug Remote",
-    "description": "Please see page 53 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 53 of the Special Modifications Sourcebook for details.",
     "price": "700",
     "encumbrance": "0",
     "rarity": "4",
@@ -7435,7 +7435,7 @@
   {
     "key": "SERVPATREMOTE",
     "name": "Service Patch Remote",
-    "description": "Please see page 53 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 53 of the Special Modifications Sourcebook for details.",
     "price": "900",
     "encumbrance": "0",
     "rarity": "3",
@@ -7450,7 +7450,7 @@
   {
     "key": "SHIELDREMOTE",
     "name": "Shield Remote",
-    "description": "Please see page 53 of the Special Modifications Sourcebook for details.",
+    "reference": "Please see page 53 of the Special Modifications Sourcebook for details.",
     "price": "1100",
     "encumbrance": "0",
     "rarity": "5",
@@ -7465,7 +7465,7 @@
   {
     "key": "3MALCOMLINK",
     "name": "3-MAL Secure Comlink",
-    "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 52 of the Forged in Battle Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "price": "250",
@@ -7492,7 +7492,7 @@
   {
     "key": "DH77HEADCOMM",
     "name": "DH77 Headcomm",
-    "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 52 of the Forged in Battle Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "price": "400",
@@ -7516,7 +7516,7 @@
   {
     "key": "ATGARARTREM",
     "name": "Atgar Artillery Remote",
-    "description": "Please see page 52 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 52 of the Forged in Battle Sourcebook for details.",
     "type": "Communications",
     "categories": [],
     "price": "400",
@@ -7536,7 +7536,7 @@
   {
     "key": "LOWFEEDSCAN",
     "name": "Low-Feedback Scanner",
-    "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 53 of the Forged in Battle Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "700",
@@ -7556,7 +7556,7 @@
   {
     "key": "SEVIGSENS",
     "name": "SE-Vigilant Automated Sensor",
-    "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 53 of the Forged in Battle Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "3000",
@@ -7571,7 +7571,7 @@
   {
     "key": "NULLCAINE",
     "name": "Nullcaine",
-    "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 53 of the Forged in Battle Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "price": "25",
@@ -7591,7 +7591,7 @@
   {
     "key": "STIMSTICK",
     "name": "Stimstick",
-    "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 53 of the Forged in Battle Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "price": "5",
@@ -7611,7 +7611,7 @@
   {
     "key": "MILTRAUMAPACK",
     "name": "Military Trauma Pack",
-    "description": "Please see page 53 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 53 of the Forged in Battle Sourcebook for details.",
     "type": "Medical",
     "categories": [],
     "price": "50",
@@ -7631,7 +7631,7 @@
   {
     "key": "CONDUNIT",
     "name": "Condenser Unit",
-    "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 54 of the Forged in Battle Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "price": "300",
@@ -7651,7 +7651,7 @@
   {
     "key": "PORTPOWGEN",
     "name": "Portable Power Generator",
-    "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 54 of the Forged in Battle Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "price": "500",
@@ -7675,7 +7675,7 @@
   {
     "key": "PRETPLAS",
     "name": "Pretormin Plastent",
-    "description": "Please see page 54 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 54 of the Forged in Battle Sourcebook for details.",
     "type": "Survival",
     "categories": [],
     "price": "500",
@@ -7695,7 +7695,7 @@
   {
     "key": "MILMODBACK",
     "name": "Military Modular Backpack Frame",
-    "description": "Please see page 55 of the Forged in Battle Sourcebook for details.      [BR][I]Note: To purchase modules for the modular backpack frame, select the frame in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding a variety of modules to the backpack.  Up to two modules may be added.[i]",
+    "reference": "Please see page 55 of the Forged in Battle Sourcebook for details.      [BR][I]Note: To purchase modules for the modular backpack frame, select the frame in your inventory and click the \"Attachments\" button.  An \"attachment\" will be available for adding a variety of modules to the backpack.  Up to two modules may be added.[i]",
     "type": "Carrying/Storage",
     "hard_points": "2",
     "price": "10",
@@ -7710,7 +7710,7 @@
   {
     "key": "TROPHYCAP",
     "name": "Imperial Officer's Cap",
-    "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 96 of the Forged in Battle Sourcebook for details.",
     "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
@@ -7727,7 +7727,7 @@
   {
     "key": "TROPHYSTHELM",
     "name": "Stormtrooper Helmet/ComLink",
-    "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 96 of the Forged in Battle Sourcebook for details.",
     "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
@@ -7744,7 +7744,7 @@
   {
     "key": "TROPHYINTBADGE",
     "name": "Imperial Intelligence Badge",
-    "description": "Please see page 96 of the Forged in Battle Sourcebook for details.",
+    "reference": "Please see page 96 of the Forged in Battle Sourcebook for details.",
     "type": "Trophies",
     "encumbrance": "0",
     "rarity": "2",
@@ -7761,7 +7761,7 @@
   {
     "key": "DROIDDUM",
     "name": "DUM-Series Pit Droid",
-    "description": "Please see page 45 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 45 of the Endless Vigil Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "price": "450",
@@ -7776,7 +7776,7 @@
   {
     "key": "DROIDGUARDPOL",
     "name": "Guardian Police Droid",
-    "description": "Please see page 46 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 46 of the Endless Vigil Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "price": "8100",
@@ -7791,7 +7791,7 @@
   {
     "key": "DROIDMISEC",
     "name": "MI-Series Security Droid",
-    "description": "Please see page 46 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 46 of the Endless Vigil Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "price": "41225",
@@ -7807,7 +7807,7 @@
   {
     "key": "DROIDTCSC",
     "name": "TC-SC Infiltration Droid",
-    "description": "Please see page 47 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 47 of the Endless Vigil Sourcebook for details.",
     "type": "Droids",
     "categories": [],
     "price": "15600",
@@ -7823,7 +7823,7 @@
   {
     "key": "KARRAK",
     "name": "Karrak Spice (1 dose)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "price": "80",
@@ -7843,7 +7843,7 @@
   {
     "key": "KARRAK100",
     "name": "Karrak Spice (100 doses)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
@@ -7864,7 +7864,7 @@
   {
     "key": "QUESTIONER9100",
     "name": "Questioner-9 (100 doses)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "price": "24000",
@@ -7884,7 +7884,7 @@
   {
     "key": "QUESTIONER9",
     "name": "Questioner-9 (1 dose)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "price": "300",
@@ -7904,7 +7904,7 @@
   {
     "key": "YALADAI",
     "name": "Yaladai Spice (1 dose)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "price": "1000",
@@ -7924,7 +7924,7 @@
   {
     "key": "YALADAI100",
     "name": "Yaladai Spice (100 doses)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Drugs and Consumables",
     "categories": [],
     "encumbrance": "5",
@@ -7945,7 +7945,7 @@
   {
     "key": "INFRABINOCULARS",
     "name": "Infrabinoculars",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
@@ -7965,7 +7965,7 @@
   {
     "key": "INFRABINOCULARSLR",
     "name": "Infrabinoculars (Long Range)",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "1",
@@ -7997,7 +7997,7 @@
   {
     "key": "MICRODRLIST",
     "name": "Microdroid Listener",
-    "description": "Please see page 48 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 48 of the Endless Vigil Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "price": "1500",
@@ -8017,7 +8017,7 @@
   {
     "key": "PRIVACY7CUR",
     "name": "Privacy-7 Audio Curtain",
-    "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 49 of the Endless Vigil Sourcebook for details.",
     "type": "Detection/Surveillance Devices",
     "categories": [],
     "encumbrance": "4",
@@ -8037,7 +8037,7 @@
   {
     "key": "MODEL31STUN",
     "name": "Model 31 Palm Stunner",
-    "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 49 of the Endless Vigil Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -8058,7 +8058,7 @@
   {
     "key": "SCRAMBLEKEY",
     "name": "Scramble Key",
-    "description": "Please see page 49 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 49 of the Endless Vigil Sourcebook for details.",
     "type": "Security/Espionage",
     "categories": [],
     "encumbrance": "1",
@@ -8079,7 +8079,7 @@
   {
     "key": "DISASTERKIT",
     "name": "Disaster Relief Kit",
-    "description": "Please see page 50 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 50 of the Endless Vigil Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
@@ -8099,7 +8099,7 @@
   {
     "key": "FOOTSPEEDER",
     "name": "Foot Speeder",
-    "description": "Please see page 50 of the Endless Vigil Sourcebook for details.[P][I]Note: This item is also included as a vehicle.[i]",
+    "reference": "Please see page 50 of the Endless Vigil Sourcebook for details.[P][I]Note: This item is also included as a vehicle.[i]",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "4",
@@ -8114,7 +8114,7 @@
   {
     "key": "REPULSORASUNIT",
     "name": "Repulsor Assist Unit",
-    "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 51 of the Endless Vigil Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -8138,7 +8138,7 @@
   {
     "key": "URBANCOMP",
     "name": "Urban Compass",
-    "description": "Please see page 51 of the Endless Vigil Sourcebook for details.",
+    "reference": "Please see page 51 of the Endless Vigil Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -8162,7 +8162,7 @@
   {
     "key": "BIOSCAN",
     "name": "Bioscan",
-    "description": "Please see page 53 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 53 of the No Disintegrations Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "1",
@@ -8186,7 +8186,7 @@
   {
     "key": "HOLOBEAC",
     "name": "Holonet Homing Beacon",
-    "description": "Please see page 53 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 53 of the No Disintegrations Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "hard_points": "3",
@@ -8200,7 +8200,7 @@
   {
     "key": "ROCKETBOOTS",
     "name": "Rocket Boots",
-    "description": "Please see page 53 of the No Disintegrations Sourcebook for details.[P][I]Note:  For the vehicle version of this item, see the vehicle of the same name.[i]",
+    "reference": "Please see page 53 of the No Disintegrations Sourcebook for details.[P][I]Note:  For the vehicle version of this item, see the vehicle of the same name.[i]",
     "type": "Tools/Electronics",
     "categories": [],
     "encumbrance": "2",
@@ -8215,7 +8215,7 @@
   {
     "key": "TRACKGOG",
     "name": "Tracker's Goggles",
-    "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 54 of the No Disintegrations Sourcebook for details.",
     "type": "Tools/Electronics",
     "categories": [],
     "price": "600",
@@ -8238,7 +8238,7 @@
   {
     "key": "COMSCAN",
     "name": "Com-Scan",
-    "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 54 of the No Disintegrations Sourcebook for details.",
     "type": "Black Market",
     "categories": [],
     "encumbrance": "10",
@@ -8259,7 +8259,7 @@
   {
     "key": "HOLODISGUISE",
     "name": "Holographic Disguise Matrix",
-    "description": "Please see page 54 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 54 of the No Disintegrations Sourcebook for details.",
     "type": "Black Market",
     "categories": [],
     "encumbrance": "1",
@@ -8284,7 +8284,7 @@
   {
     "key": "SALINEPUMP",
     "name": "Saline Pump",
-    "description": "Please see page 55 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 55 of the No Disintegrations Sourcebook for details.",
     "type": "Black Market",
     "categories": [],
     "encumbrance": "1",
@@ -8308,7 +8308,7 @@
   {
     "key": "SLEEPPACK",
     "name": "Sleeppack (one dose)",
-    "description": "Please see page 55 of the No Disintegrations Sourcebook for details.",
+    "reference": "Please see page 55 of the No Disintegrations Sourcebook for details.",
     "type": "Poisons",
     "categories": [],
     "price": "250",
@@ -8331,7 +8331,7 @@
   {
     "key": "REPULTRAP",
     "name": "Repulsor Trap",
-    "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
+    "reference": "Please see page 60 of the Friends Like These Adventure Module for details.",
     "type": "Slaver Tech",
     "categories": [],
     "encumbrance": "7",
@@ -8346,7 +8346,7 @@
   {
     "key": "EXPLIMP",
     "name": "Explosive Implant",
-    "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
+    "reference": "Please see page 60 of the Friends Like These Adventure Module for details.",
     "type": "Slaver Tech",
     "categories": [],
     "price": "2000",
@@ -8370,7 +8370,7 @@
   {
     "key": "STUNCOLOR",
     "name": "Stun Collar",
-    "description": "Please see page 60 of the Friends Like These Adventure Module for details.",
+    "reference": "Please see page 60 of the Friends Like These Adventure Module for details.",
     "type": "Slaver Tech",
     "categories": [],
     "price": "800",

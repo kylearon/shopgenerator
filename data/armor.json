@@ -2,7 +2,9 @@
     {
         "key": "AEG",
         "name": "Adverse Environmental Gear",
-        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
+	"description": "Rebels, Force users, and scoundrels may find themselves operating in some of the harshest, most inhospitable environments the galaxy has to offer.",
+	"details": "Character with this gear may ignore a setback die imposed by the environment in which they find themselves. The gear must be appropriate for the environment at hand.",
+        "reference": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -24,7 +26,9 @@
     {
         "key": "AC",
         "name": "Armored Clothing",
-        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
+	"description": "Available in a variety of styles, armored clothing is an excellent option for those who need light, flexible protection.",
+	"details": "As this armor is reasonably subtle, it takes a thorough search of an individual's person to detect that they're wearing it, an action that requires an Average difficulty Perception check.",
+        "reference": "Please see page 169 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 178 of the Force and Destiny Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -46,7 +50,9 @@
     {
         "key": "ARMROBE",
         "name": "Armored Robes",
-        "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
+	"description": "A set of plastoid armor worn under robes, used by Jedi during the Clone Wars, this set of armor is illegal on all imperial worlds.",
+	"details": "",
+        "reference": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
         "defense": "1",
         "soak": "2",
         "price": "4500",
@@ -68,7 +74,9 @@
     {
         "key": "CONROBE",
         "name": "Concealing Robes",
-        "description": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
+	"description": "Once used by most Jedi Knights, this heavy set of cloth robes is useful to avoid identification by others.",
+	"details": "Add 1 setback die to an opponent attempting to identify the wearer.",
+        "reference": "Please see page 179 of the Force and Destiny Core Rulebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "150",
@@ -91,7 +99,9 @@
     {
         "key": "HBA",
         "name": "Heavy Battle Armor",
-        "description": "Please see page 170 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 47 of the Keeping the Peace sourcebook for details.",
+	"description": "This heavy-duty armour is primarily used by commandos and a variety of combat oriented personalities going after dangerous foes.",
+	"details": "Heavy battle armor can be sealed and provide the same benefits as full-body laminate armor, or it can take the form of a heavy vest and blast helmet.",
+        "reference": "Please see page 170 of the Edge of the Empire Core Rulebook, page 184 of the Age of Rebellion Core Rulebook, or page 47 of the Keeping the Peace sourcebook for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -118,7 +128,9 @@
     {
         "key": "HC",
         "name": "Heavy Clothing",
-        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
+	"description": "The most basic form of protection for many is simple yet durable heavy clothing.",
+	"details": "",
+        "reference": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -136,8 +148,10 @@
     },
     {
         "key": "LAM",
-        "name": "Laminate",
-        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
+        "name": "Laminate Armor",
+	"description": "Suits of laminate armor consist of a number of formfitted plastoid plates designed to protect important areas, worn over a snug, reinforced armorweave body glove.",
+	"details": "",
+        "reference": "Please see page 169 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -162,7 +176,9 @@
     {
         "key": "PDS",
         "name": "Personal Deflector Shield",
-        "description": "Please see page 170 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
+	"description": "Rare, expensive, and difficult to use, personal deflector shields are one of the few types of personal armor capable of withstanding sustained blaster fire.",
+	"details": "When the wielder is using a PDS, the GM can spend any despair result they generate to have it run out of power for the remainder of the encounter.",
+        "reference": "Please see page 170 of the Edge of the Empire Core Rulebook, or page 185 of the Age of Rebellion Core Rulebook, for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook"
@@ -180,7 +196,9 @@
     {
         "key": "PAD",
         "name": "Padded Armor",
-        "description": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
+	"description": "Made of thick, reinforced, wear-resistant textiles woven with energy dispersion mesh, this light armor is one of the most common forms of personal armor protection in the galaxy.",
+	"details": "",
+        "reference": "Please see page 169 of the Edge of the Empire Core Rulebook, page 185 of the Age of Rebellion Core Rulebook, or page 180 of the Force and Destiny Core Rulebook for details.",
         "sources": [
             "Edge of the Empire Core Rulebook",
             "Age of Rebellion Core Rulebook",
@@ -199,7 +217,9 @@
     {
         "key": "ENVIROSUIT",
         "name": "Enviro-suit",
-        "description": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
+	"description": "At their most basic, enviro-suits are fully sealed, full-body suits made of sturdy materials designed to keep sentients alive in inhospitable places.",
+	"details": "Enviro-suits have an operation life of eight hours until they need to be recharged and refilled. Due to their many layers of protective shielding, enviro-suits tend to be bulky and reduce a wearer's sense of their surroundings. An individual wearing an enviro-suit suffers one setback die on Agility- and Perception-based checks.",
+        "reference": "Please see page 44 of the Enter the Unknown Sourcebook for details.",
         "categories": [
             "Sealed",
             "Full Body",
@@ -226,7 +246,9 @@
     {
         "key": "CRASHSUIT",
         "name": "A/KT Shockrider Crash Suit",
-        "description": "Please see page 45 of the Enter the Unknown Sourcebook, or page 42 of the Stay on Target Sourcebook, for details.",
+	"description": "This suit is built for pilots of extremely fast atmospheric vehicles, to protect them against possible harm when suffering collisions.",
+	"details": "Reduce strain to the pilot due to a critical hit to the vehicle by 1. Reduce damage due to fire and the burn quality by 1.",
+        "reference": "Please see page 45 of the Enter the Unknown Sourcebook, or page 42 of the Stay on Target Sourcebook, for details.",
         "sources": [
             "Enter the Unknown",
             "Stay on Target"
@@ -257,7 +279,9 @@
     {
         "key": "UTILITYVEST",
         "name": "A/KT Tracker Utility Vest",
-        "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
+	"description": "Common among wilderness enthusiasts, scouts, and hunters, Tracker utility vests from Ayelixe/Krongbing Textiles are the explorer's best friend.",
+	"details": "When worn, the Tracker utility vest increases the wearer's encumbrance threshold by 2.",
+        "reference": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
         "defense": "0",
         "soak": "0",
         "price": "100",
@@ -279,7 +303,9 @@
     {
         "key": "MOUNTARMOR",
         "name": "A/KT Mountaineer Armor",
-        "description": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
+	"description": "Common among wilderness enthusiasts, scouts, and hunters, Tracker utility vests from Ayelixe/Krongbing Textiles are the explorer's best friend.",
+	"details": "Mountaineer armor adds two boost dice to all Athletics checks made by the wearer to climb or rappel.",
+        "reference": "Please see page 45 of the Enter the Unknown Sourcebook for details.",
         "defense": "1",
         "soak": "1",
         "price": "1800",
@@ -305,9 +331,11 @@
     {
         "key": "CATCHVEST",
         "name": "Catch Vest",
-        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+	"description": "A common piece of attire for well-traveled Corellians, the innocuous catch vest has saved the lives of many free traders.",
+	"details": "Catch vests have a soak value of 2 against damage from energy-based weapons only; they provide only 1 point of soak against all other forms of damage.",
+        "reference": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
         "defense": "0",
-        "soak": "1",
+        "soak": "2",
         "price": "300",
         "encumbrance": "1",
         "hard_points": "0",
@@ -327,7 +355,9 @@
     {
         "key": "NOMADCOAT",
         "name": "Nomad Greatcoat",
-        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+	"description": "This outfit has become popular since the Corellian military adopted it from the inhabitants of the Nomad Mountains. It is efficient at protecting from the cold, and quite comfortable.",
+	"details": "Reduce difficulty of checks to resist cold & extreme environments by 1. Remove 1 setback dice imposed due to extreme cold from checks.",
+        "reference": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "100",
@@ -354,7 +384,9 @@
     {
         "key": "MODARMORIII",
         "name": "Type III \"Berethron\" Personal Modular Armor",
-        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+	"description": "Manufactured in the Corellian sector for the Corellian Defense Force and CorSec forces, the Type III \"Berethron\" personal modular armor system is a relatively lightweight form of armored clothing that allows for considerable mission-specific customization.",
+	"details": "",
+        "reference": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
         "defense": "1",
         "soak": "1",
         "price": "1250",
@@ -372,7 +404,9 @@
     {
         "key": "FLIGHTTX3",
         "name": "TX-3 Combat Flight Suit",
-        "description": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
+	"description": "An armored flight suit manufactured by Corellian Technologies primarily for starfighter pilots, the TX-3 is used by the Corellian Defense Force and pilots of the security forces of several other systems.",
+	"details": "Without an external oxygen source, a person wearing a TX-3 flight suit can survive for up to 24 hours in hard vacuum.",
+        "reference": "Please see page 99 of the Suns of Fortune Sourcebook for details.",
         "categories": [
             "Sealed",
             "Full Body",
@@ -394,7 +428,9 @@
     {
         "key": "BEASTHIDE",
         "name": "Beast-Hide Armor",
-        "description": "Please see page 49 of the Dangerous Covenants Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
+	"description": "Blasters and other advanced weapons can make a mockery of even the most sophisticated armor.",
+	"details": "When wearing beast-hide armor, a character gains an automatic advantage result on Coercion checks and an automatic threat on Charm checks.",
+        "reference": "Please see page 49 of the Dangerous Covenants Sourcebook, or page 44 of the Savage Spirits Sourcebook, for details.",
         "sources": [
             "Dangerous Covenants",
             "Savage Spirits"
@@ -429,7 +465,9 @@
     {
         "key": "CHARGESUIT",
         "name": "\"Storm\" Charge Suit",
-        "description": "Please see page 50 of the Dangerous Covenants Sourcebook for details.",
+	"description": "The \"Storm\" charge suit offers protection similar to other makes a padded armor, but it offers several unique features.",
+	"details": "If the wearer of the charge suit is hit by a melee attack and the attack generates a despair result, the attacker is automatically hit by an attack dealing 8 damage. This damage is applied to the attacker's strain threshold. If the attack generates two threat results, the attacker is disoriented for one round. Wearing a charge suit counts as being equipped with shock gloves (Brawl; Damage +0; Critical 5; Range [Engaged]; Stun 3).",
+        "reference": "Please see page 50 of the Dangerous Covenants Sourcebook for details.",
         "categories": [
             "Heavy",
             "Resistant"
@@ -478,7 +516,9 @@
     {
         "key": "FLAKVEST",
         "name": "Mk. III Flak Vest",
-        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+	"description": "The Mk III flak vest from Pacnorval Defense Systems is a basic jacket consisting of light durasteel plates under layered ballistic fabric.",
+	"details": "This armor gains +1 soak when the wearer suffers damage from the Blast quality.",
+        "reference": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
         "categories": "Heavy",
         "encumbrance": "3",
         "hard_points": "1",
@@ -502,7 +542,9 @@
     {
         "key": "PROTECTOR",
         "name": "Protector 1 Combat Armor",
-        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+	"description": "This is a set of heavier durasteel plates on a mesh suit. Slightly more protective than basic laminate, it has plenty of mobility, being treated favorably by many.",
+	"details": "",
+        "reference": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
         "categories": [
             "Sealed",
             "Full Body",
@@ -528,7 +570,9 @@
     {
         "key": "STEELSKIN",
         "name": "Mk.II \"Steelskin\" Anti-Concussive Armor",
-        "description": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
+	"description": "Some of the heaviest non-powered personal armor on the market, Steelskin armor is illegal on most worlds and sure to draw significant attention in even the roughest of Outer Rim settlements.",
+	"details": "All Brawn- and Agility-based checks while wearing Steelskin armor gain a setback die. Whenever the bearer is staggered or disoriented from a weapon's item quality, the armor reduces the rounds staggered or disoriented by one.",
+        "reference": "Please see page 49 of the Dangerous Covenants Sourcebook for details.",
         "categories": [
             "Full Body",
             "Hard",
@@ -562,7 +606,9 @@
     {
         "key": "POWARMOR",
         "name": "PX-11 \"Battlement\" Powered Armor",
-        "description": "Please see page 51 of the Dangerous Covenants Sourcebook for details.",
+	"description": "The PX-11 is a heavy piece of armor which uses mechanical and powered musculature to reduce the weight on the user, as well as artificially increase their strength.",
+	"details": "Suit is vacuum-sealed with life support, allowing wearer to survive in a vacuum or toxic environment for up to 1 hour. Suit helmet has a comlink as well as sophisticated sensors removing 2 setback dice from Perception, Surveillance, Vigilance and combat skill checks due to darkness, smoke, or environmental factors that obscure vision. Power pack lasts 12 hours of use. Brawn +1 while wearing armor (does not increase soak or wound threshold). Athletics skill +1 while wearing armor.", 
+        "reference": "Please see page 51 of the Dangerous Covenants Sourcebook for details.",
         "categories": [
             "Sealed",
             "Full Body",
@@ -602,7 +648,9 @@
     {
         "key": "TAILOREDJACKET",
         "name": "Tailored Armored Jacket",
-        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+	"description": "Kamperdine Clothing Specialists is a boutique manufacturer of custom clothing.",
+	"details": "When worn by that wearer, they add an advantage result to any successful Charm, Deception, or Negotiation checks the character makes.",
+        "reference": "Please see page 44 of the Far Horizons Sourcebook for details.",
         "categories": "Resistant",
         "encumbrance": "1",
         "hard_points": "0",
@@ -626,7 +674,9 @@
     {
         "key": "REINFENVIRO",
         "name": "Reinforced Environment Gear",
-        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+	"description": "Produced by a number of companies, such a Pretormin Environmental and Gandorthral Atmospherics, reinforced environment gear is essentially improved adverse environment gear.",
+	"details": "Allows a wearer to ignore a setback die imposed by environmental conditions and reduces Critical Injuries suffered from falling by 20. The suit also includes a filter, granting a boost die to Resilience checks to resist toxic atmospheres or airborne toxins.",
+        "reference": "Please see page 44 of the Far Horizons Sourcebook for details.",
         "categories": "Full Body",
         "encumbrance": "2",
         "hard_points": "2",
@@ -654,7 +704,9 @@
     {
         "key": "RIOTARMOR",
         "name": "Mk.IV Riot Armor",
-        "description": "Please see page 44 of the Far Horizons Sourcebook for details.",
+	"description": "The Mk IV riot armor is one of Creshaldyne Industries' most popular models.",
+	"details": "This armor includes a breath mask that allows the user to filter out airborne toxins and gases (but not to breathe in atmospheres without the character's required atmosphere mix). In addition, when staggered or disoriented, the wearer reduces the duration of the effect by one round, to a minimum of one round.",
+        "reference": "Please see page 44 of the Far Horizons Sourcebook for details.",
         "categories": [
             "Full Body",
             "Hard",
@@ -687,7 +739,9 @@
     {
         "key": "WINGCOMMANDER",
         "name": "A/KT Wing Commander Armored Flight Suit",
-        "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
+	"descriptioin": "The popular Wing Commander armored flight suit by Ayelixe/Krongbing Textiles is the latest advancement in pilot comfort and protection.",
+	"details": "Reduces any strain received from Critical Hits dealt to the wearer's vehicle by one (to a minimum of 1) and the flame-resistant coating reduces damage dealt to the wearer by fires and weapons with the Burn quality by 1.",
+        "reference": "Please see page 42 of the Stay on Target Sourcebook for details.",
         "categories": [
             "Sealed",
             "Full Body",
@@ -719,7 +773,9 @@
     {
         "key": "RIDINGTACK",
         "name": "Caballerin-Series Riding Tack",
-        "description": "Please see page 42 of the Stay on Target Sourcebook for details.",
+	"description": "This a fully equipped riding tack, designed for quality and reliability.",
+	"details": "Can only be equipped to beasts. Allows riding of the beast without suffering the bareback penalties.",
+        "reference": "Please see page 42 of the Stay on Target Sourcebook for details.",
         "categories": [],
         "defense": "0",
         "soak": "0",
@@ -747,7 +803,9 @@
     {
         "key": "CAPARIBEAST",
         "name": "Capari-Series Padded Beast Armor",
-        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+	"description": "This set of flexible heavy-duty fibers and armor weave is built to add versatile protection to riding beasts.",
+	"details": "Can only be worn by beasts. Allows riding without bareback penalties.",
+        "reference": "Please see page 43 of the Stay on Target Sourcebook for details.",
         "categories": [
             "Half Body",
             "Heavy",
@@ -779,7 +837,9 @@
     {
         "key": "DESTRIBEAST",
         "name": "Destri-Series Laminated Beast Armor",
-        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+	"description": "This set of heavy-duty laminate plates is designed to be fit to riding beasts in order to provide further protection than the lighter Capari-series.",
+	"details": "This can only be worn by riding beasts. Reduce agility of beast by 1. Allows riding of the beast without the bareback penalty.",
+        "reference": "Please see page 43 of the Stay on Target Sourcebook for details.",
         "categories": [
             "Heavy",
             "Full Body",
@@ -812,7 +872,9 @@
     {
         "key": "MEGAFAUNA",
         "name": "H-Series Megafauna Carriage",
-        "description": "Please see page 43 of the Stay on Target Sourcebook for details.",
+	"description": "This is a broad platform that can be attached to a creature's back to form a canopy which is great for weapon emplacements.",
+	"details": "May only be worn by riding creatures with a silhouette of at least 3 and a brawn rating of at least 5. If the creatures has more than 4 legs, modifications require 500 credits extra. May attach one or two vehicle sized weapons following usual rules. May ride beast without bareback penalty.",
+        "reference": "Please see page 43 of the Stay on Target Sourcebook for details.",
         "categories": "Heavy",
         "defense": "1",
         "soak": "0",
@@ -844,7 +906,9 @@
     {
         "key": "HUTTSHELLARMOR",
         "name": "Hutt Shell Armor",
-        "description": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
+	"description": "This armor is produced for a group of Hutt warriors, containing a set of repulsor lifts which allow the Hutt to hover 5 meters above the ground. These segmented durasteel cylinders provide excellent armor, reminiscent of lightly armored vehicle plating.",
+	"details": "Hutt may ignore effect of Awkward or Ponderous if possessed. Wearer does not expend additional maneuvers for traversing difficult terrain.",
+        "reference": "Please see page 104 of the Lords of Nal Hutta Sourcebook for details.",
         "categories": [
             "Sealable",
             "Full Body",
@@ -888,7 +952,9 @@
     {
         "key": "SAKSHADOW",
         "name": "Sakiyan Shadowsuit",
-        "description": "Please see page 105 of the Lords of Nal Hutta Sourcebook for details.",
+	"description": "Woven from the silk of the umbraspider, Sakiyan shadowsuits are used by assassins who wish to remain unseen.",
+	"details": "Grants two boost dice to Stealth checks the wearer makes.",
+        "reference": "Please see page 105 of the Lords of Nal Hutta Sourcebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "2500",
@@ -916,7 +982,9 @@
     {
         "key": "BLASTVEST",
         "name": "Blast Vest",
-        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+	"description": "This outfit is built from some more primitive fabrics that were especially good at dissipating the impact of slugthrowers. However, they do little against energy weapons.",
+	"details": "Gain +2 soak against slugthrowers and other physical projectile weapons.",
+        "reference": "Please see page 47 of the Fly Casual Sourcebook for details.",
         "categories": "Heavy",
         "encumbrance": "3",
         "hard_points": "1",
@@ -940,7 +1008,9 @@
     {
         "key": "MIMETICSUIT",
         "name": "Mimetic Suit",
-        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+	"description": "Cyricept's Mk IX Personal Mimetic Concealment Suits use active stealth technologies combined with advanced textiles to provide some of the best personal stealth armor available.",
+	"details": "Upgrades the ability of all Stealth checks made by the wearer twice. In addition, the GM may spend a despair result or three threat results on any Stealth checks made by the wearer while the suit is active to have its power pack run dry.",
+        "reference": "Please see page 47 of the Fly Casual Sourcebook for details.",
         "encumbrance": "2",
         "hard_points": "2",
         "price": "8000",
@@ -968,7 +1038,9 @@
     {
         "key": "SMUGGLERSTRENCHCOAT",
         "name": "Smuggler's Trenchcoat",
-        "description": "Please see page 47 of the Fly Casual Sourcebook for details.",
+	"description": "Every smuggler gets searched; that part of the job is inevitable.",
+	"details": "Checks made to find anything hidden within a smuggler's trenchcoat while it is being worn are opposed by the Skulduggery of the wearer. The coat can conceal items with a total encumbrance value of up to 2.",
+        "reference": "Please see page 47 of the Fly Casual Sourcebook for details.",
         "encumbrance": "3",
         "hard_points": "0",
         "price": "1650",
@@ -999,7 +1071,9 @@
     {
         "key": "BANAL",
         "name": "Banal Apparel",
-        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
+	"description": "Stealth equipment can render a person literally invisible to the naked eye, but sometimes simply fading into the crowd offers a more elegant and effective solution.",
+	"details": "Opposing character upgrade the difficulty of any checks made to identify the wearer once.",
+        "reference": "Please see page 47 of the Desperate Allies Sourcebook for details.",
         "defense": "0",
         "soak": "0",
         "price": "25",
@@ -1022,7 +1096,9 @@
     {
         "key": "CARGOCL",
         "name": "Cargo Clothing",
-        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.[P][I]",
+	"description": "Having the right tools for the job can be crucial to performing a task, and some individuals believe that the best approach to life is to have the right tools for any eventuality.",
+	"details": "A character wearing cargo clothing may carry up to three items of encumbrance 1 or lower without their counting toward the character's encumbrance value.",
+        "reference": "Please see page 47 of the Desperate Allies Sourcebook for details.[P][I]",
         "categories": [],
         "defense": "0",
         "soak": "0",
@@ -1046,7 +1122,9 @@
     {
         "key": "DIPROBE",
         "name": "Diplomat's Robes",
-        "description": "Please see page 47 of the Desperate Allies Sourcebook for details.",
+	"description": "Robes of this type are worn by ambassadors, senators and other officials engaging in important negotiations. They are generally immediately recognizable, providing their wearers the status they deserve.",
+	"details": "Add 1 boost die to social checks related to diplomatic authority and when attempting to bypass procedure due to status.",
+        "reference": "Please see page 47 of the Desperate Allies Sourcebook for details.",
         "defense": "0",
         "soak": "0",
         "price": "400",
@@ -1070,7 +1148,9 @@
     {
         "key": "FLAREJACK",
         "name": "Flare Jacket",
-        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+	"description": "Originally designed by a high-end clothing manufacturer for making literally flashy entrances, the flare jacket caught the attention of organizations that saw potential military use and contracted Ayelixe/Krongbing Textiles to produce a more intense version for a personal defense coat.",
+	"details": "Once per encounter, a character wearing a flare jacket can trigger the charges as a maneuver. Each character within short range (besides the wearer) must make a Hard difficulty Vigilance check. Each character who fails is staggered for one round, plus one additional round per three threat results.",
+        "reference": "Please see page 48 of the Desperate Allies Sourcebook for details.",
         "categories": "Heavy",
         "defense": "0",
         "soak": "1",
@@ -1094,7 +1174,9 @@
     {
         "key": "HAULHARN",
         "name": "Hauling Harness",
-        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+	"description": "This set of braces and harnesses is a prized piece of equipment in many industries, allowing users to carry heavy loads around when needed, without droid assistance.",
+	"details": "Increase encumbrance capacity by 6, upgrade combat checks difficulty twice.",
+        "reference": "Please see page 48 of the Desperate Allies Sourcebook for details.",
         "categories": "Heavy",
         "defense": "1",
         "soak": "1",
@@ -1128,7 +1210,9 @@
     {
         "key": "HOLOCOST",
         "name": "Holographic Costume",
-        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+	"description": "One of the more ingenious utilizations of holographic technology comes in the form of wearable tech, commonly used for communications and advertisements.",
+	"details": "To record a new outfit, a character must make an Easy difficulty Computers check while in possession of a garment to be recorded, or a Daunting difficulty Computers check to create a facsimile of a garment that is not on hand.",
+        "reference": "Please see page 48 of the Desperate Allies Sourcebook for details.",
         "defense": "1",
         "soak": "0",
         "price": "750",
@@ -1152,7 +1236,9 @@
     {
         "key": "LECOUT",
         "name": "Lector's Outfit",
-        "description": "Please see page 48 of the Desperate Allies Sourcebook for details.",
+	"description": "This set of clothes is fitted with microphones in the collar, allowing the wearer to give a speech on the fly without employing a personal announcement system.",
+	"details": "Add 1 boost die to social interactions with large groups of listeners. Can be heard clearly over longer distances.",
+        "reference": "Please see page 48 of the Desperate Allies Sourcebook for details.",
         "categories": [],
         "defense": "0",
         "soak": "1",
@@ -1180,7 +1266,9 @@
     {
         "key": "NOBREG",
         "name": "Noble Regalia",
-        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+	"description": "This set of clothes is generally of inconvenient couture, prioritizing appearance over all else. Yet in the right cultures, confers upon the wearer their due status.",
+	"details": "Downgrade the difficulty of social checks to interact with other nobility and subordinates once.",
+        "reference": "Please see page 49 of the Desperate Allies Sourcebook for details.",
         "categories": "Half Body",
         "defense": "0",
         "soak": "0",
@@ -1204,7 +1292,9 @@
     {
         "key": "PERFATT",
         "name": "Performer's Attire",
-        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+	"description": "Diplomats perform on the political stage, but some may dabble in artistic performance. These clothes facilitate a performance, often being flashy but with freedom of movement.",
+	"details": "Add 1 boost die to checks for attracting attention or performing.",
+        "reference": "Please see page 49 of the Desperate Allies Sourcebook for details.",
         "categories": [],
         "defense": "0",
         "soak": "0",
@@ -1228,7 +1318,9 @@
     {
         "key": "POWCAPARM",
         "name": "Powered Capacitive Armor",
-        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+	"description": "Popular and lightweight, capacitive armor offers moderate protection against most forms of attack whenever worn.",
+	"details": "As a maneuver, the wearer may power up or power down the armor. While the armor is powered and the plates are locked in place, the wearer gains +1 soak and +1 defense but loses their free maneuver during each of their turns.",
+        "reference": "Please see page 49 of the Desperate Allies Sourcebook for details.",
         "defense": "1",
         "soak": "1",
         "price": "3000",
@@ -1256,7 +1348,9 @@
     {
         "key": "RESPROBES",
         "name": "Resplendent Robes",
-        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+	"description": "Some members of the galaxy enjoy being the center of attention. These robes are designed to draw attention, allowing others to go about their business without being noticed.",
+	"details": "When purposely drawing attention to self, allies in medium range gain 1 boost die to Perception, Skullduggery and Stealth checks.",
+        "reference": "Please see page 49 of the Desperate Allies Sourcebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "500",
@@ -1280,7 +1374,9 @@
     {
         "key": "SECSKIN",
         "name": "Second Skin Armor",
-        "description": "Please see page 49 of the Desperate Allies Sourcebook for details.",
+	"description": "Like most types of armored clothing, second skin armor offers moderate protection while still enabling easy movement and flexibility.",
+	"details": "Add two setback dice to a character's Perception checks to notice second skin armor on the wearer.",
+        "reference": "Please see page 49 of the Desperate Allies Sourcebook for details.",
         "defense": "1",
         "soak": "1",
         "price": "2000",
@@ -1304,7 +1400,9 @@
     {
         "key": "BODYSUIT",
         "name": "Polis Masson Bodysuit",
-        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+	"description": "The Polis Massans, also known as Kallidahin, employ unique, tight-fitting bodysuits in their day-to-day lives.",
+	"details": "All Polis Massan bodysuits include a tiny head-mounted multidirectional glow rod as well as an integrated utility belt (which increases the wearer's encumbrance threshold by one).",
+        "reference": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "300",
@@ -1332,7 +1430,9 @@
     {
         "key": "LEVPOWARM",
         "name": "Leviathan Power Armor",
-        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+	"description": "Each of these suits are a work of art, as all Mon Calamari equipment is. The power armor is considered a technological marvel, fully loaded for war.",
+	"details": "If the suit is not commissioned for the wearer, upgrade difficulty of Agility and Brawn checks once. Suit is fully sealed and has an integrated respirator. Has the following attachments automatically; Heating System, Enhanced Optic Suite, and Strength Enhancement System. These cannot be removed. Equipped with one Mon Cal Defenses Mini-Torpedo Launcher and one Salus DF-D1 Duo-Flechette Rifle.",
+        "reference": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
         "categories": [
             "Sealed",
             "Hard Full Body",
@@ -1446,7 +1546,9 @@
     {
         "key": "VERPFIBUARM",
         "name": "Verpine Fiber Ultramesh Armor",
-        "description": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
+	"description": "Fiber ultramesh armor is the standard armor of Verpine colony guards. It is a more advanced version of the Verpine fiber mesh armor, with a tighter weave and sturdier construction.",
+	"details": "As a maneuver, the wearer may power up or power down the armor. While the armor is powered up, the wearer gains +2 defense. However, any character may spend a triumph result or two advantage results from a combat check against the wearer to cause it to run out of power, at which point the armor becomes powered down and cannot be powered up until the end of the encounter.",
+        "reference": "Please see page 109 of the Strongholds of Resistance Sourcebook for details.",
         "defense": "0",
         "soak": "1",
         "price": "3000",
@@ -1473,7 +1575,9 @@
     {
         "key": "CRESHARMOR",
         "name": "Cresh \"Luck\" Armor",
-        "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
+	"description": "Creshaldyne riot armor is a popular choice among police and paramilitary units across the galaxy.",
+	"details": "Cresh Luck armor adds an automatic advantage result to the wearer's Vigilance checks.",
+        "reference": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
         "encumbrance": "4",
         "hard_points": "1",
         "price": "1000",
@@ -1509,7 +1613,9 @@
     {
         "key": "JEDIBA",
         "name": "Jedi Battle Armor",
-        "description": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
+	"description": "When the Jedi battled Sith warriors in ancient days, many wore suits of armor to protect themselves from the weapons of their enemies.",
+	"details": "A character wearing Jedi battle armor fitted for somebody else adds two setback dice to all combat checks. A suit of Jedi battle armor can be fitted to a new wearer with a Hard difficulty Mechanics check that takes an hour to complete. Jedi battle armor is eligible to be sealed against vacuums and other hazardous environments.",
+        "reference": "Please see page 47 of the Keeping the Peace Sourcebook for details.",
         "categories": [
             "Sealable",
             "Hard Full Body",
@@ -1544,7 +1650,9 @@
     {
         "key": "JEDITEMGUAARM",
         "name": "Jedi Temple Guard Armor",
-        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+	"description": "The Jedi Temple Guard were some of the best fighters the Jedi Order had to offer, sworn to protect the temple to the end.",
+	"details": "The armored mask contains a helmet comlink and in-helmet scanner.",
+        "reference": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
         "encumbrance": "4",
         "hard_points": "3",
         "price": "12000",
@@ -1576,7 +1684,9 @@
     {
         "key": "JEDITRAINSUITW",
         "name": "Jedi Training Suit (Weighted)",
-        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+	"description": "The typical Jedi training suit features bulky, heavily padded chest, leg, and arm pieces designed to absorb the stunning blows of training lightsabers.",
+	"details": "Unless the integrated weights are removed, a Jedi training suit has an encumbrance of 6. Removal of these weights, which requires an Easy difficulty Mechanics check, reduces the suit's encumbrance to 4. At the GM's discretion, training while wearing the weights might help a character develop physical fitness or adapt to high-gravity environments.",
+        "reference": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
         "encumbrance": "6",
         "hard_points": "0",
         "price": "400",
@@ -1602,34 +1712,12 @@
         "image_filename": "missing.png",
         "type": "Armor"
     },
-    {
-        "key": "JEDITRAINSUIT",
-        "name": "Jedi Training Suit (Unweighted)",
-        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
-        "categories": [
-            "Half Body",
-            "Heavy",
-            "Resistant"
-        ],
-        "encumbrance": "4",
-        "hard_points": "0",
-        "price": "400",
-        "rarity": "9",
-        "is_restricted": "true",
-        "base_mods": [],
-        "weapon_modifiers": [],
-        "defense": "0",
-        "soak": "2",
-        "sources": [
-            "Keeping the Peace"
-        ],
-        "image_filename": "missing.png",
-        "type": "Armor"
-    },
-    {
+        {
         "key": "KAVDANNPA",
         "name": "Kav-Dann Power Armor",
-        "description": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
+	"description": "This set of armor is a super-heavy piece of equipment which is fully sealed and built to withstand even the most extreme conditions in the galaxy... as long as it has a charge.",
+	"details": "Can survive in vacuum for up to 4 hours. Gain 1 boost dice to resist the effects of radiation. Remove any setback dice caused by darkness, smoke or other environmental factors that might affect vision from all Perception, Vigilance, and Combat checks. Grants Brawn +1 (does not increase soak or wound threshold) as long as it is equipped and powered. If the suit loses power, the encumbrance becomes 12 and defense is lost.",
+        "reference": "Please see page 48 of the Keeping the Peace Sourcebook for details.",
         "categories": [
             "Sealed",
             "Hard Full Body",
@@ -1671,7 +1759,9 @@
     {
         "key": "KOROHALFVEST",
         "name": "Koromondian Half-Vest",
-        "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+	"description": "Referred to snidely as \"bounty hunter insurance\" by cynics across the galaxy, the Koromondian armored half-vest is designed to protect the wearer from ambushes and sudden attacks from unexpected directions.",
+	"details": "Whenever a character wearing an armored half-vest suffers a Critical Injury, the armor becomes damaged by one step.",
+        "reference": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
         "categories": "Heavy",
         "encumbrance": "3",
         "hard_points": "0",
@@ -1695,7 +1785,9 @@
     {
         "key": "RIOTARM",
         "name": "Riot Armor",
-        "description": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
+	"description": "Produced by countless manufacturers throughout the galaxy, riot armor is light combat armor designed for personal protection in high-intensity conflicts.",
+	"details": "",
+        "reference": "Please see page 49 of the Keeping the Peace Sourcebook for details.",
         "categories": [
             "Half Body",
             "Heavy",
@@ -1719,7 +1811,9 @@
     {
         "key": "CLOAKCOAT",
         "name": "Cloaking Coat",
-        "description": "Please see page 47 of the Special Modifications Sourcebook for details.",
+	"description": "While spies, thieves, and saboteurs favor more expensive personal stealth fields, a skilled slicer typically considers staying unnoticed by sensors and probes the most important part of breaking through security.",
+	"details": "A cloaking coat upgrades the difficulty of checks using sensors or electronic forms of detection to find an individual wearing it twice. Droids with an Intellect lower than the wearer's ranks in Computers are affected similarly when trying to detect the wearer.",
+        "reference": "Please see page 47 of the Special Modifications Sourcebook for details.",
         "categories": "Full Body",
         "defense": "0",
         "soak": "1",
@@ -1743,7 +1837,9 @@
     {
         "key": "MECHUTILSUIT",
         "name": "Mechanic's Utility Suit",
-        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+	"description": "Not so much armor as an adaptation applied to the rugged clothing common to Technicians on the go, a utility suit is bedecked with pockets, attachment hooks, and gear straps.",
+	"details": "The wearer counts as having a tool kit.",
+        "reference": "Please see page 48 of the Special Modifications Sourcebook for details.",
         "categories": "Full Body",
         "defense": "0",
         "soak": "2",
@@ -1767,7 +1863,9 @@
     {
         "key": "N57",
         "name": "N-57 Armor",
-        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+	"description": "The latest suit in Merr-Sonn's N-series armor for combat engineers has broken with the company's typical policy of selling exclusively to established planetary militaries, and is available for general purchase on the open market.",
+	"details": "As a maneuver, the wearer may recharge an energy weapon or device that has run out of power or ammunition in the manner of an extra reload/power pack.",
+        "reference": "Please see page 48 of the Special Modifications Sourcebook for details.",
         "categories": [
             "Sealable",
             "Full Body",
@@ -1799,7 +1897,9 @@
     {
         "key": "P14",
         "name": "P-14 Hazardous Industry Suit",
-        "description": "Please see page 48 of the Special Modifications Sourcebook for details.",
+	"description": "Hazardous industry suits allow technical experts and laborers alike to deal with workshop or factory conditions dangerous to most living species.",
+	"details": "A hazardous industry suit counts as a breath mask. Further, the wearer adds two boost dice to Resilience checks to resist heat, cold, radiation, and other hostile environmental conditions. The wearer does not suffer the effects of the Burn or Disorient item qualities. When the wearer suffers strain in order to take an extra maneuver, they suffer 1 additional strain.",
+        "reference": "Please see page 48 of the Special Modifications Sourcebook for details.",
         "categories": [
             "Full Body",
             "Heavy",
@@ -1840,7 +1940,9 @@
     {
         "key": "ANIPRO",
         "name": "AniPro Layered Beast Armor",
-        "description": "Please see page 44 of the Savage Spirits Sourcebook for details.",
+	"description": "Light and easy to maintain, the AniPro-series layered beast armor by VeTech strikes a good balance between protection and practicality.",
+	"details": "AniPro beast armor can only be worn by riding or working animals. In addition to providing protection to a mount, this armor allows a character to ride the animal without suffering the bareback riding penalties.",
+        "reference": "Please see page 44 of the Savage Spirits Sourcebook for details.",
         "categories": "Half Body",
         "defense": "1",
         "soak": "1",
@@ -1868,7 +1970,9 @@
     {
         "key": "CHITIN",
         "name": "Chitin Armor",
-        "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
+	"description": "Chitin armor is usually made by hand from the husks of various giant insect species found throughout the galaxy.",
+	"details": " A character wearing a suit of chitin armor adds an automatic advantage result to [their] Coercion checks and an automatic threat result to [their] Charm checks.",
+        "reference": "Please see page 45 of the Savage Spirits Sourcebook for details.",
         "categories": "Hard",
         "defense": "0",
         "soak": "2",
@@ -1902,7 +2006,9 @@
     {
         "key": "SURVIVALARMOR",
         "name": "Survivalist Armor",
-        "description": "Please see page 45 of the Savage Spirits Sourcebook for details.",
+	"description": "Creshaldyne Industries is known throughout the galaxy as a purveyor of finely made working clothes for hunters, scouts, and others who live in frontier settings.",
+	"details": "Wearing a suit of Survivalist armor increases the wearer's encumbrance threshold by 1.",
+        "reference": "Please see page 45 of the Savage Spirits Sourcebook for details.",
         "categories": "Full Body",
         "defense": "0",
         "soak": "1",
@@ -1926,7 +2032,9 @@
     {
         "key": "ALLIANCELTSTEALTH",
         "name": "Alliance Light Stealth Armor",
-        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+	"description": "The inferior resources of the Alliance military force Rebel soldiers to rely on stealth and subterfuge to accomplish most of their missions.",
+	"details": "This armor adds a boost die to the wearer's Stealth checks.",
+        "reference": "Please see page 49 of the Forged in Battle Sourcebook for details.",
         "categories": [
             "Sealable",
             "Full Body",
@@ -1959,7 +2067,9 @@
     {
         "key": "IMPHAZARD",
         "name": "Imperial Hazard Trooper Armor",
-        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+	"description": "Imperial hazardous environment protective armor, or \"hazard trooper armor\", is one of the most rugged armor suits in the Stormtrooper Corps.",
+	"details": "Once active, the armor's internal life support and power systems allow the wearer to survive in radiation zones, acid[1] and toxic environments, extreme pressures[1], and total vacuum for up to twenty-four hours. The armor also incorporates a high-powered comlink able to communicate from the ground to low orbit. The helmet is equipped with a multifrequency targeting and acquisition system that removes two setback die due to darkness, smoke, or similar environmental factors that obscure vision from the wearer's Perception, Vigilance, and combat checks.",
+        "reference": "Please see page 49 of the Forged in Battle Sourcebook for details.",
         "categories": [
             "Full Body",
             "Hard Full Body",
@@ -1990,7 +2100,8 @@
     {
         "key": "IMPSTORMCOMM",
         "name": "Imperial Storm Commando Armor",
-        "description": "Please see page 49 of the Forged in Battle Sourcebook for details.",
+	"description": "Storm commandos are among the Empire's most elite troopers, and they utilize the most advanced equipment available.",
+        "reference": "Please see page 49 of the Forged in Battle Sourcebook for details.",
         "categories": [
             "Sealable",
             "Full Body",
@@ -2028,7 +2139,9 @@
     {
         "key": "REBELHEAVY",
         "name": "Rebel Heavy Battle Armor",
-        "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
+	"description": "Most Alliance field tactics focus on hit-and-fade strikes, sabotage, and denial operations, but sometimes the Rebellion has no choice but to stand and fight against Imperial forces.",
+	"details": "Equipped with a helmet-fitted breath mask and respirator.",
+        "reference": "Please see page 50 of the Forged in Battle Sourcebook for details.",
         "categories": [
             "Full Body",
             "Hard Full Body",
@@ -2057,7 +2170,9 @@
     {
         "key": "THINSUIT",
         "name": "Karflo Thinsuit",
-        "description": "Please see page 50 of the Forged in Battle Sourcebook for details.",
+	"description": "Used by professional scouts, science-lab workers, and special forces the galaxy over, the Thinsuit by Karflo Corporation is among the most popular environmental protection gear around.",
+	"details": " It comes with a facemask and filtration system that purifies standard atmosphere for up to six hours and provides one hour of internal power. The stock suit comes with six removable filters and power packs, easily stored in its many pockets. A character equipped with a Thinsuit removes two setback dice imposed by the environment from their checks.",
+        "reference": "Please see page 50 of the Forged in Battle Sourcebook for details.",
         "categories": [
             "Full Body",
             "Resistant"
@@ -2080,7 +2195,9 @@
     {
         "key": "CRASHGEAR",
         "name": "Crash Gear",
-        "description": "Please see page 43 of the Endless Vigil Sourcebook for details.",
+	"description": "Used by professional scouts, science-lab workers, and special forces the galaxy over, the Thinsuit by Karflo Corporation is among the most popular environmental protection gear around.",
+	"details": "A character wearing crash gear ignores the effects of ongoing Critical Injuries on any Intellect- or Cunning-related checks, but still suffers from the injuries themselves. They also cannot be disoriented.",
+        "reference": "Please see page 43 of the Endless Vigil Sourcebook for details.",
         "categories": [
             "Full Body",
             "Resistant"
@@ -2105,7 +2222,9 @@
     {
         "key": "GSUIT",
         "name": "G-Suit",
-        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+	"description": "Most sets of crash gear consist of an assortment of protective wear designed to allow a user to better survive the inevitable collisions and buffeting that are part of every race or mission.",
+	"details": "A character wearing a g-suit reduces the strain cost to perform a second Pilot Only maneuver during a turn by 1.",
+        "reference": "Please see page 44 of the Endless Vigil Sourcebook for details.",
         "categories": [
             "Full Body",
             "Resistant"
@@ -2130,7 +2249,9 @@
     {
         "key": "PITCREWCOV",
         "name": "Pit Crew Coveralls",
-        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+	"description": "Working as a mechanic in a pit crew, whether fixing lowly groundcars on a dusty Outer Rim backwater or maintaining elaborate podracers in a high-end racing circuit, is a dirty job.",
+	"details": "A character reduces damage they suffer from fires and weapons with the Burn quality by 1. In addition, increases the character's encumbrance threshold by 1.",
+        "reference": "Please see page 44 of the Endless Vigil Sourcebook for details.",
         "categories": "Full Body",
         "encumbrance": "1",
         "hard_points": "1",
@@ -2156,7 +2277,9 @@
     {
         "key": "ZEPHYRSTEALTH",
         "name": "Zephyr Stealth Suit",
-        "description": "Please see page 44 of the Endless Vigil Sourcebook for details.",
+	"description": "Stealth suits, produced by companies like Ayelix/Krongbing Textils and Creshaldyne, are designed to make a wearer difficult or impossible to detect by visual or technological means.",
+	"details": "A character upgrades the ability of any Stealth checks they make once.",
+        "reference": "Please see page 44 of the Endless Vigil Sourcebook for details.",
         "categories": "Full Body",
         "encumbrance": "2",
         "hard_points": "1",
@@ -2186,7 +2309,9 @@
     {
         "key": "HUNTTROPHARM",
         "name": "Hunter's Trophy Armor",
-        "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  If making your own suit from owned hides, price/rarity drops to 1000/6.[i]",
+	"description": "Bounty hunters who specialize in wild animals and dangerous beasts sometimes make a habit of collecting trophies to show off their accomplishments.",
+	"details": "A character wearing trophy armor suffers a setback die to Charm checks, but gains two boost die to Coercion checks due to the armor's intimidating appearance.",
+        "reference": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  If making your own suit from owned hides, price/rarity drops to 1000/6.[i]",
         "categories": "Half Body",
         "encumbrance": "4",
         "hard_points": "1",
@@ -2225,7 +2350,9 @@
     {
         "key": "ARMDROPSUIT",
         "name": "Armored Drop Suit",
-        "description": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  A vehicle version of this armor exists with the same name.[i]",
+	"description": "Armored drop suits are light laminate body armor constructed around a powerful repulsorlift unit, allowing the wearer to fly between firing positions or rain down attacks from above.",
+	"details": "As a maneuver, the wearer can engage the suit's flight systems to function as a silhouette 0, speed 2, handling +2, system strain threshold 3 vehicle that requires Piloting (Planetary) to operate. Further, while the flight systems are engaged and the wearer is conscious, they do not suffer damage from falling.",
+        "reference": "Please see page 49 of the No Disintegrations Sourcebook for details. [P][I]Note:  A vehicle version of this armor exists with the same name.[i]",
         "categories": [
             "Full Body",
             "Hard",
@@ -2256,7 +2383,9 @@
     {
         "key": "MANDOARM",
         "name": "Mandalorian Armor",
-        "description": "Please see page 50 of the No Disintegrations Sourcebook for details.",
+	"description": "Typically, skilled Mandalorian smiths custom design and build suits of armor.",
+	"details": "All Mandalorian armor suits include an integrated comlink and are vacuum sealed. Beyond that, most conform to the defense, soak, encumbrance, and hard points values presented above, though exceptions exist.",
+        "reference": "Please see page 50 of the No Disintegrations Sourcebook for details.",
         "categories": [
             "Full Body",
             "Hard Full Body",
