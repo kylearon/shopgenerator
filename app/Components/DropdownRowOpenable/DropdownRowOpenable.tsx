@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
 
 import ToggleButton from '../ToggleButton/ToggleButton';
@@ -11,6 +11,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 export interface DropdownRowOpenableProps {
     title: string;
     distinctTypes: string[];
+    isReset: boolean;
     onPress: (event: GestureResponderEvent) => void;
     onItemSelected: (item: string, selected: boolean) => void;
     icon: any;
@@ -19,12 +20,21 @@ export interface DropdownRowOpenableProps {
     disabled?: boolean;
 }
 
-export default function DropdownRowOpenable({title, distinctTypes, onPress, onItemSelected, icon="tortoise", style, textStyle= localStyles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
+export default function DropdownRowOpenable({title, distinctTypes, isReset=false, onPress, onItemSelected, icon="tortoise", style, textStyle= localStyles.buttonText, disabled = false} : DropdownRowOpenableProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
 
+    useEffect(() => {
+        if (isReset) {
+            console.log("Resetting " + title + " row");
+            
+            //perform reset logic
+            setIsSubsectionOpen(false);
+            setToggledStates(initialState);
+        }
+    }, [isReset]);
 
     const [isSubsectionOpen, setIsSubsectionOpen] = useState<boolean>(false);
 

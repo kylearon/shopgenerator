@@ -16,8 +16,8 @@ import weapons from '../data/weapons.json';
 import gear from '../data/gear.json';
 import attachments from '../data/item_attachments.json';
 import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollForItems} from '../utils/diceroller'
-import { useState } from 'react';
-import { useRouter } from 'expo-router';
+import { useState, useEffect  } from 'react';
+import { BackHandler, Alert } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
 import { ThemedText } from '@/components/ThemedText';
@@ -32,11 +32,11 @@ export default function HomeScreen() {
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
 
-    const router = useRouter();
 
     const[shopType, setShopType] = useState<string>("On The Level");
     const onShopTypeSelected = (val: string) => {
         setShopType(val);
+        setIsShopReset(false);
     };
 
     const[specialization, setSpecialization] = useState<string[]>([]);
@@ -51,41 +51,63 @@ export default function HomeScreen() {
                 return [...prev, val];
             }
         });
+        setIsShopReset(false);
     };
 
     const[presence, setPresence] = useState<number>(0);
     const onPresenceSelected = (val: number) => {
         setPresence(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[negotiation, setNegotiation] = useState<number>(0);
     const onNegotiationSelected = (val: number) => {
         setNegotiation(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[boostDice, setBoostDice] = useState<number>(0);
     const onBoostDiceSelected = (val: number) => {
         setBoostDice(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[setbackDice, setSetbackDice] = useState<number>(0);
     const onSetbackDiceSelected = (val: number) => {
         setSetbackDice(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[difficultyDice, setDifficultyDice] = useState<number>(0);
     const onDifficultyDiceSelected = (val: number) => {
         setDifficultyDice(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[rarityModifier, setRarityModifier] = useState<number>(0);
     const onRarityModifierSelected = (val: number) => {
         setRarityModifier(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[numberOfItems, setNumberOfItems] = useState<number>(5);
     const onNumberOfItemsSelected = (val: number) => {
         setNumberOfItems(val);
+        if(isShopReset != false) {
+            setIsShopReset(false);
+        }
     };
 
     const[shopArmorItemsToShow, setShopArmorItemsToShow] = useState<ItemArmor[]>([]);
@@ -95,6 +117,34 @@ export default function HomeScreen() {
     const[shopGearItemsToShow, setShopGearItemsToShow] = useState<ItemGear[]>([]);
 
     const[shopAttachmentsItemsToShow, setShopAttachmentsItemsToShow] = useState<ItemAttachment[]>([]);
+
+    const[isShopReset, setIsShopReset] = useState<boolean>(false);
+
+
+    const [isReset, setIsReset] = useState(false); // Reset state
+
+    useEffect(() => {
+        const backAction = () => {
+
+            console.log("backAction()");
+            if(isShopReset == false) {
+                //reset the shop
+                onResetShop();
+                //prevent default back behavior (thus staying in the app)
+                return true; 
+            } else {
+                //allow default back behavior (thus exiting the app) since app was already reset
+                console.log("Exiting app");
+                return false; 
+            }
+        };
+
+        // Add back button listener
+        const backHandler = BackHandler.addEventListener('hardwareBackPress', backAction);
+
+        // Cleanup the listener when the component unmounts
+        return () => backHandler.remove();
+    }, []);
     
 
     const onGenerateShop = () => {
@@ -220,6 +270,8 @@ export default function HomeScreen() {
         setShopWeaponsItemsToShow([]);
         setShopGearItemsToShow([]);
         setShopAttachmentsItemsToShow([]);
+
+        setIsShopReset(true);
     };
 
 
@@ -252,7 +304,7 @@ export default function HomeScreen() {
 
                         <ShopTypeButtonRow onSelected={(val: string) => onShopTypeSelected(val)} initialValue={shopType}/>
 
-                        <SpecializationButtonRow onItemSelected={(val: string, selected: boolean) => onSpecializationSelected(val, selected)}/>
+                        <SpecializationButtonRow onItemSelected={(val: string, selected: boolean) => onSpecializationSelected(val, selected)} isReset={isShopReset}/>
 
                         <PresenceButtonRow onSelected={(val: number) => onPresenceSelected(val)} initialValue={presence}/>
                         <NegotiationButtonRow onSelected={(val: number) => onNegotiationSelected(val)} initialValue={negotiation}/>

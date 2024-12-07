@@ -18,9 +18,10 @@ import item_attachments from '../../../data/item_attachments.json';
 
 export interface SpecializationButtonRowProps {
     onItemSelected: (item: string, selected: boolean) => void;
+    isReset: boolean;
 }
 
-export default function SpecializationButtonRow({onItemSelected} : SpecializationButtonRowProps): JSX.Element {
+export default function SpecializationButtonRow({onItemSelected, isReset} : SpecializationButtonRowProps): JSX.Element {
 
     const isDarkMode = useColorScheme() === 'dark';
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
@@ -139,13 +140,13 @@ export default function SpecializationButtonRow({onItemSelected} : Specializatio
                     />
                 ))} */}
 
-                <DropdownRowOpenable title={'Armor'} distinctTypes={armorTypes} onPress={handleEditArmorClick} onItemSelected={(item: string, selected: boolean) => handleArmorSelected(item, selected)} icon={'shield-outline'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
+                <DropdownRowOpenable title={'Armor'} distinctTypes={armorTypes} isReset={isReset} onPress={handleEditArmorClick} onItemSelected={(item: string, selected: boolean) => handleArmorSelected(item, selected)} icon={'shield-outline'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
-                <DropdownRowOpenable title={'Weapons'} distinctTypes={weaponsTypes} onPress={handleEditWeaponsClick} onItemSelected={(item: string, selected: boolean) => handleWeaponSelected(item, selected)} icon={'sword'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
+                <DropdownRowOpenable title={'Weapons'} distinctTypes={weaponsTypes} isReset={isReset} onPress={handleEditWeaponsClick} onItemSelected={(item: string, selected: boolean) => handleWeaponSelected(item, selected)} icon={'sword'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
-                <DropdownRowOpenable title={'Gear'} distinctTypes={gearTypes} onPress={handleEditGearClick} onItemSelected={(item: string, selected: boolean) => handleGearSelected(item, selected)} icon={'bag-personal'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
+                <DropdownRowOpenable title={'Gear'} distinctTypes={gearTypes} isReset={isReset} onPress={handleEditGearClick} onItemSelected={(item: string, selected: boolean) => handleGearSelected(item, selected)} icon={'bag-personal'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
-                <DropdownRowOpenable title={'Attachments'} distinctTypes={attachmentTypes} onPress={handleEditAttachmentsClick} onItemSelected={(item: string, selected: boolean) => handleAttachmentsSelected(item, selected)} icon={'toy-brick-plus-outline'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
+                <DropdownRowOpenable title={'Attachments'} distinctTypes={attachmentTypes} isReset={isReset} onPress={handleEditAttachmentsClick} onItemSelected={(item: string, selected: boolean) => handleAttachmentsSelected(item, selected)} icon={'toy-brick-plus-outline'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
             </View>
 
