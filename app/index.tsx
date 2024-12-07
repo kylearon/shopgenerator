@@ -120,9 +120,6 @@ export default function HomeScreen() {
 
     const[isShopReset, setIsShopReset] = useState<boolean>(false);
 
-
-    const [isReset, setIsReset] = useState(false); // Reset state
-
     useEffect(() => {
         const backAction = () => {
 
@@ -144,7 +141,7 @@ export default function HomeScreen() {
 
         // Cleanup the listener when the component unmounts
         return () => backHandler.remove();
-    }, []);
+    }, [isShopReset]);
     
 
     const onGenerateShop = () => {
