@@ -145,6 +145,7 @@ export default function HomeScreen() {
     
 
     const onGenerateShop = () => {
+
         console.log("Generating Shop...");
         console.log("Shop Type: " + shopType);
         console.log("Specialization: " + specialization);
@@ -196,6 +197,15 @@ export default function HomeScreen() {
 
         console.log("num items in pool: " + itemPool.length)
         // console.log(itemPool);
+
+        if(itemPool.length < 1)
+        {
+            Alert.alert(
+                "Empty Item Pool",
+                "Please select some Shop Specializations",
+                [{ text: "OK", onPress: () => console.log("Alert closed") }]
+            );
+        }
 
         //TODO: calculate markup based on shopType
 
