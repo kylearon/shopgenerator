@@ -135,18 +135,18 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
             </View>
 
             {
-                itemArmorToShow.details
+                itemArmorToShow.description
                 ?
                     <View style={[styles.leftContainerFill, { }]}>
                         <Text
                             style={[
-                                styles.itemRowDetailsText,
+                                styles.itemRowDescriptionText,
                                 {
                                     color: colors.textColor,
                                 },
                             ]}
                         >
-                            {itemArmorToShow.details}
+                            {itemArmorToShow.description}
                         </Text>
                     </View>
                 :
@@ -183,7 +183,7 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
             </View>
 
             {
-                !isOpen && itemArmorToShow.description
+                !isOpen && itemArmorToShow.details
                 ?
                 <View 
                     style={[
@@ -217,7 +217,7 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
             }
 
             {
-                isOpen && itemArmorToShow.description
+                isOpen && itemArmorToShow.details
                 ?
                 <View 
                     style={[
@@ -230,13 +230,13 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
                     }>
                     <Text
                         style={[
-                            styles.itemRowDescriptionText,
+                            styles.itemRowDetailsText,
                             {
                                 color: colors.textColor,
                             },
                         ]}
                     >
-                        {itemArmorToShow.description}
+                        {itemArmorToShow.details}
                     </Text>
                 </View>
                 :

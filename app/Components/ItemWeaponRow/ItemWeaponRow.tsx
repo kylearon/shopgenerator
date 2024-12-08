@@ -135,12 +135,12 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
             </View>
 
             {
-                itemWeaponToShow.details
+                itemWeaponToShow.description
                 ?
                     <View style={[styles.leftContainerFill, { }]}>
                         <Text
                             style={[
-                                styles.itemRowDetailsText,
+                                styles.itemRowDescriptionText,
                                 {
                                     color: colors.textColor,
                                     paddingLeft: 0,
@@ -148,7 +148,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                                 },
                             ]}
                         >
-                            {itemWeaponToShow.details}
+                            {itemWeaponToShow.description}
                         </Text>
                     </View>
                 :
@@ -237,7 +237,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
             </View>
 
             {
-                !isOpen && itemWeaponToShow.description
+                !isOpen && itemWeaponToShow.details
                 ?
                 <View 
                     style={[
@@ -271,7 +271,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
             }
 
             {
-                isOpen && itemWeaponToShow.description
+                isOpen && itemWeaponToShow.details
                 ?
                 <View 
                     style={[
@@ -284,13 +284,13 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                     }>
                     <Text
                         style={[
-                            styles.itemRowDescriptionText,
+                            styles.itemRowDetailsText,
                             {
                                 color: colors.textColor,
                             },
                         ]}
                     >
-                        {itemWeaponToShow.description}
+                        {itemWeaponToShow.details}
                     </Text>
                 </View>
                 :

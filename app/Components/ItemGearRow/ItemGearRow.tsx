@@ -131,18 +131,18 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
             </View>
 
             {
-                itemGearToShow.details
+                itemGearToShow.description
                 ?
                     <View style={[styles.leftContainerFill, { }]}>
                         <Text
                             style={[
-                                styles.itemRowDetailsText,
+                                styles.itemRowDescriptionText,
                                 {
                                     color: colors.textColor,
                                 },
                             ]}
                         >
-                            {itemGearToShow.details}
+                            {itemGearToShow.description}
                         </Text>
                     </View>
                 :
@@ -175,7 +175,7 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
             </View>
 
             {
-                !isOpen && itemGearToShow.description
+                !isOpen && itemGearToShow.details
                 ?
                 <View 
                     style={[
@@ -209,7 +209,7 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
             }
 
             {
-                isOpen && itemGearToShow.description
+                isOpen && itemGearToShow.details
                 ?
                 <View 
                     style={[
@@ -222,13 +222,13 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                     }>
                     <Text
                         style={[
-                            styles.itemRowDescriptionText,
+                            styles.itemRowDetailsText,
                             {
                                 color: colors.textColor,
                             },
                         ]}
                     >
-                        {itemGearToShow.description}
+                        {itemGearToShow.details}
                     </Text>
                 </View>
                 :

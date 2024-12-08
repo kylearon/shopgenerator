@@ -128,18 +128,18 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
             </View>
 
             {
-                itemAttachmentToShow.details
+                itemAttachmentToShow.description
                 ?
                     <View style={[styles.leftContainerFill, { }]}>
                         <Text
                             style={[
-                                styles.itemRowDetailsText,
+                                styles.itemRowDescriptionText,
                                 {
                                     color: colors.textColor,
                                 },
                             ]}
                         >
-                            {itemAttachmentToShow.details}
+                            {itemAttachmentToShow.description}
                         </Text>
                     </View>
                 :
@@ -174,7 +174,7 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
             </View>
             
             {
-                !isOpen && itemAttachmentToShow.description
+                !isOpen && itemAttachmentToShow.details
                 ?
                 <View 
                     style={[
@@ -208,7 +208,7 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
             }
 
             {
-                isOpen && itemAttachmentToShow.description
+                isOpen && itemAttachmentToShow.details
                 ?
                 <View 
                     style={[
@@ -221,13 +221,13 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
                     }>
                     <Text
                         style={[
-                            styles.itemRowDescriptionText,
+                            styles.itemRowDetailsText,
                             {
                                 color: colors.textColor,
                             },
                         ]}
                     >
-                        {itemAttachmentToShow.description}
+                        {itemAttachmentToShow.details}
                     </Text>
                 </View>
                 :

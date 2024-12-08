@@ -126,7 +126,7 @@ export const GlobalStyles = {
             padding: 4,
         },
 
-        itemRowDetailsText: {
+        itemRowDescriptionText: {
             textAlign: 'left',
             fontSize: 12,
             fontWeight: 'normal',
@@ -136,7 +136,7 @@ export const GlobalStyles = {
             marginRight: 4
         },
 
-        itemRowDescriptionText: {
+        itemRowDetailsText: {
             textAlign: 'left',
             fontSize: 11,
             fontWeight: 'bold',
