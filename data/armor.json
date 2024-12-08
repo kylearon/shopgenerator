@@ -739,7 +739,7 @@
     {
         "key": "WINGCOMMANDER",
         "name": "A/KT Wing Commander Armored Flight Suit",
-	"descriptioin": "The popular Wing Commander armored flight suit by Ayelixe/Krongbing Textiles is the latest advancement in pilot comfort and protection.",
+	"description": "The popular Wing Commander armored flight suit by Ayelixe/Krongbing Textiles is the latest advancement in pilot comfort and protection.",
 	"details": "Reduces any strain received from Critical Hits dealt to the wearer's vehicle by one (to a minimum of 1) and the flame-resistant coating reduces damage dealt to the wearer by fires and weapons with the Burn quality by 1.",
         "reference": "Please see page 42 of the Stay on Target Sourcebook for details.",
         "categories": [
