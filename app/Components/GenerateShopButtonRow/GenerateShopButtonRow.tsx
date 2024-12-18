@@ -61,9 +61,10 @@ export default function GenerateShopButtonRow({onSelected, onResetSelected} : Ge
                     marginRight: 8,
                 }
                 ]}> 
+                    <StyledButton2 title={"Reset"} onPress={handleResetShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyleRed]} textStyle={{color: '#ffffff', fontSize: 16}} />
+
                     <StyledButton2 title={"Generate Shop"} onPress={handleGenerateShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyleGreen]} textStyle={{color: '#ffffff', fontSize: 16}} />
 
-                    <StyledButton2 title={"Reset"} onPress={handleResetShop} width={160} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyleRed]} textStyle={{color: '#ffffff', fontSize: 16}} />
             </View>
 
         </View>
