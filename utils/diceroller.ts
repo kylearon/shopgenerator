@@ -105,7 +105,7 @@ export type ItemAttachment = {
     key: string; // Unique identifier
     name: string; // Name of the attachment
     description: string; // Description text
-    details: string;
+    details?: string;
     reference: string;
     type: string; // Type of item (e.g., "Vehicle")
     item_limit: string | null; // Nullable item limit
@@ -135,51 +135,78 @@ function rollDice(
     let success = 0, failure = 0, advantage = 0, threat = 0, triumph = 0, despair = 0;
 
     // Roll ability dice (d8)
+    // green
     for (let i = 0; i < abilityDice; i++) {
         const roll = Math.ceil(Math.random() * 8);
-        if (roll <= 3) success++;
-        else if (roll === 4) success++;
+
+        if (roll === 1) success++;
+        else if (roll === 2) success++;
+        else if (roll === 3) success++;
+        else if (roll === 4) success++, success++;
         else if (roll === 5) advantage++;
-        else if (roll === 6) success++, advantage++;
+        else if (roll === 6) advantage++;
+        else if (roll === 7) advantage++, advantage++;
+        else if (roll === 8) { /* nothing */ }
     }
 
     // Roll proficiency dice (d12)
+    // yellow
     for (let i = 0; i < proficiencyDice; i++) {
         const roll = Math.ceil(Math.random() * 12);
-        if (roll <= 5) success++;
-        else if (roll === 6) success += 2;
-        else if (roll === 7 || roll === 8) advantage++;
+
+        if (roll === 1) success++;
+        else if (roll === 2) success++;
+        else if (roll === 3) success++, success++;
+        else if (roll === 4) success++, success++;
+        else if (roll === 5) advantage++;
+        else if (roll === 6) advantage++, advantage++;
+        else if (roll === 7) advantage++, advantage++;
+        else if (roll === 8) success++, advantage++;
         else if (roll === 9) success++, advantage++;
-        else if (roll === 10) advantage += 2;
-        else if (roll === 12) {
-            triumph++;
-            success++;
-        }
+        else if (roll === 10) success++, advantage++;
+        else if (roll === 11) triumph++;
+        else if (roll === 12) { /* nothing */ }
     }
 
     // Roll difficulty dice (d8)
+    // purple
     for (let i = 0; i < difficultyDice; i++) {
         const roll = Math.ceil(Math.random() * 8);
-        if (roll <= 2) failure++;
-        else if (roll === 3 || roll === 4) threat++;
-        else if (roll === 5) failure++, threat++;
-        else if (roll >= 6) threat++;
+
+        if (roll === 1) threat++;
+        else if (roll === 2) threat++;
+        else if (roll === 3) threat++;
+        else if (roll === 4) threat++, threat++;
+        else if (roll === 5) failure++;
+        else if (roll === 6) failure++, failure++;
+        else if (roll === 7) threat++, failure++;
+        else if (roll === 8) { /* nothing */ }
     }
 
     // Roll setback dice (d6)
+    // black
     for (let i = 0; i < setbackDice; i++) {
         const roll = Math.ceil(Math.random() * 6);
-        if (roll <= 2) failure++;
-        else if (roll === 3 || roll === 4) threat++;
+
+        if (roll === 1) threat++;
+        else if (roll === 2) threat++;
+        else if (roll === 3) failure++;
+        else if (roll === 4) failure++;
+        else if (roll === 5) { /* nothing */ }
+        else if (roll === 6) { /* nothing */ }
     }
 
     // Roll boost dice (d6)
+    // boost
     for (let i = 0; i < boostDice; i++) {
         const roll = Math.ceil(Math.random() * 6);
-        if (roll === 1) advantage++;
-        else if (roll === 2) success++;
-        else if (roll === 3 || roll === 4) success++, advantage++;
-        else if (roll === 5) advantage += 2;
+
+        if (roll === 1) success++;
+        else if (roll === 2) advantage++;
+        else if (roll === 3) advantage++, advantage++;
+        else if (roll === 4) success++, advantage++;
+        else if (roll === 5) { /* nothing */ }
+        else if (roll === 6) { /* nothing */ }
     }
 
     return { success, failure, advantage, threat, triumph, despair };
