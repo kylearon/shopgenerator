@@ -12,5 +12,11 @@ If running locally on a phone for testing, make sure it is 'Using Expo Go'. You 
 
 Then press 'a' to install on the plugged-in android device.
 
+Releasing
+
+Update app.json and package.json with the new version.
+Run 'npm install' to update package-lock.json
+Commit the new version numbers to git.
+
 Build installable test distribution:
 eas build -p android --profile preview
