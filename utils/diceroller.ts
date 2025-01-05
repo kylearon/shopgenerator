@@ -230,7 +230,7 @@ export function rollForItems(
         // Calculate dice pools
         const abilityDice = Math.max(0, presence - negotiation); // Remainder after proficiency upgrades
         const proficiencyDice = Math.min(presence, negotiation); // Negotiation upgrades ability dice
-        const difficultyDice = effectiveRarity + additionalDifficultyDice; // Rarity determines difficulty
+        const difficultyDice =  Math.floor(effectiveRarity / 2) + additionalDifficultyDice; // Rarity determines difficulty
 
         const diceRoll = rollDice(
             abilityDice,
