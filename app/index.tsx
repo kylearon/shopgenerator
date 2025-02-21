@@ -16,7 +16,7 @@ import weapons from '../data/weapons.json';
 import gear from '../data/gear.json';
 import attachments from '../data/item_attachments.json';
 import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollForItems} from '../utils/diceroller'
-import { useState, useEffect  } from 'react';
+import { useState, useEffect, useRef  } from 'react';
 import { BackHandler, Alert } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
@@ -32,6 +32,7 @@ export default function HomeScreen() {
     const colors =  isDarkMode ? Colors['dark'] : Colors['light'];
     const styles = GlobalStyles['phone']
 
+    const scrollViewRef = useRef<ScrollView>(null);
 
     const[shopType, setShopType] = useState<string>("On The Level");
     const onShopTypeSelected = (val: string) => {
@@ -258,6 +259,10 @@ export default function HomeScreen() {
         setShopWeaponsItemsToShow(shopWeaponsItems);
         setShopGearItemsToShow(shopGearItems);
         setShopAttachmentsItemsToShow(shopAttachmentsItems);
+
+        setTimeout(() => {
+            scrollViewRef.current?.scrollTo({ y: 0, animated: false });
+        }, 0);
     };
 
     const onResetShop = () => {
@@ -287,6 +292,7 @@ export default function HomeScreen() {
         <SafeAreaView style={localStyles.safeArea} >
 
             <ScrollView
+                ref={scrollViewRef}
                 contentInsetAdjustmentBehavior="automatic"
                 style={[{ flex: 1, backgroundColor: colors.backgroundColor}]}>
 
