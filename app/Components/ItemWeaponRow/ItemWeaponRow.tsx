@@ -195,7 +195,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                 
             </View>
 
-            <View
+            {/* <View
                 style={[
                     styles.leftContainerFill,
                     {
@@ -222,7 +222,7 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                         : itemWeaponToShow.categories
                     }
                 </Text>
-            </View>
+            </View> */}
 
             {
                 !isOpen && itemWeaponToShow.details
