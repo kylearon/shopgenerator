@@ -146,32 +146,6 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
                 <></>
             }
 
-            <View
-                style={[
-                    styles.leftContainerFill,
-                    {
-                        flexDirection: 'row',
-                        justifyContent: 'flex-start',
-                        marginLeft: 8,
-                        marginRight: 8,
-                    },
-                ]}
-            >
-                <Text
-                    style={[
-                        styles.statTextNoWidth,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemAttachmentToShow.type}
-                </Text>
-
-                
-            </View>
             
             {
                 !isOpen && itemAttachmentToShow.details

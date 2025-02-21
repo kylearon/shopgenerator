@@ -179,18 +179,6 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                     },
                 ]}
             >
-                <Text
-                    style={[
-                        styles.statTextNoWidth,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemWeaponToShow.type}
-                </Text>
 
                 <Text
                     style={[

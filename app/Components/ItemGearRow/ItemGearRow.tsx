@@ -147,30 +147,6 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
                 <></>
             }
 
-            <View
-                style={[
-                    styles.leftContainerFill,
-                    {
-                        flexDirection: 'row',
-                        justifyContent: 'flex-start',
-                        marginLeft: 8,
-                        marginRight: 8,
-                    },
-                ]}
-            >
-                <Text
-                    style={[
-                        styles.statTextNoWidth,
-                        {
-                            color: colors.textColor,
-                            backgroundColor: colors.backgroundColorRow,
-
-                        },
-                    ]}
-                >
-                    {itemGearToShow.type}
-                </Text>
-            </View>
 
             {
                 !isOpen && itemGearToShow.details
