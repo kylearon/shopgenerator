@@ -28,9 +28,22 @@ export default function SpecializationButtonRow({onItemSelected, isReset} : Spec
     const styles = GlobalStyles['phone']
 
     const armorTypes = Array.from(new Set(armor.map((item) => item.type))).sort();
-    const weaponsTypes = Array.from(new Set(weapons.map((item) => item.type))).sort();
     const gearTypes = Array.from(new Set(gear.map((item) => item.type))).sort();
     const attachmentTypes = Array.from(new Set(item_attachments.map((item) => item.type))).sort();
+
+    const customOrder = [
+        "Brawling",
+        "Melee",
+        "Lightsaber",
+        "Energy Weapon",
+        "Slugthrower",
+        "Vehicle",
+        "Explosives/Other"
+    ];
+      
+    const weaponsTypes = Array.from(new Set(weapons.map((item) => item.type))).sort(
+        (a, b) => customOrder.indexOf(a) - customOrder.indexOf(b)
+    );
 
     const ICON_SIZE = 40;
 
