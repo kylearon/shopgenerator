@@ -121,9 +121,9 @@ export default function ItemAttachmentRow({itemAttachmentToShow} : ItemAttachmen
                 }}
             >
 
-                <ItemStatBox value={itemAttachmentToShow.hard_points} stat='HP REQ'/>
+                <ItemStatBox value={itemAttachmentToShow.hard_points} stat='HP Req'/>
 
-                <ItemStatBox value={itemAttachmentToShow.rarity} stat='rar'/>
+                <ItemStatBox value={itemAttachmentToShow.rarity} stat='Rar'/>
 
             </View>
 
