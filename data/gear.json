@@ -105,7 +105,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Useful for those needing to make a speedy getaway, a remote activation controller (also known as a beckon call) is a small, handheld device that can be worn on the wrist or stowed in a pocket.  ",
-        "details": "Inexpensive models simply activate the vehicle or ship's engines from no more than five kilometers away and run simple preflight checks, allowing the pilot to take off right away. More advanced beckon calls can summon a vehicle or starship, though the autopilot is only capable of performing simple maneuvers, which can be complicated by weather conditions and other obstacles. Some models can be used to remotely pilot a vehicle or starship via slave circuit, though this requires a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Piloting - Space (Ag)|Piloting]] [[Piloting - Planetary (Ag)|check]]'''.\n\nIf purchasing the short range variant, the price is 300 credits and the rarity is 4."
+        "details": "Inexpensive models simply activate the vehicle or ship's engines from no more than five kilometers away and run simple preflight checks, allowing the pilot to take off right away. More advanced beckon calls can summon a vehicle or starship, though the autopilot is only capable of performing simple maneuvers, which can be complicated by weather conditions and other obstacles. Some models can be used to remotely pilot a vehicle or starship via slave circuit, though this requires a Daunting (4 Difficulty) Piloting - Space or Piloting - Planetary check. If purchasing the short range variant, the price is 300 credits and the rarity is 4."
     },
     {
         "key": "COMLINKHARD",
@@ -129,7 +129,7 @@
         ],
         "image_filename": "COMLINKHARD.png",
         "description": "This hardened comlink is one of the more popular forms of military-grade communications in the galaxy.  ",
-        "details": "The ShockHold adds two automatic [[Narrative Dice#Threat|threat]] results to any checks made to decode and understand its transmissions, and two automatic [[Narrative Dice#Advantage|advantage]] results to any checks made to broadcast through a comm jammer."
+        "details": "The ShockHold adds two automatic Threat results to any checks made to decode and understand its transmissions, and two automatic Advantage results to any checks made to broadcast through a comm jammer."
     },
     {
         "key": "COLLARAMP",
@@ -236,7 +236,7 @@
         ],
         "image_filename": "missing.png",
         "description": "For years, a multitude of criminal and resistance organizations have utilized homemade devices known as false voice transmitters, or FVTs, to fool the Empire.  ",
-        "details": "When impersonating another individual with the aid of an FVT, the user can upgrade the ability of their [[Charm (Pr)|Charm]], [[Coercion (Will)|Coercion]], [[Deception (Cun)|Deception]], [[Leadership (Pr)|Leadership]], and [[Negotiation (Pr)|Negotiation]] checks once."
+        "details": "When impersonating another individual with the aid of an FVT, the user can upgrade the ability of their Charm, Coercion, Deception, Leadership, and Negotiation checks once."
     },
     {
         "key": "PMVOICE",
@@ -268,7 +268,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "A PTP (or point-to-point) link is a multichannel personal communications device capable of transmitting audio signals up to twenty-five kilometers.  ",
-        "details": "[M]ost modern communications devices are unable to pick up PTP transmissions[.]<ref name=\":0\" /> [...] With the addition of PTP encryption devices, which can cost up to 1,000 credits, this archaic transmission format is almost undetectable.<ref>[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 112)</ref>"
+        "details": "Most modern communications devices are unable to pick up PTP transmissions. With the addition of PTP encryption devices, which can cost up to 1,000 credits, this archaic transmission format is almost undetectable."
     },
     {
         "key": "VERPCOM",
@@ -285,7 +285,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "The mode of short-wave telecommunication used by the Verpine is undetectable outside their species.  ",
-        "details": "With such a comlink, Verpin communications can be intercepted, and direct communication with the Verpine can be established within a range of 100 kilometers. <ref name=\":0\">[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 112)</ref>\n\n[...] Verpine [may] choose different \"channels,\" which the comlink can be tuned to, allowing for discreet communications even in the midst of the largest Verpine colonies.<ref name=\":0\" />"
+        "details": "With such a comlink, Verpin communications can be intercepted, and direct communication with the Verpine can be established within a range of 100 kilometers. Verpine may choose different \"channels,\" which the comlink can be tuned to, allowing for discreet communications even in the midst of the largest Verpine colonies."
     },
     {
         "key": "SSNT",
@@ -475,7 +475,7 @@
             }
         ],
         "description": "Poisoning is not a common concern for most citizens, but for certain high-value persons of interest, it is an all too real hazard.   ",
-        "details": "A character using an antidote set reduces the difficulty of any check to resist a poison by two (to a minimum of '''[[Narrative Dice#Standard Difficulties|Easy difficulty]]'''). If they do not know which poison was used, they must make a '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Underworld (Int)|Knowledge (Underworld) check]]''' to make an educated guess at the poison based on the region, the poison's qualities, and other evidence at their disposal to benefit from this item."
+        "details": "A character using an antidote set reduces the difficulty of any check to resist a poison by two (to a minimum of Easy (1 Difficulty)). If they do not know which poison was used, they must make a Hard (3 Difficulty) Knowledge - Underworld check to make an educated guess at the poison based on the region, the poison's qualities, and other evidence at their disposal to benefit from this item."
     },
     {
         "key": "CYARMV",
@@ -540,7 +540,7 @@
             }
         ],
         "description": "These enhancements are miniaturized computer implants designed to augment the user's brainpower.  ",
-        "details": "A cybernetic brain implant provides +1 Intellect and includes a [[comlink]] and computer access link."
+        "details": "A cybernetic brain implant provides +1 Intellect and includes a comlink and computer access link."
     },
     {
         "key": "CYEYE",
@@ -567,7 +567,7 @@
         ],
         "image_filename": "CYEYE.png",
         "description": "Cybernetic eyes were designed to restore sight to beings who have been blind since birth or have lost their sight due to disease or accident.  ",
-        "details": "Users with cybernetic eyes gain +1 [[Vigilance (Will)|Vigilance]] and [[Perception (Cun)|Perception]]."
+        "details": "Users with cybernetic eyes gain +1 Vigilance and Perception."
     },
     {
         "key": "CYLEGII",
@@ -627,7 +627,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "More than a simple cybernetic replacement, this cybernetic arm includes a basic scanner for medium-range detection.  ",
-        "details": "The Mod IV Scanner Limb incorporates a portable scanner (such as the [[General Purpose Scanner|general purpose scanner]]) and, unlike most cybernetics, is concealed by a synthflesh covering to disguise that there is anything out of the ordinary about the limb."
+        "details": "The Mod IV Scanner Limb incorporates a portable scanner (such as the General Purpose Scanner) and, unlike most cybernetics, is concealed by a synthflesh covering to disguise that there is anything out of the ordinary about the limb."
     },
     {
         "key": "CYIMIM",
@@ -649,7 +649,7 @@
             }
         ],
         "description": "Given the wide variety of life-forms and the frequency with which many travel the galaxy, it's little wonder that the spread and containment of disease is of major concern to medical professionals and travelers alike.  ",
-        "details": "Possessing an immune implant grants the wearer +1 [[Resilience (Br)|Resilience]]."
+        "details": "Possessing an immune implant grants the wearer +1 Resilience."
     },
     {
         "key": "CYIMARM",
@@ -744,7 +744,7 @@
             }
         ],
         "description": "Popular among bounty hunters, assassins, and clandestine operatives, cybernetic weapon implants guarantee that no matter the situation, an individual is never without a weapon.  ",
-        "details": "A basic cybernetic weapon arm appears to be a regular cybernetic arm but features a retractable [[Light Blaster Pistol|light blaster pistol]] that can be deployed as an incidental. The blaster is attached to the arm and cannot be removed, dropped, or disarmed."
+        "details": "A basic cybernetic weapon arm appears to be a regular cybernetic arm but features a retractable Light Blaster Pistol that can be deployed as an incidental. The blaster is attached to the arm and cannot be removed, dropped, or disarmed."
     },
     {
         "key": "CYAVIONCAAF2",
@@ -817,7 +817,7 @@
         ],
         "image_filename": "CYREPULSORFIST.png",
         "description": "Also called a repulse–hand or a enforcer grip, this durasteel weapon cybernetic is typically neither covered in synthskin nor intendeded to appear natural.  ",
-        "details": "A repulsor fist provides one rank of the [[Defensive Stance talent]] and counts as a Brawl weapon with a damage of 8, a critical rating of 3, and the [[Item Qualities#Concussive (Active)|Concussive]] 1 and [[Item Qualities#Slow-Firing (Passive)|Slow–Firing]] 2 qualities. While a character may still make Brawl attacks when this weapon is \"recharging\" due to the [[Item Qualities#Slow-Firing (Passive)|Slow–Firing]] quality, they do so without any benefits from the weapon—they simply make an unarmed Brawl attack."
+        "details": "A repulsor fist provides one rank of the Defensive Stance talent and counts as a Brawl weapon with a damage of 8, a critical rating of 3, and the Concussive 1 and Slow-Firing 2 qualities. While a character may still make Brawl attacks when this weapon is \"recharging\" due to the Slow-Firing quality, they do so without any benefits from the weapon—they simply make an unarmed Brawl attack."
     },
     {
         "key": "CYADRENAL",
@@ -842,7 +842,7 @@
             }
         ],
         "description": "A small implant affixed to the suprarenal glands, an adrenal implant stimulates the production of epinephrine in the body when the individual's nervous system is subjected to strain.  ",
-        "details": "An adrenal implant provides one rank of the [[Rapid Recovery talent|Rapid Recovery]] talent."
+        "details": "An adrenal implant provides one rank of the Rapid Recovery talent."
     },
     {
         "key": "CYREFLEX",
@@ -867,7 +867,7 @@
             }
         ],
         "description": "A series of specialized implants designed to stimulate and help regulate the sympathetic nervous system of the user, cybernetic reflexes can greatly increase an individual's reaction time to outside stimuli and threats.  ",
-        "details": "Cybernetic reflexes provide one rank of [[Rapid Reaction talent]]."
+        "details": "Cybernetic reflexes provide one rank of Rapid Reaction talent."
     },
     {
         "key": "CYRESPIR",
@@ -896,7 +896,7 @@
         ],
         "image_filename": "missing.png",
         "description": "For those organics seeking to escape fleshy frailties, cybernetic respirators offer an alternative to lungs.  ",
-        "details": "A cybernetic respirator permanently provides a character with the benefits of a [[Breath Mask/Respirator|breath mask and respirator]] and one rank of the [[Blooded talent]]."
+        "details": "A cybernetic respirator permanently provides a character with the benefits of a Breath Mask/Respirator and one rank of the Blooded talent."
     },
     {
         "key": "CYGANKCOMM",
@@ -941,7 +941,7 @@
             }
         ],
         "description": "Usually taking the form of a prosthetic finger or other artificial appendage, a cyberjack allows its use to directly interface with a computer system via  a universal serial socket.  ",
-        "details": "Once per check, a character with an implanted cyberjack may suffer 2 strain to decrease the difficulty of a [[Computers (Int)|Computers]] check to disable a security device or slice into a computer system by one."
+        "details": "Once per check, a character with an implanted cyberjack may suffer 2 strain to decrease the difficulty of a Computers check to disable a security device or slice into a computer system by one."
     },
     {
         "key": "CYNEUROMACH",
@@ -966,7 +966,7 @@
             }
         ],
         "description": "A vehicle control system designed to be integrated directly into the nervous system, this ingenious (if notoriously difficult to use) device allows the user to control a vehicle with a thought, moving it as if it were part of their own body.  ",
-        "details": "When piloting a vehicle with the linked control device, a character with a neuromachine interface may use [[Coordination (Ag)|Coordination]] in place of the [[Piloting - Planetary (Ag)|Piloting (Planetary)]] or [[Piloting - Space (Ag)|Piloting (Space)]] skill."
+        "details": "When piloting a vehicle with the linked control device, a character with a neuromachine interface may use Coordination in place of the Piloting - Planetary or Piloting - Space skill."
     },
     {
         "key": "CYRETINALTRACK",
@@ -1001,7 +1001,7 @@
             }
         ],
         "description": "Consisting of microsensors implanted directly behind the user's retina and a tiny tracking computer installed at the base of the skull, a retinal tracker aids the user in targeting imminent threats.  ",
-        "details": "A retinal tracker provides an automatic [[Narrative Dice#Advantage|advantage]] result on a character's [[Gunnery (Ag)|Gunnery]] and [[Ranged - Heavy (Ag)|Ranged (Heavy)]] checks."
+        "details": "A retinal tracker provides an automatic Advantage result on a character's Gunnery and Ranged - Heavy checks."
     },
     {
         "key": "CYDROIDINTF",
@@ -1029,8 +1029,8 @@
             "Strongholds of Resistance"
         ],
         "image_filename": "missing.png",
-        "description": "Neuro-Saav's cyborg/droid interface is a supplementary cybernetic that must be used in conjunction with a [[Cybernetic Brain Implant|cybernetic brain implant]].  ",
-        "details": "Not only does this device let a cyborg access hidden information stored in a droid's memory banks, but it also allows it, when attempting to access information that a hostile droid does not wish to reveal, to upgrade the ability of all its [[Computers (Int)|Computers]] checks once.<ref>[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 112)</ref>"
+        "description": "Neuro-Saav's cyborg/droid interface is a supplementary cybernetic that must be used in conjunction with a Cybernetic Brain Implant.  ",
+        "details": "Not only does this device let a cyborg access hidden information stored in a droid's memory banks, but it also allows it, when attempting to access information that a hostile droid does not wish to reveal, to upgrade the ability of all its Computers checks once."
     },
     {
         "key": "78BCOUR",
@@ -1050,7 +1050,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "The Swift 78B vessel courier system is a discreet, cybernetically implanted data storage device.  ",
-        "details": "Because the vessel courier system is independent of the courier, the data within it cannot be accessed or modified by [them].<ref>[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 112)</ref>"
+        "details": "Because the vessel courier system is independent of the courier, the data within it cannot be accessed or modified by them."
     },
     {
         "key": "BIOFEEDREG",
@@ -1111,7 +1111,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Many free droids find the notion of being placed back into servitude intolerable.  ",
-        "details": "An escape circuit is a cybernetic implant that can only be installed in droids. A droid installed with an escape circuit can resist a [[Restraining Bolt|restraining bolt]] with an '''[[Narrative Dice#Standard Difficulties|Easy difficulty]]''' '''[[Discipline (Will)|Discipline check]]''' instead of the normal difficulty. The droid may spend two [[Narrative Dice#Advantage|advantage]] results from a check made to resist a restraining bolt to overload the bolt, rendering it entirely useless.<ref name=\":0\" /><ref>[[:Category:Technician|Special Modifications]]: ''A Sourcebook for Technicians'' (Page 49-50)</ref>"
+        "details": "An escape circuit is a cybernetic implant that can only be installed in droids. A droid installed with an escape circuit can resist a Restraining Bolt with an Easy (1 Difficulty) Discipline check instead of the normal difficulty. The droid may spend two Advantage results from a check made to resist a restraining bolt to overload the bolt, rendering it entirely useless."
     },
     {
         "key": "NETUPLINK",
@@ -1141,7 +1141,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Some slicers make use of a rare and highly illegal set of droid modifications to mask their slicing signatures by routing them through a droid's systems, which fill the signature with junk data from the droid's base-level processes.  ",
-        "details": "A networked slicing uplink is a cybernetic implant that can only be installed in droids. In addition to its other effects, it counts as a set of [[Slicer Gear|slicer gear]].<ref name=\":0\" /><ref name=\":1\">[[:Category:Technician|Special Modifications]]: ''A Sourcebook for Technicians'' (Page 50)</ref>\n\nWhen the droid is slicing or assisting with slicing tasks, add a [[Narrative Dice#Setback (Black)|setback]] die to other characters' [[Computers (Int)|Computers]] checks to identify the slicer based on these activities.<ref name=\":0\" /><ref name=\":1\" />"
+        "details": "A networked slicing uplink is a cybernetic implant that can only be installed in droids. In addition to its other effects, it counts as a set of Slicer Gear. When the droid is slicing or assisting with slicing tasks, add a Black Setback die to other characters' Computers checks to identify the slicer based on these activities."
     },
     {
         "key": "NEURALREC",
@@ -1168,7 +1168,7 @@
         ],
         "image_filename": "missing.png",
         "description": "An individual with a neural recorder installed gains the ability to record and store sensory information with the veracity and recall of and advanced computer system.  ",
-        "details": "A neural recorder allows the user to make an '''[[Narrative Dice#Standard Difficulties|Easy difficulty]] [[Discipline (Will)|Discipline check]]''' to recall any information experienced while the recorder was running. This information is highly detailed and generally comparable in quality to a holorecording. The installation of a neural recorder usually includes a small connection port on the palm. A character with a neural recorder can copy information it records to an external storage device using this connection.<ref name=\":0\" /><ref>[[:Category:Technician|Special Modifications]]: ''A Sourcebook for Technicians'' (Page 50)</ref>"
+        "details": "A neural recorder allows the user to make an Easy (1 Difficulty) Discipline check to recall any information experienced while the recorder was running. This information is highly detailed and generally comparable in quality to a holorecording. The installation of a neural recorder usually includes a small connection port on the palm. A character with a neural recorder can copy information it records to an external storage device using this connection."
     },
     {
         "key": "SURGESWITCH",
@@ -1195,7 +1195,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Ion weapons, electrical phenomena, and overloads are a danger to anyone who relies too heavily on cybernetics.  ",
-        "details": "Once per encounter as an action, a character with a surge override switch may make an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Discipline (Will)|Discipline check]]'''. If [they] succeed, [they] may reactivate any number of cybernetic implants that have been overloaded by weapons with the [[Item Qualities#Ion (Passive)|Ion]] quality, the [[Overcharge talent|Overcharge]] talent, or similar effects. For each implant [they] reactivate this way, [they] suffer 2 strain. A surge override switch cannot be disabled by [[Item Qualities#Ion (Passive)|Ion]] weapons or overloaded by other means.<ref>[[:Category:Technician|Special Modifications]]: ''A Sourcebook for Technicians'' (Page 50)</ref>"
+        "details": "Once per encounter as an action, a character with a surge override switch may make an Average (3 Difficulty) Discipline check. If they succeed, they may reactivate any number of cybernetic implants that have been overloaded by weapons with the Ion quality, the Overcharge talent talent, or similar effects. For each implant they reactivate this way, they suffer 2 strain. A surge override switch cannot be disabled by Ion weapons or overloaded by other means."
     },
     {
         "key": "EBIN",
@@ -1223,7 +1223,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Electrobinoculars are, at their most basic, a pair of macrobinoculars with one or more integrated optical enhancement systems, such as long-range digital zoom, passive light amplification, thermal imaging, ultrasound imaging, and the like.  ",
-        "details": "Electrobinoculars allow their user to see normally in low light, extremely bright conditions, and inclement conditions. They also provide magnification of targets up to ten kilometers away. When using electrobinoculars, characters may remove a [[Narrative Dice#Setback (Black)|setback]] die from any [[Perception (Cun)|Perception]] checks made to identify an object in low light or at long distances."
+        "details": "Electrobinoculars allow their user to see normally in low light, extremely bright conditions, and inclement conditions. They also provide magnification of targets up to ten kilometers away. When using electrobinoculars, characters may remove a Black Setback die from any Perception checks made to identify an object in low light or at long distances."
     },
     {
         "key": "GPS",
@@ -1292,7 +1292,7 @@
         "type": "Detection/Surveillance Devices",
         "image_filename": "SCANG.png",
         "base_mods": [],
-        "description": "Scanner goggles are a lighter, wearable version of [[electrobinoculars]] equipped with a more limited set of optical enhancements.  "
+        "description": "Scanner goggles are a lighter, wearable version of electrobinoculars equipped with a more limited set of optical enhancements. "
     },
     {
         "key": "PROTGOG",
@@ -1399,7 +1399,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Hunting goggles are a type of scanner goggles specifically designed to assist professional guides an hunters in tracking their quarry.  ",
-        "details": "Hunting goggles grant a [[Narrative Dice#Boost (Blue)|boost]] die to any [[Perception (Cun)|Perception]] checks made to locate prey, and thanks to their image magnification and enhancement, they remove up to two [[Narrative Dice#Setback (Black)|setback]] dice imposed due to concealment, darkness, fog, or mist from all [[Ranged - Light (Ag)|Ranged (Light)]] and [[Ranged - Heavy (Ag)|Ranged (Heavy)]] checks."
+        "details": "Hunting goggles grant a Blue Boost die to any Perception checks made to locate prey, and thanks to their image magnification and enhancement, they remove up to two Black Setback dice imposed due to concealment, darkness, fog, or mist from all Ranged - Light and Ranged - Heavy checks."
     },
     {
         "key": "HYPSIGINTHSI280",
@@ -1434,7 +1434,7 @@
             }
         ],
         "description": "A weapon detector is a specialized sensor built into goggles that is able to detect the presence of explosives, the power cells used in blasters, and the chemical propellants used in slugthrowers, as well as many types of melee weapons, such as knives, swords, and stun batons.   ",
-        "details": "A character using weapon detection goggles may add up to two [[Narrative Dice#Boost (Blue)|boost]] dice to [[Perception (Cun)|Perception]] checks when attempting to find a concealed weapon on a person."
+        "details": "A character using weapon detection goggles may add up to two Blue Boost dice to Perception checks when attempting to find a concealed weapon on a person."
     },
     {
         "key": "SCANCOMBAT",
@@ -1532,7 +1532,7 @@
         ],
         "image_filename": "missing.png",
         "description": "The ChandrilTech PX-7 heat sensor used to detect anomalous variations in temperature nearby.    ",
-        "details": "A PX-7 heat sensor adds two [[Narrative Dice#Boost (Blue)|boost]] dice to [[Perception (Cun)|Perception]] checks to find heat-emitting objects within short range and adds a [[Narrative Dice#Boost (Blue)|boost]] die to [[Mechanics (Int)|Mechanics]] checks to remove Critical Hits from starships and Critical Injuries from droids."
+        "details": "A PX-7 heat sensor adds two Blue Boost dice to Perception checks to find heat-emitting objects within short range and adds a Blue Boost die to Mechanics checks to remove Critical Hits from starships and Critical Injuries from droids."
     },
     {
         "key": "VERIDICATOR",
@@ -1561,7 +1561,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Designed and distributed by Saldalith Manufacturing, the Veridicator is billed as a personal lie-detection device.    ",
-        "details": "[...] Only one target can be scanned and monitored at a time, and they must be relatively nearby. Both the user and the target must remain relatively still, though small movements are unlikely to affect the device's readings.<ref name=\":0\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 51)</ref> \n\nA character wearing a Veridicator 200 adds two [[Narrative Dice#Boost (Blue)|boost]] dice to checks to discern whether another character is lying or omitting significant information and adds two [[Narrative Dice#Boost (Blue)|boost]] dice to checks to ascertain another character's mental state.<ref name=\":0\" />"
+        "details": "[...] Only one target can be scanned and monitored at a time, and they must be relatively nearby. Both the user and the target must remain relatively still, though small movements are unlikely to affect the device's readings. A character wearing a Veridicator 200 adds two Blue Boost dice to checks to discern whether another character is lying or omitting significant information and adds two Blue Boost dice to checks to ascertain another character's mental state."
     },
     {
         "key": "DROIDCAM",
@@ -3118,7 +3118,7 @@
         "image_filename": "EMP.png",
         "base_mods": [],
         "description": "Emergency medpacs are prevalent wherever the threat of injury is higher than average.   ",
-        "details": "Emergency medpacs allow characters to use the [[Medicine (Int)|Medicine]] skill to heal others without penalty."
+        "details": "Emergency medpacs allow characters to use the Medicine skill to heal others without penalty."
     },
     {
         "key": "MEDPAC",
@@ -3428,7 +3428,7 @@
             }
         ],
         "description": "Utilized for medical diagnostics, blood scanners are sensitive devices capable of scanning blood samples from nearly any species.   ",
-        "details": "As an action, a character with a blood scanner may make an '''[[Narrative Dice#Standard Difficulties|Easy difficulty]] [[Medicine (Int)|Medicine check]]''' to identify foreign elements (including poisons) in a blood sample. In addition to allowing the character to treat any present toxins with the proper antidote, the extensive information about the patient's health adds two automatic [[Narrative Dice#Advantage|advantage]] results to the next [[Medicine (Int)|Medicine]] check the character makes to treat the patient.<ref name=\":0\" /><ref>[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 51)</ref>"
+        "details": "As an action, a character with a blood scanner may make an Easy (1 Difficulty) Medicine check to identify foreign elements (including poisons) in a blood sample. In addition to allowing the character to treat any present toxins with the proper antidote, the extensive information about the patient's health adds two automatic Advantage results to the next Medicine check the character makes to treat the patient."
     },
     {
         "key": "MEDAIDPATCH",
@@ -3452,7 +3452,7 @@
             }
         ],
         "description": "\"Med–aid\" is a general term applied to single-use bandages and compresses that have been infused with bacta, antibiotics, coagulants, and other healing agents.   ",
-        "details": "When making a [[Medicine (Int)|Medicine]] check to heal wounds from a character, a character can expend up to one med-aid patch to add an automatic [[Narrative Dice#Success|success]] and [[Narrative Dice#Advantage|advantage]] result to the results of the check. A character cannot use more than one med-aid patch per check.<ref name=\":0\" /><ref>[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 51)</ref>"
+        "details": "When making a Medicine check to heal wounds from a character, a character can expend up to one med-aid patch to add an automatic Success and Advantage result to the results of the check. A character cannot use more than one med-aid patch per check."
     },
     {
         "key": "DEJARIK",
@@ -3542,7 +3542,7 @@
         "image_filename": "BIND.png",
         "base_mods": [],
         "description": "Designed to restrain the particularly slippery individuals, grav-binders use microrepulsor technology to artificially apply the effects of extreme gravity to a captive.    ",
-        "details": "Breaking free from grav-binders requires a '''[[Narrative Dice#Standard Difficulties|Formidable difficulty]] [[Athletics (Br)|Athletics check]]''' (due to the restrictive effects of the artificially raised gravity on the whole body, a character cannot slip free of grav-binders using flexibility alone).<ref name=\":0\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 51)</ref>"
+        "details": "Breaking free from grav-binders requires a Formidable (5 Difficulty) Athletics check (due to the restrictive effects of the artificially raised gravity on the whole body, a character cannot slip free of grav-binders using flexibility alone)."
     },
     {
         "key": "COMMJAM",
@@ -3559,7 +3559,7 @@
         "image_filename": "COMMJAM.png",
         "base_mods": [],
         "description": "Where there are people wishing to communicate, there are people wishing to prevent it, and thus there are jammers.  ",
-        "details": "Cutting through the noise created by a comm jammer requires a [[Computers (Int)|Computers]] check, with a difficulty proportional to the distance from the jammer and power of the device. The closer and more powerful the jammer, the harder the difficulty. The \"Hail\" forces an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] check''', which becomes more difficult at close ranges (the exact difficulty is up to the GM, but should increase to [[Narrative Dice#Standard Difficulties|Hard]] or [[Narrative Dice#Standard Difficulties|Daunting]] if at medium range or closer to the device)."
+        "details": "Cutting through the noise created by a comm jammer requires a Computers check, with a difficulty proportional to the distance from the jammer and power of the device. The closer and more powerful the jammer, the harder the difficulty. The \"Hail\" forces a Standard (2 Difficulty) check, which becomes more difficult at close ranges (the exact difficulty is up to the GM, but should increase to Hard (3 Difficulty) or Daunting (4 Difficulty) if at medium range or closer to the device)."
     },
     {
         "key": "COMMSCRAM",
@@ -3576,7 +3576,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "The success and survival of an operation often hinges on preventing the enemy from listening in on friendly comm traffic.  ",
-        "details": "Using a comm scrambler adds two [[Narrative Dice#Setback (Black)|setback]] dice to any checks made to decode an encrypted transmission."
+        "details": "Using a comm scrambler adds two Black Setback dice to any checks made to decode an encrypted transmission."
     },
     {
         "key": "DISGU",
@@ -3686,7 +3686,7 @@
             }
         ],
         "description": "Essentially specialized tool kits for crime-scene investigations, forensic investigation kits are produced by a number of security companies for use by law enforcement agencies.  ",
-        "details": "When used during the investigation of a crime, a forensic investigation kit adds an automatic [[Narrative Dice#Success|success]] result to all [[Perception (Cun)|Perception]] checks made by the user to spot and gather evidence. It may also count as the \"right tools for the job\" when making checks to analyze evidence gathered. At the Game Master's discretion, this item can also be used for related purposes such as archaeological digs."
+        "details": "When used during the investigation of a crime, a forensic investigation kit adds an automatic Success result to all Perception checks made by the user to spot and gather evidence. It may also count as the \"right tools for the job\" when making checks to analyze evidence gathered. At the Game Master's discretion, this item can also be used for related purposes such as archaeological digs."
     },
     {
         "key": "SECCOLLAR",
@@ -3734,7 +3734,7 @@
             }
         ],
         "description": "A particularly intimidating and malicious method of security slaves and prisoners, explosive shackles have small but lethal charges built into them to deter escape attempts.  ",
-        "details": "Removing explosive shackles without the proper key requires a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Skulduggery (Cun)|Skulduggery check]]'''. If a character fails this check, the shackles detonate, inflicting 10 wounds on the wearer and each character in engaged range (this ignores soak)."
+        "details": "Removing explosive shackles without the proper key requires a Daunting (4 Difficulty) Skulduggery check. If a character fails this check, the shackles detonate, inflicting 10 wounds on the wearer and each character in engaged range (this ignores soak)."
     },
     {
         "key": "AUTHTOOLS",
@@ -3756,7 +3756,7 @@
             }
         ],
         "description": "As criminals and spies advance their ability to forge documents, the need to detect falsifications becomes paramount.  ",
-        "details": "A character using authentication tools adds two [[Narrative Dice#Boost (Blue)|boost]] dice to checks to determine if a document has been falsified."
+        "details": "A character using authentication tools adds two Blue Boost dice to checks to determine if a document has been falsified."
     },
     {
         "key": "CONCREC",
@@ -3778,7 +3778,7 @@
             }
         ],
         "description": "A surreptitiously captured moment can be turned into evidence that wins wars, topples governments, or simply persuades a certain person to remain silent.  ",
-        "details": "Add two [[Narrative Dice#Setback (Black)|setback]] dice to a character's [[Perception (Cun)|Perception]] checks to find a concealed recorder on a person's body."
+        "details": "Add two Black Setback dice to a character's Perception checks to find a concealed recorder on a person's body."
     },
     {
         "key": "DATADEADDROP",
@@ -3821,7 +3821,7 @@
             }
         ],
         "description": "Government agenst who travel to neutral, allied, or even hostile star systems can reasonably expect to receive special treatment.  ",
-        "details": "A character with diplomatic authorization adds two automatic [[Narrative Dice#Advantage|advantage]] results to social skill checks involving members of a planetary of system government, and they can often get access to individuals and services within that government that would otherwise be unavailable. Unless lawfully granted by an authorized body, however, this item can only be acquired illegally."
+        "details": "A character with diplomatic authorization adds two automatic Advantage results to social skill checks involving members of a planetary of system government, and they can often get access to individuals and services within that government that would otherwise be unavailable. Unless lawfully granted by an authorized body, however, this item can only be acquired illegally."
     },
     {
         "key": "FALSECRED",
@@ -3844,7 +3844,7 @@
             }
         ],
         "description": "Whether for relatively tame reasons such as traveling incognito, or more nefarious reasons such as government infiltration, the demand for fake credentials has remained strong.  ",
-        "details": "False credentials can fool most cursory examinations, and characters using scanners require a successful '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Computers (Int)|Computers check]]''' to recognize the credentials as fakes. Attempting to detect fake credentials without appropriate equipment requires a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Perception (Cun)|Perception check]]'''."
+        "details": "False credentials can fool most cursory examinations, and characters using scanners require a successful Hard (3 Difficulty) Computers to recognize the credentials as fakes. Attempting to detect fake credentials without appropriate equipment requires a Daunting (4 Difficulty) Perception check."
     },
     {
         "key": "FORGETOOLS",
@@ -3901,8 +3901,8 @@
             "Desperate Allies"
         ],
         "image_filename": "missing.png",
-        "description": "Produced by a wide variety of artisans, poisoners' rings and similar accessories look like the sort of elegant jewelry commonly worn by aristocrats and wealthy folk.   ",
-        "details": "A poisoner's ring can hold a single dose of any [[:Category:Drugs & Poisons|poison]]. As an action, a character wearing the ring may make an '''opposed [[Skulduggery (Cun)|Skulduggery]] check vs. [[Vigilance (Will)|Vigilance]]''' against any onlookers to deposit the contents into a target's meal or beverage without being noticed."
+        "description": "Produced by a wide variety of artisans, poisoners' rings and similar accessories look like the sort of elegant jewelry commonly worn by aristocrats and wealthy folk.",
+        "details": "A poisoner's ring can hold a single dose of any :Drugs & Poisons. As an action, a character wearing the ring may make an opposed Skulduggery check vs. Vigilance against any onlookers to deposit the contents into a target's meal or beverage without being noticed."
     },
     {
         "key": "SECSWEEP",
@@ -3928,7 +3928,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Government officials and military personnel must maintain a vigilant guard against espionage, taking great pains to ensure they are not overheard or recorded.  ",
-        "details": "A character using a security sweeper may check an area for espionage tools by making an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Computers (Int)|Computers check]]'''. If they succeed, the device notifies them of the presence and location of any recording or espionage devices within medium range of their current location. If the device is particularly well hidden, this check might be opposed by the [[Mechanics (Int)|Mechanics]] skill of the character who placed the device."
+        "details": "A character using a security sweeper may check an area for espionage tools by making an Average (3 Difficulty) Computers. If they succeed, the device notifies them of the presence and location of any recording or espionage devices within medium range of their current location. If the device is particularly well hidden, this check might be opposed by the Mechanics skill of the character who placed the device."
     },
     {
         "key": "SOUNDDAMP",
@@ -3950,7 +3950,7 @@
             }
         ],
         "description": "Using technology originally designed to minimize the constant background noise of a crowded metropolis, Veslox Corporation ingeniously realized the effect could be localized, and its sound dampener quickly became a best-seller in the criminal underworld.   ",
-        "details": "The spherical dampening field extends to short range around the device; characters add two [[Narrative Dice#Setback (Black)|setback]] dice to checks detect noise coming out of the area inside the field."
+        "details": "The spherical dampening field extends to short range around the device; characters add two Black Setback dice to checks detect noise coming out of the area inside the field."
     },
     {
         "key": "ALDR8GRAVBIND",
@@ -3995,8 +3995,8 @@
                 "count": "1"
             }
         ],
-        "description": "Personal transponders are low-powered tracking devices used to locate individuals.    <blockquote>More information about the gear available on the [[starwars:Personal_transponder|Wookieepedia article]].    </blockquote>",
-        "details": "Picking up a personal transponder's signal accurately enough to find its exact location within close range on planetary scale requires an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Computers (Int)|Computers check]]'''. Increase the difficulty of this check by two for each planetary scale range band beyond close, to a maximum of extreme range at the planetary scale.<ref name=\":0\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 51)</ref>"
+        "description": "Personal transponders are low-powered tracking devices used to locate individuals.",
+        "details": "Picking up a personal transponder's signal accurately enough to find its exact location within close range on planetary scale requires an Average (3 Difficulty) Computers. Increase the difficulty of this check by two for each planetary scale range band beyond close, to a maximum of extreme range at the planetary scale."
     },
     {
         "key": "STUNCUFFS",
@@ -4035,7 +4035,7 @@
         "image_filename": "CRASH.png",
         "base_mods": [],
         "description": "Popular among pilots and vehicle crews, crash survival kits are a necessary precaution for those who regularly travel through inhospitable areas.   ",
-        "details": "Most survival kits include a [[Thermal Cloak|thermal coat]], a [[Tool Kit|multitool]] or [[Explorer's Knife|survival knife]], a [[Saladar Systems PED-21 Distress Beacon|distress beacon]], two emergency [[Comlink|comlinks]], a spool of wire, ration bars, a basic [[medpac]], two [[Breath Mask and Respirator|respirators]], a water jug with filter, a [[Glow Rod|glow rod]], fifty meters of [[Degan Explorations Synthrope|high-tensile microfiber line]], ten [[Field Ration Pack|ration packs]], and an emergency [[Luma Flare|flare gun]]. Military pilots, smugglers, and bounty hunters often include a [[Holdout Blaster|small-frame blaster pistol]] as well."
+        "details": "Most survival kits include a thermal coat, a multitool or Explorer's Knife, a Saladar Systems PED-21 Distress Beacon, two emergency Comlink, a spool of wire, ration bars, a basic medpac, two Breath Mask and Respirators, a water jug with filter, a Glow Rod, fifty meters of Degan Explorations Synthrope, ten Field Ration Packs, and an emergency Luma Flare. Military pilots, smugglers, and bounty hunters often include a Holdout Blaster as well."
     },
     {
         "key": "RATION",
@@ -4118,8 +4118,8 @@
         "type": "Survival",
         "image_filename": "TENT.png",
         "base_mods": [],
-        "description": "Alliance standard issue, this triangular two-meter tent inflates and anchors in minutes, and sleeps up to four.  <blockquote>More information about the gear available on the [[starwars:Plastent|Wookieepedia article]].</blockquote>",
-        "details": "Sleeping in a plastent removes two [[Narrative Dice#Setback (Black)|setback]] dice from the user's checks to resist hostile temperatures while sleeping, and downgrades the difficulty of any such checks once.<ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 54)</ref>"
+        "description": "Alliance standard issue, this triangular two-meter tent inflates and anchors in minutes, and sleeps up to four.",
+        "details": "Sleeping in a plastent removes two Black Setback dice from the user's checks to resist hostile temperatures while sleeping, and downgrades the difficulty of any such checks once."
     },
     {
         "key": "THERMCL",
@@ -4142,7 +4142,7 @@
             }
         ],
         "description": "Thermal cloaks are versatile pieces of equipment that can be worn or used as a blanket and provide protection from extreme heat and cold.   ",
-        "details": "Use of a thermal blanket or cloak removes up to two [[Narrative Dice#Setback (Black)|setback]] dice from checks made to handle extreme heat or cold."
+        "details": "Use of a thermal blanket or cloak removes up to two Black Setback dice from checks made to handle extreme heat or cold."
     },
     {
         "key": "ELECSNARE",
@@ -4531,7 +4531,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "The aquata breather is a portable device consisting of two small tanks connected to a mouthpiece.  ",
-        "details": "[...] it supplies up to two hours of breathable air, and is particularly suited to subaquatic environments.<ref name=\":0\">[[:Category:Clone Wars Begin|Rise of the Separatists]]: ''An Era Sourcebook'' (Page 59)</ref><ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 52)</ref>\n\nAquata breathers are designed to be disposable. Once the two-hour air supply is depleted, the unit cannot be recharged.<ref name=\":0\" /><ref name=\":1\" />"
+        "details": "It supplies up to two hours of breathable air, and is particularly suited to subaquatic environments. Aquata breathers are designed to be disposable. Once the two-hour air supply is depleted, the unit cannot be recharged."
     },
     {
         "key": "INSTAMIST",
@@ -4555,7 +4555,7 @@
             }
         ],
         "description": "Though designed for firefighting and agricultural use, Agrierd Intergalactics' InstaMist generator has found a place in the arsenals of some combatants who use it to create ambushes or make quick escapes.  ",
-        "details": "As an action, a character may activate an InstaMist generator to fills an area out to short range of the generator with a heavy fog. [...] Heavy fog adds three [[Narrative Dice#Setback (Black)|setback]] dice to [[Ranged - Light (Ag)|Ranged (Light)]], [[Ranged - Heavy (Ag)|Ranged (Heavy)]], [[Gunnery (Ag)|Gunnery]], and [[Perception (Cun)|Perception]] checks against targets obscured by it, and adds three [[Narrative Dice#Boost (Blue)|boost]] dice to [[Stealth (Ag)|Stealth]] checks made by characters concealed by it. The heavy fog lasts for three rounds. At the GM's discretion, windy conditions can cause it to become concealed by it. The heavy fog lasts for three rounds. At the GM's discretion, windy conditions can cause it to become fog or mist or reduce the time it takes for the vapor to disperse entirely.<ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 52)</ref>\n\nThe generator comes with five vapor cartridges. Additional vapor cartridges cost 10 credits each, and other cartridges vary in price based on their function.<ref name=\":1\" />"
+        "details": "As an action, a character may activate an InstaMist generator to fills an area out to short range of the generator with a heavy fog. Heavy fog adds three Black Setback dice to Ranged - Light, Ranged - Heavy, Gunnery, and Perception checks against targets obscured by it, and adds three Blue Boost dice to Stealth checks made by characters concealed by it. The heavy fog lasts for three rounds. At the GM's discretion, windy conditions can cause it to become concealed by it. The heavy fog lasts for three rounds. At the GM's discretion, windy conditions can cause it to become fog or mist or reduce the time it takes for the vapor to disperse entirely. The generator comes with five vapor cartridges. Additional vapor cartridges cost 10 credits each, and other cartridges vary in price based on their function."
     },
     {
         "key": "JEDIUTILBELT",
@@ -4579,7 +4579,7 @@
             }
         ],
         "description": "Designed long ago by skilled artisans, the Jedi utility belt has become common gear for many Knights operating in the field.  ",
-        "details": "=== OR<ref>[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 50)</ref> ===\n[[File:Profile Jedi Utility Belt KtP.png|alt=Encumbrance 0 Price (R) 1,000 Rarity 8]]\n\nA Jedi utility belt contains a three-day supply of food capsules, an [[Emergency Medpac|emergency medpac]], a [[Lightsaber Maintenance Kit|lightsaber maintenance kit]]<ref name=\":0\" /> ''or'' [[Lightsaber Maintenance Kit|jedi multi-tool]]<ref name=\":1\" />, a slim [[Glow Rod|glow rod]], a [[comlink]], and an [[A99 Aquata Breather|aquata breather]]. A number of empty pouches are concealed along the belt's interior side, allowing the wearer to hide small items. In addition, a standard lightsaber can be securely hung from the belt for easy access. A Jedi utility belt also increases the wearer's encumbrance threshold by 1.<ref name=\":0\">[[:Category:Clone Wars Begin|Rise of the Separatists]]: ''An Era Sourcebook'' (Page 59)</ref><ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 52)</ref>"
+        "details": "A Jedi utility belt contains a three-day supply of food capsules, an Emergency Medpac, a Lightsaber Maintenance Kit, a slim Glow Rod, a comlink, and an A99 Aquata Breather. A number of empty pouches are concealed along the belt's interior side, allowing the wearer to hide small items. In addition, a standard lightsaber can be securely hung from the belt for easy access. A Jedi utility belt also increases the wearer's encumbrance threshold by 1."
     },
     {
         "key": "LUMAFLARE",
@@ -4603,7 +4603,7 @@
             }
         ],
         "description": "Luma flares are rocket-propelled illumination devices commonly used by both militaries and survivalists.  ",
-        "details": "As an action, a character may make an '''[[Narrative Dice#Standard Difficulties|Easy difficulty]] [[Gunnery (Ag)|Gunnery check]]''' to launch a luma flare into the air to provide light. If [they] succeed and the flare has room to travel into the air, the flare completely illuminated an area out to long range from the location it was fired. If [they] fail or do not have room to fire it, the flare still ignites, but it but does not travel into the air. Instead, it remains at ground level, illuminating an area out to short range. Whether [they] succeed or fail, the flare's illumination continues for five rounds, after which time it burns out.<ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 52)</ref>\n\nThough luma flares are not designed as weapons, creative characters can nonetheless use them as such. They are extremely hard to aim, but the mere prospect of being struck by one will cause many foes to reconsider attacking. They have the following profile as a weapon: luma flare ([[Gunnery (Ag)|Gunnery]]; Damage 6; Critical 3; Range [Long]; [[Item Qualities#Blast (Active)|Blast]] 4, [[Item Qualities#Burn (Active)|Burn]] 4, [[Item Qualities#Disorient (Active)|Disorient]] 2, [[Item Qualities#Inaccurate (Passive)|Inaccurate]] 2, [[Item Qualities#Prepare (Passive)|Prepare]] 2, [[Item Qualities#Limited Ammo (Passive)|Limited Ammo]] 1).<ref name=\":1\" />"
+        "details": "As an action, a character may make an Easy (1 Difficulty) Gunnery check to launch a luma flare into the air to provide light. If they succeed and the flare has room to travel into the air, the flare completely illuminated an area out to long range from the location it was fired. If [they] fail or do not have room to fire it, the flare still ignites, but it but does not travel into the air. Instead, it remains at ground level, illuminating an area out to short range. Whether [they] succeed or fail, the flare's illumination continues for five rounds, after which time it burns out. Though luma flares are not designed as weapons, creative characters can nonetheless use them as such. They are extremely hard to aim, but the mere prospect of being struck by one will cause many foes to reconsider attacking. They have the following profile as a weapon: luma flare (Gunnery; Damage 6; Critical 3; Range-Long; Blast 4, Burn 4, Disorient 2, Inaccurate 2, Prepare 2, Limited Ammo 1)."
     },
     {
         "key": "BACKPACK",
@@ -4683,7 +4683,7 @@
             }
         ],
         "description": "Composed of a semi-flexible durasteel disk coated on one side with insulation and edged with auto-activating thermal welds, emergency repair patches are used to keep machinery running until proper repairs can be done.   ",
-        "details": "=== ''OR''<ref>[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 50)</ref> ===\n[[File:Profile Breath Mask and Respirator.png|alt=Encumbrance 1 Price 25 Rarity 1]]\n\nEmergency repair patches are one use items that grant the normal bonus [of being The Right Tool for the Job]. \n\nLikewise, droids can use them to heal wounds in a manner similar to the way an organic being employs a stimpack. Using an emergency repair patch requires a character to spend a maneuver. When applied to droids, emergency repair patches heal 3 wounds, and up to five patches can be used in a single day. Using a sixth emergency repair patch has no effect; by that point, the droid is so patched and jury-rigged together that further patches would be useless. It takes one day for a droid's self-repair routines, or actual repairs, to restore its body to enough functionality to be able to gain benefit from additional emergency repair patches."
+        "details": "Emergency repair patches are one use items that grant the normal bonus [of being The Right Tool for the Job]. Likewise, droids can use them to heal wounds in a manner similar to the way an organic being employs a stimpack. Using an emergency repair patch requires a character to spend a maneuver. When applied to droids, emergency repair patches heal 3 wounds, and up to five patches can be used in a single day. Using a sixth emergency repair patch has no effect; by that point, the droid is so patched and jury-rigged together that further patches would be useless. It takes one day for a droid's self-repair routines, or actual repairs, to restore its body to enough functionality to be able to gain benefit from additional emergency repair patches."
     },
     {
         "key": "RELOAD",
@@ -4907,7 +4907,7 @@
         "image_filename": "TOOLKIT.png",
         "base_mods": [],
         "description": "For every job there is a proper tool, and the bigger the job, the more tools a technician needs.   ",
-        "details": "Using a custom tool kit grants the user for whom it was built a [[Narrative Dice#Boost (Blue)|boost]] die to any skill check made to maintain or repair an item, computer, weapon, vehicle, or starship. A character attempting to use custom tools made for someone else suffers a [[Narrative Dice#Setback (Black)|setback]] die to the same checks. Custom tools can be customized for another user with extensive, and often expensive, modification."
+        "details": "Using a custom tool kit grants the user for whom it was built a Blue Boost die to any skill check made to maintain or repair an item, computer, weapon, vehicle, or starship. A character attempting to use custom tools made for someone else suffers a Black Setback die to the same checks. Custom tools can be customized for another user with extensive, and often expensive, modification."
     },
     {
         "key": "UTILBELT",
@@ -4930,7 +4930,7 @@
             }
         ],
         "description": "Designed long ago by skilled artisans, the Jedi utility belt has become common gear for many Knights operating in the field.  ",
-        "details": "=== OR<ref>[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 50)</ref> ===\n[[File:Profile Jedi Utility Belt KtP.png|alt=Encumbrance 0 Price (R) 1,000 Rarity 8]]\n\nA Jedi utility belt contains a three-day supply of food capsules, an [[Emergency Medpac|emergency medpac]], a [[Lightsaber Maintenance Kit|lightsaber maintenance kit]]<ref name=\":0\" /> ''or'' [[Lightsaber Maintenance Kit|jedi multi-tool]]<ref name=\":1\" />, a slim [[Glow Rod|glow rod]], a [[comlink]], and an [[A99 Aquata Breather|aquata breather]]. A number of empty pouches are concealed along the belt's interior side, allowing the wearer to hide small items. In addition, a standard lightsaber can be securely hung from the belt for easy access. A Jedi utility belt also increases the wearer's encumbrance threshold by 1.<ref name=\":0\">[[:Category:Clone Wars Begin|Rise of the Separatists]]: ''An Era Sourcebook'' (Page 59)</ref><ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 52)</ref>"
+        "details": "A Jedi utility belt contains a three-day supply of food capsules, an Emergency Medpac, a Lightsaber Maintenance Kit, a slim Glow Rod, a comlink, and an A99 Aquata Breather. A number of empty pouches are concealed along the belt's interior side, allowing the wearer to hide small items. In addition, a standard lightsaber can be securely hung from the belt for easy access. A Jedi utility belt also increases the wearer's encumbrance threshold by 1."
     },
     {
         "key": "MILFIELDMAN",
@@ -4954,7 +4954,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "From comprehensive manuals issued to formal military soldiers to the underground publications used to instruct resistance fighters in guerrilla combat, field manuals can be found wherever troopers are common.   ",
-        "details": "Depending on the manual, once per scene, a character may use the information found within to gain a [[Narrative Dice#Boost (Blue)|boost]] die to any task, at the GM's discretion."
+        "details": "Depending on the manual, once per scene, a character may use the information found within to gain a Blue Boost die to any task, at the GM's discretion."
     },
     {
         "key": "DATAPADMERCH",
@@ -5106,8 +5106,8 @@
             "Desperate Allies"
         ],
         "image_filename": "missing.png",
-        "description": "Some individuals like to modify their standard sidearms with grappling hooks, but Merr-Sonn has found a dedicated client base that prefers dedicated devices that require no time to prepare.   ",
-        "details": "As an action, a character may make an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Ranged - Light (Ag)|Ranged (Light) check]]''' to fire the grappling hook onto an object at up to medium range. As another subsequent action, they may reel in the cord, pulling themselves to the target object (or, if the object is unsecured and lighter than they are, pulling the object to the character). \n\nA character using an ascension pistol to pull themself and another character aloft must make an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Athletics (Br)|Athletics check]]''' to avoid losing their grip on either their partner or the gun."
+        "description": "Some individuals like to modify their standard sidearms with grappling hooks, but Merr-Sonn has found a dedicated client base that prefers dedicated devices that require no time to prepare.",
+        "details": "As an action, a character may make an Standard (3 Difficulty) Ranged - Light check to fire the grappling hook onto an object at up to medium range. As another subsequent action, they may reel in the cord, pulling themselves to the target object (or, if the object is unsecured and lighter than they are, pulling the object to the character). A character using an ascension pistol to pull themself and another character aloft must make an Average (3 Difficulty) Athletics check to avoid losing their grip on either their partner or the gun."
     },
     {
         "key": "SPECIESDB",
@@ -5129,7 +5129,7 @@
             }
         ],
         "description": "Every encounter with a new species offers the possibility of biological offense, embarrassment, or even accidental poisoning.    ",
-        "details": "A character using a species database adds two [[Narrative Dice#Boost (Blue)|boost]] dice to [[Xenology (Int)|Knowledge (Xenology)]] checks."
+        "details": "A character using a species database adds two Blue Boost dice to Xenology checks."
     },
     {
         "key": "R82JUMP",
@@ -5146,7 +5146,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Aratech's R82 jump boots are commonly used for sports and leisure activities, but many intrepid explorers and scouts have also found them useful for exploring less accessible areas on newly located worlds.   ",
-        "details": "Jump boots allow the user to function as a silhouette 1, speed 2, handling –1, system strain threshold 3 vehicle that can only operate in atmosphere, has a maximum altitude of thirty-five meters, and requires [[Piloting - Planetary (Ag)|Piloting (Planetary)]] to operate.<ref name=\":0\" /><ref>[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 115)</ref>"
+        "details": "Jump boots allow the user to function as a silhouette 1, speed 2, handling –1, system strain threshold 3 vehicle that can only operate in atmosphere, has a maximum altitude of thirty-five meters, and requires Piloting - Planetary to operate."
     },
     {
         "key": "MONCALORGGILL",
@@ -5168,7 +5168,7 @@
             }
         ],
         "description": "Despite their amphibious nature, the Mon Calamari have long made use of a symbiotic blob to breathe underwater for extended periods of time.   ",
-        "details": "When placed over an individual's nose and mouth (or equivalent), the symbiote filters oxygen from the ocean water. Organic gills are capable of lasting for several weeks in the water before they begin to die.<ref name=\":0\" /><ref name=\":1\">[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 115)</ref> \n\nWearing an organic gill prevents speech, but this drawback can be alleviated by the introduction of small, waterproof microphones and earphones into the blob. Most species can wear the organic gill easily, as long as they breathe an atmosphere similar to that of the Mon Calamari. Sullustans, however, have demonstrated an allergic reaction to the gills, which prevents their species from employing them.<ref name=\":0\" /><ref name=\":1\" />"
+        "details": "When placed over an individual's nose and mouth (or equivalent), the symbiote filters oxygen from the ocean water. Organic gills are capable of lasting for several weeks in the water before they begin to die. Wearing an organic gill prevents speech, but this drawback can be alleviated by the introduction of small, waterproof microphones and earphones into the blob. Most species can wear the organic gill easily, as long as they breathe an atmosphere similar to that of the Mon Calamari. Sullustans, however, have demonstrated an allergic reaction to the gills, which prevents their species from employing them."
     },
     {
         "key": "VERPBONDGAUNT",
@@ -5190,7 +5190,7 @@
             }
         ],
         "description": "Bond gauntlets are a Verpine invention designed to strengthen and reinforce an individual's forearms, while providing stabilization to hand and arm movements.   ",
-        "details": "Due to this additional stability, Verpine bond gauntlets grant their users a [[Narrative Dice#Boost (Blue)|boost]] die to checks made to handle volatile materials or perform delicate work. Such circumstances should be adjudicated by the GM on a case-by-case basis, and may include [[Computers (Int)|Computers]] and [[Mechanics (Int)|Mechanics]] checks to make delicate repairs and [[Skulduggery (Cun)|Skulduggery]] checks to pick locks or disable traps.<ref name=\":1\">[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 115)</ref>"
+        "details": "Due to this additional stability, Verpine bond gauntlets grant their users a Blue Boost die to checks made to handle volatile materials or perform delicate work. Such circumstances should be adjudicated by the GM on a case-by-case basis, and may include Computers and Mechanics checks to make delicate repairs and Skulduggery checks to pick locks or disable traps."
     },
     {
         "key": "VERPHEADBAND",
@@ -5212,7 +5212,7 @@
             }
         ],
         "description": "When worn, a Verpine headband administers small electric shocks to the sleep centers of the wearer's brain in an attempt to keep the wearer awake for extended periods of time.   ",
-        "details": "A character wearing a Verpine headband is not incapacitated by exceeding their strain threshold. Instead, for each point of strain they suffer over their threshold, they also suffer a wound, and for as long as their strain exceeds their threshold, they are disoriented.<ref name=\":0\" /><ref>[[:Category:Resistance Stronghold|Strongholds of Resistance]]: ''A Sourcebook of Alliance Worlds'' (Page 115)</ref>"
+        "details": "A character wearing a Verpine headband is not incapacitated by exceeding their strain threshold. Instead, for each point of strain they suffer over their threshold, they also suffer a wound, and for as long as their strain exceeds their threshold, they are disoriented."
     },
     {
         "key": "JEDIMULTITOOL",
@@ -5258,7 +5258,7 @@
             }
         ],
         "description": "In the days of the former Republic and the Jedi Order, the WJ-990 blinding helmet was a common training aid for a Jedi Padawan, helping the aspirant to learn to sense the Force flowing through all things by cutting out sensory distractions.  ",
-        "details": "A character wearing a WJ-880 binding helmet adds three [[Narrative Dice#Setback (Black)|setback]] dice to Combat checks (and any other checks that rely on sight). At the GM's discretion, training while wearing such a helmet might help a character to develop [their] perception of the Force that shapes and guides the universe around [them].<ref name=\":1\">[[:Category:Guardian|Keeping the Peace]]: ''A Sourcebook for Guardians'' (Page 53)</ref>"
+        "details": "A character wearing a WJ-880 binding helmet adds three Black Setback dice to Combat checks (and any other checks that rely on sight). At the GM's discretion, training while wearing such a helmet might help a character to develop their perception of the Force that shapes and guides the universe around them."
     },
     {
         "key": "BARDCHRON",
@@ -5295,7 +5295,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Designed for cold-weather expeditions, the Copora-Tech Thermal Cutter is basically a scaled-down mining beamdrill.   ",
-        "details": "A thermal cutter's charge lasts for roughly five minutes of continuous use, and can remove one cubic meter of snow per minute, or dig through 10 centimeters of ice per minute. If plugged into a fusion lantern, it can run indefinitely, otherwise it requires a new battery. Nefarious individuals can also use a thermal cutter as a weapon with the following profile ([[Melee (Br)|Melee]]; Damage 4; Critical 4; Range [Engaged]; [[Item Qualities#Burn (Active)|Burn]] 1, [[Item Qualities#Inaccurate (Passive)|Inaccurate]] 2)."
+        "details": "A thermal cutter's charge lasts for roughly five minutes of continuous use, and can remove one cubic meter of snow per minute, or dig through 10 centimeters of ice per minute. If plugged into a fusion lantern, it can run indefinitely, otherwise it requires a new battery. Nefarious individuals can also use a thermal cutter as a weapon with the following profile (Melee; Damage 4; Critical 4; Range [Engaged]; Burn 1, Inaccurate 2)."
     },
     {
         "key": "SPMACBIN",
@@ -5318,7 +5318,7 @@
             }
         ],
         "description": "Sporting macrobinoculars incorporate typical macrobinocular functions with video recording and playback features.   ",
-        "details": "Sporting macrobinoculars magnify objects up to five kilometers away, and can record objects viewed. They also remove a [[Narrative Dice#Setback (Black)|setback]] die imposed due to long range or poor light.<ref>[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 105)</ref>"
+        "details": "Sporting macrobinoculars magnify objects up to five kilometers away, and can record objects viewed. They also remove a BlackSetback die imposed due to long range or poor light."
     },
     {
         "key": "VERGCHART",
@@ -5341,7 +5341,7 @@
             }
         ],
         "description": "Most starcharts showing the location of legendary vergences are clever (or not so clever) fakes designed to part foolish treasure hunters from their credits.   ",
-        "details": "A vergence starchart (if it is real), shows the location of one vergence (chosen by the GM). To read the chart correctly, the character must make a '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Astrogation (Int)|Astrogation check]]''' with two [[Narrative Dice#Setback (Black)|setback]] dice. An [[Narrative Dice#Advantage|advantage]] result on a check can be spent to determine whether or not the chart is real."
+        "details": "A vergence starchart (if it is real), shows the location of one vergence (chosen by the GM). To read the chart correctly, the character must make a Hard (3 Difficulty) Astrogation check with two Black Setback dice. An Advantage result on a check can be spent to determine whether or not the chart is real."
     },
     {
         "key": "MICROAXSTARMAP",
@@ -5370,7 +5370,7 @@
             }
         ],
         "description": "Microaxial LLC is a relatively small technology firm from the Core Worlds region that specializes in navicomputers and navigational aids.   ",
-        "details": "Using a Starmapper Handheld Navicomputer grants a character two [[Narrative Dice#Boost (Blue)|boost]] dice to all [[Astrogation (Int)|Astrogation]] checks. Game Masters can reduce this to one [[Narrative Dice#Boost (Blue)|boost]] die or eliminate the bonus altogether if the character using the Starmapper has been out of HoloNet range for an extended period of time.<ref>[[:Category:Seeker|Savage Spirits]]: ''A Sourcebook for Seekers'' (Page 49)</ref>"
+        "details": "Using a Starmapper Handheld Navicomputer grants a character two Blue Boost dice to all Astrogation checks. Game Masters can reduce this to one Blue Boost die or eliminate the bonus altogether if the character using the Starmapper has been out of HoloNet range for an extended period of time."
     },
     {
         "key": "SURVEYTOOLS",
@@ -5414,7 +5414,7 @@
             }
         ],
         "description": "Produced by every major galactic arms manufacturer and many general tool and instrument makers, weapon maintenance kits are essential for keeping portable weapons operating under field conditions.   ",
-        "details": "When purchasing one of these kits, the player must specify the kit type (blaster, slugthrower, etc.) Each kit provides two [[Narrative Dice#Boost (Blue)|boost]] dice to any [[Mechanics (Int)|Mechanics]] checks made to repair, maintain, or modify a weapon, but only for that specific class of weapon.<ref name=\":0\" /><ref>[[:Category:Seeker|Savage Spirits]]: ''A Sourcebook for Seekers'' (Page 49)</ref>"
+        "details": "When purchasing one of these kits, the player must specify the kit type (blaster, slugthrower, etc.) Each kit provides two Blue Boost dice to any Mechanics checks made to repair, maintain, or modify a weapon, but only for that specific class of weapon."
     },
     {
         "key": "WIZPOUCH",
@@ -5572,8 +5572,8 @@
                 "count": "2"
             }
         ],
-        "description": "Creshaldyne Industries' Mk. III Modular Backpack is a civilian version of its popular [[Creshaldyne Mk. IV Modular Backpack|Mk. IV military reconnaissance pack]].    ",
-        "details": "=== MK. III MODULAR BACKPACK EXTRA POUCH ===\n[[File:Profile Mk. III Modular Backpack Extra Pouch.png|alt=Encumbrance – Price 15 Rarity 1]]\n\nThe Mk. III modular backpack increases a wearer's encumbrance threshold by 2, plus an additional point of encumbrance threshold for each accessory pouch added to the backpack (to a maximum increase of 6).<ref>[[:Category:Seeker|Savage Spirits]]: ''A Sourcebook for Seekers'' (Page 46)</ref>"
+        "description": "Creshaldyne Industries' Mk. III Modular Backpack is a civilian version of its popular Creshaldyne Mk. IV Modular Backpack.    ",
+        "details": "The Mk. III modular backpack increases a wearer's encumbrance threshold by 2, plus an additional point of encumbrance threshold for each accessory pouch added to the backpack (to a maximum increase of 6)."
     },
     {
         "key": "BEASTCALL",
@@ -5592,7 +5592,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Beast calls are some of the more simple and effective tools used by hunters and trappers.   ",
-        "details": "Using a beast call requires no skill check, but the beast being targeted must make an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Discipline (Will)|Discipline check]]''' to resist the call. Recording a new call to the mechanism's memory requires an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Computers (Int)|Computers check]]''' modified by any other environmental conditions (heavy background noise, atmosphere interference, etc.)<ref name=\":0\" /><ref>[[:Category:Seeker|Savage Spirits]]: ''A Sourcebook for Seekers'' (Page 46)</ref>"
+        "details": "Using a beast call requires no skill check, but the beast being targeted must make an Average (3 Difficulty) Discipline check to resist the call. Recording a new call to the mechanism's memory requires an Average (3 Difficulty) Computers modified by any other environmental conditions (heavy background noise, atmosphere interference, etc.)"
     },
     {
         "key": "RIDINGTACK",
@@ -5615,7 +5615,7 @@
             }
         ],
         "description": "Riding tack is a catchall term for the assorted bits of equipment needed to ride or control a beast.   ",
-        "details": "Tack can only be worn by riding or working animals. Using tack allows a character to ride the beast without suffering the bareback riding penalties.<ref>[[:Category:Seeker|Savage Spirits]]: ''A Sourcebook for Seekers'' (Page 47)</ref>"
+        "details": "Tack can only be worn by riding or working animals. Using tack allows a character to ride the beast without suffering the bareback riding penalties."
     },
     {
         "key": "BURNGEL",
@@ -5633,7 +5633,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Burning gel is an electrochemical hull-breaching agent.   ",
-        "details": "Exposure to burning gel deals damage to materials and sentient beings as if it were a weapon. It deals 10 damage and has the [[Item Qualities#Burn (Active)|Burn]] 5 and [[Item Qualities#Pierce (Passive)|Pierce]] 5 weapon qualities. Using burning gel requires no skill check. However, placing it effectively might, at the GM's discretion, require a [[Mechanics (Int)|Mechanics]] check."
+        "details": "Exposure to burning gel deals damage to materials and sentient beings as if it were a weapon. It deals 10 damage and has the Burn 5 and Pierce 5 weapon qualities. Using burning gel requires no skill check. However, placing it effectively might, at the GM's discretion, require a Mechanics check."
     },
     {
         "key": "CHEMLURE",
@@ -5650,8 +5650,8 @@
         ],
         "image_filename": "missing.png",
         "base_mods": [],
-        "description": "Using pheromones, CorChemCo's Beastmaster Chem Lure attracts beasts to a place where they can be easily captured or killed.   ",
-        "details": "Creatures targeted by the Beastmaster must make a '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Discipline (Will)|Discipline check]]''' to resist approaching quickly to investigate. This equipment is often used with electro-snares or other live-trapping equipment to capture exotic animals for use as pets, zoo animals, and research subjects. Using the Beastmaster does not require a skill check, although placing it in the best position might, at the GM's discretion, require a [[Survival (Cun)|Survival]] check."
+        "description": "Using pheromones, CorChemCo's Beastmaster Chem Lure attracts beasts to a place where they can be easily captured or killed.",
+        "details": "Creatures targeted by the Beastmaster must make a Hard (3 Difficulty) Discipline check check to resist approaching quickly to investigate. This equipment is often used with electro-snares or other live-trapping equipment to capture exotic animals for use as pets, zoo animals, and research subjects. Using the Beastmaster does not require a skill check, although placing it in the best position might, at the GM's discretion, require a Survival check."
     },
     {
         "key": "EXCAVKIT",
@@ -5804,7 +5804,7 @@
         "image_filename": "ENTTOOL.png",
         "base_mods": [],
         "description": "The modest and versatile entrenching tool is one of the most critically important tools in a Warrior's kit.  ",
-        "details": "Besides allowing the user to dig holes and trenches, an entrenching tool counts as a small improvised weapon that deals +2 damage, has a critical rating of 4, and does not break due to [[Narrative Dice#Threat|threat]] or [[Narrative Dice#Despair|despair]] results.<ref name=\":0\" /><ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 54)</ref>"
+        "details": "Besides allowing the user to dig holes and trenches, an entrenching tool counts as a small improvised weapon that deals +2 damage, has a critical rating of 4, and does not break due to Threat or Despair results."
     },
     {
         "key": "BELTPOUCHMIL",
@@ -6024,7 +6024,7 @@
             }
         ],
         "description": "For every job there is a proper tool, and the bigger the job, the more tools a technician needs.   ",
-        "details": "Using a custom tool kit grants the user for whom it was built a [[Narrative Dice#Boost (Blue)|boost]] die to any skill check made to maintain or repair an item, computer, weapon, vehicle, or starship. A character attempting to use custom tools made for someone else suffers a [[Narrative Dice#Setback (Black)|setback]] die to the same checks. Custom tools can be customized for another user with extensive, and often expensive, modification."
+        "details": "Using a custom tool kit grants the user for whom it was built a Blue Boost die to any skill check made to maintain or repair an item, computer, weapon, vehicle, or starship. A character attempting to use custom tools made for someone else suffers a Black Setback die to the same checks. Custom tools can be customized for another user with extensive, and often expensive, modification."
     },
     {
         "key": "AGLMKIII",
@@ -6394,7 +6394,7 @@
             }
         ],
         "description": "The ultimate in personal stealth technology, personal stealth fields are rare and expensive, and well worth the price.  ",
-        "details": "PSF users cannot be detected by sight, and any skill checks to detect them by other means, such as scent, motion, or sound, have a difficulty of '''[[Narrative Dice#Standard Difficulties|Formidable]]'''. The GM may use any [[Narrative Dice#Threat|threat]] or [[Narrative Dice#Despair|despair]] result generated while a character uses a personal stealth field to indicate that the field flickers for a moment or collapses altogether, rendering the user visible."
+        "details": "PSF users cannot be detected by sight, and any skill checks to detect them by other means, such as scent, motion, or sound, have a difficulty of Formidable (5 Difficulty). The GM may use any Threat or Despair result generated while a character uses a personal stealth field to indicate that the field flickers for a moment or collapses altogether, rendering the user visible."
     },
     {
         "key": "DATASPIKE",
@@ -6420,7 +6420,7 @@
         ],
         "image_filename": "DATASPIKE.png",
         "description": "Dataspikes, also known as computer spikes, are a common tool for bypassing computer security.  ",
-        "details": "Once per round, a character with a dataspike may expend it to attempt to disable a security program as a maneuver (rather than as an action). [...] Reduce the difficulty of subsequent [[Computers (Int)|Computers]] check to disable the program by 2, to a minimum of '''Simple (—)'''. After one use, the dataspike burns out and becomes useless.<ref>[[:Category:Spy|Cyphers and Masks]]: ''A Sourcebook for Spies'' (Page 45)</ref><ref name=\":0\" />"
+        "details": "Once per round, a character with a dataspike may expend it to attempt to disable a security program as a maneuver (rather than as an action). [...] Reduce the difficulty of subsequent Computers check to disable the program by 2, to a minimum of 0. After one use, the dataspike burns out and becomes useless."
     },
     {
         "key": "A212TRACECONS",
@@ -6446,7 +6446,7 @@
         ],
         "image_filename": "A212TRACECONS.png",
         "description": "Tracing consoles are most commonly found with espionage agencies and other sensitive installations, but they could be used by any group concerned about the security of its electronic systems.  ",
-        "details": "A tracing console can be installed to monitor a single system, such as a building's data network or a ship's computer. [[Computers (Int)|Computers]] checks to slice a system protected this way suffer a [[Narrative Dice#Setback (Black)|setback]] die due to the difficulty of avoiding notice. A defending slicer using the console gains two [[Narrative Dice#Boost (Blue)|boost]] dice to [[Computers (Int)|Computers]] checks to identify an intruder, such as by the Trace User action."
+        "details": "A tracing console can be installed to monitor a single system, such as a building's data network or a ship's computer. Computers checks to slice a system protected this way suffer a Black Setback die due to the difficulty of avoiding notice. A defending slicer using the console gains two Blue Boost dice to Computers checks to identify an intruder, such as by the Trace User action."
     },
     {
         "key": "SIGMODPAD",
@@ -6468,7 +6468,7 @@
             }
         ],
         "description": "Tools designed to hide or disguise slicing signatures take many forms across the galaxy, as they are typically assembled in back-alley workshops or criminal facilities instead of reputable manufacturers.  ",
-        "details": "Add two [[Narrative Dice#Setback (Black)|setback]] dice to checks attempting to acquire the user's slicing signature, such as the Trace User action."
+        "details": "Add two Black Setback dice to checks attempting to acquire the user's slicing signature, such as the Trace User action."
     },
     {
         "key": "DEMONMASK",
@@ -6551,7 +6551,7 @@
             }
         ],
         "description": "One of the most powerful objects ever encounter by the legendary Jedi Master Mace Windu was the Bardottan Sphere, a Force artifact designed to capture the Force from living beings and store it as though in some battery.   ",
-        "details": "While the Sphere is in a character's possession, the character's Force rating increases by one. If the character sacrifices a being to store its life force in the Sphere, then the character's Force rating increases by the Force rating of the sacrificed being, as long as that creature's Force rating was 1 or higher. However, a character who uses the Sphere during a session gains 5 Conflict at the at the end of the session, in addition to any Conflict accrued due to any sacrifices the character makes to power the Sphere.<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 110)</ref>"
+        "details": "While the Sphere is in a character's possession, the character's Force rating increases by one. If the character sacrifices a being to store its life force in the Sphere, then the character's Force rating increases by the Force rating of the sacrificed being, as long as that creature's Force rating was 1 or higher. However, a character who uses the Sphere during a session gains 5 Conflict at the at the end of the session, in addition to any Conflict accrued due to any sacrifices the character makes to power the Sphere."
     },
     {
         "key": "TALISCROWNVER",
@@ -6572,7 +6572,7 @@
             }
         ],
         "description": "In the days of the Republic and even before, the Outer Rim world of Auratera, little visited now, attracted the attention of Force users from all over the galaxy.   ",
-        "details": "A Force-sensitive character who dons the Crown of Verity automatically fails all [[Deception (Cun)|Deception]] checks while wearing it. At the same time, [they] gain three automatic [[Narrative Dice#Success|success]] results on any checks to detect lies or determine whether someone is telling the truth.<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 110)</ref>"
+        "details": "A Force-sensitive character who dons the Crown of Verity automatically fails all Deception checks while wearing it. At the same time, they gain three automatic Success results on any checks to detect lies or determine whether someone is telling the truth."
     },
     {
         "key": "TALISDRAMORPH",
@@ -6599,7 +6599,7 @@
         ],
         "image_filename": "TALISDRAMORPH.png",
         "description": "The curious Mid Rim planet of Aleen has long been speculated to be a place with a strong natural resonance with the Force.   ",
-        "details": "A Force-sensitive character who possesses the Dram of Orphne heals 1 additional strain at the end of an encounter. A Force-sensitive character who posses the Dram of Orphne also heals 1 additional wound when benefiting from natural rest. Finally, when making a [[Medicine (Int)|Medicine]] check to heal another character, any character with the Dram of Orphne may add a [[Narrative Dice#Boost (Blue)|boost]] die to the check.<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 112)</ref>"
+        "details": "A Force-sensitive character who possesses the Dram of Orphne heals 1 additional strain at the end of an encounter. A Force-sensitive character who posses the Dram of Orphne also heals 1 additional wound when benefiting from natural rest. Finally, when making a Medicine check to heal another character, any character with the Dram of Orphne may add a Blue Boost die to the check."
     },
     {
         "key": "TALISDOLRINGSEED",
@@ -6620,7 +6620,7 @@
             }
         ],
         "description": "The swampy world of Dagobah has been erased from galactic charts, but the rare visitors of times part brough away samples of the planet's unique flora and fauna.   ",
-        "details": "A Force-sensitive character who possesses a dolina ring seed may perform one free Move maneuver during each of [their] turns. This Move maneuver may be in addition to any other maneuvers performed this turn and can allow the character to perform three maneuvers in a turn. (The user also ignores the ring seed's weight.)<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 114)</ref>"
+        "details": "A Force-sensitive character who possesses a dolina ring seed may perform one free Move maneuver during each of [their] turns. This Move maneuver may be in addition to any other maneuvers performed this turn and can allow the character to perform three maneuvers in a turn. (The user also ignores the ring seed's weight.)"
     },
     {
         "key": "TALISEYESLAQ",
@@ -6644,7 +6644,7 @@
         ],
         "image_filename": "TALISEYESLAQ.png",
         "description": "The Jedi Knight Laqasa Trill was a Devaronian woman and an incredibly skilled hunter, excelling at an activity more often practiced by Devaronian men.   ",
-        "details": "When wearing the Eyes of Laqasa, Force-sensitive characters remove all [[Narrative Dice#Setback (Black)|setback]] dice imposed due to darkness, concealment, camouflage, or similar effects, and can see normally as in normal daylight.<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 109)</ref>"
+        "details": "When wearing the Eyes of Laqasa, Force-sensitive characters remove all Black Setback dice imposed due to darkness, concealment, camouflage, or similar effects, and can see normally as in normal daylight."
     },
     {
         "key": "TALISGRIMSYC",
@@ -6668,7 +6668,7 @@
         ],
         "image_filename": "TALISGRIMSYC.png",
         "description": "Whereas most citizens of other planets believe the Force to be but a legend, on the Wild Space planet of Weik, the Force is known to exist without a doubt.   ",
-        "details": "Studying the Grimoire of Syclos the Lame for at least one hour allows a Force-sensitive character to add a [[Narrative Dice#Force (White)|Force]] die to all Force power checks or checks involving Force talents when dealing with creatures detailed in the Grimoire. The bonus lasts until the end of the game session. (What creatures the bonus applies to is ultimately up to the GM, as some creatures may not be covered in the Grimoire).<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 108)</ref>\n\nHowever, until the end of the game session, the difficulty of all fear checks made while confronting these creatures is upgraded twice. Any Conflict generated by a [[Narrative Dice#Despair|despair]] result on a fear check is doubled.<ref name=\":0\" />"
+        "details": "Studying the Grimoire of Syclos the Lame for at least one hour allows a Force-sensitive character to add a White Force die to all Force power checks or checks involving Force talents when dealing with creatures detailed in the Grimoire. The bonus lasts until the end of the game session. (What creatures the bonus applies to is ultimately up to the GM, as some creatures may not be covered in the Grimoire). However, until the end of the game session, the difficulty of all fear checks made while confronting these creatures is upgraded twice. Any Conflict generated by a Despair result on a fear check is doubled."
     },
     {
         "key": "TALISHERDGAUNT",
@@ -6690,7 +6690,7 @@
             }
         ],
         "description": "The Iktotchi people are blessed with the talents of precognition, an ability found to benefit from augmentation by the Force when their world was incorporated into the Republic thousands of years ago.   ",
-        "details": "A Force-sensitive character who wears the Herder's Gauntlet counts as possessing the [[Move]] basic power, and may make a [[Move]] Force power action as a maneuver. A character who does so many not attack an opponent with this use of the Force power (what constitutes an attack is ultimately up to the GM, but should include disarming or incapacitating opponents as well as dealing damage).<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 111)</ref>"
+        "details": "A Force-sensitive character who wears the Herder's Gauntlet counts as possessing the Move basic power, and may make a Move Force power action as a maneuver. A character who does so many not attack an opponent with this use of the Force power (what constitutes an attack is ultimately up to the GM, but should include disarming or incapacitating opponents as well as dealing damage)."
     },
     {
         "key": "TALISTARAHELM",
@@ -6711,7 +6711,7 @@
             }
         ],
         "description": "Somewhere in the icy wastes of Ilum, the wreckage of a starfighter serves as the tomb of the Jedi Taradon, a Corellian human possessed of extraordinary prowess as a pilot.   ",
-        "details": "A Force-sensitive character who possesses Taradon's Helm may reroll one [[Narrative Dice#Force (White)|Force]] die when making checks that involve piloting or using a starship or vehicle. If there is some question as to whether the check involves piloting or using a starship or vehicle, the GM is the final arbiter.<ref name=\":0\">[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 113)</ref>"
+        "details": "A Force-sensitive character who possesses Taradon's Helm may reroll one White Force die when making checks that involve piloting or using a starship or vehicle. If there is some question as to whether the check involves piloting or using a starship or vehicle, the GM is the final arbiter."
     },
     {
         "key": "TALISTEAR",
@@ -6732,7 +6732,7 @@
             }
         ],
         "description": "Before humans ever came to Naboo, another starfaring species discovered the Gungans in Naboo's swamps and seas.   ",
-        "details": "Once per game session, when a Force-sensitive character holds the Tear of the Elders, the character may make a Force power check. As part of this check, the character may spend two [[Narrative Dice#Light Point|Force]] [[Narrative Dice#Dark Point|points]] to detect one threat the PC is likely to encounter during the current game session. The GM has the final say as to what this threat is and how the character perceives it. The Force user could see the threat clearly, or in a metaphorical sense. A battalion of stormtroopers, for instance, might appear as a solid white wall, impossible to penetrate, while a dark side Force user might manifest as a figure formed out of storm clouds, lightning flickering malevolently within."
+        "details": "Once per game session, when a Force-sensitive character holds the Tear of the Elders, the character may make a Force power check. As part of this check, the character may spend two Light Points and/or Dark Points to detect one threat the PC is likely to encounter during the current game session. The GM has the final say as to what this threat is and how the character perceives it. The Force user could see the threat clearly, or in a metaphorical sense. A battalion of stormtroopers, for instance, might appear as a solid white wall, impossible to penetrate, while a dark side Force user might manifest as a figure formed out of storm clouds, lightning flickering malevolently within."
     },
     {
         "key": "HOLOCRONSAMP1",
@@ -7105,7 +7105,7 @@
             }
         ],
         "description": "To negotiate with clients successfully, a smuggler must be able to recall the rough market value for a staggering number of goods on dozens, if not hundreds, of different worlds.  ",
-        "details": "An appraiser's eye provides an automatic [[Narrative Dice#Advantage|advantage]] result on [[Negotiation (Pr)|Negotiation]] and [[Streetwise (Cun)|Streetwise]] checks to buy or sell items."
+        "details": "An appraiser's eye provides an automatic Advantage result on Negotiation and Streetwise checks to buy or sell items."
     },
     {
         "key": "CYBERCAVITY",
@@ -7216,7 +7216,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "While most locks in the galaxy rely on an electrical component, there exists locations and cultures without a steady supply of electricity.  ",
-        "details": "A lockpick set counts as a [[Tool Kit|tool kit]] for the purposes of opening mechanical and simple electrical locks.<ref name=\":0\" />"
+        "details": "A lockpick set counts as a Tool Kit for the purposes of opening mechanical and simple electrical locks."
     },
     {
         "key": "SHIFTCOFFER",
@@ -7296,7 +7296,7 @@
             }
         ],
         "description": "Shadowcloaks are peculiar devices designed to protect a user's anonymity during meetings in person.  ",
-        "details": "Discerning any identifiable features of a character wearing a shadowcloak requires a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]]''' '''[[Perception (Cun)|Perception check]]'''.<ref name=\":0\" /> If the wearer has performed a Move maneuver in that round (or was moved by some other means), the check is reduced to '''[[Narrative Dice#Standard Difficulties|Hard difficulty]]'''.<ref>[[:Category:Spy|Cyphers and Masks]]: ''A Sourcebook for Spies'' (Page 49)</ref>"
+        "details": "Discerning any identifiable features of a character wearing a shadowcloak requires a Daunting (4 Difficulty) Perception check. If the wearer has performed a Move maneuver in that round (or was moved by some other means), the check is reduced to Hard (3 Difficulty)."
     },
     {
         "key": "FNGRPRNTMSQ",
@@ -7322,7 +7322,7 @@
             }
         ],
         "description": "For those who are serious about keeping their identity unknown, fingerprint masques are essential.  ",
-        "details": "Fingerprint masques can fool basic fingerprint readers with nothing more than an '''[[Narrative Dice#Standard Difficulties|Easy difficulty]] [[Cool (Pr)|Cool]]''' or '''[[Deception (Cun)|Deception check]]''', while more advanced scanners require an '''[[Narrative Dice#Standard Difficulties|Average]]''' or '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] check''', at the GM's discretion. If the biometric scanner operator has reason to be suspicious of a character wearing a fingerprint masque, it may require an '''opposed social skill check vs. [[Computers (Int)|Computers]]''' against the operator.<ref name=\":0\" /> A character must make a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Perception (Cun)|Perception check]]''' to actually notice the physical presence of a fingerprint masque on an individual's fingers."
+        "details": "Fingerprint masques can fool basic fingerprint readers with nothing more than an Easy (1 Difficulty) Cool or Deception check, while more advanced scanners require an Average (2 Difficulty) or Hard (3 Difficulty) check, at the GM's discretion. If the biometric scanner operator has reason to be suspicious of a character wearing a fingerprint masque, it may require an opposed social skill check vs. Computers against the operator. A character must make a Daunting (4 Difficulty) Perception check to actually notice the physical presence of a fingerprint masque on an individual's fingers."
     },
     {
         "key": "SKIFTER",
@@ -7507,7 +7507,7 @@
             }
         ],
         "description": "When the Paladins of the Adamite Tower agree to accept a new member into their ranks, they present that individual with one of the extremely rare blades of their order.   ",
-        "details": "Possessing a signet ring signifies to anyone on Weik that the character is one of the Paladins of the Adamite Tower. Possessing a signet ring under false pretenses earns the lasting enmity of all Paladins and their allies.<ref>[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 105)</ref>"
+        "details": "Possessing a signet ring signifies to anyone on Weik that the character is one of the Paladins of the Adamite Tower. Possessing a signet ring under false pretenses earns the lasting enmity of all Paladins and their allies."
     },
     {
         "key": "ADSIGNETRING",
@@ -7524,7 +7524,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "When the Paladins of the Adamite Tower agree to accept a new member into their ranks, they present that individual with one of the extremely rare blades of their order.   ",
-        "details": "Possessing a signet ring signifies to anyone on Weik that the character is one of the Paladins of the Adamite Tower. Possessing a signet ring under false pretenses earns the lasting enmity of all Paladins and their allies.<ref>[[:Category:Force Nexus|Nexus of Power]]: ''A Sourcebook of Worlds Strong in the Force'' (Page 105)</ref>"
+        "details": "Possessing a signet ring signifies to anyone on Weik that the character is one of the Paladins of the Adamite Tower. Possessing a signet ring under false pretenses earns the lasting enmity of all Paladins and their allies."
     },
     {
         "key": "CASCADER",
@@ -7560,7 +7560,7 @@
             }
         ],
         "description": "Developed by Coruscant-based boutique electronics firm Farbreini MicroElectronics Ltd., the BPEA-IA Cascader was designed to give those who live in the public eye an extra level of control over their appearance.   ",
-        "details": "When wearing a Cascader, a PC upgrades all [[Charm (Pr)|Charm]]. [[Deception (Cun)|Deception]], and [[Leadership (Pr)|Leadership]] checks [they] make once."
+        "details": "When wearing a Cascader, a PC upgrades all Charm. Deception, and Leadership checks they make once."
     },
     {
         "key": "DRESSUNI",
@@ -7614,7 +7614,7 @@
             }
         ],
         "description": "Alliance Commanders hail from numerous human, near-human, and alien cultures from throughout the galaxy.   ",
-        "details": "No matter what form the item takes, Commanders carrying a symbol of command add a [[Narrative Dice#Boost (Blue)|boost]] die to all Social skill checks made to interact with others brought up in their particular military culture.<ref>[[:Category:Commander|Lead by Example]]: ''A Sourcebook for Commanders'' (Page 45)</ref>"
+        "details": "No matter what form the item takes, Commanders carrying a symbol of command add a Blue Boost die to all Social skill checks made to interact with others brought up in their particular military culture."
     },
     {
         "key": "CZ88ARM",
@@ -7636,7 +7636,7 @@
             }
         ],
         "description": "The CZ-88 model heavy loader produced by Czerka is a flexible piece of equipment used for everything from moving freight to collecting salvage to replacing damaged hull plating on starships.  ",
-        "details": "A heavy loader arm includes a monotask droid brain that can perform checks to heft objects; it has an [[Athletics (Br)|Athletics]] skill of 1 and a Brawn of 5 (if unassisted, it rolls one [[Narrative Dice#Proficiency|proficiency]] and four [[Narrative Dice#Ability|ability]] dice for [[Athletics (Br)|Athletics]] checks).\n\nSometimes, salvagers install loader arms directly onto starships or other vehicles for easy retrieval of scrap metal and other components, using the arm as a low-cost alternative to a tractor beam projector. A CZ-88 heavy loader arm can be installed onto a vehicle of silhouette 3 or larger as an attachment, and uses one hard point. The occupants of the craft can use it to perform [[Athletics (Br)|Athletics]] checks to lift objects into or out of the vessel (and other checks, at the GM's discretion) without disembarking."
+        "details": "A heavy loader arm includes a monotask droid brain that can perform checks to heft objects; it has an Athletics skill of 1 and a Brawn of 5 (if unassisted, it rolls one Proficiency and four Ability dice for Athletics checks). Sometimes, salvagers install loader arms directly onto starships or other vehicles for easy retrieval of scrap metal and other components, using the arm as a low-cost alternative to a tractor beam projector. A CZ-88 heavy loader arm can be installed onto a vehicle of silhouette 3 or larger as an attachment, and uses one hard point. The occupants of the craft can use it to perform Athletics checks to lift objects into or out of the vessel (and other checks, at the GM's discretion) without disembarking."
     },
     {
         "key": "MECHDIAG",
@@ -7658,7 +7658,7 @@
             }
         ],
         "description": "Designed for reaching tight spaces in a starship, the mechanical dianoga is a meter-and-a-half-long flexible actuated tube.  ",
-        "details": "A mechanical dianoga removes two [[Narrative Dice#Setback (Black)|setback]] dice from checks to remove system strain from starships and vehicles."
+        "details": "A mechanical dianoga removes two Black Setback dice from checks to remove system strain from starships and vehicles."
     },
     {
         "key": "INTTOOL",
@@ -7708,7 +7708,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Tech recycling stations are used to speed up the time-consuming task of sifting through damaged or discarded technology to find items of value.  ",
-        "details": "A character using a tech recycling stations adds two [[Narrative Dice#Boost (Blue)|boost]] dice to [[Perception (Cun)|Perception]] and [[Mechanics (Int)|Mechanics]] checks to scavenge parts or raw materials, and can complete such checks in half the time (or one quarter of the time with the [[Utinni! talent|Utinni!]] talent). Additionally, a character with a tech recycling station on hand may recover supplied worth half of the Material Price from any failed crafting check, to a maximum of the full value."
+        "details": "A character using a tech recycling stations adds two Blue Boost dice to Perception and Mechanics checks to scavenge parts or raw materials, and can complete such checks in half the time (or one quarter of the time with the Utinni! talent talent). Additionally, a character with a tech recycling station on hand may recover supplied worth half of the Material Price from any failed crafting check, to a maximum of the full value."
     },
     {
         "key": "REPCLAMP",
@@ -7734,7 +7734,7 @@
         ],
         "image_filename": "missing.png",
         "description": "This pneumatic clamp, attached to a repulsor engine, allows Technicians to hold heavy objects in the air as they work on repairs.  ",
-        "details": "A repulsor clamp can hold a single object of 10 encumbrance or less aloft. Further, having a repulsor clamp on hand removes a [[Narrative Dice#Setback (Black)|setback]] die from checks to repair hull trauma and Critical Hits on starships and vehicles."
+        "details": "A repulsor clamp can hold a single object of 10 encumbrance or less aloft. Further, having a repulsor clamp on hand removes a Black Setback die from checks to repair hull trauma and Critical Hits on starships and vehicles."
     },
     {
         "key": "GENREMOTE",
@@ -7823,7 +7823,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Popular throughout the Rebel Alliance, the 3-MAL comlink is a versatile comms system squeezed into a tiny, pill-shaped package.  ",
-        "details": "This comlink transmits up to medium range on the planetary scale. The 3-MAL's encryption adds a [[Narrative Dice#Setback (Black)|setback]] die to any check made to intercept and unscramble the signal. Monitoring a standard clear frequency on a civilized world can add two [[Narrative Dice#Boost (Blue)|boost]] dice to [[:Category:Knowledge Skills|Knowledge checks]] related to current events or conditions at the Game Master's discretion."
+        "details": "This comlink transmits up to medium range on the planetary scale. The 3-MAL's encryption adds a Black Setback die to any check made to intercept and unscramble the signal. Monitoring a standard clear frequency on a civilized world can add two Blue Boost dice to Knowledge checks related to current events or conditions at the Game Master's discretion."
     },
     {
         "key": "DH77HEADCOMM",
@@ -7849,7 +7849,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Standard issue for Imperial Army platoon leaders and also installed inside stormtrooper helmets, SoroSuub's DH77 headcomm is an easy to use system with complex encryption subroutines.  ",
-        "details": "This comlink transmits up to medium range on the planetary scale. The DH77's constantly shifting encryption adds three [[Narrative Dice#Setback (Black)|setback]] dice to any attempt to intercept and unscramble the signal."
+        "details": "This comlink transmits up to medium range on the planetary scale. The DH77's constantly shifting encryption adds three Black Setback dice to any attempt to intercept and unscramble the signal."
     },
     {
         "key": "ATGARARTREM",
@@ -7891,7 +7891,7 @@
             }
         ],
         "description": "CryonCorp designed the low-feedback scanner specifically for Gotals and members of other species sensitive to the electromagnetic spectrum.  ",
-        "details": "This sensor can detect radiation sources of silhouette 1 or larger within short range, life forms within medium range, power sources within long range, and comms signals within extreme range. Extend the range of detection by 1 range band for every silhouette size by which the target's size exceeds silhouette 1.<ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 53)</ref>"
+        "details": "This sensor can detect radiation sources of silhouette 1 or larger within short range, life forms within medium range, power sources within long range, and comms signals within extreme range. Extend the range of detection by 1 range band for every silhouette size by which the target's size exceeds silhouette 1."
     },
     {
         "key": "SEVIGSENS",
@@ -7948,7 +7948,7 @@
             }
         ],
         "description": "Throughout history, the most basic form of security against intrusion has come in the form of observant sentries.   ",
-        "details": "=== ''OR''<ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 52)</ref> ===\n[[File:Profile Stimstick FiB.png|alt=Encumbrance 0 Price 5 Rarity 2]]\n\nA character who chews a stimstick removes a [[Narrative Dice#Setback (Black)|setback]] die from their [[Discipline (Will)|Discipline]], [[Perception (Cun)|Perception]], [[Resilience (Br)|Resilience]], or [[Vigilance (Will)|Vigilance]] checks to stay awake or notice something due to fatigue or lack of sleep until the end of the encounter. At the end of the encounter, the character suffers 1 strain.<ref name=\":0\" /><ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 53)</ref>"
+        "details": "A character who chews a stimstick removes a Black Setback die from their Discipline, Perception, Resilience, or Vigilance checks to stay awake or notice something due to fatigue or lack of sleep until the end of the encounter. At the end of the encounter, the character suffers 1 strain."
     },
     {
         "key": "MILTRAUMAPACK",
@@ -7990,7 +7990,7 @@
             }
         ],
         "description": "Condensers use vaporator technology to provide both fresh water and a smokeless heat source in one portable package.  ",
-        "details": "[...] A condenser can collect enough water each day to sustain a single individual, and its power cell lasts roughly six months.<ref name=\":0\" /><ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 54)</ref>"
+        "details": "[...] A condenser can collect enough water each day to sustain a single individual, and its power cell lasts roughly six months."
     },
     {
         "key": "PORTPOWGEN",
@@ -8015,8 +8015,8 @@
             "Forged in Battle"
         ],
         "image_filename": "missing.png",
-        "description": "For most armies, power is just as important as ammunition, food, and bandages.  <blockquote>More information about the gear available on the [[starwars:Power_generator|Wookieepedia article]].</blockquote>",
-        "details": "A portable generators can recharge a depleted piece of equipment as a maneuver, or a droid or larger piece of machinery in an hour.<ref name=\":0\">[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 54)</ref>\n\nAdditionally, a portable power generator can allow an engaged character to ignore an \"out of ammo\" [[Narrative Dice#Despair|despair]] result in the same manner as an [[Extra Reload|extra reload]]; the generator is usually not depleted by such use, except at the GM's discretion.<ref name=\":0\" />"
+        "description": "For most armies, power is just as important as ammunition, food, and bandages.",
+        "details": "A portable generators can recharge a depleted piece of equipment as a maneuver, or a droid or larger piece of machinery in an hour. Additionally, a portable power generator can allow an engaged character to ignore an \"out of ammo\" Despair result in the same manner as an Extra Reload; the generator is usually not depleted by such use, except at the GM's discretion."
     },
     {
         "key": "PRETPLAS",
@@ -8037,8 +8037,8 @@
                 "misc_desc": "Removes [SE][SE] to checks to resist hostile temperatures while sleeping in tent, and downgrades difficulty of such checks once."
             }
         ],
-        "description": "Alliance standard issue, this triangular two-meter tent inflates and anchors in minutes, and sleeps up to four.  <blockquote>More information about the gear available on the [[starwars:Plastent|Wookieepedia article]].</blockquote>",
-        "details": "Sleeping in a plastent removes two [[Narrative Dice#Setback (Black)|setback]] dice from the user's checks to resist hostile temperatures while sleeping, and downgrades the difficulty of any such checks once.<ref>[[:Category:Soldier|Forged in Battle]]: ''A Sourcebook for Soldiers'' (Page 54)</ref>"
+        "description": "Alliance standard issue, this triangular two-meter tent inflates and anchors in minutes, and sleeps up to four.",
+        "details": "Sleeping in a plastent removes two Black Setback dice from the user's checks to resist hostile temperatures while sleeping, and downgrades the difficulty of any such checks once."
     },
     {
         "key": "MILMODBACK",
@@ -8310,7 +8310,7 @@
             }
         ],
         "description": "Infrabinoculars are specialized tools designed to enhance awareness in urban evironments.  ",
-        "details": "A character using infrabinoculars can see through can see through up to two meters of wall, possibly allowing surveillance of a whole building at once. Walls made of dense materials or constructed to shield their interiors may impose one or more [[Narrative Dice#Setback (Black)|setback]] dice on [[Perception (Cun)|Perception]] checks.<ref name=\":0\" />\n\n===(WITH LONG-RANGE SENSORS)===\n[[File:Profile Verpine Headband.png|alt=Encumbrance 1 Price 500 Rarity 6]]\n\nSome models of infrabinoculars can alternate between this infrared sensor package and a long-range view equivalent to that of [[electrobinoculars]].<ref name=\":0\">[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 48)</ref>"
+        "details": "A character using infrabinoculars can see through can see through up to two meters of wall, possibly allowing surveillance of a whole building at once. Walls made of dense materials or constructed to shield their interiors may impose one or more Black Setback dice on Perception checks. Some models of infrabinoculars can alternate between this infrared sensor package and a long-range view equivalent to that of electrobinoculars."
     },
     {
         "key": "INFRABINOCULARSLR",
@@ -8364,7 +8364,7 @@
             }
         ],
         "description": "These tiny spiderlike automata, little more than mobile audio bugs, are barely worth the name \"droid.\"  ",
-        "details": "Planting this device without being noticed requires an '''opposed [[Skulduggery (Cun)|Skulduggery]] check vs. [[Vigilance (Will)|Vigilance]]'''. Once the bug is in place, a character must make a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Vigilance (Will)|Vigilance check]]''' to locate it even when they are specifically searching for one. The microdroid has no self-defense or evasive capabilities, although some manufacturers fit their models with a self-destruct in case of tampering.<ref name=\":0\" /><ref>[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 49)</ref>"
+        "details": "Planting this device without being noticed requires an opposed Skulduggery check vs. Vigilance. Once the bug is in place, a character must make a Daunting (4 Difficulty) Vigilance check to locate it even when they are specifically searching for one. The microdroid has no self-defense or evasive capabilities, although some manufacturers fit their models with a self-destruct in case of tampering."
     },
     {
         "key": "PRIVACY7CUR",
@@ -8386,7 +8386,7 @@
             }
         ],
         "description": "This is one of a wide range of products marketed to beings interested in privacy and discretion.  ",
-        "details": "Characters attempting to listen in on a conversation which is being obscured by one or more audio curtains must make a '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Perception (Cun)|Perception check]]''' to understand anything being said. The GM can spend a [[Narrative Dice#Threat|threat]] or [[Narrative Dice#Despair|despair]] result to have the character misunderstand key words or phrases.<ref name=\":0\">[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 49)</ref>"
+        "details": "Characters attempting to listen in on a conversation which is being obscured by one or more audio curtains must make a Hard (3 Difficulty) Perception check to understand anything being said. The GM can spend a Threat or Despair result to have the character misunderstand key words or phrases."
     },
     {
         "key": "MODEL31STUN",
@@ -8409,7 +8409,7 @@
             }
         ],
         "description": "This high-output stun weapon by Merr-Sonn takes the form of a flat lens small enough to conceal in the palm of a hand.  ",
-        "details": "A character can use a palm stunner on an unaware target with an '''opposed [[Skulduggery (Cun)|Skulduggery]]'''<ref name=\":0\" />  '''''or'' [[Stealth (Ag)|Stealth]]'''<ref name=\":1\">[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 49)</ref> '''check vs. [[Resilience (Br)|Resilience]]'''. A successful check automatically incapacitates a minion or deals 12 damage to the strain threshold of a rival or nemesis. In addition, each [[Narrative Dice#Success|success]] result on the opposed [[Stealth (Ag)|Stealth]] check increases the damage dealt by one.<ref name=\":0\" /><ref name=\":1\" />"
+        "details": "A character can use a palm stunner on an unaware target with an opposed Skulduggery check. A successful check automatically incapacitates a minion or deals 12 damage to the strain threshold of a rival or nemesis. In addition, each Success result on the opposed Stealth check increases the damage dealt by one."
     },
     {
         "key": "SCRAMBLEKEY",
@@ -8432,7 +8432,7 @@
             }
         ],
         "description": "Breaking into a facility secured with an electronic lock usually requires a knowledgeable slicer, but the galactic underworld has invented myriad ways to perform the task in the absence of such personnel.  ",
-        "details": "A scramble key bypasses most simple electronic locks within five minutes of application. At the Game Master's discretion, more complicated locks may require additional time to crack or might trigger alarms at the brute force incursion. The user may attempt to speed up this process with a '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Skulduggery (Cun)|Skulduggery check]]''', relying on pure intuition to select the correct code from those the scramble key generates. Success reduces the time needed to crack a common lock to a single minute, but failure immediately triggers any relevant alarms. Force-sensitive characters may make a Force power check as part of this check, adding either a [[Narrative Dice#Success|success]] or [[Narrative Dice#Advantage|advantage]] result for each [[Narrative Dice#Light Point|Force]] [[Narrative Dice#Dark Point|point]] generated.<ref name=\":0\">[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 49)</ref>"
+        "details": "A scramble key bypasses most simple electronic locks within five minutes of application. At the Game Master's discretion, more complicated locks may require additional time to crack or might trigger alarms at the brute force incursion. The user may attempt to speed up this process with a Daunting (4 Difficulty) Skulduggery check, relying on pure intuition to select the correct code from those the scramble key generates. Success reduces the time needed to crack a common lock to a single minute, but failure immediately triggers any relevant alarms. Force-sensitive characters may make a Force power check as part of this check, adding either a Success or Advantage result for each Light Point or Dark Point generated."
     },
     {
         "key": "DISASTERKIT",
@@ -8471,7 +8471,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "These curious contraptions combine the swiftness of a speeder car with an easy of storage and simple construction that makes keeping and maintaining them much less expensive than doing so for an actual vehicle.  ",
-        "details": "A foot speeder allows a person to function as a Silhouette 1, Speed 1, Handling –1, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires [[Piloting - Planetary (Ag)|Piloting (Planetary)]] to operate. It has a flight ceiling of five meters."
+        "details": "A foot speeder allows a person to function as a Silhouette 1, Speed 1, Handling –1, System Strain Threshold 4 vehicle that can only operate in atmosphere, and requires Piloting - Planetary to operate. It has a flight ceiling of five meters."
     },
     {
         "key": "REPULSORASUNIT",
@@ -8497,7 +8497,7 @@
         ],
         "image_filename": "REPULSORASUNIT.png",
         "description": "Some models of grappling hook and climbing harness rely on forces other than sheer muscle power for operation.  ",
-        "details": "A character using a repulsor assist unit reduces the difficulty to climb by 2 (to a minimum of 0). A repulsor assist unit can also be attached to a cargo to reduce the encumbrance value of the cargo by 7.<ref>[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 51)</ref>"
+        "details": "A character using a repulsor assist unit reduces the difficulty to climb by 2 (to a minimum of 0). A repulsor assist unit can also be attached to a cargo to reduce the encumbrance value of the cargo by 7."
     },
     {
         "key": "URBANCOMP",
@@ -8523,7 +8523,7 @@
         ],
         "image_filename": "missing.png",
         "description": "While constructed around common datapads, urban compasses are more specialized tools.  ",
-        "details": "Individuals using an urban compass to find their way around a city remove two [[Narrative Dice#Setback (Black)|setback]] dice from checks due to unfamiliarity with the city, traffic, or other avoidable travel hazards. Additionally, an urban compass can turn up information on local establishments and customs, granting a [[Narrative Dice#Boost (Blue)|boost]] die to checks to find information about the city's operation, various landmarks of note, and businesses of all types.<ref>[[:Category:Sentinel|Endless Vigil]]: ''A Sourcebook for Sentinels'' (Page 51)</ref>"
+        "details": "Individuals using an urban compass to find their way around a city remove two Black Setback dice from checks due to unfamiliarity with the city, traffic, or other avoidable travel hazards. Additionally, an urban compass can turn up information on local establishments and customs, granting a Blue Boost die to checks to find information about the city's operation, various landmarks of note, and businesses of all types."
     },
     {
         "key": "BIOSCAN",
@@ -8549,7 +8549,7 @@
         ],
         "image_filename": "missing.png",
         "description": "{{DISPLAYTITLE:Bioscan}} ",
-        "details": "=== ''OR''<ref>[[:Category:Bounty Hunter|No Disintegrations]]: ''A Sourcebook for Bounty Hunters'' (Page 54)</ref> ===\n[[File:Profile Bioscan ND.png|alt=Encumbrance 1 Price 2,000 Rarity 1]]\n\nUsing a bioscan to scan an area for life signs grants a [[Narrative Dice#Boost (Blue)|boost]] die to any '''opposed [[Perception (Cun)|Perception]] checks vs [[Stealth (Ag)|Stealth]]'''. Using the device to verify a person's identity requires an '''[[Narrative Dice#Standard Difficulties|Average difficulty]] [[Computers (Int)|Computers check]]''' and a biometric identifier (such as DNA or a record of physiological characteristics) for comparison. The Game Master may modify this difficulty based upon any unusual anatomical characteristics of the target's species.<ref name=\":0\" /><ref>[[:Category:Bounty Hunter|No Disintegrations]]: ''A Sourcebook for Bounty Hunters'' (Page 53)</ref>"
+        "details": "Using a bioscan to scan an area for life signs grants a Blue Boost die to any opposed Perception checks vs Stealth check. Using the device to verify a person's identity requires an Average (3 Difficulty) Computers and a biometric identifier (such as DNA or a record of physiological characteristics) for comparison. The Game Master may modify this difficulty based upon any unusual anatomical characteristics of the target's species."
     },
     {
         "key": "HOLOBEAC",
@@ -8565,7 +8565,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "Bounty hunters and others engaging in a pursuit may need to track their quarry across tremendous distances, including through hyperspace.   ",
-        "details": "=== ''OR''<ref>[[:Category:Bounty Hunter|No Disintegrations]]: ''A Sourcebook for Bounty Hunters'' (Page 54)</ref> ===\n[[File:Profile HoloNet Homing Beacon ND.png|alt=Encumbrance 0 Price 500 Rarity 3]]\n\nAs long as a homing beacon is functional, the person who activated it may trace the associated target across the galaxy. No skill checks are required as long as the target travels within known systems. A homing beacon remains functional indefinitely unless it is deactivated.<ref name=\":0\" /><ref>[[:Category:Bounty Hunter|No Disintegrations]]: ''A Sourcebook for Bounty Hunters'' (Page 53)</ref>"
+        "details": "As long as a homing beacon is functional, the person who activated it may trace the associated target across the galaxy. No skill checks are required as long as the target travels within known systems. A homing beacon remains functional indefinitely unless it is deactivated."
     },
     {
         "key": "ROCKETBOOTS",
@@ -8582,7 +8582,7 @@
         "image_filename": "ROCKETBOOTS.png",
         "base_mods": [],
         "description": "The ability to take flight without warning can provide a combatant with a huge advantage over an opponent.  ",
-        "details": "Rocket boots enable a person to function as a silhouette 1, speed 1, handling –3, system strain threshold 4<ref name=\":0\" /> ''or'' 3<ref name=\":1\">[[:Category:Bounty Hunter|No Disintegrations]]: ''A Sourcebook for Bounty Hunters'' (Page 53)</ref> vehicle that can only operate in atmosphere and requires [[Piloting - Planetary (Ag)|Piloting (Planetary)]] to operate. At the end of each round of use, rocket boots suffer 1 system strain as their fuel depletes.<ref name=\":0\">[[:Category:Clone Wars End|Collapse of the Republic]]: ''An Era Sourcebook'' (Page 59)</ref><ref name=\":1\" />"
+        "details": "Rocket boots enable a person to function as a silhouette 1, speed 1, handling 3, system strain threshold 4 vehicle that can only operate in atmosphere and requires Piloting - Planetary to operate. At the end of each round of use, rocket boots suffer 1 system strain as their fuel depletes."
     },
     {
         "key": "TRACKGOG",
@@ -8607,7 +8607,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Tracker's goggles are marketed primarily to wilderness enthusiasts and hunters of traditional game animals.   ",
-        "details": "Tracker's goggles grant a [[Narrative Dice#Boost (Blue)|boost]] die to the wearer's [[Perception (Cun)|Perception]] checks to locate a target by sight. Additionally, they remove two [[Narrative Dice#Setback (Black)|setback]] dice imposed due to concealment, darkness, fog, or mist from the wearer's [[Ranged - Light (Ag)|Ranged (Light)]] and [[Ranged - Heavy (Ag)|Ranged (Heavy)]] checks."
+        "details": "Tracker's goggles grant a Blue Boost die to the wearer's Perception checks to locate a target by sight. Additionally, they remove two Black Setback dice imposed due to concealment, darkness, fog, or mist from the wearer's Ranged - Light and Ranged - Heavy checks."
     },
     {
         "key": "COMSCAN",
@@ -8720,7 +8720,7 @@
         "image_filename": "missing.png",
         "base_mods": [],
         "description": "These traps for sentient beings subvert repulsorlift technology to create localized patches of extremely high gravity.  ",
-        "details": "Repulsor traps are unobtrusive, adding two [[Narrative Dice#Setback (Black)|setback]] dice to all [[Perception (Cun)|Perception]] checks made to notice these devices. Any single target who comes within engaged range of an active repulsor trap is ensnared for six rounds."
+        "details": "Repulsor traps are unobtrusive, adding two Black Setback dice to all Perception checks made to notice these devices. Any single target who comes within engaged range of an active repulsor trap is ensnared for six rounds."
     },
     {
         "key": "EXPLIMP",
@@ -8746,7 +8746,7 @@
         ],
         "image_filename": "missing.png",
         "description": "Slavers and slaveholders do not always keep slaves locked up in chains while they carry out their duties.  ",
-        "details": "A corresponding handheld device similar to a droid caller can locate the implanted target with a '''Simple (—) [[Computers (Int)|Computers]] check'''. With the press of a button, the implant can explode, instantly killing its victim. A (once upgraded) '''[[Narrative Dice#Standard Difficulties|Daunting difficulty]] [[Medicine (Int)|Medicine]]''' or '''[[Mechanics (Int)|Mechanics check]]''' is required remove the implant. However, a [[Narrative Dice#Threat|threat]] result alerts the transmitter of the tampering, and a [[Narrative Dice#Despair|despair]] result triggers the device."
+        "details": "A corresponding handheld device similar to a droid caller can locate the implanted target with a Simple Computers check. With the press of a button, the implant can explode, instantly killing its victim. A (once upgraded) Daunting (4 Difficulty) Medicine or Mechanics check is required remove the implant. However, a Threat result alerts the transmitter of the tampering, and a Despair result triggers the device."
     },
     {
         "key": "STUNCOLOR",
@@ -8777,6 +8777,6 @@
         ],
         "image_filename": "missing.png",
         "description": "Slavers and slaveholders do not always keep slaves locked up in chains while they carry out their duties.  ",
-        "details": "When activated via remote, the stun collar delivers a high-voltage shock to its wearer, inflicting ten Stun damage. However, the collar can also be used to lethal effect, dealing twelve damage and inflicting a Critical Injury adding +20 to the roll. A '''[[Narrative Dice#Standard Difficulties|Hard difficulty]] [[Mechanics (Int)|Mechanics check]]''' is necessary to remove the collar without electrocuting its wearer."
+        "details": "When activated via remote, the stun collar delivers a high-voltage shock to its wearer, inflicting ten Stun damage. However, the collar can also be used to lethal effect, dealing twelve damage and inflicting a Critical Injury adding +20 to the roll. A Hard (3 Difficulty) Mechanics check is necessary to remove the collar without electrocuting its wearer."
     }
 ]
