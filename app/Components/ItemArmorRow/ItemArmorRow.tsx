@@ -126,9 +126,9 @@ export default function ItemArmorRow({itemArmorToShow} : ItemArmorRowProps): JSX
 
                 <ItemStatBox value={itemArmorToShow.soak} stat='Sok'/>
 
-                <ItemStatBox value={itemArmorToShow.encumbrance} stat='Enc'/>
-
                 <ItemStatBox value={itemArmorToShow.hard_points} stat='HP'/>
+
+                <ItemStatBox value={itemArmorToShow.encumbrance} stat='Enc'/>
 
                 <ItemStatBox value={itemArmorToShow.rarity} stat='Rar'/>
                

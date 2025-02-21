@@ -126,9 +126,9 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
 
                 <ItemStatBox value={itemWeaponToShow.crit} stat='Crt'/>
 
-                <ItemStatBox value={itemWeaponToShow.encumbrance} stat='Enc'/>
-
                 <ItemStatBox value={itemWeaponToShow.hard_points} stat='HP'/>
+
+                <ItemStatBox value={itemWeaponToShow.encumbrance} stat='Enc'/>
 
                 <ItemStatBox value={itemWeaponToShow.rarity} stat='RAR'/>
 

@@ -124,8 +124,6 @@ export default function ItemGearRow({itemGearToShow} : ItemGearRowProps): JSX.El
 
                 <ItemStatBox value={itemGearToShow.encumbrance} stat='Enc'/>
 
-                <ItemStatBox value={itemGearToShow.hard_points} stat='HP'/>
-
                 <ItemStatBox value={itemGearToShow.rarity} stat='Rar'/>
 
             </View>
