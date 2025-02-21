@@ -120,9 +120,13 @@ export default function ItemWeaponRow({itemWeaponToShow} : ItemWeaponRowProps): 
                 }}
             >
 
-                <ItemStatBox value={itemWeaponToShow.damage} stat='Dmg'/>
-
-                <ItemStatBox value={itemWeaponToShow.damage_add} stat='Add'/>
+                {
+                    itemWeaponToShow.damage_add && itemWeaponToShow.damage_add != '0'
+                    ?
+                    <ItemStatBox value={'+' + itemWeaponToShow.damage_add} stat='Dmg'/>
+                    :
+                    <ItemStatBox value={itemWeaponToShow.damage} stat='Dmg'/>
+                }
 
                 <ItemStatBox value={itemWeaponToShow.crit} stat='Crt'/>
 
