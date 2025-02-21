@@ -3785,7 +3785,7 @@
         "hard_points": "2",
         "price": "20",
         "rarity": "2",
-        "type": "Thrown",
+        "type": "Explosives/Other",
         "qualities": [
             {
                 "key": "KNOCKDOWN"
@@ -3808,7 +3808,7 @@
         "key": "ELECTRONET",
         "name": "Electronet",
         "reference": "Please see page 44 of the Keeping the Peace sourcebook for details.",
-        "type": "Thrown",
+        "type": "Explosives/Other",
         "categories": [],
         "encumbrance": "2",
         "hard_points": "0",
@@ -12014,7 +12014,7 @@
         "key": "IONTHRUST",
         "name": "Ion Thruster Gun",
         "reference": "Please see page 45 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -12057,7 +12057,7 @@
         "key": "MULTIGOO",
         "name": "Multi-Goo Gun",
         "reference": "Please see page 45 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -12100,7 +12100,7 @@
         "key": "REPULSORGUN",
         "name": "Repulsor Gun",
         "reference": "Please see page 46 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -12138,7 +12138,7 @@
         "key": "RIVETGUN",
         "name": "Rivet Gun",
         "reference": "Please see page 46 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Ranged"
         ],
@@ -12182,7 +12182,7 @@
         "key": "HANDGRID",
         "name": "Hand Grinder",
         "reference": "Please see page 47 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Cutting Edge Melee"
         ],
@@ -12226,7 +12226,7 @@
         "key": "WELDINGROD",
         "name": "Welding Rod",
         "reference": "Please see page 47 of the Special Modifications Sourcebook for details.",
-        "type": "Tool",
+        "type": "Explosives/Other",
         "categories": [
             "Powered Melee"
         ],
