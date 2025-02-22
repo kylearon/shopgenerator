@@ -124,6 +124,23 @@ export type ItemAttachment = {
     image_filename: string; // Filename of the item's image
 };
 
+export type ItemDroid = {
+    key: string; // Unique identifier
+    name: string; // Name of the gear
+    description?: string; // Description text
+    details?: string;
+    reference: string;
+    type: string; // Type of gear
+    categories: string[]; // Array of categories, may be empty
+    encumbrance: string; // Encumbrance as a string
+    hard_points: string; // Hard points as a string
+    price: string; // Price as a string
+    rarity: string; // Rarity as a string
+    is_restricted: string; // Boolean as a string ("true"/"false")
+    sources: string[]; // Array of source strings
+    image_filename: string; // Filename of the item's image
+    base_mods?: GearBaseMod[]; // Optional array of base modifications
+};
 
 function rollDice(
     abilityDice: number,

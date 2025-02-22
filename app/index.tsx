@@ -119,6 +119,8 @@ export default function HomeScreen() {
 
     const[shopAttachmentsItemsToShow, setShopAttachmentsItemsToShow] = useState<ItemAttachment[]>([]);
 
+    const[shopDroidsItemsToShow, setShopDroidsItemsToShow] = useState<ItemDroid[]>([]);
+
     const[isShopReset, setIsShopReset] = useState<boolean>(false);
 
     useEffect(() => {
@@ -167,6 +169,7 @@ export default function HomeScreen() {
             const weaponsToUse = weapons.filter((item) => item.type === spec)
             const gearToUse = gear.filter((item) => item.type === spec)
             const attachmentsToUse = attachments.filter((item) => item.type === spec)
+            const droidsToUse = droids.filter((item) => item.type === spec)
 
             // items.push(...armorToUse)
             const transformedArmor = armorToUse.map((item) => ({
@@ -193,7 +196,13 @@ export default function HomeScreen() {
                 specializationBaseType: "attachments"
             }));
 
-            itemPool.push(...transformedArmor, ...transformedWeapons, ...transformedGear, ...transformedAttachments);
+            const transformedDroids = droidsToUse.map((item) => ({
+                key: item.key,
+                rarity: Number(item.rarity),
+                specializationBaseType: "droids"
+            }));
+
+            itemPool.push(...transformedArmor, ...transformedWeapons, ...transformedGear, ...transformedAttachments, ...transformedDroids);
         })
 
         console.log("num items in pool: " + itemPool.length)
@@ -228,6 +237,7 @@ export default function HomeScreen() {
         const shopWeaponsItems : ItemWeapon[] = [];
         const shopGearItems : ItemGear[] = [];
         const shopAttachmentsItems : ItemAttachment[] = [];
+        const shopDroidsItems : ItemDroid[] = [];
 
         shopItemsKeyAndRarity.forEach(shopItem => {
             const poolItemToUse = itemPool.find((poolItem) => shopItem.key === poolItem.key);
@@ -253,12 +263,17 @@ export default function HomeScreen() {
                 const attachmentsToAdd:ItemAttachment = attachments.find((item) => item.key === shopItem.key) as ItemAttachment;
                 shopAttachmentsItems.push(attachmentsToAdd);
             }
+            else if(poolItemToUse?.specializationBaseType == "droids") {
+                const droidToAdd:ItemDroid = droids.find((item) => item.key === shopItem.key) as ItemDroid;
+                shopDroidsItems.push(droidToAdd);
+            }
         });
 
         setShopArmorItemsToShow(shopArmorItems);
         setShopWeaponsItemsToShow(shopWeaponsItems);
         setShopGearItemsToShow(shopGearItems);
         setShopAttachmentsItemsToShow(shopAttachmentsItems);
+        setShopDroidsItemsToShow(shopDroidsItems);
 
         setTimeout(() => {
             scrollViewRef.current?.scrollTo({ y: 0, animated: false });
@@ -282,6 +297,7 @@ export default function HomeScreen() {
         setShopWeaponsItemsToShow([]);
         setShopGearItemsToShow([]);
         setShopAttachmentsItemsToShow([]);
+        setShopDroidsItemsToShow([]);
 
         setIsShopReset(true);
     };
@@ -302,7 +318,8 @@ export default function HomeScreen() {
                     shopArmorItemsToShow.length == 0 &&
                     shopWeaponsItemsToShow.length == 0 &&
                     shopGearItemsToShow.length == 0 &&
-                    shopAttachmentsItemsToShow.length == 0
+                    shopAttachmentsItemsToShow.length == 0 &&
+                    shopDroidsItemsToShow.length == 0
                     ?
                     <View 
                         style={[
@@ -481,6 +498,9 @@ export default function HomeScreen() {
                         ))}
                         {shopAttachmentsItemsToShow.map((item) => (
                             <ItemAttachmentRow key={`attachment-${item.key}`} itemAttachmentToShow={item} />
+                        ))}
+                        {shopDroidsItemsToShow.map((item) => (
+                            <ItemDroidRow key={`droid-${item.key}`} itemDroidToShow={item} />
                         ))}
 
                     </View>

@@ -6,15 +6,12 @@ import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
 import StyledButton2 from '../StyledButton/StyledButton2';
 import DropdownRowOpenable from '../DropdownRowOpenable/DropdownRowOpenable';
-import shops from '../../../data/shops.json';
-import ArmorDropdownRowOpenable from '../ArmorDropdownRowOpenable/ArmorDropdownRowOpenable';
-import WeaponsDropdownRowOpenable from '../WeaponsDropdownRowOpenable/WeaponsDropdownRowOpenable';
-import GearDropdownRowOpenable from '../GearDropdownRowOpenable/GearDropdownRowOpenable';
 
 import armor from '../../../data/armor.json';
 import weapons from '../../../data/weapons.json';
 import gear from '../../../data/gear.json';
 import item_attachments from '../../../data/item_attachments.json';
+import droids from '../../../data/droids.json';
 
 export interface SpecializationButtonRowProps {
     onItemSelected: (item: string, selected: boolean) => void;
@@ -30,6 +27,7 @@ export default function SpecializationButtonRow({onItemSelected, isReset} : Spec
     const armorTypes = Array.from(new Set(armor.map((item) => item.type))).sort();
     const gearTypes = Array.from(new Set(gear.map((item) => item.type))).sort();
     const attachmentTypes = Array.from(new Set(item_attachments.map((item) => item.type))).sort();
+    const droidTypes = Array.from(new Set(droids.map((item) => item.type))).sort();
 
     const customOrder = [
         "Brawling",
@@ -67,6 +65,11 @@ export default function SpecializationButtonRow({onItemSelected, isReset} : Spec
         console.log("handleEditAttachmentsClick()")
     }
 
+    const handleEditDroidsClick = async () => {
+        console.log("handleEditDroidsClick()")
+    }
+
+
     const handleArmorSelected = (item: string, selected: boolean) => {
         console.log(`Armor Selected: ${item} : ${selected}`);
         onItemSelected(item, selected);
@@ -84,6 +87,11 @@ export default function SpecializationButtonRow({onItemSelected, isReset} : Spec
 
     const handleAttachmentsSelected = (item: string, selected: boolean) => {
         console.log(`Attachment Selected: ${item} : ${selected}`);
+        onItemSelected(item, selected);
+    };
+
+    const handleDroidSelected = (item: string, selected: boolean) => {
+        console.log(`Droid Selected: ${item} : ${selected}`);
         onItemSelected(item, selected);
     };
 
@@ -160,6 +168,8 @@ export default function SpecializationButtonRow({onItemSelected, isReset} : Spec
                 <DropdownRowOpenable title={'Gear'} distinctTypes={gearTypes} isReset={isReset} onPress={handleEditGearClick} onItemSelected={(item: string, selected: boolean) => handleGearSelected(item, selected)} icon={'bag-personal'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
                 <DropdownRowOpenable title={'Attachments'} distinctTypes={attachmentTypes} isReset={isReset} onPress={handleEditAttachmentsClick} onItemSelected={(item: string, selected: boolean) => handleAttachmentsSelected(item, selected)} icon={'toy-brick-plus-outline'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
+
+                <DropdownRowOpenable title={'Droids'} distinctTypes={droidTypes} isReset={isReset} onPress={handleEditDroidsClick} onItemSelected={(item: string, selected: boolean) => handleDroidSelected(item, selected)} icon={'android'} style={[{backgroundColor: colors.backgroundColorRow}, localStyles.buttonStyle]} textStyle={{color: colors.textColor, fontSize: 14}}/>
 
             </View>
 
