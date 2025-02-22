@@ -2,7 +2,7 @@
   "expo": {
     "name": "ShopGenerator",
     "slug": "ShopGenerator",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "orientation": "portrait",
     "icon": "./assets/images/triumph.png",
     "scheme": "myapp",
