@@ -2,7 +2,6 @@ import { Colors } from '@/constants/Colors';
 import { GlobalStyles } from '@/constants/GlobalStyles';
 import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, GestureResponderEvent, useColorScheme, View } from 'react-native';
-import shops from '../../../data/shops.json';
 import weapons from '../../../data/weapons.json';
 import ToggleButton from '../ToggleButton/ToggleButton';
 
