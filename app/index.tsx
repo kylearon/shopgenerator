@@ -15,7 +15,8 @@ import armor from '../data/armor.json';
 import weapons from '../data/weapons.json';
 import gear from '../data/gear.json';
 import attachments from '../data/item_attachments.json';
-import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollForItems} from '../utils/diceroller'
+import droids from '../data/droids.json';
+import {ItemKeyAndRarity, ItemArmor, ItemWeapon, ItemGear, ItemAttachment, rollForItems, ItemDroid} from '../utils/diceroller'
 import { useState, useEffect, useRef  } from 'react';
 import { BackHandler, Alert } from 'react-native';
 import { Colors } from '@/constants/Colors';
@@ -25,6 +26,7 @@ import ItemArmorRow from './Components/ItemArmorRow/ItemArmorRow';
 import ItemWeaponRow from './Components/ItemWeaponRow/ItemWeaponRow';
 import ItemGearRow from './Components/ItemGearRow/ItemGearRow';
 import ItemAttachmentRow from './Components/ItemAttachmentRow/ItemAttachmentRow';
+import ItemDroidRow from './Components/ItemDroidRow/ItemDroidRow';
 
 export default function HomeScreen() {
 
